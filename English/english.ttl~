@@ -1,0 +1,24 @@
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dbp: <http://dbpedia.org/ontology/#>.
+@prefix lidPt: <http://lid.tabsolucoes.com/pt-br#> .
+@prefix lidEn: <http://lid.tabsolucoes.com/en-Us#> .
+@prefix lidTr: <http://lid.tabsolucoes.com/trPtEn#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+lidEn:cut_cornes a ontolex:LexicalEntry, ontolex:MultiwordExpression;
+	dct:language	<http://id.loc.gov/vocabulary/iso639-2/eng>, <http://lexvo.org/id/iso639-1/en> ;
+	ontolex:sense	lidEn:cut_cornes_sense ;
+	ontolex:canonicalForm	lidEn:cut_cornes_form;
+	dbp:location			<http://dbpedia.org/page/USA>.
+
+lidEn:cut_cornes_from a ontolex:form;
+	ontolex:writtenRep "cut cornes"@en.
+
+lidEn:cut_cornes_sense ontolex:reference lidEn:cut_cornes_def.
+
+lidEn:cut_cornes_def	a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidEn:cut_cornes_sense ;
+	skos:definition "to do something in the fastest or cheapest way"@en .
+

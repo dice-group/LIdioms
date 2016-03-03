@@ -9,9 +9,19 @@ lidtr:водить_за_нос_trans_rus_en a vartrans:Translation ;
 	vartrans:target liden:pull_the_wool_over_ones_eyes_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
+lidtr:льёт_как_из_ведра_trans_rus_en a vartrans:Translation ;
+	vartrans:source lidrus:льёт_как_из_ведра_sense ;
+	vartrans:target liden:its_raining_cats_and_dogs_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
 lidtr:волосы_дыбом_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:волосы_дыбом_sense ;
 	vartrans:target liden:hair_on_end_scared_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:мастер_на_все_руки_trans_rus_en a vartrans:Translation ;
+	vartrans:source lidrus:мастер_на_все_руки_sense ;
+	vartrans:target liden:jack_of_all_trades_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:вот_где_собака_зарыта_trans_rus_en a vartrans:Translation ;
@@ -19,9 +29,19 @@ lidtr:вот_где_собака_зарыта_trans_rus_en a vartrans:Translatio
 	vartrans:target liden:thats_the_heart_of_the_matter_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
+lidtr:ни_рыба_ни_мясо_trans_rus_en a vartrans:Translation ;
+	vartrans:source lidrus:ни_рыба_ни_мясо_sense ;
+	vartrans:target liden:neither_fish_nor_fowl_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
 lidtr:всыпать_по_первое_число_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:всыпать_по_первое_число_sense ;
 	vartrans:target liden:give_the_third_degree_give_a_sound_trashing_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:смотреть_в_оба_trans_rus_en a vartrans:Translation ;
+	vartrans:source lidrus:смотреть_в_оба_sense ;
+	vartrans:target liden:keep_your_eye_on_the_ball_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:втирать_очки_trans_rus_en a vartrans:Translation ;
@@ -29,9 +49,19 @@ lidtr:втирать_очки_trans_rus_en a vartrans:Translation ;
 	vartrans:target liden:pull_the_wool_over_somebodys_eyes_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
+lidtr:проще_пареной_репы_trans_rus_en a vartrans:Translation ;
+	vartrans:source lidrus:проще_пареной_репы_sense ;
+	vartrans:target liden:piece_of_cake_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
 lidtr:глас_вопиющего_в_пустыне_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:глас_вопиющего_в_пустыне_sense ;
 	vartrans:target liden:a_voice_crying_in_the_wilderness_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:убить_двух_зайцев_одним_выстрелом_trans_rus_en a vartrans:Translation ;
+	vartrans:source lidrus:убить_двух_зайцев_одним_выстрелом_sense ;
+	vartrans:target liden:kill_two_birds_with_one_stone_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:голая_правда_trans_rus_en a vartrans:Translation ;

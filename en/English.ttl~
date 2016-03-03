@@ -1,7 +1,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix liden: <http://lid.aksw.org/en/> .
 @prefix lexinfo: <http://lexinfo.net/ontologies/2.0/lexinfo.owl#> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
-@prefix liden: <http://lid.tabsolucoes.com/en/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -26,6 +26,24 @@ liden:a_short_fuse_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf liden:a_short_fuse_sense ;
 	skos:definition "a quick temper"@en .
 
+<http://lid.aksw.org/en/jack_of_all_trades++> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
+	ontolex:sense liden:jack_of_all_trades_sense ;
+	ontolex:canonicalForm liden:jack_of_all_trades_form ;
+	dbo:location <http://dbpedia.org/page/United_States> ;
+	rdfs:label "jack of all trades"@en .
+
+liden:jack_of_all_trades_form a ontolex:form ;
+	ontolex:writtenRep "jack of all trades"@en .
+
+liden:jack_of_all_trades_sense a ontolex:LexicalSense ;
+	ontolex:reference liden:jack_of_all_trades_def .
+
+liden:jack_of_all_trades_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf liden:jack_of_all_trades_sense ;
+	skos:definition "someone that can do many different jobs."@en .
+
 liden:a_shot_in_the_dark a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
@@ -44,13 +62,30 @@ liden:a_shot_in_the_dark_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf liden:a_shot_in_the_dark_sense ;
 	skos:definition "a wild guess; an attempt to do something when there is little chance of success"@en .
 
+<http://lid.aksw.org/en/you_can_bet_your_life_on_that+> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	ontolex:sense liden:you_can_bet_your_life_on_that_sense ;
+	ontolex:canonicalForm liden:you_can_bet_your_life_on_that_form ;
+	rdfs:label "you can bet your life on that "@en .
+
+liden:you_can_bet_your_life_on_that_form a ontolex:form ;
+	ontolex:writtenRep "you can bet your life on that "@en .
+
+liden:you_can_bet_your_life_on_that_sense a ontolex:LexicalSense ;
+	ontolex:reference liden:you_can_bet_your_life_on_that_def .
+
+liden:you_can_bet_your_life_on_that_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf liden:you_can_bet_your_life_on_that_sense ;
+	skos:definition "completely ​certain that something is ​true or will ​happen"@en .
+
 liden:actions_speak_louder_than_words a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
 	ontolex:sense liden:actions_speak_louder_than_words_sense ;
 	ontolex:canonicalForm liden:actions_speak_louder_than_words_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "actions speak louder than words"@en .
+	rdfs:label "actions speak louder than words"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s14557138n> .
 
 liden:actions_speak_louder_than_words_form a ontolex:form ;
 	ontolex:writtenRep "actions speak louder than words"@en .
@@ -68,7 +103,8 @@ liden:add_insult_to_injury a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:add_insult_to_injury_sense ;
 	ontolex:canonicalForm liden:add_insult_to_injury_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "add insult to injury"@en .
+	rdfs:label "add insult to injury"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13671032v> .
 
 liden:add_insult_to_injury_form a ontolex:form ;
 	ontolex:writtenRep "add insult to injury"@en .
@@ -86,7 +122,8 @@ liden:against_the_clock a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:against_the_clock_sense ;
 	ontolex:canonicalForm liden:against_the_clock_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "against the clock"@en .
+	rdfs:label "against the clock"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00114173r> .
 
 liden:against_the_clock_form a ontolex:form ;
 	ontolex:writtenRep "against the clock"@en .
@@ -122,7 +159,8 @@ liden:all_in_the_same_boat a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:all_in_the_same_boat_sense ;
 	ontolex:canonicalForm liden:all_in_the_same_boat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "all in the same boat"@en .
+	rdfs:label "all in the same boat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03560716n> .
 
 liden:all_in_the_same_boat_form a ontolex:form ;
 	ontolex:writtenRep "all in the same boat"@en .
@@ -158,7 +196,8 @@ liden:arm_and_a_leg a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:arm_and_a_leg_sense ;
 	ontolex:canonicalForm liden:arm_and_a_leg_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "arm and a leg"@en .
+	rdfs:label "arm and a leg"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13676929n> .
 
 liden:arm_and_a_leg_form a ontolex:form ;
 	ontolex:writtenRep "arm and a leg"@en .
@@ -176,7 +215,8 @@ liden:at_the_drop_of_a_hat a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:at_the_drop_of_a_hat_sense ;
 	ontolex:canonicalForm liden:at_the_drop_of_a_hat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "at the drop of a hat"@en .
+	rdfs:label "at the drop of a hat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03481291n> .
 
 liden:at_the_drop_of_a_hat_form a ontolex:form ;
 	ontolex:writtenRep "at the drop of a hat"@en .
@@ -194,7 +234,8 @@ liden:back_to_square_one a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:back_to_square_one_sense ;
 	ontolex:canonicalForm liden:back_to_square_one_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "back to square one"@en .
+	rdfs:label "back to square one"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13726593r> .
 
 liden:back_to_square_one_form a ontolex:form ;
 	ontolex:writtenRep "back to square one"@en .
@@ -212,7 +253,8 @@ liden:back_to_the_drawing_board a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	ontolex:sense liden:back_to_the_drawing_board_sense ;
 	ontolex:canonicalForm liden:back_to_the_drawing_board_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "back to the drawing board"@en .
+	rdfs:label "back to the drawing board"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13682234r> .
 
 liden:back_to_the_drawing_board_form a ontolex:form ;
 	ontolex:writtenRep "back to the drawing board"@en .
@@ -230,7 +272,8 @@ liden:ballpark_figure a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:ballpark_figure_sense ;
 	ontolex:canonicalForm liden:ballpark_figure_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "ballpark figure"@en .
+	rdfs:label "ballpark figure"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00042089n> .
 
 liden:ballpark_figure_form a ontolex:form ;
 	ontolex:writtenRep "ballpark figure"@en .
@@ -248,7 +291,8 @@ liden:barking_up_the_wrong_tree a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	ontolex:sense liden:barking_up_the_wrong_tree_sense ;
 	ontolex:canonicalForm liden:barking_up_the_wrong_tree_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "barking up the wrong tree"@en .
+	rdfs:label "barking up the wrong tree"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03463282n> .
 
 liden:barking_up_the_wrong_tree_form a ontolex:form ;
 	ontolex:writtenRep "barking up the wrong tree"@en .
@@ -266,7 +310,8 @@ liden:be_glad_to_see_the_back_of a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	ontolex:sense liden:be_glad_to_see_the_back_of_sense ;
 	ontolex:canonicalForm liden:be_glad_to_see_the_back_of_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "be glad to see the back of"@en .
+	rdfs:label "be glad to see the back of"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13695206v> .
 
 liden:be_glad_to_see_the_back_of_form a ontolex:form ;
 	ontolex:writtenRep "be glad to see the back of"@en .
@@ -302,7 +347,8 @@ liden:beat_a_dead_horse a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:beat_a_dead_horse_sense ;
 	ontolex:canonicalForm liden:beat_a_dead_horse_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "beat a dead horse"@en .
+	rdfs:label "beat a dead horse"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00144528n> .
 
 liden:beat_a_dead_horse_form a ontolex:form ;
 	ontolex:writtenRep "beat a dead horse"@en .
@@ -320,7 +366,8 @@ liden:beat_around_the_bush a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:beat_around_the_bush_sense ;
 	ontolex:canonicalForm liden:beat_around_the_bush_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "beat around the bush"@en .
+	rdfs:label "beat around the bush"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00083271v> .
 
 liden:beat_around_the_bush_form a ontolex:form ;
 	ontolex:writtenRep "beat around the bush"@en .
@@ -338,7 +385,8 @@ liden:beck_and_call a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:beck_and_call_sense ;
 	ontolex:canonicalForm liden:beck_and_call_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "beck and call"@en .
+	rdfs:label "beck and call"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13730930n> .
 
 liden:beck_and_call_form a ontolex:form ;
 	ontolex:writtenRep "beck and call"@en .
@@ -356,7 +404,8 @@ liden:behind_the_times a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:behind_the_times_sense ;
 	ontolex:canonicalForm liden:behind_the_times_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "behind the times"@en .
+	rdfs:label "behind the times"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13779794a> .
 
 liden:behind_the_times_form a ontolex:form ;
 	ontolex:writtenRep "behind the times"@en .
@@ -374,7 +423,8 @@ liden:best_thing_since_sliced_bread a ontolex:LexicalEntry , ontolex:MultiwordEx
 	ontolex:sense liden:best_thing_since_sliced_bread_sense ;
 	ontolex:canonicalForm liden:best_thing_since_sliced_bread_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "best thing since sliced bread"@en .
+	rdfs:label "best thing since sliced bread"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01859170n> .
 
 liden:best_thing_since_sliced_bread_form a ontolex:form ;
 	ontolex:writtenRep "best thing since sliced bread"@en .
@@ -464,7 +514,8 @@ liden:bonehead a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:bonehead_sense ;
 	ontolex:canonicalForm liden:bonehead_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "bonehead"@en .
+	rdfs:label "bonehead"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00011336n> .
 
 liden:bonehead_form a ontolex:form ;
 	ontolex:writtenRep "bonehead"@en .
@@ -482,7 +533,8 @@ liden:bored_to_death a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:bored_to_death_sense ;
 	ontolex:canonicalForm liden:bored_to_death_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "bored to death"@en .
+	rdfs:label "bored to death"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01699154n> .
 
 liden:bored_to_death_form a ontolex:form ;
 	ontolex:writtenRep "bored to death"@en .
@@ -500,7 +552,8 @@ liden:brass_monkey_weather a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:brass_monkey_weather_sense ;
 	ontolex:canonicalForm liden:brass_monkey_weather_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "brass monkey weather"@en .
+	rdfs:label "brass monkey weather"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00012799n> .
 
 liden:brass_monkey_weather_form a ontolex:form ;
 	ontolex:writtenRep "brass monkey weather"@en .
@@ -518,7 +571,8 @@ liden:break_the_ice a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:break_the_ice_sense ;
 	ontolex:canonicalForm liden:break_the_ice_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "break the ice"@en .
+	rdfs:label "break the ice"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13602938v> .
 
 liden:break_the_ice_form a ontolex:form ;
 	ontolex:writtenRep "break the ice"@en .
@@ -536,7 +590,8 @@ liden:burn_the_midnight_oil a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:burn_the_midnight_oil_sense ;
 	ontolex:canonicalForm liden:burn_the_midnight_oil_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "burn the midnight oil"@en .
+	rdfs:label "burn the midnight oil"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13673456v> .
 
 liden:burn_the_midnight_oil_form a ontolex:form ;
 	ontolex:writtenRep "burn the midnight oil"@en .
@@ -608,7 +663,8 @@ liden:call_it_a_night a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:call_it_a_night_sense ;
 	ontolex:canonicalForm liden:call_it_a_night_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "call it a night"@en .
+	rdfs:label "call it a night"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13724974v> .
 
 liden:call_it_a_night_form a ontolex:form ;
 	ontolex:writtenRep "call it a night"@en .
@@ -626,7 +682,8 @@ liden:cant_judge_a_book_by_its_cover a ontolex:LexicalEntry , ontolex:MultiwordE
 	ontolex:sense liden:cant_judge_a_book_by_its_cover_sense ;
 	ontolex:canonicalForm liden:cant_judge_a_book_by_its_cover_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "can't judge a book by its cover"@en .
+	rdfs:label "can't judge a book by its cover"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00596263n> .
 
 liden:cant_judge_a_book_by_its_cover_form a ontolex:form ;
 	ontolex:writtenRep "can't judge a book by its cover"@en .
@@ -662,7 +719,8 @@ liden:catch_22 a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:catch_22_sense ;
 	ontolex:canonicalForm liden:catch_22_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "catch 22"@en .
+	rdfs:label "catch 22"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00306113n> .
 
 liden:catch_22_form a ontolex:form ;
 	ontolex:writtenRep "catch 22"@en .
@@ -680,7 +738,8 @@ liden:fall_between_two_stools a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	ontolex:sense liden:fall_between_two_stools_sense ;
 	ontolex:canonicalForm liden:fall_between_two_stools_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "fall between two stools"@en .
+	rdfs:label "fall between two stools"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13664089v> .
 
 liden:fall_between_two_stools_form a ontolex:form ;
 	ontolex:writtenRep "fall between two stools"@en .
@@ -698,7 +757,8 @@ liden:come_a_long_way a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:come_a_long_way_sense ;
 	ontolex:canonicalForm liden:come_a_long_way_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "come a long way"@en .
+	rdfs:label "come a long way"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13705204v> .
 
 liden:come_a_long_way_form a ontolex:form ;
 	ontolex:writtenRep "come a long way"@en .
@@ -752,7 +812,8 @@ liden:curiosity_killed_the_cat a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense liden:curiosity_killed_the_cat_sense ;
 	ontolex:canonicalForm liden:curiosity_killed_the_cat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "curiosity killed the cat"@en .
+	rdfs:label "curiosity killed the cat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00500970n> .
 
 liden:curiosity_killed_the_cat_form a ontolex:form ;
 	ontolex:writtenRep "curiosity killed the cat"@en .
@@ -770,7 +831,8 @@ liden:cut_corners a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:cut_corners_sense ;
 	ontolex:canonicalForm liden:cut_corners_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "cut corners"@en .
+	rdfs:label "cut corners"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00086219v> .
 
 liden:cut_corners_form a ontolex:form ;
 	ontolex:writtenRep "cut corners"@en .
@@ -806,7 +868,8 @@ liden:cut_the_mustard a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:cut_the_mustard_sense ;
 	ontolex:canonicalForm liden:cut_the_mustard_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "cut the mustard"@en .
+	rdfs:label "cut the mustard"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13684887v> .
 
 liden:cut_the_mustard_form a ontolex:form ;
 	ontolex:writtenRep "cut the mustard"@en .
@@ -824,7 +887,8 @@ liden:cut_to_the_chase a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:cut_to_the_chase_sense ;
 	ontolex:canonicalForm liden:cut_to_the_chase_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "cut to the chase"@en .
+	rdfs:label "cut to the chase"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13784973v> .
 
 liden:cut_to_the_chase_form a ontolex:form ;
 	ontolex:writtenRep "cut to the chase"@en .
@@ -842,7 +906,8 @@ liden:devils_advocate a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:devils_advocate_sense ;
 	ontolex:canonicalForm liden:devils_advocate_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "devil's advocate"@en .
+	rdfs:label "devil's advocate"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00026724n> .
 
 liden:devils_advocate_form a ontolex:form ;
 	ontolex:writtenRep "devil's advocate"@en .
@@ -860,7 +925,8 @@ liden:dont_put_all_your_eggs_in_one_basket a ontolex:LexicalEntry , ontolex:Mult
 	ontolex:sense liden:dont_put_all_your_eggs_in_one_basket_sense ;
 	ontolex:canonicalForm liden:dont_put_all_your_eggs_in_one_basket_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "don't put all your eggs in one basket"@en .
+	rdfs:label "don't put all your eggs in one basket"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s15174742n> .
 
 liden:dont_put_all_your_eggs_in_one_basket_form a ontolex:form ;
 	ontolex:writtenRep "don't put all your eggs in one basket"@en .
@@ -878,7 +944,8 @@ liden:down_to_the_wire a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:down_to_the_wire_sense ;
 	ontolex:canonicalForm liden:down_to_the_wire_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "down to the wire"@en .
+	rdfs:label "down to the wire"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13782711r> .
 
 liden:down_to_the_wire_form a ontolex:form ;
 	ontolex:writtenRep "down to the wire"@en .
@@ -896,7 +963,8 @@ liden:draw_a_line_in_the_sand a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	ontolex:sense liden:draw_a_line_in_the_sand_sense ;
 	ontolex:canonicalForm liden:draw_a_line_in_the_sand_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "draw a line in the sand"@en .
+	rdfs:label "draw a line in the sand"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13674731v> .
 
 liden:draw_a_line_in_the_sand_form a ontolex:form ;
 	ontolex:writtenRep "draw a line in the sand"@en .
@@ -914,7 +982,8 @@ liden:drop_by a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:drop_by_sense ;
 	ontolex:canonicalForm liden:drop_by_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "drop by"@en .
+	rdfs:label "drop by"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00085353v> .
 
 liden:drop_by_form a ontolex:form ;
 	ontolex:writtenRep "drop by"@en .
@@ -932,7 +1001,8 @@ liden:easier_said_than_done a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:easier_said_than_done_sense ;
 	ontolex:canonicalForm liden:easier_said_than_done_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "easier said than done"@en .
+	rdfs:label "easier said than done"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13650030a> .
 
 liden:easier_said_than_done_form a ontolex:form ;
 	ontolex:writtenRep "easier said than done"@en .
@@ -968,7 +1038,8 @@ liden:every_cloud_has_a_silver_lining a ontolex:LexicalEntry , ontolex:Multiword
 	ontolex:sense liden:every_cloud_has_a_silver_lining_sense ;
 	ontolex:canonicalForm liden:every_cloud_has_a_silver_lining_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "every cloud has a silver lining"@en .
+	rdfs:label "every cloud has a silver lining"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01299388n> .
 
 liden:every_cloud_has_a_silver_lining_form a ontolex:form ;
 	ontolex:writtenRep "every cloud has a silver lining"@en .
@@ -1094,7 +1165,8 @@ liden:get_the_ball_rolling a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:get_the_ball_rolling_sense ;
 	ontolex:canonicalForm liden:get_the_ball_rolling_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "get the ball rolling"@en .
+	rdfs:label "get the ball rolling"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13742515v> .
 
 liden:get_the_ball_rolling_form a ontolex:form ;
 	ontolex:writtenRep "get the ball rolling"@en .
@@ -1112,7 +1184,8 @@ liden:give_it_a_whirl a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:give_it_a_whirl_sense ;
 	ontolex:canonicalForm liden:give_it_a_whirl_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "give it a whirl"@en .
+	rdfs:label "give it a whirl"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00088851v> .
 
 liden:give_it_a_whirl_form a ontolex:form ;
 	ontolex:writtenRep "give it a whirl"@en .
@@ -1148,7 +1221,8 @@ liden:go_the_extra_mile a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:go_the_extra_mile_sense ;
 	ontolex:canonicalForm liden:go_the_extra_mile_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "go the extra mile"@en .
+	rdfs:label "go the extra mile"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13635645v> .
 
 liden:go_the_extra_mile_form a ontolex:form ;
 	ontolex:writtenRep "go the extra mile"@en .
@@ -1166,7 +1240,8 @@ liden:good_samaritan a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:good_samaritan_sense ;
 	ontolex:canonicalForm liden:good_samaritan_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "good samaritan"@en .
+	rdfs:label "good samaritan"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00041079n> .
 
 liden:good_samaritan_form a ontolex:form ;
 	ontolex:writtenRep "good samaritan"@en .
@@ -1256,7 +1331,8 @@ liden:high_five a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:high_five_sense ;
 	ontolex:canonicalForm liden:high_five_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "high five"@en .
+	rdfs:label "high five"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00217786n> .
 
 liden:high_five_form a ontolex:form ;
 	ontolex:writtenRep "high five"@en .
@@ -1274,7 +1350,8 @@ liden:hit_the_books a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:hit_the_books_sense ;
 	ontolex:canonicalForm liden:hit_the_books_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "hit the books"@en .
+	rdfs:label "hit the books"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00089360v> .
 
 liden:hit_the_books_form a ontolex:form ;
 	ontolex:writtenRep "hit the books"@en .
@@ -1292,7 +1369,8 @@ liden:hit_the_nail_on_the_head a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense liden:hit_the_nail_on_the_head_sense ;
 	ontolex:canonicalForm liden:hit_the_nail_on_the_head_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "hit the nail on the head"@en .
+	rdfs:label "hit the nail on the head"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13602775v> .
 
 liden:hit_the_nail_on_the_head_form a ontolex:form ;
 	ontolex:writtenRep "hit the nail on the head"@en .
@@ -1346,7 +1424,8 @@ liden:hot_potato a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:hot_potato_sense ;
 	ontolex:canonicalForm liden:hot_potato_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "hot potato"@en .
+	rdfs:label "hot potato"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00044944n> .
 
 liden:hot_potato_form a ontolex:form ;
 	ontolex:writtenRep "hot potato"@en .
@@ -1364,7 +1443,8 @@ liden:hot_water a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:hot_water_sense ;
 	ontolex:canonicalForm liden:hot_water_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "hot water"@en .
+	rdfs:label "hot water"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00044960n> .
 
 liden:hot_water_form a ontolex:form ;
 	ontolex:writtenRep "hot water"@en .
@@ -1418,7 +1498,8 @@ liden:in_the_fast_lane a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:in_the_fast_lane_sense ;
 	ontolex:canonicalForm liden:in_the_fast_lane_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "in the fast lane"@en .
+	rdfs:label "in the fast lane"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13704110r> .
 
 liden:in_the_fast_lane_form a ontolex:form ;
 	ontolex:writtenRep "in the fast lane"@en .
@@ -1436,7 +1517,8 @@ liden:in_the_nick_of_time a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:in_the_nick_of_time_sense ;
 	ontolex:canonicalForm liden:in_the_nick_of_time_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "in the nick of time"@en .
+	rdfs:label "in the nick of time"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00115838r> .
 
 liden:in_the_nick_of_time_form a ontolex:form ;
 	ontolex:writtenRep "in the nick of time"@en .
@@ -1490,7 +1572,8 @@ liden:jump_on_the_bandwagon a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:jump_on_the_bandwagon_sense ;
 	ontolex:canonicalForm liden:jump_on_the_bandwagon_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "jump on the bandwagon"@en .
+	rdfs:label "jump on the bandwagon"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13783368v> .
 
 liden:jump_on_the_bandwagon_form a ontolex:form ;
 	ontolex:writtenRep "jump on the bandwagon"@en .
@@ -1544,7 +1627,8 @@ liden:kick_the_bucket a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:kick_the_bucket_sense ;
 	ontolex:canonicalForm liden:kick_the_bucket_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "kick the bucket"@en .
+	rdfs:label "kick the bucket"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03650753n> .
 
 liden:kick_the_bucket_form a ontolex:form ;
 	ontolex:writtenRep "kick the bucket"@en .
@@ -1562,7 +1646,8 @@ liden:kill_two_birds_with_one_stone a ontolex:LexicalEntry , ontolex:MultiwordEx
 	ontolex:sense liden:kill_two_birds_with_one_stone_sense ;
 	ontolex:canonicalForm liden:kill_two_birds_with_one_stone_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "kill two birds with one stone"@en .
+	rdfs:label "kill two birds with one stone"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13622424v> .
 
 liden:kill_two_birds_with_one_stone_form a ontolex:form ;
 	ontolex:writtenRep "kill two birds with one stone"@en .
@@ -1580,7 +1665,8 @@ liden:learn_the_ropes a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:learn_the_ropes_sense ;
 	ontolex:canonicalForm liden:learn_the_ropes_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "learn the ropes"@en .
+	rdfs:label "learn the ropes"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13788825v> .
 
 liden:learn_the_ropes_form a ontolex:form ;
 	ontolex:writtenRep "learn the ropes"@en .
@@ -1598,7 +1684,8 @@ liden:lend_a_hand a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:lend_a_hand_sense ;
 	ontolex:canonicalForm liden:lend_a_hand_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "lend a hand"@en .
+	rdfs:label "lend a hand"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13727130v> .
 
 liden:lend_a_hand_form a ontolex:form ;
 	ontolex:writtenRep "lend a hand"@en .
@@ -1616,7 +1703,8 @@ liden:let_sleeping_dogs_lie a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:let_sleeping_dogs_lie_sense ;
 	ontolex:canonicalForm liden:let_sleeping_dogs_lie_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "let sleeping dogs lie"@en .
+	rdfs:label "let sleeping dogs lie"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13679347v> .
 
 liden:let_sleeping_dogs_lie_form a ontolex:form ;
 	ontolex:writtenRep "let sleeping dogs lie"@en .
@@ -1634,7 +1722,8 @@ liden:let_the_cat_out_of_the_bag a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	ontolex:sense liden:let_the_cat_out_of_the_bag_sense ;
 	ontolex:canonicalForm liden:let_the_cat_out_of_the_bag_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "let the cat out of the bag"@en .
+	rdfs:label "let the cat out of the bag"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00082976v> .
 
 liden:let_the_cat_out_of_the_bag_form a ontolex:form ;
 	ontolex:writtenRep "let the cat out of the bag"@en .
@@ -1652,7 +1741,8 @@ liden:long_shot a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:long_shot_sense ;
 	ontolex:canonicalForm liden:long_shot_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "long shot"@en .
+	rdfs:label "long shot"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00051938n> .
 
 liden:long_shot_form a ontolex:form ;
 	ontolex:writtenRep "long shot"@en .
@@ -1706,7 +1796,8 @@ liden:loose_cannon a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:loose_cannon_sense ;
 	ontolex:canonicalForm liden:loose_cannon_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "loose cannon"@en .
+	rdfs:label "loose cannon"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00051995n> .
 
 liden:loose_cannon_form a ontolex:form ;
 	ontolex:writtenRep "loose cannon"@en .
@@ -1796,7 +1887,8 @@ liden:miss_the_boat a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:miss_the_boat_sense ;
 	ontolex:canonicalForm liden:miss_the_boat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "miss the boat"@en .
+	rdfs:label "miss the boat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13679043v> .
 
 liden:miss_the_boat_form a ontolex:form ;
 	ontolex:writtenRep "miss the boat"@en .
@@ -1832,7 +1924,8 @@ liden:mumbo_jumbo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:mumbo_jumbo_sense ;
 	ontolex:canonicalForm liden:mumbo_jumbo_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "mumbo jumbo"@en .
+	rdfs:label "mumbo jumbo"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00056320n> .
 
 liden:mumbo_jumbo_form a ontolex:form ;
 	ontolex:writtenRep "mumbo jumbo"@en .
@@ -1850,7 +1943,8 @@ liden:nest_egg a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:nest_egg_sense ;
 	ontolex:canonicalForm liden:nest_egg_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "nest egg"@en .
+	rdfs:label "nest egg"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00057358n> .
 
 liden:nest_egg_form a ontolex:form ;
 	ontolex:writtenRep "nest egg"@en .
@@ -1904,7 +1998,8 @@ liden:off_ones_rocker a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:off_ones_rocker_sense ;
 	ontolex:canonicalForm liden:off_ones_rocker_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "off one's rocker"@en .
+	rdfs:label "off one's rocker"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13744814a> .
 
 liden:off_ones_rocker_form a ontolex:form ;
 	ontolex:writtenRep "off one's rocker"@en .
@@ -1922,7 +2017,8 @@ liden:off_the_hook a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:off_the_hook_sense ;
 	ontolex:canonicalForm liden:off_the_hook_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "off the hook"@en .
+	rdfs:label "off the hook"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01397064n> .
 
 liden:off_the_hook_form a ontolex:form ;
 	ontolex:writtenRep "off the hook"@en .
@@ -1940,7 +2036,8 @@ liden:once_in_a_blue_moon a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:once_in_a_blue_moon_sense ;
 	ontolex:canonicalForm liden:once_in_a_blue_moon_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "once in a blue moon"@en .
+	rdfs:label "once in a blue moon"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13739814r> .
 
 liden:once_in_a_blue_moon_form a ontolex:form ;
 	ontolex:writtenRep "once in a blue moon"@en .
@@ -1958,7 +2055,8 @@ liden:once_in_a_while a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:once_in_a_while_sense ;
 	ontolex:canonicalForm liden:once_in_a_while_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "once in a while"@en .
+	rdfs:label "once in a while"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00114210r> .
 
 liden:once_in_a_while_form a ontolex:form ;
 	ontolex:writtenRep "once in a while"@en .
@@ -1994,7 +2092,8 @@ liden:over_my_dead_body a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:over_my_dead_body_sense ;
 	ontolex:canonicalForm liden:over_my_dead_body_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "over my dead body"@en .
+	rdfs:label "over my dead body"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13680442r> .
 
 liden:over_my_dead_body_form a ontolex:form ;
 	ontolex:writtenRep "over my dead body"@en .
@@ -2012,7 +2111,8 @@ liden:over_the_top a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:over_the_top_sense ;
 	ontolex:canonicalForm liden:over_the_top_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "over the top"@en .
+	rdfs:label "over the top"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13749680a> .
 
 liden:over_the_top_form a ontolex:form ;
 	ontolex:writtenRep "over the top"@en .
@@ -2030,7 +2130,8 @@ liden:penny_for_your_thoughts a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	ontolex:sense liden:penny_for_your_thoughts_sense ;
 	ontolex:canonicalForm liden:penny_for_your_thoughts_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "penny for your thoughts"@en .
+	rdfs:label "penny for your thoughts"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00747686n> .
 
 liden:penny_for_your_thoughts_form a ontolex:form ;
 	ontolex:writtenRep "penny for your thoughts"@en .
@@ -2066,7 +2167,8 @@ liden:piece_of_cake a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:piece_of_cake_sense ;
 	ontolex:canonicalForm liden:piece_of_cake_form ;
 	dbo:location <http://dbpedia.org/page/England> ;
-	rdfs:label "piece of cake"@en .
+	rdfs:label "piece of cake"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00012997n> .
 
 liden:piece_of_cake_form a ontolex:form ;
 	ontolex:writtenRep "piece of cake"@en .
@@ -2102,7 +2204,8 @@ liden:play_second_fiddle a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:play_second_fiddle_sense ;
 	ontolex:canonicalForm liden:play_second_fiddle_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "play second fiddle"@en .
+	rdfs:label "play second fiddle"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13680462v> .
 
 liden:play_second_fiddle_form a ontolex:form ;
 	ontolex:writtenRep "play second fiddle"@en .
@@ -2120,7 +2223,8 @@ liden:poker_face a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:poker_face_sense ;
 	ontolex:canonicalForm liden:poker_face_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "poker face"@en .
+	rdfs:label "poker face"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00063273n> .
 
 liden:poker_face_form a ontolex:form ;
 	ontolex:writtenRep "poker face"@en .
@@ -2138,7 +2242,8 @@ liden:pull_the_plug a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:pull_the_plug_sense ;
 	ontolex:canonicalForm liden:pull_the_plug_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "pull the plug"@en .
+	rdfs:label "pull the plug"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00092152v> .
 
 liden:pull_the_plug_form a ontolex:form ;
 	ontolex:writtenRep "pull the plug"@en .
@@ -2174,7 +2279,8 @@ liden:rule_of_thumb a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:rule_of_thumb_sense ;
 	ontolex:canonicalForm liden:rule_of_thumb_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "rule of thumb"@en .
+	rdfs:label "rule of thumb"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00042118n> .
 
 liden:rule_of_thumb_form a ontolex:form ;
 	ontolex:writtenRep "rule of thumb"@en .
@@ -2192,7 +2298,8 @@ liden:run_out_of_steam a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:run_out_of_steam_sense ;
 	ontolex:canonicalForm liden:run_out_of_steam_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "run out of steam"@en .
+	rdfs:label "run out of steam"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13770534v> .
 
 liden:run_out_of_steam_form a ontolex:form ;
 	ontolex:writtenRep "run out of steam"@en .
@@ -2210,7 +2317,8 @@ liden:saved_by_the_bell a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:saved_by_the_bell_sense ;
 	ontolex:canonicalForm liden:saved_by_the_bell_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "saved by the bell"@en .
+	rdfs:label "saved by the bell"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13634568v> .
 
 liden:saved_by_the_bell_form a ontolex:form ;
 	ontolex:writtenRep "saved by the bell"@en .
@@ -2228,7 +2336,8 @@ liden:scapegoat a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:scapegoat_sense ;
 	ontolex:canonicalForm liden:scapegoat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "scapegoat"@en .
+	rdfs:label "scapegoat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00069508n> .
 
 liden:scapegoat_form a ontolex:form ;
 	ontolex:writtenRep "scapegoat"@en .
@@ -2246,7 +2355,8 @@ liden:see_eye_to_eye a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:see_eye_to_eye_sense ;
 	ontolex:canonicalForm liden:see_eye_to_eye_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "see eye to eye"@en .
+	rdfs:label "see eye to eye"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00093440v> .
 
 liden:see_eye_to_eye_form a ontolex:form ;
 	ontolex:writtenRep "see eye to eye"@en .
@@ -2300,7 +2410,8 @@ liden:sit_on_the_fence a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:sit_on_the_fence_sense ;
 	ontolex:canonicalForm liden:sit_on_the_fence_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "sit on the fence"@en .
+	rdfs:label "sit on the fence"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13647047v> .
 
 liden:sit_on_the_fence_form a ontolex:form ;
 	ontolex:writtenRep "sit on the fence"@en .
@@ -2318,7 +2429,8 @@ liden:slap_on_the_wrist a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:slap_on_the_wrist_sense ;
 	ontolex:canonicalForm liden:slap_on_the_wrist_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "slap on the wrist"@en .
+	rdfs:label "slap on the wrist"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13713942n> .
 
 liden:slap_on_the_wrist_form a ontolex:form ;
 	ontolex:writtenRep "slap on the wrist"@en .
@@ -2336,7 +2448,8 @@ liden:sleep_on_it a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:sleep_on_it_sense ;
 	ontolex:canonicalForm liden:sleep_on_it_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "sleep on it"@en .
+	rdfs:label "sleep on it"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13763701v> .
 
 liden:sleep_on_it_form a ontolex:form ;
 	ontolex:writtenRep "sleep on it"@en .
@@ -2354,7 +2467,8 @@ liden:snake_in_the_grass a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:snake_in_the_grass_sense ;
 	ontolex:canonicalForm liden:snake_in_the_grass_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "snake in the grass"@en .
+	rdfs:label "snake in the grass"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00072377n> .
 
 liden:snake_in_the_grass_form a ontolex:form ;
 	ontolex:writtenRep "snake in the grass"@en .
@@ -2372,7 +2486,8 @@ liden:snug_as_a_bug_in_a_rug a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	ontolex:sense liden:snug_as_a_bug_in_a_rug_sense ;
 	ontolex:canonicalForm liden:snug_as_a_bug_in_a_rug_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "snug as a bug in a rug"@en .
+	rdfs:label "snug as a bug in a rug"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13742717a> .
 
 liden:snug_as_a_bug_in_a_rug_form a ontolex:form ;
 	ontolex:writtenRep "snug as a bug in a rug"@en .
@@ -2408,7 +2523,8 @@ liden:spill_the_beans a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:spill_the_beans_sense ;
 	ontolex:canonicalForm liden:spill_the_beans_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "spill the beans"@en .
+	rdfs:label "spill the beans"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00082976v> .
 
 liden:spill_the_beans_form a ontolex:form ;
 	ontolex:writtenRep "spill the beans"@en .
@@ -2444,7 +2560,8 @@ liden:steal_someones_thunder a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	ontolex:sense liden:steal_someones_thunder_sense ;
 	ontolex:canonicalForm liden:steal_someones_thunder_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "steal someone's thunder"@en .
+	rdfs:label "steal someone's thunder"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13624980v> .
 
 liden:steal_someones_thunder_form a ontolex:form ;
 	ontolex:writtenRep "steal someone's thunder"@en .
@@ -2570,7 +2687,8 @@ liden:the_last_straw a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:the_last_straw_sense ;
 	ontolex:canonicalForm liden:the_last_straw_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "the last straw"@en .
+	rdfs:label "the last straw"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03800600n> .
 
 liden:the_last_straw_form a ontolex:form ;
 	ontolex:writtenRep "the last straw"@en .
@@ -2588,7 +2706,8 @@ liden:the_whole_nine_yards a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:the_whole_nine_yards_sense ;
 	ontolex:canonicalForm liden:the_whole_nine_yards_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "the whole nine yards"@en .
+	rdfs:label "the whole nine yards"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13611674r> .
 
 liden:the_whole_nine_yards_form a ontolex:form ;
 	ontolex:writtenRep "the whole nine yards"@en .
@@ -2606,7 +2725,8 @@ liden:time_out a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:time_out_sense ;
 	ontolex:canonicalForm liden:time_out_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "time out"@en .
+	rdfs:label "time out"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00012899n> .
 
 liden:time_out_form a ontolex:form ;
 	ontolex:writtenRep "time out"@en .
@@ -2624,7 +2744,8 @@ liden:tip_of_the_iceberg a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:tip_of_the_iceberg_sense ;
 	ontolex:canonicalForm liden:tip_of_the_iceberg_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "tip of the iceberg"@en .
+	rdfs:label "tip of the iceberg"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00775986n> .
 
 liden:tip_of_the_iceberg_form a ontolex:form ;
 	ontolex:writtenRep "tip of the iceberg"@en .
@@ -2642,7 +2763,8 @@ liden:tossup a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:tossup_sense ;
 	ontolex:canonicalForm liden:tossup_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "toss-up"@en .
+	rdfs:label "toss-up"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00032000n> .
 
 liden:tossup_form a ontolex:form ;
 	ontolex:writtenRep "toss-up"@en .
@@ -2660,7 +2782,8 @@ liden:turn_a_blind_eye a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:turn_a_blind_eye_sense ;
 	ontolex:canonicalForm liden:turn_a_blind_eye_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "turn a blind eye"@en .
+	rdfs:label "turn a blind eye"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00493649n> .
 
 liden:turn_a_blind_eye_form a ontolex:form ;
 	ontolex:writtenRep "turn a blind eye"@en .
@@ -2672,22 +2795,22 @@ liden:turn_a_blind_eye_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf liden:turn_a_blind_eye_sense ;
 	skos:definition "to ignore something you know is real and pretend you do not see it"@en .
 
-<http://lid.tabsolucoes.com/en/twentyfour/seven> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+liden:twentyfour_seven a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
-	ontolex:sense <http://lid.tabsolucoes.com/en/twentyfour/seven_sense> ;
-	ontolex:canonicalForm <http://lid.tabsolucoes.com/en/twentyfour/seven_form> ;
+	ontolex:sense liden:twentyfour_seven_sense ;
+	ontolex:canonicalForm liden:twentyfour_seven_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
 	rdfs:label "twenty-four/seven"@en .
 
-<http://lid.tabsolucoes.com/en/twentyfour/seven_form> a ontolex:form ;
+liden:twentyfour_seven_form a ontolex:form ;
 	ontolex:writtenRep "twenty-four/seven"@en .
 
-<http://lid.tabsolucoes.com/en/twentyfour/seven_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.tabsolucoes.com/en/twentyfour/seven_def> .
+liden:twentyfour_seven_sense a ontolex:LexicalSense ;
+	ontolex:reference liden:twentyfour_seven_def .
 
-<http://lid.tabsolucoes.com/en/twentyfour/seven_def> a ontolex:LexicalConcept ;
-	ontolex:isConceptOf <http://lid.tabsolucoes.com/en/twentyfour/seven_sense> ;
+liden:twentyfour_seven_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf liden:twentyfour_seven_sense ;
 	skos:definition "all the time; continuous operation"@en .
 
 liden:up_a_creek_without_a_paddle a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -2714,7 +2837,8 @@ liden:up_to_the_minute a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:up_to_the_minute_sense ;
 	ontolex:canonicalForm liden:up_to_the_minute_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "up to the minute"@en .
+	rdfs:label "up to the minute"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01916164n> .
 
 liden:up_to_the_minute_form a ontolex:form ;
 	ontolex:writtenRep "up to the minute"@en .
@@ -2732,7 +2856,8 @@ liden:when_pigs_fly a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:when_pigs_fly_sense ;
 	ontolex:canonicalForm liden:when_pigs_fly_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "when pigs fly"@en .
+	rdfs:label "when pigs fly"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01410941n> .
 
 liden:when_pigs_fly_form a ontolex:form ;
 	ontolex:writtenRep "when pigs fly"@en .
@@ -2768,7 +2893,8 @@ liden:you_bet a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:you_bet_sense ;
 	ontolex:canonicalForm liden:you_bet_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "you bet!"@en .
+	rdfs:label "you bet!"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01931334n> .
 
 liden:you_bet_form a ontolex:form ;
 	ontolex:writtenRep "you bet!"@en .
@@ -2804,7 +2930,8 @@ liden:zero_tolerance a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:zero_tolerance_sense ;
 	ontolex:canonicalForm liden:zero_tolerance_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "zero tolerance"@en .
+	rdfs:label "zero tolerance"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00082033n> .
 
 liden:zero_tolerance_form a ontolex:form ;
 	ontolex:writtenRep "zero tolerance"@en .
@@ -2840,7 +2967,8 @@ liden:tit_for_tat a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:tit_for_tat_sense ;
 	ontolex:canonicalForm liden:tit_for_tat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "tit for tat"@en .
+	rdfs:label "tit for tat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00077390n> .
 
 liden:tit_for_tat_form a ontolex:form ;
 	ontolex:writtenRep "tit for tat"@en .
@@ -2912,7 +3040,8 @@ liden:put_the_cart_before_the_horse a ontolex:LexicalEntry , ontolex:MultiwordEx
 	ontolex:sense liden:put_the_cart_before_the_horse_sense ;
 	ontolex:canonicalForm liden:put_the_cart_before_the_horse_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "put the cart before the horse"@en .
+	rdfs:label "put the cart before the horse"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13752487v> .
 
 liden:put_the_cart_before_the_horse_form a ontolex:form ;
 	ontolex:writtenRep "put the cart before the horse"@en .
@@ -2930,7 +3059,8 @@ liden:brandnew a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:brandnew_sense ;
 	ontolex:canonicalForm liden:brandnew_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "brand-new"@en .
+	rdfs:label "brand-new"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00098811a> .
 
 liden:brandnew_form a ontolex:form ;
 	ontolex:writtenRep "brand-new"@en .
@@ -2966,7 +3096,8 @@ liden:third_wheel a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:third_wheel_sense ;
 	ontolex:canonicalForm liden:third_wheel_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "third wheel"@en .
+	rdfs:label "third wheel"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00579934n> .
 
 liden:third_wheel_form a ontolex:form ;
 	ontolex:writtenRep "third wheel"@en .
@@ -3056,7 +3187,8 @@ liden:hopping_mad a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:hopping_mad_sense ;
 	ontolex:canonicalForm liden:hopping_mad_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "hopping mad"@en .
+	rdfs:label "hopping mad"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13686574a> .
 
 liden:hopping_mad_form a ontolex:form ;
 	ontolex:writtenRep "hopping mad"@en .
@@ -3074,7 +3206,8 @@ liden:on_cloud_nine a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:on_cloud_nine_sense ;
 	ontolex:canonicalForm liden:on_cloud_nine_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "on cloud nine"@en .
+	rdfs:label "on cloud nine"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13701303a> .
 
 liden:on_cloud_nine_form a ontolex:form ;
 	ontolex:writtenRep "on cloud nine"@en .
@@ -3092,7 +3225,8 @@ liden:get_laid a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:get_laid_sense ;
 	ontolex:canonicalForm liden:get_laid_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "get laid"@en .
+	rdfs:label "get laid"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00083081v> .
 
 liden:get_laid_form a ontolex:form ;
 	ontolex:writtenRep "get laid"@en .
@@ -3146,7 +3280,8 @@ liden:scatterbrain a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:scatterbrain_sense ;
 	ontolex:canonicalForm liden:scatterbrain_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "scatterbrain"@en .
+	rdfs:label "scatterbrain"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00035893n> .
 
 liden:scatterbrain_form a ontolex:form ;
 	ontolex:writtenRep "scatterbrain"@en .
@@ -3236,7 +3371,8 @@ liden:feel_the_pinch a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:feel_the_pinch_sense ;
 	ontolex:canonicalForm liden:feel_the_pinch_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "feel the pinch"@en .
+	rdfs:label "feel the pinch"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13653396v> .
 
 liden:feel_the_pinch_form a ontolex:form ;
 	ontolex:writtenRep "feel the pinch"@en .
@@ -3308,7 +3444,8 @@ liden:noobie a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:noobie_sense ;
 	ontolex:canonicalForm liden:noobie_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "noobie"@en .
+	rdfs:label "noobie"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00031048n> .
 
 liden:noobie_form a ontolex:form ;
 	ontolex:writtenRep "noobie"@en .
@@ -3470,7 +3607,8 @@ liden:lame_duck a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:lame_duck_sense ;
 	ontolex:canonicalForm liden:lame_duck_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "lame duck"@en .
+	rdfs:label "lame duck"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00049777n> .
 
 liden:lame_duck_form a ontolex:form ;
 	ontolex:writtenRep "lame duck"@en .
@@ -3506,7 +3644,8 @@ liden:draw_the_short_straw a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:draw_the_short_straw_sense ;
 	ontolex:canonicalForm liden:draw_the_short_straw_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "draw the short straw"@en .
+	rdfs:label "draw the short straw"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13769195v> .
 
 liden:draw_the_short_straw_form a ontolex:form ;
 	ontolex:writtenRep "draw the short straw"@en .
@@ -3524,7 +3663,8 @@ liden:shoot_the_breeze a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:shoot_the_breeze_sense ;
 	ontolex:canonicalForm liden:shoot_the_breeze_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "shoot the breeze"@en .
+	rdfs:label "shoot the breeze"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00084747v> .
 
 liden:shoot_the_breeze_form a ontolex:form ;
 	ontolex:writtenRep "shoot the breeze"@en .
@@ -3542,7 +3682,8 @@ liden:old_hand a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:old_hand_sense ;
 	ontolex:canonicalForm liden:old_hand_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "old hand"@en .
+	rdfs:label "old hand"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00058801n> .
 
 liden:old_hand_form a ontolex:form ;
 	ontolex:writtenRep "old hand"@en .
@@ -3578,7 +3719,8 @@ liden:bone_of_contention a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:bone_of_contention_sense ;
 	ontolex:canonicalForm liden:bone_of_contention_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "bone of contention"@en .
+	rdfs:label "bone of contention"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00012012n> .
 
 liden:bone_of_contention_form a ontolex:form ;
 	ontolex:writtenRep "bone of contention"@en .
@@ -3668,7 +3810,8 @@ liden:the_exception_proves_the_rule a ontolex:LexicalEntry , ontolex:MultiwordEx
 	ontolex:sense liden:the_exception_proves_the_rule_sense ;
 	ontolex:canonicalForm liden:the_exception_proves_the_rule_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "the exception proves the rule"@en .
+	rdfs:label "the exception proves the rule"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03667016n> .
 
 liden:the_exception_proves_the_rule_form a ontolex:form ;
 	ontolex:writtenRep "the exception proves the rule"@en .
@@ -3704,7 +3847,8 @@ liden:the_apple_doesnt_fall_far_from_the_tree a ontolex:LexicalEntry , ontolex:M
 	ontolex:sense liden:the_apple_doesnt_fall_far_from_the_tree_sense ;
 	ontolex:canonicalForm liden:the_apple_doesnt_fall_far_from_the_tree_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "the apple doesn't fall far from the tree"@en .
+	rdfs:label "the apple doesn't fall far from the tree"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13601400n> .
 
 liden:the_apple_doesnt_fall_far_from_the_tree_form a ontolex:form ;
 	ontolex:writtenRep "the apple doesn't fall far from the tree"@en .
@@ -3775,7 +3919,8 @@ liden:all_that_glitters_is_not_gold a ontolex:LexicalEntry , ontolex:MultiwordEx
 	ontolex:sense liden:all_that_glitters_is_not_gold_sense ;
 	ontolex:canonicalForm liden:all_that_glitters_is_not_gold_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "all that glitters is not gold"@en .
+	rdfs:label "all that glitters is not gold"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00925253n> .
 
 liden:all_that_glitters_is_not_gold_form a ontolex:form ;
 	ontolex:writtenRep "all that glitters is not gold"@en .
@@ -3805,22 +3950,22 @@ liden:dont_look_a_gift_horse_in_the_mouth_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf liden:dont_look_a_gift_horse_in_the_mouth_sense ;
 	skos:definition "don't question the value of a gift."@en .
 
-<http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+<http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
-	ontolex:sense <http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_sense> ;
-	ontolex:canonicalForm <http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_form> ;
+	ontolex:sense <http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_form> ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
 	rdfs:label "you couldn't split them apart with water/as thick as thieves"@en .
 
-<http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_form> a ontolex:form ;
+<http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_form> a ontolex:form ;
 	ontolex:writtenRep "you couldn't split them apart with water/as thick as thieves"@en .
 
-<http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_def> .
+<http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_def> .
 
-<http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_def> a ontolex:LexicalConcept ;
-	ontolex:isConceptOf <http://lid.tabsolucoes.com/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_sense> ;
+<http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/en/you_couldnt_split_them_apart_with_water/as_thick_as_thieves_sense> ;
 	skos:definition "to be tight or best friends with someone"@en .
 
 liden:its_raining_cats_and_dogs a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -3865,7 +4010,8 @@ liden:red_in_the_face a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:red_in_the_face_sense ;
 	ontolex:canonicalForm liden:red_in_the_face_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "red in the face"@en .
+	rdfs:label "red in the face"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s14079761n> .
 
 liden:red_in_the_face_form a ontolex:form ;
 	ontolex:writtenRep "red in the face"@en .
@@ -3955,7 +4101,8 @@ liden:no_pain_no_gain a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:no_pain_no_gain_sense ;
 	ontolex:canonicalForm liden:no_pain_no_gain_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "no pain no gain"@en .
+	rdfs:label "no pain no gain"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00257566n> .
 
 liden:no_pain_no_gain_form a ontolex:form ;
 	ontolex:writtenRep "no pain no gain"@en .
@@ -3991,7 +4138,8 @@ liden:every_dog_has_his_day a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:every_dog_has_his_day_sense ;
 	ontolex:canonicalForm liden:every_dog_has_his_day_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "every dog has his day"@en .
+	rdfs:label "every dog has his day"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00858687n> .
 
 liden:every_dog_has_his_day_form a ontolex:form ;
 	ontolex:writtenRep "every dog has his day"@en .
@@ -4045,7 +4193,8 @@ liden:three_sheets_to_the_wind a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense liden:three_sheets_to_the_wind_sense ;
 	ontolex:canonicalForm liden:three_sheets_to_the_wind_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "three sheets to the wind"@en .
+	rdfs:label "three sheets to the wind"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13680340a> .
 
 liden:three_sheets_to_the_wind_form a ontolex:form ;
 	ontolex:writtenRep "three sheets to the wind"@en .
@@ -4063,7 +4212,8 @@ liden:protest_too_much a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:protest_too_much_sense ;
 	ontolex:canonicalForm liden:protest_too_much_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "protest too much"@en .
+	rdfs:label "protest too much"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13616157v> .
 
 liden:protest_too_much_form a ontolex:form ;
 	ontolex:writtenRep "protest too much"@en .
@@ -4099,7 +4249,8 @@ liden:off_ones_guard a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:off_ones_guard_sense ;
 	ontolex:canonicalForm liden:off_ones_guard_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "off one's guard"@en .
+	rdfs:label "off one's guard"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00107111a> .
 
 liden:off_ones_guard_form a ontolex:form ;
 	ontolex:writtenRep "off one's guard"@en .
@@ -4243,7 +4394,8 @@ liden:necessity_is_the_mother_of_invention a ontolex:LexicalEntry , ontolex:Mult
 	ontolex:sense liden:necessity_is_the_mother_of_invention_sense ;
 	ontolex:canonicalForm liden:necessity_is_the_mother_of_invention_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "necessity is the mother of invention"@en .
+	rdfs:label "necessity is the mother of invention"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03001146n> .
 
 liden:necessity_is_the_mother_of_invention_form a ontolex:form ;
 	ontolex:writtenRep "necessity is the mother of invention"@en .
@@ -4261,7 +4413,8 @@ liden:neck_and_neck a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:neck_and_neck_sense ;
 	ontolex:canonicalForm liden:neck_and_neck_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "neck and neck"@en .
+	rdfs:label "neck and neck"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00104012a> .
 
 liden:neck_and_neck_form a ontolex:form ;
 	ontolex:writtenRep "neck and neck"@en .
@@ -4369,7 +4522,8 @@ liden:every_which_way a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:every_which_way_sense ;
 	ontolex:canonicalForm liden:every_which_way_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "every which way"@en .
+	rdfs:label "every which way"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00114328r> .
 
 liden:every_which_way_form a ontolex:form ;
 	ontolex:writtenRep "every which way"@en .
@@ -4387,7 +4541,8 @@ liden:hold_ones_breath a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:hold_ones_breath_sense ;
 	ontolex:canonicalForm liden:hold_ones_breath_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "hold one's breath"@en .
+	rdfs:label "hold one's breath"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13674956v> .
 
 liden:hold_ones_breath_form a ontolex:form ;
 	ontolex:writtenRep "hold one's breath"@en .
@@ -4405,7 +4560,8 @@ liden:narrow_escape a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:narrow_escape_sense ;
 	ontolex:canonicalForm liden:narrow_escape_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "narrow escape"@en .
+	rdfs:label "narrow escape"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00019923n> .
 
 liden:narrow_escape_form a ontolex:form ;
 	ontolex:writtenRep "narrow escape"@en .
@@ -4423,7 +4579,8 @@ liden:rock_the_boat a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:rock_the_boat_sense ;
 	ontolex:canonicalForm liden:rock_the_boat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "rock the boat"@en .
+	rdfs:label "rock the boat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13696676v> .
 
 liden:rock_the_boat_form a ontolex:form ;
 	ontolex:writtenRep "rock the boat"@en .
@@ -4441,7 +4598,8 @@ liden:look_before_you_leap a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:look_before_you_leap_sense ;
 	ontolex:canonicalForm liden:look_before_you_leap_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "look before you leap"@en .
+	rdfs:label "look before you leap"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03815138n> .
 
 liden:look_before_you_leap_form a ontolex:form ;
 	ontolex:writtenRep "look before you leap"@en .
@@ -4459,7 +4617,8 @@ liden:all_the_way_to_egery_and_back a ontolex:LexicalEntry , ontolex:MultiwordEx
 	ontolex:sense liden:all_the_way_to_egery_and_back_sense ;
 	ontolex:canonicalForm liden:all_the_way_to_egery_and_back_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "all the way to egery and back"@en .
+	rdfs:label "all the way to egery and back"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13651132n> .
 
 liden:all_the_way_to_egery_and_back_form a ontolex:form ;
 	ontolex:writtenRep "all the way to egery and back"@en .
@@ -4477,7 +4636,8 @@ liden:knee_high_to_a_grasshopper a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	ontolex:sense liden:knee_high_to_a_grasshopper_sense ;
 	ontolex:canonicalForm liden:knee_high_to_a_grasshopper_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "knee high to a grasshopper"@en .
+	rdfs:label "knee high to a grasshopper"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13764758a> .
 
 liden:knee_high_to_a_grasshopper_form a ontolex:form ;
 	ontolex:writtenRep "knee high to a grasshopper"@en .
@@ -4549,7 +4709,8 @@ liden:strike_while_the_iron_is_hot a ontolex:LexicalEntry , ontolex:MultiwordExp
 	ontolex:sense liden:strike_while_the_iron_is_hot_sense ;
 	ontolex:canonicalForm liden:strike_while_the_iron_is_hot_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "strike while the iron is hot"@en .
+	rdfs:label "strike while the iron is hot"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13622049v> .
 
 liden:strike_while_the_iron_is_hot_form a ontolex:form ;
 	ontolex:writtenRep "strike while the iron is hot"@en .
@@ -4567,7 +4728,8 @@ liden:throw_the_baby_out_with_the_bathwater a ontolex:LexicalEntry , ontolex:Mul
 	ontolex:sense liden:throw_the_baby_out_with_the_bathwater_sense ;
 	ontolex:canonicalForm liden:throw_the_baby_out_with_the_bathwater_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "throw the baby out with the bathwater"@en .
+	rdfs:label "throw the baby out with the bathwater"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13603417v> .
 
 liden:throw_the_baby_out_with_the_bathwater_form a ontolex:form ;
 	ontolex:writtenRep "throw the baby out with the bathwater"@en .
@@ -4585,7 +4747,8 @@ liden:land_on_ones_feet a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:land_on_ones_feet_sense ;
 	ontolex:canonicalForm liden:land_on_ones_feet_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "land on one's feet"@en .
+	rdfs:label "land on one's feet"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13784405v> .
 
 liden:land_on_ones_feet_form a ontolex:form ;
 	ontolex:writtenRep "land on one's feet"@en .
@@ -4603,7 +4766,8 @@ liden:pull_someones_bacon_out_of_the_fire a ontolex:LexicalEntry , ontolex:Multi
 	ontolex:sense liden:pull_someones_bacon_out_of_the_fire_sense ;
 	ontolex:canonicalForm liden:pull_someones_bacon_out_of_the_fire_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "pull someone's bacon out of the fire"@en .
+	rdfs:label "pull someone's bacon out of the fire"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13615782v> .
 
 liden:pull_someones_bacon_out_of_the_fire_form a ontolex:form ;
 	ontolex:writtenRep "pull someone's bacon out of the fire"@en .
@@ -4621,7 +4785,8 @@ liden:close_the_stable_door_after_the_horse_has_bolted a ontolex:LexicalEntry , 
 	ontolex:sense liden:close_the_stable_door_after_the_horse_has_bolted_sense ;
 	ontolex:canonicalForm liden:close_the_stable_door_after_the_horse_has_bolted_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "close the stable door after the horse has bolted"@en .
+	rdfs:label "close the stable door after the horse has bolted"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13638673v> .
 
 liden:close_the_stable_door_after_the_horse_has_bolted_form a ontolex:form ;
 	ontolex:writtenRep "close the stable door after the horse has bolted"@en .
@@ -4639,7 +4804,8 @@ liden:caught_with_ones_hand_in_the_cookie_jar a ontolex:LexicalEntry , ontolex:M
 	ontolex:sense liden:caught_with_ones_hand_in_the_cookie_jar_sense ;
 	ontolex:canonicalForm liden:caught_with_ones_hand_in_the_cookie_jar_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "caught with one's hand in the cookie jar"@en .
+	rdfs:label "caught with one's hand in the cookie jar"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13701852a> .
 
 liden:caught_with_ones_hand_in_the_cookie_jar_form a ontolex:form ;
 	ontolex:writtenRep "caught with one's hand in the cookie jar"@en .
@@ -4711,7 +4877,8 @@ liden:water_under_the_bridge a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	ontolex:sense liden:water_under_the_bridge_sense ;
 	ontolex:canonicalForm liden:water_under_the_bridge_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "water under the bridge"@en .
+	rdfs:label "water under the bridge"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00014353n> .
 
 liden:water_under_the_bridge_form a ontolex:form ;
 	ontolex:writtenRep "water under the bridge"@en .
@@ -4765,7 +4932,8 @@ liden:turn_a_deaf_ear a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:turn_a_deaf_ear_sense ;
 	ontolex:canonicalForm liden:turn_a_deaf_ear_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "turn a deaf ear"@en .
+	rdfs:label "turn a deaf ear"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13619147v> .
 
 liden:turn_a_deaf_ear_form a ontolex:form ;
 	ontolex:writtenRep "turn a deaf ear"@en .
@@ -4801,7 +4969,8 @@ liden:smell_a_rat a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:smell_a_rat_sense ;
 	ontolex:canonicalForm liden:smell_a_rat_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "smell a rat"@en .
+	rdfs:label "smell a rat"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13601206v> .
 
 liden:smell_a_rat_form a ontolex:form ;
 	ontolex:writtenRep "smell a rat"@en .
@@ -4819,7 +4988,8 @@ liden:crème_de_la_crème a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:crème_de_la_crème_sense ;
 	ontolex:canonicalForm liden:crème_de_la_crème_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "crème de la crème"@en .
+	rdfs:label "crème de la crème"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s15287841n> .
 
 liden:crème_de_la_crème_form a ontolex:form ;
 	ontolex:writtenRep "crème de la crème"@en .
@@ -4855,7 +5025,8 @@ liden:tough_nut_to_crack a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:tough_nut_to_crack_sense ;
 	ontolex:canonicalForm liden:tough_nut_to_crack_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "tough nut to crack"@en .
+	rdfs:label "tough nut to crack"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13667787n> .
 
 liden:tough_nut_to_crack_form a ontolex:form ;
 	ontolex:writtenRep "tough nut to crack"@en .
@@ -4891,7 +5062,8 @@ liden:muddy_the_waters a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:muddy_the_waters_sense ;
 	ontolex:canonicalForm liden:muddy_the_waters_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "muddy the waters"@en .
+	rdfs:label "muddy the waters"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13744369v> .
 
 liden:muddy_the_waters_form a ontolex:form ;
 	ontolex:writtenRep "muddy the waters"@en .
@@ -4909,7 +5081,8 @@ liden:the_straw_that_broke_the_camels_back a ontolex:LexicalEntry , ontolex:Mult
 	ontolex:sense liden:the_straw_that_broke_the_camels_back_sense ;
 	ontolex:canonicalForm liden:the_straw_that_broke_the_camels_back_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "the straw that broke the camel's back"@en .
+	rdfs:label "the straw that broke the camel's back"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03800600n> .
 
 liden:the_straw_that_broke_the_camels_back_form a ontolex:form ;
 	ontolex:writtenRep "the straw that broke the camel's back"@en .
@@ -4945,7 +5118,8 @@ liden:give_up_the_ghost a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:give_up_the_ghost_sense ;
 	ontolex:canonicalForm liden:give_up_the_ghost_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "give up the ghost"@en .
+	rdfs:label "give up the ghost"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13703026v> .
 
 liden:give_up_the_ghost_form a ontolex:form ;
 	ontolex:writtenRep "give up the ghost"@en .
@@ -4981,7 +5155,8 @@ liden:one_card_shy_of_a_full_deck a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	ontolex:sense liden:one_card_shy_of_a_full_deck_sense ;
 	ontolex:canonicalForm liden:one_card_shy_of_a_full_deck_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "one card shy of a full deck"@en .
+	rdfs:label "one card shy of a full deck"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13644050a> .
 
 liden:one_card_shy_of_a_full_deck_form a ontolex:form ;
 	ontolex:writtenRep "one card shy of a full deck"@en .
@@ -5053,7 +5228,8 @@ liden:the_icing_on_the_cake a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:the_icing_on_the_cake_sense ;
 	ontolex:canonicalForm liden:the_icing_on_the_cake_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "the icing on the cake"@en .
+	rdfs:label "the icing on the cake"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s14483997n> .
 
 liden:the_icing_on_the_cake_form a ontolex:form ;
 	ontolex:writtenRep "the icing on the cake"@en .
@@ -5089,7 +5265,8 @@ liden:neither_fish_nor_fowl a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:neither_fish_nor_fowl_sense ;
 	ontolex:canonicalForm liden:neither_fish_nor_fowl_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "neither fish nor fowl"@en .
+	rdfs:label "neither fish nor fowl"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13645131n> .
 
 liden:neither_fish_nor_fowl_form a ontolex:form ;
 	ontolex:writtenRep "neither fish nor fowl"@en .
@@ -5107,7 +5284,8 @@ liden:none_of_your_business a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense liden:none_of_your_business_sense ;
 	ontolex:canonicalForm liden:none_of_your_business_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "none of your business"@en .
+	rdfs:label "none of your business"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01596862n> .
 
 liden:none_of_your_business_form a ontolex:form ;
 	ontolex:writtenRep "none of your business"@en .
@@ -5161,7 +5339,8 @@ liden:a_cold_day_in_hell a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:a_cold_day_in_hell_sense ;
 	ontolex:canonicalForm liden:a_cold_day_in_hell_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "a cold day in hell"@en .
+	rdfs:label "a cold day in hell"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00669177n> .
 
 liden:a_cold_day_in_hell_form a ontolex:form ;
 	ontolex:writtenRep "a cold day in hell"@en .
@@ -5179,7 +5358,8 @@ liden:reinvent_the_wheel a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:reinvent_the_wheel_sense ;
 	ontolex:canonicalForm liden:reinvent_the_wheel_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "reinvent the wheel"@en .
+	rdfs:label "reinvent the wheel"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13721144v> .
 
 liden:reinvent_the_wheel_form a ontolex:form ;
 	ontolex:writtenRep "reinvent the wheel"@en .
@@ -5197,7 +5377,8 @@ liden:nip_and_tuck a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:nip_and_tuck_sense ;
 	ontolex:canonicalForm liden:nip_and_tuck_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "nip and tuck"@en .
+	rdfs:label "nip and tuck"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00104012a> .
 
 liden:nip_and_tuck_form a ontolex:form ;
 	ontolex:writtenRep "nip and tuck"@en .
@@ -5233,7 +5414,8 @@ liden:roll_up_ones_sleeves a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense liden:roll_up_ones_sleeves_sense ;
 	ontolex:canonicalForm liden:roll_up_ones_sleeves_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "roll up one's sleeves"@en .
+	rdfs:label "roll up one's sleeves"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13789024v> .
 
 liden:roll_up_ones_sleeves_form a ontolex:form ;
 	ontolex:writtenRep "roll up one's sleeves"@en .
@@ -5251,7 +5433,8 @@ liden:take_the_wind_out_of_someones_sails a ontolex:LexicalEntry , ontolex:Multi
 	ontolex:sense liden:take_the_wind_out_of_someones_sails_sense ;
 	ontolex:canonicalForm liden:take_the_wind_out_of_someones_sails_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "take the wind out of someone's sails"@en .
+	rdfs:label "take the wind out of someone's sails"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13719210v> .
 
 liden:take_the_wind_out_of_someones_sails_form a ontolex:form ;
 	ontolex:writtenRep "take the wind out of someone's sails"@en .
@@ -5269,7 +5452,8 @@ liden:get_off_ones_chest a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:get_off_ones_chest_sense ;
 	ontolex:canonicalForm liden:get_off_ones_chest_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "get off one's chest"@en .
+	rdfs:label "get off one's chest"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13657406v> .
 
 liden:get_off_ones_chest_form a ontolex:form ;
 	ontolex:writtenRep "get off one's chest"@en .
@@ -5305,7 +5489,8 @@ liden:all_sizzle_and_no_steak a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	ontolex:sense liden:all_sizzle_and_no_steak_sense ;
 	ontolex:canonicalForm liden:all_sizzle_and_no_steak_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "all sizzle and no steak"@en .
+	rdfs:label "all sizzle and no steak"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13608952n> .
 
 liden:all_sizzle_and_no_steak_form a ontolex:form ;
 	ontolex:writtenRep "all sizzle and no steak"@en .
@@ -5359,7 +5544,8 @@ liden:by_hook_or_crook a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:by_hook_or_crook_sense ;
 	ontolex:canonicalForm liden:by_hook_or_crook_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "by hook or crook"@en .
+	rdfs:label "by hook or crook"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01812641n> .
 
 liden:by_hook_or_crook_form a ontolex:form ;
 	ontolex:writtenRep "by hook or crook"@en .
@@ -5413,7 +5599,8 @@ liden:on_ones_own a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:on_ones_own_sense ;
 	ontolex:canonicalForm liden:on_ones_own_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "on one's own"@en .
+	rdfs:label "on one's own"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13720841r> .
 
 liden:on_ones_own_form a ontolex:form ;
 	ontolex:writtenRep "on one's own"@en .
@@ -5449,7 +5636,8 @@ liden:out_of_sight_out_of_mind a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense liden:out_of_sight_out_of_mind_sense ;
 	ontolex:canonicalForm liden:out_of_sight_out_of_mind_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "out of sight, out of mind."@en .
+	rdfs:label "out of sight, out of mind."@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00116482r> .
 
 liden:out_of_sight_out_of_mind_form a ontolex:form ;
 	ontolex:writtenRep "out of sight, out of mind."@en .
@@ -5467,7 +5655,8 @@ liden:make_a_mountain_out_of_a_molehill a ontolex:LexicalEntry , ontolex:Multiwo
 	ontolex:sense liden:make_a_mountain_out_of_a_molehill_sense ;
 	ontolex:canonicalForm liden:make_a_mountain_out_of_a_molehill_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "make a mountain out of a molehill"@en .
+	rdfs:label "make a mountain out of a molehill"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13738659v> .
 
 liden:make_a_mountain_out_of_a_molehill_form a ontolex:form ;
 	ontolex:writtenRep "make a mountain out of a molehill"@en .
@@ -5532,24 +5721,6 @@ liden:neither_a_borrower_or_a_lender_be_sense a ontolex:LexicalSense ;
 liden:neither_a_borrower_or_a_lender_be_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf liden:neither_a_borrower_or_a_lender_be_sense ;
 	skos:definition "it is difficult to be friends with someone who owes you money"@en .
-
-liden:thats_the_heart_of_the_matter_ a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
-	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
-	ontolex:sense liden:thats_the_heart_of_the_matter__sense ;
-	ontolex:canonicalForm liden:thats_the_heart_of_the_matter__form ;
-	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "that's the heart of the matter. ?"@en .
-
-liden:thats_the_heart_of_the_matter__form a ontolex:form ;
-	ontolex:writtenRep "that's the heart of the matter. ?"@en .
-
-liden:thats_the_heart_of_the_matter__sense a ontolex:LexicalSense ;
-	ontolex:reference liden:thats_the_heart_of_the_matter__def .
-
-liden:thats_the_heart_of_the_matter__def a ontolex:LexicalConcept ;
-	ontolex:isConceptOf liden:thats_the_heart_of_the_matter__sense ;
-	skos:definition "the main problem of a situation"@en .
 
 liden:the_bottom_line a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
@@ -5647,7 +5818,8 @@ liden:a_skeleton_in_the_closet a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense liden:a_skeleton_in_the_closet_sense ;
 	ontolex:canonicalForm liden:a_skeleton_in_the_closet_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "a skeleton in the closet"@en .
+	rdfs:label "a skeleton in the closet"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00676021n> .
 
 liden:a_skeleton_in_the_closet_form a ontolex:form ;
 	ontolex:writtenRep "a skeleton in the closet"@en .
@@ -6019,22 +6191,22 @@ liden:down_the_drain_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf liden:down_the_drain_sense ;
 	skos:definition "on the way to being lost or wasted"@en .
 
-<http://lid.tabsolucoes.com/en/what’s_eating_you> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+<http://lid.aksw.org/en/what’s_eating_you> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/eng.html> ;
-	ontolex:sense <http://lid.tabsolucoes.com/en/what’s_eating_you_sense> ;
-	ontolex:canonicalForm <http://lid.tabsolucoes.com/en/what’s_eating_you_form> ;
+	ontolex:sense <http://lid.aksw.org/en/what’s_eating_you_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/en/what’s_eating_you_form> ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
 	rdfs:label "what’s eating you?"@en .
 
-<http://lid.tabsolucoes.com/en/what’s_eating_you_form> a ontolex:form ;
+<http://lid.aksw.org/en/what’s_eating_you_form> a ontolex:form ;
 	ontolex:writtenRep "what’s eating you?"@en .
 
-<http://lid.tabsolucoes.com/en/what’s_eating_you_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.tabsolucoes.com/en/what’s_eating_you_def> .
+<http://lid.aksw.org/en/what’s_eating_you_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/en/what’s_eating_you_def> .
 
-<http://lid.tabsolucoes.com/en/what’s_eating_you_def> a ontolex:LexicalConcept ;
-	ontolex:isConceptOf <http://lid.tabsolucoes.com/en/what’s_eating_you_sense> ;
+<http://lid.aksw.org/en/what’s_eating_you_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/en/what’s_eating_you_sense> ;
 	skos:definition "this is a question of concern, asking if something’s bothering you"@en .
 
 liden:bend_over_backwards a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -6043,7 +6215,8 @@ liden:bend_over_backwards a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense liden:bend_over_backwards_sense ;
 	ontolex:canonicalForm liden:bend_over_backwards_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "bend over backwards"@en .
+	rdfs:label "bend over backwards"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00083408v> .
 
 liden:bend_over_backwards_form a ontolex:form ;
 	ontolex:writtenRep "bend over backwards"@en .
@@ -6115,7 +6288,8 @@ liden:throw_a_spanner_in_the_works a ontolex:LexicalEntry , ontolex:MultiwordExp
 	ontolex:sense liden:throw_a_spanner_in_the_works_sense ;
 	ontolex:canonicalForm liden:throw_a_spanner_in_the_works_form ;
 	dbo:location <http://dbpedia.org/page/United_States> ;
-	rdfs:label "throw a spanner in the works"@en .
+	rdfs:label "throw a spanner in the works"@en ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13726939v> .
 
 liden:throw_a_spanner_in_the_works_form a ontolex:form ;
 	ontolex:writtenRep "throw a spanner in the works"@en .

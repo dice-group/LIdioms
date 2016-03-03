@@ -5,7 +5,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix lidde: <http://lid.tabsolucoes.com/de/> .
+@prefix lidde: <http://lid.aksw.org/de/> .
 
 
 lidde:abbitte_leisten a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -26,13 +26,32 @@ lidde:abbitte_leisten_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:abbitte_leisten_sense ;
 	skos:definition "to ask for pardon, make amends"@en .
 
+lidde:um_den_heißen_brei_herumreden a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
+	ontolex:sense lidde:um_den_heißen_brei_herumreden_sense ;
+	ontolex:canonicalForm lidde:um_den_heißen_brei_herumreden_form ;
+	dbo:location <http://dbpedia.org/page/Germany> ;
+	rdfs:label "um den heißen brei herumreden"@de .
+
+lidde:um_den_heißen_brei_herumreden_form a ontolex:form ;
+	ontolex:writtenRep "um den heißen brei herumreden"@de .
+
+lidde:um_den_heißen_brei_herumreden_sense a ontolex:LexicalSense ;
+	ontolex:reference lidde:um_den_heißen_brei_herumreden_def .
+
+lidde:um_den_heißen_brei_herumreden_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidde:um_den_heißen_brei_herumreden_sense ;
+	skos:definition "speaking avoiding the main topic"@en .
+
 lidde:ach_was a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ach_was_sense ;
 	ontolex:canonicalForm lidde:ach_was_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "ach was!"@de .
+	rdfs:label "ach was!"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s01257611n> .
 
 lidde:ach_was_form a ontolex:form ;
 	ontolex:writtenRep "ach was!"@de .
@@ -44,13 +63,32 @@ lidde:ach_was_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ach_was_sense ;
 	skos:definition "of course not!"@en .
 
+lidde:da_kannst_du_gift_drauf_nehmen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
+	ontolex:sense lidde:da_kannst_du_gift_drauf_nehmen_sense ;
+	ontolex:canonicalForm lidde:da_kannst_du_gift_drauf_nehmen_form ;
+	dbo:location <http://dbpedia.org/page/Germany> ;
+	rdfs:label "da kannst du gift drauf nehmen"@de .
+
+lidde:da_kannst_du_gift_drauf_nehmen_form a ontolex:form ;
+	ontolex:writtenRep "da kannst du gift drauf nehmen"@de .
+
+lidde:da_kannst_du_gift_drauf_nehmen_sense a ontolex:LexicalSense ;
+	ontolex:reference lidde:da_kannst_du_gift_drauf_nehmen_def .
+
+lidde:da_kannst_du_gift_drauf_nehmen_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidde:da_kannst_du_gift_drauf_nehmen_sense ;
+	skos:definition "absolutely ​certain about truth of something"@en .
+
 lidde:alle_jubeljahre a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:alle_jubeljahre_sense ;
 	ontolex:canonicalForm lidde:alle_jubeljahre_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "alle jubeljahre"@de .
+	rdfs:label "alle jubeljahre"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13739814r> .
 
 lidde:alle_jubeljahre_form a ontolex:form ;
 	ontolex:writtenRep "alle jubeljahre"@de .
@@ -61,6 +99,24 @@ lidde:alle_jubeljahre_sense a ontolex:LexicalSense ;
 lidde:alle_jubeljahre_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:alle_jubeljahre_sense ;
 	skos:definition "something happening seldom"@en .
+
+lidde:etwas_in_einem_aufwasch_erledigen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
+	ontolex:sense lidde:etwas_in_einem_aufwasch_erledigen_sense ;
+	ontolex:canonicalForm lidde:etwas_in_einem_aufwasch_erledigen_form ;
+	dbo:location <http://dbpedia.org/page/Germany> ;
+	rdfs:label "etwas in einem aufwasch erledigen"@de .
+
+lidde:etwas_in_einem_aufwasch_erledigen_form a ontolex:form ;
+	ontolex:writtenRep "etwas in einem aufwasch erledigen"@de .
+
+lidde:etwas_in_einem_aufwasch_erledigen_sense a ontolex:LexicalSense ;
+	ontolex:reference lidde:etwas_in_einem_aufwasch_erledigen_def .
+
+lidde:etwas_in_einem_aufwasch_erledigen_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidde:etwas_in_einem_aufwasch_erledigen_sense ;
+	skos:definition "to solve two problem through one action"@en .
 
 lidde:alles_grau_in_grau_malen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
@@ -80,6 +136,24 @@ lidde:alles_grau_in_grau_malen_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:alles_grau_in_grau_malen_sense ;
 	skos:definition "to be pessimistic"@en .
 
+lidde:den_nagel_auf_den_kopf_treffen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
+	ontolex:sense lidde:den_nagel_auf_den_kopf_treffen_sense ;
+	ontolex:canonicalForm lidde:den_nagel_auf_den_kopf_treffen_form ;
+	dbo:location <http://dbpedia.org/page/Germany> ;
+	rdfs:label "den nagel auf den kopf treffen"@de .
+
+lidde:den_nagel_auf_den_kopf_treffen_form a ontolex:form ;
+	ontolex:writtenRep "den nagel auf den kopf treffen"@de .
+
+lidde:den_nagel_auf_den_kopf_treffen_sense a ontolex:LexicalSense ;
+	ontolex:reference lidde:den_nagel_auf_den_kopf_treffen_def .
+
+lidde:den_nagel_auf_den_kopf_treffen_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidde:den_nagel_auf_den_kopf_treffen_sense ;
+	skos:definition "to do something exactly correct"@en .
+
 lidde:andere_lander_andere_sitten a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
@@ -97,6 +171,24 @@ lidde:andere_lander_andere_sitten_sense a ontolex:LexicalSense ;
 lidde:andere_lander_andere_sitten_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:andere_lander_andere_sitten_sense ;
 	skos:definition "respect the beliefs and practices of a local culture"@en .
+
+lidde:jdm_die_daumen_drucken a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
+	ontolex:sense lidde:jdm_die_daumen_drucken_sense ;
+	ontolex:canonicalForm lidde:jdm_die_daumen_drucken_form ;
+	dbo:location <http://dbpedia.org/page/Germany> ;
+	rdfs:label "jdm die daumen drucken"@de .
+
+lidde:jdm_die_daumen_drucken_form a ontolex:form ;
+	ontolex:writtenRep "jdm die daumen drucken"@de .
+
+lidde:jdm_die_daumen_drucken_sense a ontolex:LexicalSense ;
+	ontolex:reference lidde:jdm_die_daumen_drucken_def .
+
+lidde:jdm_die_daumen_drucken_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidde:jdm_die_daumen_drucken_sense ;
+	skos:definition "to hope that good things happen in according to thinking or praying"@en .
 
 lidde:arbeit_macht_das_leben_suß a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
@@ -320,7 +412,8 @@ lidde:aus_einer_mucke_einen_elefanten_machen a ontolex:LexicalEntry , ontolex:Mu
 	ontolex:sense lidde:aus_einer_mucke_einen_elefanten_machen_sense ;
 	ontolex:canonicalForm lidde:aus_einer_mucke_einen_elefanten_machen_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "aus einer mücke einen elefanten machen"@de .
+	rdfs:label "aus einer mücke einen elefanten machen"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13738659v> .
 
 lidde:aus_einer_mucke_einen_elefanten_machen_form a ontolex:form ;
 	ontolex:writtenRep "aus einer mücke einen elefanten machen"@de .
@@ -1370,7 +1463,8 @@ lidde:dumm_wie_bohnenstroh a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	ontolex:sense lidde:dumm_wie_bohnenstroh_sense ;
 	ontolex:canonicalForm lidde:dumm_wie_bohnenstroh_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "dumm wie bohnenstroh"@de .
+	rdfs:label "dumm wie bohnenstroh"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13658639a> .
 
 lidde:dumm_wie_bohnenstroh_form a ontolex:form ;
 	ontolex:writtenRep "dumm wie bohnenstroh"@de .
@@ -1388,7 +1482,8 @@ lidde:dumm_wie_brot a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidde:dumm_wie_brot_sense ;
 	ontolex:canonicalForm lidde:dumm_wie_brot_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "dumm wie brot"@de .
+	rdfs:label "dumm wie brot"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13658639a> .
 
 lidde:dumm_wie_brot_form a ontolex:form ;
 	ontolex:writtenRep "dumm wie brot"@de .
@@ -1442,7 +1537,8 @@ lidde:ehre_wem_ehre_gebuhrt a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense lidde:ehre_wem_ehre_gebuhrt_sense ;
 	ontolex:canonicalForm lidde:ehre_wem_ehre_gebuhrt_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "ehre, wem ehre gebührt"@de .
+	rdfs:label "ehre, wem ehre gebührt"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00021834n> .
 
 lidde:ehre_wem_ehre_gebuhrt_form a ontolex:form ;
 	ontolex:writtenRep "ehre, wem ehre gebührt"@de .
@@ -1748,7 +1844,8 @@ lidde:einen_vogel_haben a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidde:einen_vogel_haben_sense ;
 	ontolex:canonicalForm lidde:einen_vogel_haben_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "einen vogel haben"@de .
+	rdfs:label "einen vogel haben"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s05584523n> .
 
 lidde:einen_vogel_haben_form a ontolex:form ;
 	ontolex:writtenRep "einen vogel haben"@de .
@@ -2000,7 +2097,8 @@ lidde:fix_und_fertig_sein a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidde:fix_und_fertig_sein_sense ;
 	ontolex:canonicalForm lidde:fix_und_fertig_sein_form ;
 	dbo:location <http://dbpedia.org/page/Germany> ;
-	rdfs:label "fix und fertig sein"@de .
+	rdfs:label "fix und fertig sein"@de ;
+	owl:sameAs <http://babelnet.org/rdf/page/s05305544n> .
 
 lidde:fix_und_fertig_sein_form a ontolex:form ;
 	ontolex:writtenRep "fix und fertig sein"@de .
@@ -2317,3 +2415,47 @@ lidde:im_eimer_sense a ontolex:LexicalSense ;
 lidde:im_eimer_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:im_eimer_sense ;
 	skos:definition "to waste or lose something"@en .
+
+lidde:die_axt_im_haus_erspart_den_zimmermann owl:sameAs <http://kaiko.getalp.org/dbnary/deu/die_Axt_im_Haus_erspart_den_Zimmermann__Sprichwort__1> .
+lidde:gleich_und_gleich_gesellt_sich_gern owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Gleich_und_Gleich_gesellt_sich_gern__Sprichwort__1> .
+lidde:abbitte_leisten owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Abbitte_leisten__Redewendung__1> .
+lidde:auf_draht_sein owl:sameAs <http://kaiko.getalp.org/dbnary/deu/auf_Draht_sein__Redewendung__1> .
+lidde:die_kirche_im_dorf_lassen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/die_Kirche_im_Dorf_lassen__Redewendung__1> .
+lidde:etwas_auf_die_lange_bank_schieben owl:sameAs <http://kaiko.getalp.org/dbnary/deu/etwas_auf_die_lange_Bank_schieben__Redewendung__1> .
+lidde:aus_den_augen_aus_dem_sinn owl:sameAs <http://kaiko.getalp.org/dbnary/deu/aus_den_Augen,_aus_dem_Sinn__Sprichwort__1> .
+lidde:einen_abbeißen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/einen_abbeißen__Redewendung__1> .
+lidde:da_liegt_der_hund_begraben owl:sameAs <http://kaiko.getalp.org/dbnary/deu/da_liegt_der_Hund_begraben__Redewendung__1> .
+lidde:dumm_wie_bohnenstroh owl:sameAs <http://kaiko.getalp.org/dbnary/deu/dumm_wie_Bohnenstroh__Redewendung__1> .
+lidde:einen_vogel_haben owl:sameAs <http://kaiko.getalp.org/dbnary/deu/einen_Vogel_haben__Redewendung__1> .
+lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht owl:sameAs <http://kaiko.getalp.org/dbnary/deu/der_Krug_geht_so_lange_zum_Brunnen,_bis_er_bricht__Sprichwort__1> .
+lidde:hinter_den_kulissen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/hinter_den_Kulissen__Redewendung__1> .
+lidde:dreck_am_stecken_haben owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Dreck_am_Stecken_haben__Redewendung__1> .
+lidde:hahn_im_korb_sein owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Hahn_im_Korb_sein__Redewendung__1> .
+lidde:etwas_aus_dem_armel_schutteln owl:sameAs <http://kaiko.getalp.org/dbnary/deu/etwas_aus_dem_Ärmel_schütteln__Redewendung__1> .
+lidde:eine_hand_wascht_die_andere owl:sameAs <http://kaiko.getalp.org/dbnary/deu/eine_Hand_wäscht_die_andere__Sprichwort__1> .
+lidde:alle_jubeljahre owl:sameAs <http://kaiko.getalp.org/dbnary/deu/alle_Jubeljahre__Redewendung__1> .
+lidde:hals_uber_kopf owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Hals_über_Kopf__Redewendung__1> .
+lidde:ein_ungluck_kommt_selten_allein owl:sameAs <http://kaiko.getalp.org/dbnary/deu/ein_Unglück_kommt_selten_allein__Sprichwort__1> .
+lidde:grottenschlecht owl:sameAs <http://kaiko.getalp.org/dbnary/deu/grottenschlecht__Adjektiv__1> .
+lidde:geld_wie_heu_haben owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Geld_wie_Heu_haben__Redewendung__1> .
+lidde:aufs_ganze_gehen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/aufs_Ganze_gehen__Redewendung__1> .
+lidde:auf_die_pauke_hauen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/auf_die_Pauke_hauen__Redewendung__1> .
+lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul owl:sameAs <http://kaiko.getalp.org/dbnary/deu/einem_geschenkten_Gaul_schaut_man_nicht_ins_Maul__Sprichwort__1> .
+lidde:aus_einer_mucke_einen_elefanten_machen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/aus_einer_Mücke_einen_Elefanten_machen__Redewendung__1> .
+lidde:es_ist_nicht_alles_gold_was_glanzt owl:sameAs <http://kaiko.getalp.org/dbnary/deu/es_ist_nicht_alles_Gold,_was_glänzt__Sprichwort__1> .
+lidde:der_apfel_fallt_nicht_weit_vom_stamm owl:sameAs <http://kaiko.getalp.org/dbnary/deu/der_Apfel_fällt_nicht_weit_vom_Stamm__Sprichwort__1> .
+lidde:farbe_bekennen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Farbe_bekennen__Redewendung__1> .
+lidde:ein_herz_und_eine_seele_sein owl:sameAs <http://kaiko.getalp.org/dbnary/deu/ein_Herz_und_eine_Seele_sein__Redewendung__1> .
+lidde:das_a_und_o owl:sameAs <http://kaiko.getalp.org/dbnary/deu/das_A_und_O__Redewendung__1> .
+lidde:boses_im_schilde_fuhren owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Böses_im_Schilde_führen__Redewendung__1> .
+lidde:bis_in_die_puppen owl:sameAs <http://kaiko.getalp.org/dbnary/deu/bis_in_die_Puppen__Redewendung__1> .
+lidde:fix_und_fertig_sein owl:sameAs <http://kaiko.getalp.org/dbnary/deu/fix_und_fertig__Redewendung__1> .
+lidde:einen_langen_bart_haben owl:sameAs <http://kaiko.getalp.org/dbnary/deu/einen_Bart_haben__Redewendung__1> .
+lidde:im_eimer owl:sameAs <http://kaiko.getalp.org/dbnary/deu/im_Eimer_sein__Redewendung__1> .
+lidde:auf_draht_sein owl:sameAs <http://kaiko.getalp.org/dbnary/deu/auf_sein__Verb__1> .
+lidde:ein_haar_in_der_suppe owl:sameAs <http://kaiko.getalp.org/dbnary/deu/ein_Haar_in_der_Suppe_finden__Redewendung__1> .
+lidde:bekannt_wie_ein_bunter_hund owl:sameAs <http://kaiko.getalp.org/dbnary/deu/bekannt_sein_wie_ein_bunter_Hund__Redewendung__1> .
+lidde:bei_ihm_ist_hopfen_und_malz_verloren owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Hopfen_und_Malz_ist_verloren__Redewendung__1> .
+lidde:das_ei_des_kolumbus owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Ei_des_Kolumbus__Redewendung__1> .
+lidde:das_a_und_o owl:sameAs <http://kaiko.getalp.org/dbnary/deu/das_A_und_das_O__Redewendung__1> .
+lidde:das_a_und_o owl:sameAs <http://kaiko.getalp.org/dbnary/deu/A_und_O__Wortverbindung__1> .

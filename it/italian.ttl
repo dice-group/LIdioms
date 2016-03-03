@@ -1,11 +1,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix lexinfo: <http://lexinfo.net/ontologies/2.0/lexinfo.owl#> .
-@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix lidit: <http://lid.tabsolucoes.com/it/> .
+@prefix lidit: <http://lid.aksw.org/it/> .
 
 
 lidit:a_casa_del_diavolo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -32,7 +32,8 @@ lidit:a_piede_libero a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:a_piede_libero_sense ;
 	ontolex:canonicalForm lidit:a_piede_libero_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "a piede libero"@it .
+	rdfs:label "a piede libero"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08840981n> .
 
 lidit:a_piede_libero_form a ontolex:form ;
 	ontolex:writtenRep "a piede libero"@it .
@@ -68,7 +69,8 @@ lidit:ad_ogni_morte_di_papa a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	ontolex:sense lidit:ad_ogni_morte_di_papa_sense ;
 	ontolex:canonicalForm lidit:ad_ogni_morte_di_papa_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "ad ogni morte di papa"@it .
+	rdfs:label "ad ogni morte di papa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08861904n> .
 
 lidit:ad_ogni_morte_di_papa_form a ontolex:form ;
 	ontolex:writtenRep "ad ogni morte di papa"@it .
@@ -86,7 +88,8 @@ lidit:affibbiare a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:affibbiare_sense ;
 	ontolex:canonicalForm lidit:affibbiare_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "affibbiare"@it .
+	rdfs:label "affibbiare"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00084179v> .
 
 lidit:affibbiare_form a ontolex:form ;
 	ontolex:writtenRep "affibbiare"@it .
@@ -158,7 +161,8 @@ lidit:alle_calende_greche a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:alle_calende_greche_sense ;
 	ontolex:canonicalForm lidit:alle_calende_greche_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "alle calende greche"@it .
+	rdfs:label "alle calende greche"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13768498n> .
 
 lidit:alle_calende_greche_form a ontolex:form ;
 	ontolex:writtenRep "alle calende greche"@it .
@@ -194,7 +198,8 @@ lidit:alto_come_un_soldo_di_cacio a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	ontolex:sense lidit:alto_come_un_soldo_di_cacio_sense ;
 	ontolex:canonicalForm lidit:alto_come_un_soldo_di_cacio_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "alto come un soldo di cacio"@it .
+	rdfs:label "alto come un soldo di cacio"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13764758a> .
 
 lidit:alto_come_un_soldo_di_cacio_form a ontolex:form ;
 	ontolex:writtenRep "alto come un soldo di cacio"@it .
@@ -518,7 +523,8 @@ lidit:battere_il_ferro_finche_e_caldo a ontolex:LexicalEntry , ontolex:Multiword
 	ontolex:sense lidit:battere_il_ferro_finche_e_caldo_sense ;
 	ontolex:canonicalForm lidit:battere_il_ferro_finche_e_caldo_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "battere il ferro finché è caldo"@it .
+	rdfs:label "battere il ferro finché è caldo"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13622049v> .
 
 lidit:battere_il_ferro_finche_e_caldo_form a ontolex:form ;
 	ontolex:writtenRep "battere il ferro finché è caldo"@it .
@@ -590,7 +596,8 @@ lidit:buttare_il_bambino_con_lacqua_sporca a ontolex:LexicalEntry , ontolex:Mult
 	ontolex:sense lidit:buttare_il_bambino_con_lacqua_sporca_sense ;
 	ontolex:canonicalForm lidit:buttare_il_bambino_con_lacqua_sporca_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "buttare il bambino con l'acqua sporca"@it .
+	rdfs:label "buttare il bambino con l'acqua sporca"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13603417v> .
 
 lidit:buttare_il_bambino_con_lacqua_sporca_form a ontolex:form ;
 	ontolex:writtenRep "buttare il bambino con l'acqua sporca"@it .
@@ -770,7 +777,8 @@ lidit:cercare_il_pelo_nelluovo a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense lidit:cercare_il_pelo_nelluovo_sense ;
 	ontolex:canonicalForm lidit:cercare_il_pelo_nelluovo_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "cercare il pelo nell'uovo"@it .
+	rdfs:label "cercare il pelo nell'uovo"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13753496v> .
 
 lidit:cercare_il_pelo_nelluovo_form a ontolex:form ;
 	ontolex:writtenRep "cercare il pelo nell'uovo"@it .
@@ -824,7 +832,8 @@ lidit:cogliere_qualcuno_con_le_mani_nel_sacco a ontolex:LexicalEntry , ontolex:M
 	ontolex:sense lidit:cogliere_qualcuno_con_le_mani_nel_sacco_sense ;
 	ontolex:canonicalForm lidit:cogliere_qualcuno_con_le_mani_nel_sacco_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "cogliere qualcuno con le mani nel sacco"@it .
+	rdfs:label "cogliere qualcuno con le mani nel sacco"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13701852a> .
 
 lidit:cogliere_qualcuno_con_le_mani_nel_sacco_form a ontolex:form ;
 	ontolex:writtenRep "cogliere qualcuno con le mani nel sacco"@it .
@@ -896,7 +905,8 @@ lidit:cuore_doro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:cuore_doro_sense ;
 	ontolex:canonicalForm lidit:cuore_doro_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "cuore d'oro"@it .
+	rdfs:label "cuore d'oro"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s04026700n> .
 
 lidit:cuore_doro_form a ontolex:form ;
 	ontolex:writtenRep "cuore d'oro"@it .
@@ -914,7 +924,8 @@ lidit:da_cosa_nasce_cosa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:da_cosa_nasce_cosa_sense ;
 	ontolex:canonicalForm lidit:da_cosa_nasce_cosa_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "da cosa nasce cosa"@it .
+	rdfs:label "da cosa nasce cosa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s15874251n> .
 
 lidit:da_cosa_nasce_cosa_form a ontolex:form ;
 	ontolex:writtenRep "da cosa nasce cosa"@it .
@@ -1004,7 +1015,8 @@ lidit:darsela_a_gambe a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:darsela_a_gambe_sense ;
 	ontolex:canonicalForm lidit:darsela_a_gambe_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "darsela a gambe"@it .
+	rdfs:label "darsela a gambe"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00082164v> .
 
 lidit:darsela_a_gambe_form a ontolex:form ;
 	ontolex:writtenRep "darsela a gambe"@it .
@@ -1016,22 +1028,22 @@ lidit:darsela_a_gambe_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidit:darsela_a_gambe_sense ;
 	skos:definition "to run away"@en .
 
-<http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
-	ontolex:sense <http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> ;
-	ontolex:canonicalForm <http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_form> ;
+	ontolex:sense <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_form> ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
 	rdfs:label "dente avvelenato – ho il dente avvelenato"@it .
 
-<http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_form> a ontolex:form ;
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_form> a ontolex:form ;
 	ontolex:writtenRep "dente avvelenato – ho il dente avvelenato"@it .
 
-<http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_def> .
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_def> .
 
-<http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_def> a ontolex:LexicalConcept ;
-	ontolex:isConceptOf <http://lid.tabsolucoes.com/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> ;
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> ;
 	skos:definition "i am quite upset"@en .
 
 lidit:dio_ce_ne_scampi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -1184,7 +1196,8 @@ lidit:essere_al_verde a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:essere_al_verde_sense ;
 	ontolex:canonicalForm lidit:essere_al_verde_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "essere al verde"@it .
+	rdfs:label "essere al verde"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s09069147n> .
 
 lidit:essere_al_verde_form a ontolex:form ;
 	ontolex:writtenRep "essere al verde"@it .
@@ -1382,7 +1395,8 @@ lidit:fare_il_passo_più_lungo_della_gamba a ontolex:LexicalEntry , ontolex:Mult
 	ontolex:sense lidit:fare_il_passo_più_lungo_della_gamba_sense ;
 	ontolex:canonicalForm lidit:fare_il_passo_più_lungo_della_gamba_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "fare il passo più lungo della gamba"@it .
+	rdfs:label "fare il passo più lungo della gamba"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13638257v> .
 
 lidit:fare_il_passo_più_lungo_della_gamba_form a ontolex:form ;
 	ontolex:writtenRep "fare il passo più lungo della gamba"@it .
@@ -1418,7 +1432,8 @@ lidit:fare_orecchi_da_mercante a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense lidit:fare_orecchi_da_mercante_sense ;
 	ontolex:canonicalForm lidit:fare_orecchi_da_mercante_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "fare orecchi da mercante"@it .
+	rdfs:label "fare orecchi da mercante"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13619147v> .
 
 lidit:fare_orecchi_da_mercante_form a ontolex:form ;
 	ontolex:writtenRep "fare orecchi da mercante"@it .
@@ -1454,7 +1469,8 @@ lidit:fare_una_figuraccia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:fare_una_figuraccia_sense ;
 	ontolex:canonicalForm lidit:fare_una_figuraccia_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "fare una figuraccia"@it .
+	rdfs:label "fare una figuraccia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13672804v> .
 
 lidit:fare_una_figuraccia_form a ontolex:form ;
 	ontolex:writtenRep "fare una figuraccia"@it .
@@ -1526,7 +1542,8 @@ lidit:fuori_di_testa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:fuori_di_testa_sense ;
 	ontolex:canonicalForm lidit:fuori_di_testa_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "fuori di testa"@it .
+	rdfs:label "fuori di testa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00027640n> .
 
 lidit:fuori_di_testa_form a ontolex:form ;
 	ontolex:writtenRep "fuori di testa"@it .
@@ -1562,7 +1579,8 @@ lidit:gatta_da_pelare a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:gatta_da_pelare_sense ;
 	ontolex:canonicalForm lidit:gatta_da_pelare_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "gatta da pelare"@it .
+	rdfs:label "gatta da pelare"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13667786n> .
 
 lidit:gatta_da_pelare_form a ontolex:form ;
 	ontolex:writtenRep "gatta da pelare"@it .
@@ -1634,7 +1652,8 @@ lidit:guai a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:guai_sense ;
 	ontolex:canonicalForm lidit:guai_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "guai"@it .
+	rdfs:label "guai"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00078424n> .
 
 lidit:guai_form a ontolex:form ;
 	ontolex:writtenRep "guai"@it .
@@ -1760,7 +1779,8 @@ lidit:in_bocca_al_lupo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:in_bocca_al_lupo_sense ;
 	ontolex:canonicalForm lidit:in_bocca_al_lupo_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "in bocca al lupo!"@it .
+	rdfs:label "in bocca al lupo!"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s02657915n> .
 
 lidit:in_bocca_al_lupo_form a ontolex:form ;
 	ontolex:writtenRep "in bocca al lupo!"@it .
@@ -1796,7 +1816,8 @@ lidit:labito_non_fa_il_monaco a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	ontolex:sense lidit:labito_non_fa_il_monaco_sense ;
 	ontolex:canonicalForm lidit:labito_non_fa_il_monaco_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "l'abito non fa il monaco"@it .
+	rdfs:label "l'abito non fa il monaco"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08982674n> .
 
 lidit:labito_non_fa_il_monaco_form a ontolex:form ;
 	ontolex:writtenRep "l'abito non fa il monaco"@it .
@@ -1976,7 +1997,8 @@ lidit:mandare_a_monte a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:mandare_a_monte_sense ;
 	ontolex:canonicalForm lidit:mandare_a_monte_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "mandare a monte"@it .
+	rdfs:label "mandare a monte"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00091031v> .
 
 lidit:mandare_a_monte_form a ontolex:form ;
 	ontolex:writtenRep "mandare a monte"@it .
@@ -1994,7 +2016,8 @@ lidit:menare_il_can_per_laia a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	ontolex:sense lidit:menare_il_can_per_laia_sense ;
 	ontolex:canonicalForm lidit:menare_il_can_per_laia_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "menare il can per l'aia"@it .
+	rdfs:label "menare il can per l'aia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s09067531n> .
 
 lidit:menare_il_can_per_laia_form a ontolex:form ;
 	ontolex:writtenRep "menare il can per l'aia"@it .
@@ -2372,7 +2395,8 @@ lidit:per_favore_non_rompermi_le_palle a ontolex:LexicalEntry , ontolex:Multiwor
 	ontolex:sense lidit:per_favore_non_rompermi_le_palle_sense ;
 	ontolex:canonicalForm lidit:per_favore_non_rompermi_le_palle_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "per favore, non rompermi le palle"@it .
+	rdfs:label "per favore, non rompermi le palle"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00116627r> .
 
 lidit:per_favore_non_rompermi_le_palle_form a ontolex:form ;
 	ontolex:writtenRep "per favore, non rompermi le palle"@it .
@@ -2444,7 +2468,8 @@ lidit:piove_sul_bagnato a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:piove_sul_bagnato_sense ;
 	ontolex:canonicalForm lidit:piove_sul_bagnato_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "piove sul bagnato"@it .
+	rdfs:label "piove sul bagnato"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08840902n> .
 
 lidit:piove_sul_bagnato_form a ontolex:form ;
 	ontolex:writtenRep "piove sul bagnato"@it .
@@ -2534,7 +2559,8 @@ lidit:quando_gli_asini_voleranno a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	ontolex:sense lidit:quando_gli_asini_voleranno_sense ;
 	ontolex:canonicalForm lidit:quando_gli_asini_voleranno_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "quando gli asini voleranno"@it .
+	rdfs:label "quando gli asini voleranno"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13744788n> .
 
 lidit:quando_gli_asini_voleranno_form a ontolex:form ;
 	ontolex:writtenRep "quando gli asini voleranno"@it .
@@ -2600,22 +2626,22 @@ lidit:questa_cosa_mi_sta_sullo_stomaco_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidit:questa_cosa_mi_sta_sullo_stomaco_sense ;
 	skos:definition "this thing is really unpleasant and annoying. often also said of people (questa persona mi sta sullo stomaco)"@en .
 
-<http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
-	ontolex:sense <http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> ;
-	ontolex:canonicalForm <http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_form> ;
+	ontolex:sense <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_form> ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
 	rdfs:label "questa cosa/ questa persona e’ amara come la cicoria"@it .
 
-<http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_form> a ontolex:form ;
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_form> a ontolex:form ;
 	ontolex:writtenRep "questa cosa/ questa persona e’ amara come la cicoria"@it .
 
-<http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_def> .
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_def> .
 
-<http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_def> a ontolex:LexicalConcept ;
-	ontolex:isConceptOf <http://lid.tabsolucoes.com/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> ;
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> ;
 	skos:definition "said of something bitter in taste, but also of a bitter person"@en .
 
 lidit:radere_al_suolo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -2642,7 +2668,8 @@ lidit:rendere_pan_per_focaccia a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	ontolex:sense lidit:rendere_pan_per_focaccia_sense ;
 	ontolex:canonicalForm lidit:rendere_pan_per_focaccia_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "rendere pan per focaccia"@it .
+	rdfs:label "rendere pan per focaccia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08841995n> .
 
 lidit:rendere_pan_per_focaccia_form a ontolex:form ;
 	ontolex:writtenRep "rendere pan per focaccia"@it .
@@ -2678,7 +2705,8 @@ lidit:rimboccarsi_le_maniche a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	ontolex:sense lidit:rimboccarsi_le_maniche_sense ;
 	ontolex:canonicalForm lidit:rimboccarsi_le_maniche_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "rimboccarsi le maniche"@it .
+	rdfs:label "rimboccarsi le maniche"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13789023> , <http://babelnet.org/rdf/page/s13789024v> .
 
 lidit:rimboccarsi_le_maniche_form a ontolex:form ;
 	ontolex:writtenRep "rimboccarsi le maniche"@it .
@@ -2816,22 +2844,22 @@ lidit:siamo_incasinati_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidit:siamo_incasinati_sense ;
 	skos:definition "we’re in a mess(or we’re very busy”)."@en .
 
-<http://lid.tabsolucoes.com/it/sono_cotta/o> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+<http://lid.aksw.org/it/sono_cotta/o> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
-	ontolex:sense <http://lid.tabsolucoes.com/it/sono_cotta/o_sense> ;
-	ontolex:canonicalForm <http://lid.tabsolucoes.com/it/sono_cotta/o_form> ;
+	ontolex:sense <http://lid.aksw.org/it/sono_cotta/o_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/it/sono_cotta/o_form> ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
 	rdfs:label "sono cotta/o"@it .
 
-<http://lid.tabsolucoes.com/it/sono_cotta/o_form> a ontolex:form ;
+<http://lid.aksw.org/it/sono_cotta/o_form> a ontolex:form ;
 	ontolex:writtenRep "sono cotta/o"@it .
 
-<http://lid.tabsolucoes.com/it/sono_cotta/o_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.tabsolucoes.com/it/sono_cotta/o_def> .
+<http://lid.aksw.org/it/sono_cotta/o_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/it/sono_cotta/o_def> .
 
-<http://lid.tabsolucoes.com/it/sono_cotta/o_def> a ontolex:LexicalConcept ;
-	ontolex:isConceptOf <http://lid.tabsolucoes.com/it/sono_cotta/o_sense> ;
+<http://lid.aksw.org/it/sono_cotta/o_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/it/sono_cotta/o_sense> ;
 	skos:definition "you are really like person"@en .
 
 lidit:sono_pieno_come_un_uovo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
@@ -2912,7 +2940,8 @@ lidit:testa_a_testa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:testa_a_testa_sense ;
 	ontolex:canonicalForm lidit:testa_a_testa_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "testa a testa"@it .
+	rdfs:label "testa a testa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00022970n> .
 
 lidit:testa_a_testa_form a ontolex:form ;
 	ontolex:writtenRep "testa a testa"@it .
@@ -2984,7 +3013,8 @@ lidit:tirare_le_cuoia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	ontolex:sense lidit:tirare_le_cuoia_sense ;
 	ontolex:canonicalForm lidit:tirare_le_cuoia_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "tirare le cuoia"@it .
+	rdfs:label "tirare le cuoia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03650753n> .
 
 lidit:tirare_le_cuoia_form a ontolex:form ;
 	ontolex:writtenRep "tirare le cuoia"@it .
@@ -3074,7 +3104,8 @@ lidit:tutto_fumo_e_niente_arrosto a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	ontolex:sense lidit:tutto_fumo_e_niente_arrosto_sense ;
 	ontolex:canonicalForm lidit:tutto_fumo_e_niente_arrosto_form ;
 	dbo:location <http://dbpedia.org/page/Italy> ;
-	rdfs:label "tutto fumo e niente arrosto"@it .
+	rdfs:label "tutto fumo e niente arrosto"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13669577a> .
 
 lidit:tutto_fumo_e_niente_arrosto_form a ontolex:form ;
 	ontolex:writtenRep "tutto fumo e niente arrosto"@it .
@@ -3121,3 +3152,8 @@ lidit:venire_alle_mani_sense a ontolex:LexicalSense ;
 lidit:venire_alle_mani_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidit:venire_alle_mani_sense ;
 	skos:definition "to fight"@en .
+
+lidit:essere_al_verde owl:sameAs <http://kaiko.getalp.org/dbnary/ita/essere_al_verde__espr__1> .
+lidit:fare_la_scarpetta owl:sameAs <http://kaiko.getalp.org/dbnary/ita/fare_la_scarpetta__loc_verb__1> .
+lidit:in_bocca_al_lupo owl:sameAs <http://kaiko.getalp.org/dbnary/ita/in_bocca_al_lupo__inter__1> .
+lidit:bellezza_acqua_e_sapone owl:sameAs <http://kaiko.getalp.org/dbnary/ita/acqua_e_sapone__agg__1> .

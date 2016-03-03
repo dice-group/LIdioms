@@ -358,3 +358,8 @@ lidtr:estar_nas_nuvens_trans_pt_en a vartrans:Translation ;
 	vartrans:source lidpt:estar_nas_nuvens_sense ;
 	vartrans:target liden:on_cloud_nine_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:matar_dois_coelhos_trans_pt_en a vartrans:Translation ;
+	vartrans:source lidpt:matar_dois_coelhos_com_uma_cajada_so_sense ;
+	vartrans:target liden:kill_two_birds_with_one_stone_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .

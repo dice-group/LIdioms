@@ -1,0 +1,3154 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexinfo: <http://lexinfo.net/ontologies/2.0/lexinfo.owl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix lidit: <http://lid.aksw.org/it/> .
+
+
+lidit:a_casa_del_diavolo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:a_casa_del_diavolo_sense ;
+	ontolex:canonicalForm lidit:a_casa_del_diavolo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "a casa del diavolo"@it .
+
+lidit:a_casa_del_diavolo_form a ontolex:form ;
+	ontolex:writtenRep "a casa del diavolo"@it .
+
+lidit:a_casa_del_diavolo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:a_casa_del_diavolo_def .
+
+lidit:a_casa_del_diavolo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:a_casa_del_diavolo_sense ;
+	skos:definition "a long distance to travel."@en .
+
+lidit:a_piede_libero a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:a_piede_libero_sense ;
+	ontolex:canonicalForm lidit:a_piede_libero_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "a piede libero"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08840981n> .
+
+lidit:a_piede_libero_form a ontolex:form ;
+	ontolex:writtenRep "a piede libero"@it .
+
+lidit:a_piede_libero_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:a_piede_libero_def .
+
+lidit:a_piede_libero_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:a_piede_libero_sense ;
+	skos:definition "out of jail"@en .
+
+lidit:acqua_in_bocca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:acqua_in_bocca_sense ;
+	ontolex:canonicalForm lidit:acqua_in_bocca_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "acqua in bocca!"@it .
+
+lidit:acqua_in_bocca_form a ontolex:form ;
+	ontolex:writtenRep "acqua in bocca!"@it .
+
+lidit:acqua_in_bocca_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:acqua_in_bocca_def .
+
+lidit:acqua_in_bocca_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:acqua_in_bocca_sense ;
+	skos:definition "keep quite, not to say anything."@en .
+
+lidit:ad_ogni_morte_di_papa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ad_ogni_morte_di_papa_sense ;
+	ontolex:canonicalForm lidit:ad_ogni_morte_di_papa_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "ad ogni morte di papa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08861904n> .
+
+lidit:ad_ogni_morte_di_papa_form a ontolex:form ;
+	ontolex:writtenRep "ad ogni morte di papa"@it .
+
+lidit:ad_ogni_morte_di_papa_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ad_ogni_morte_di_papa_def .
+
+lidit:ad_ogni_morte_di_papa_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ad_ogni_morte_di_papa_sense ;
+	skos:definition "something that happens very rarely"@en .
+
+lidit:affibbiare a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:affibbiare_sense ;
+	ontolex:canonicalForm lidit:affibbiare_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "affibbiare"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00084179v> .
+
+lidit:affibbiare_form a ontolex:form ;
+	ontolex:writtenRep "affibbiare"@it .
+
+lidit:affibbiare_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:affibbiare_def .
+
+lidit:affibbiare_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:affibbiare_sense ;
+	skos:definition "to pin something on someone"@en .
+
+lidit:affogare_in_un_bicchier_dacqua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:affogare_in_un_bicchier_dacqua_sense ;
+	ontolex:canonicalForm lidit:affogare_in_un_bicchier_dacqua_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "affogare in un bicchier d'acqua"@it .
+
+lidit:affogare_in_un_bicchier_dacqua_form a ontolex:form ;
+	ontolex:writtenRep "affogare in un bicchier d'acqua"@it .
+
+lidit:affogare_in_un_bicchier_dacqua_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:affogare_in_un_bicchier_dacqua_def .
+
+lidit:affogare_in_un_bicchier_dacqua_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:affogare_in_un_bicchier_dacqua_sense ;
+	skos:definition "to lose heart when encountering the smallest difficulty"@en .
+
+lidit:alla_come_viene_viene a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:alla_come_viene_viene_sense ;
+	ontolex:canonicalForm lidit:alla_come_viene_viene_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "alla come viene, viene"@it .
+
+lidit:alla_come_viene_viene_form a ontolex:form ;
+	ontolex:writtenRep "alla come viene, viene"@it .
+
+lidit:alla_come_viene_viene_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:alla_come_viene_viene_def .
+
+lidit:alla_come_viene_viene_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:alla_come_viene_viene_sense ;
+	skos:definition "to do something sloppily"@en .
+
+lidit:alla_meglio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:alla_meglio_sense ;
+	ontolex:canonicalForm lidit:alla_meglio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "alla meglio"@it .
+
+lidit:alla_meglio_form a ontolex:form ;
+	ontolex:writtenRep "alla meglio"@it .
+
+lidit:alla_meglio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:alla_meglio_def .
+
+lidit:alla_meglio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:alla_meglio_sense ;
+	skos:definition "to do something as best one can, in a hurry or under constraint, with the implication that this isn’t very good."@en .
+
+lidit:alle_calende_greche a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:alle_calende_greche_sense ;
+	ontolex:canonicalForm lidit:alle_calende_greche_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "alle calende greche"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13768498n> .
+
+lidit:alle_calende_greche_form a ontolex:form ;
+	ontolex:writtenRep "alle calende greche"@it .
+
+lidit:alle_calende_greche_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:alle_calende_greche_def .
+
+lidit:alle_calende_greche_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:alle_calende_greche_sense ;
+	skos:definition "never something will happen"@en .
+
+lidit:allo_sbaraglio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:allo_sbaraglio_sense ;
+	ontolex:canonicalForm lidit:allo_sbaraglio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "allo sbaraglio"@it .
+
+lidit:allo_sbaraglio_form a ontolex:form ;
+	ontolex:writtenRep "allo sbaraglio"@it .
+
+lidit:allo_sbaraglio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:allo_sbaraglio_def .
+
+lidit:allo_sbaraglio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:allo_sbaraglio_sense ;
+	skos:definition "to certain death."@en .
+
+lidit:alto_come_un_soldo_di_cacio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:alto_come_un_soldo_di_cacio_sense ;
+	ontolex:canonicalForm lidit:alto_come_un_soldo_di_cacio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "alto come un soldo di cacio"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13764758a> .
+
+lidit:alto_come_un_soldo_di_cacio_form a ontolex:form ;
+	ontolex:writtenRep "alto come un soldo di cacio"@it .
+
+lidit:alto_come_un_soldo_di_cacio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:alto_come_un_soldo_di_cacio_def .
+
+lidit:alto_come_un_soldo_di_cacio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:alto_come_un_soldo_di_cacio_sense ;
+	skos:definition "short; especially relating to when the subject was a small child"@en .
+
+lidit:alzare_il_gomito a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:alzare_il_gomito_sense ;
+	ontolex:canonicalForm lidit:alzare_il_gomito_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "alzare il gomito"@it .
+
+lidit:alzare_il_gomito_form a ontolex:form ;
+	ontolex:writtenRep "alzare il gomito"@it .
+
+lidit:alzare_il_gomito_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:alzare_il_gomito_def .
+
+lidit:alzare_il_gomito_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:alzare_il_gomito_sense ;
+	skos:definition "to drink too much"@en .
+
+lidit:andarci_coi_piedi_di_piombo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:andarci_coi_piedi_di_piombo_sense ;
+	ontolex:canonicalForm lidit:andarci_coi_piedi_di_piombo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "andarci coi piedi di piombo"@it .
+
+lidit:andarci_coi_piedi_di_piombo_form a ontolex:form ;
+	ontolex:writtenRep "andarci coi piedi di piombo"@it .
+
+lidit:andarci_coi_piedi_di_piombo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:andarci_coi_piedi_di_piombo_def .
+
+lidit:andarci_coi_piedi_di_piombo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:andarci_coi_piedi_di_piombo_sense ;
+	skos:definition "to be cautious"@en .
+
+lidit:andare_a_rotoli a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:andare_a_rotoli_sense ;
+	ontolex:canonicalForm lidit:andare_a_rotoli_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "andare a rotoli"@it .
+
+lidit:andare_a_rotoli_form a ontolex:form ;
+	ontolex:writtenRep "andare a rotoli"@it .
+
+lidit:andare_a_rotoli_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:andare_a_rotoli_def .
+
+lidit:andare_a_rotoli_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:andare_a_rotoli_sense ;
+	skos:definition "to fall apart, to become ruined"@en .
+
+lidit:andare_coi_piedi_di_piombo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:andare_coi_piedi_di_piombo_sense ;
+	ontolex:canonicalForm lidit:andare_coi_piedi_di_piombo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "andare coi piedi di piombo"@it .
+
+lidit:andare_coi_piedi_di_piombo_form a ontolex:form ;
+	ontolex:writtenRep "andare coi piedi di piombo"@it .
+
+lidit:andare_coi_piedi_di_piombo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:andare_coi_piedi_di_piombo_def .
+
+lidit:andare_coi_piedi_di_piombo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:andare_coi_piedi_di_piombo_sense ;
+	skos:definition "to proceed with extreme caution."@en .
+
+lidit:arrivare_dopo_la_puzza a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:arrivare_dopo_la_puzza_sense ;
+	ontolex:canonicalForm lidit:arrivare_dopo_la_puzza_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "arrivare dopo la puzza"@it .
+
+lidit:arrivare_dopo_la_puzza_form a ontolex:form ;
+	ontolex:writtenRep "arrivare dopo la puzza"@it .
+
+lidit:arrivare_dopo_la_puzza_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:arrivare_dopo_la_puzza_def .
+
+lidit:arrivare_dopo_la_puzza_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:arrivare_dopo_la_puzza_sense ;
+	skos:definition "action that was taken too late and is too feeble to be of any use."@en .
+
+lidit:attaccare_il_cappello a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:attaccare_il_cappello_sense ;
+	ontolex:canonicalForm lidit:attaccare_il_cappello_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "attaccare il cappello"@it .
+
+lidit:attaccare_il_cappello_form a ontolex:form ;
+	ontolex:writtenRep "attaccare il cappello"@it .
+
+lidit:attaccare_il_cappello_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:attaccare_il_cappello_def .
+
+lidit:attaccare_il_cappello_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:attaccare_il_cappello_sense ;
+	skos:definition "to hang up one’s hat: used of a man who marries a wealthy woman, and (presumably) doesn’t have to work anymore."@en .
+
+lidit:avere_il_prosciutto_sugli_occhi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_il_prosciutto_sugli_occhi_sense ;
+	ontolex:canonicalForm lidit:avere_il_prosciutto_sugli_occhi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere il prosciutto sugli occhi"@it .
+
+lidit:avere_il_prosciutto_sugli_occhi_form a ontolex:form ;
+	ontolex:writtenRep "avere il prosciutto sugli occhi"@it .
+
+lidit:avere_il_prosciutto_sugli_occhi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_il_prosciutto_sugli_occhi_def .
+
+lidit:avere_il_prosciutto_sugli_occhi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_il_prosciutto_sugli_occhi_sense ;
+	skos:definition "to be unable to see the truth, either figuratively (somebody’s trying to trick you and you don’t see it) or realistically (the referee didn’t see the foul as he had prosciutto over his eyes)"@en .
+
+lidit:avere_la_botte_piena_e_la_moglie_ubriaca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_la_botte_piena_e_la_moglie_ubriaca_sense ;
+	ontolex:canonicalForm lidit:avere_la_botte_piena_e_la_moglie_ubriaca_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere la botte piena e la moglie ubriaca"@it .
+
+lidit:avere_la_botte_piena_e_la_moglie_ubriaca_form a ontolex:form ;
+	ontolex:writtenRep "avere la botte piena e la moglie ubriaca"@it .
+
+lidit:avere_la_botte_piena_e_la_moglie_ubriaca_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_la_botte_piena_e_la_moglie_ubriaca_def .
+
+lidit:avere_la_botte_piena_e_la_moglie_ubriaca_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_la_botte_piena_e_la_moglie_ubriaca_sense ;
+	skos:definition "the impossibility of having something both ways, if those two ways conflict."@en .
+
+lidit:avere_la_faccia_come_il_culo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_la_faccia_come_il_culo_sense ;
+	ontolex:canonicalForm lidit:avere_la_faccia_come_il_culo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere la faccia come il culo"@it .
+
+lidit:avere_la_faccia_come_il_culo_form a ontolex:form ;
+	ontolex:writtenRep "avere la faccia come il culo"@it .
+
+lidit:avere_la_faccia_come_il_culo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_la_faccia_come_il_culo_def .
+
+lidit:avere_la_faccia_come_il_culo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_la_faccia_come_il_culo_sense ;
+	skos:definition "to have a bare-faced cheek."@en .
+
+lidit:avere_la_puzza_sotto_il_naso a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_la_puzza_sotto_il_naso_sense ;
+	ontolex:canonicalForm lidit:avere_la_puzza_sotto_il_naso_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere la puzza sotto il naso"@it .
+
+lidit:avere_la_puzza_sotto_il_naso_form a ontolex:form ;
+	ontolex:writtenRep "avere la puzza sotto il naso"@it .
+
+lidit:avere_la_puzza_sotto_il_naso_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_la_puzza_sotto_il_naso_def .
+
+lidit:avere_la_puzza_sotto_il_naso_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_la_puzza_sotto_il_naso_sense ;
+	skos:definition "you are sofisticate and to feel more important to other. to be arrogant."@en .
+
+lidit:avere_le_mani_doro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_le_mani_doro_sense ;
+	ontolex:canonicalForm lidit:avere_le_mani_doro_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere le mani d'oro"@it .
+
+lidit:avere_le_mani_doro_form a ontolex:form ;
+	ontolex:writtenRep "avere le mani d'oro"@it .
+
+lidit:avere_le_mani_doro_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_le_mani_doro_def .
+
+lidit:avere_le_mani_doro_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_le_mani_doro_sense ;
+	skos:definition "to be gifted in doing things"@en .
+
+lidit:avere_le_mani_di_pastafrolla a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_le_mani_di_pastafrolla_sense ;
+	ontolex:canonicalForm lidit:avere_le_mani_di_pastafrolla_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere le mani di pastafrolla"@it .
+
+lidit:avere_le_mani_di_pastafrolla_form a ontolex:form ;
+	ontolex:writtenRep "avere le mani di pastafrolla"@it .
+
+lidit:avere_le_mani_di_pastafrolla_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_le_mani_di_pastafrolla_def .
+
+lidit:avere_le_mani_di_pastafrolla_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_le_mani_di_pastafrolla_sense ;
+	skos:definition "to be unable to hold something without dropping it, to be clumsy"@en .
+
+lidit:avere_le_mani_in_pasta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_le_mani_in_pasta_sense ;
+	ontolex:canonicalForm lidit:avere_le_mani_in_pasta_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere le mani in pasta"@it .
+
+lidit:avere_le_mani_in_pasta_form a ontolex:form ;
+	ontolex:writtenRep "avere le mani in pasta"@it .
+
+lidit:avere_le_mani_in_pasta_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_le_mani_in_pasta_def .
+
+lidit:avere_le_mani_in_pasta_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_le_mani_in_pasta_sense ;
+	skos:definition "to be involved in too many things; to have too many tasks going to be able to do any of them well."@en .
+
+lidit:avere_le_mani_legate a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_le_mani_legate_sense ;
+	ontolex:canonicalForm lidit:avere_le_mani_legate_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere le mani legate"@it .
+
+lidit:avere_le_mani_legate_form a ontolex:form ;
+	ontolex:writtenRep "avere le mani legate"@it .
+
+lidit:avere_le_mani_legate_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_le_mani_legate_def .
+
+lidit:avere_le_mani_legate_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_le_mani_legate_sense ;
+	skos:definition "to have one's hands tied"@en .
+
+lidit:avere_sale_in_zucca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_sale_in_zucca_sense ;
+	ontolex:canonicalForm lidit:avere_sale_in_zucca_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere sale in zucca"@it .
+
+lidit:avere_sale_in_zucca_form a ontolex:form ;
+	ontolex:writtenRep "avere sale in zucca"@it .
+
+lidit:avere_sale_in_zucca_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_sale_in_zucca_def .
+
+lidit:avere_sale_in_zucca_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_sale_in_zucca_sense ;
+	skos:definition "to be smart"@en .
+
+lidit:avere_un_culo_così_grande a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_un_culo_così_grande_sense ;
+	ontolex:canonicalForm lidit:avere_un_culo_così_grande_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere un culo così grande"@it .
+
+lidit:avere_un_culo_così_grande_form a ontolex:form ;
+	ontolex:writtenRep "avere un culo così grande"@it .
+
+lidit:avere_un_culo_così_grande_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_un_culo_così_grande_def .
+
+lidit:avere_un_culo_così_grande_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_un_culo_così_grande_sense ;
+	skos:definition "to be lucky"@en .
+
+lidit:avere_un_po_di_terra_al_sole a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:avere_un_po_di_terra_al_sole_sense ;
+	ontolex:canonicalForm lidit:avere_un_po_di_terra_al_sole_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "avere un po' di terra al sole"@it .
+
+lidit:avere_un_po_di_terra_al_sole_form a ontolex:form ;
+	ontolex:writtenRep "avere un po' di terra al sole"@it .
+
+lidit:avere_un_po_di_terra_al_sole_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:avere_un_po_di_terra_al_sole_def .
+
+lidit:avere_un_po_di_terra_al_sole_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:avere_un_po_di_terra_al_sole_sense ;
+	skos:definition "to own a small piece of farming land"@en .
+
+lidit:battere_il_ferro_finche_e_caldo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:battere_il_ferro_finche_e_caldo_sense ;
+	ontolex:canonicalForm lidit:battere_il_ferro_finche_e_caldo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "battere il ferro finché è caldo"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13622049v> .
+
+lidit:battere_il_ferro_finche_e_caldo_form a ontolex:form ;
+	ontolex:writtenRep "battere il ferro finché è caldo"@it .
+
+lidit:battere_il_ferro_finche_e_caldo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:battere_il_ferro_finche_e_caldo_def .
+
+lidit:battere_il_ferro_finche_e_caldo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:battere_il_ferro_finche_e_caldo_sense ;
+	skos:definition "to act on an opportunity promptly while favorable conditions exist; to avoid waiting."@en .
+
+lidit:bellezza_acqua_e_sapone a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:bellezza_acqua_e_sapone_sense ;
+	ontolex:canonicalForm lidit:bellezza_acqua_e_sapone_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "bellezza acqua e sapone"@it .
+
+lidit:bellezza_acqua_e_sapone_form a ontolex:form ;
+	ontolex:writtenRep "bellezza acqua e sapone"@it .
+
+lidit:bellezza_acqua_e_sapone_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:bellezza_acqua_e_sapone_def .
+
+lidit:bellezza_acqua_e_sapone_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:bellezza_acqua_e_sapone_sense ;
+	skos:definition "natural (rather than artificial) beauty"@en .
+
+lidit:buona_notte_al_secchio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:buona_notte_al_secchio_sense ;
+	ontolex:canonicalForm lidit:buona_notte_al_secchio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "buona notte al secchio"@it .
+
+lidit:buona_notte_al_secchio_form a ontolex:form ;
+	ontolex:writtenRep "buona notte al secchio"@it .
+
+lidit:buona_notte_al_secchio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:buona_notte_al_secchio_def .
+
+lidit:buona_notte_al_secchio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:buona_notte_al_secchio_sense ;
+	skos:definition "we’re screwed.why there should be a bucket involved i do not know."@en .
+
+lidit:buono_come_il_pane a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:buono_come_il_pane_sense ;
+	ontolex:canonicalForm lidit:buono_come_il_pane_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "buono come il pane"@it .
+
+lidit:buono_come_il_pane_form a ontolex:form ;
+	ontolex:writtenRep "buono come il pane"@it .
+
+lidit:buono_come_il_pane_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:buono_come_il_pane_def .
+
+lidit:buono_come_il_pane_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:buono_come_il_pane_sense ;
+	skos:definition "as good as bread.when someone or something has unexpectedly behaved very badly,"@en .
+
+lidit:buttare_il_bambino_con_lacqua_sporca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:buttare_il_bambino_con_lacqua_sporca_sense ;
+	ontolex:canonicalForm lidit:buttare_il_bambino_con_lacqua_sporca_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "buttare il bambino con l'acqua sporca"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13603417v> .
+
+lidit:buttare_il_bambino_con_lacqua_sporca_form a ontolex:form ;
+	ontolex:writtenRep "buttare il bambino con l'acqua sporca"@it .
+
+lidit:buttare_il_bambino_con_lacqua_sporca_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:buttare_il_bambino_con_lacqua_sporca_def .
+
+lidit:buttare_il_bambino_con_lacqua_sporca_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:buttare_il_bambino_con_lacqua_sporca_sense ;
+	skos:definition "to discard, especially inadvertently, something valuable while in the process of removing or rejecting something unwanted."@en .
+
+lidit:centra_come_i_cavoli_a_merenda a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:centra_come_i_cavoli_a_merenda_sense ;
+	ontolex:canonicalForm lidit:centra_come_i_cavoli_a_merenda_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "c’entra come i cavoli a merenda"@it .
+
+lidit:centra_come_i_cavoli_a_merenda_form a ontolex:form ;
+	ontolex:writtenRep "c’entra come i cavoli a merenda"@it .
+
+lidit:centra_come_i_cavoli_a_merenda_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:centra_come_i_cavoli_a_merenda_def .
+
+lidit:centra_come_i_cavoli_a_merenda_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:centra_come_i_cavoli_a_merenda_sense ;
+	skos:definition "it doesn’t fit, it’s inappropriate"@en .
+
+lidit:cadere_dalle_nuvole a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cadere_dalle_nuvole_sense ;
+	ontolex:canonicalForm lidit:cadere_dalle_nuvole_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cadere dalle nuvole"@it .
+
+lidit:cadere_dalle_nuvole_form a ontolex:form ;
+	ontolex:writtenRep "cadere dalle nuvole"@it .
+
+lidit:cadere_dalle_nuvole_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cadere_dalle_nuvole_def .
+
+lidit:cadere_dalle_nuvole_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cadere_dalle_nuvole_sense ;
+	skos:definition "you are absent in some moment"@en .
+
+lidit:cadere_in_piedi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cadere_in_piedi_sense ;
+	ontolex:canonicalForm lidit:cadere_in_piedi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cadere in piedi"@it .
+
+lidit:cadere_in_piedi_form a ontolex:form ;
+	ontolex:writtenRep "cadere in piedi"@it .
+
+lidit:cadere_in_piedi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cadere_in_piedi_def .
+
+lidit:cadere_in_piedi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cadere_in_piedi_sense ;
+	skos:definition "to land on one's feet, to come out of a situation without damage"@en .
+
+lidit:cadere_sempre_in_piedi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cadere_sempre_in_piedi_sense ;
+	ontolex:canonicalForm lidit:cadere_sempre_in_piedi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cadere sempre in piedi"@it .
+
+lidit:cadere_sempre_in_piedi_form a ontolex:form ;
+	ontolex:writtenRep "cadere sempre in piedi"@it .
+
+lidit:cadere_sempre_in_piedi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cadere_sempre_in_piedi_def .
+
+lidit:cadere_sempre_in_piedi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cadere_sempre_in_piedi_sense ;
+	skos:definition "to be lucky, or successful"@en .
+
+lidit:caduto_dalle_nuvole a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:caduto_dalle_nuvole_sense ;
+	ontolex:canonicalForm lidit:caduto_dalle_nuvole_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "caduto dalle nuvole"@it .
+
+lidit:caduto_dalle_nuvole_form a ontolex:form ;
+	ontolex:writtenRep "caduto dalle nuvole"@it .
+
+lidit:caduto_dalle_nuvole_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:caduto_dalle_nuvole_def .
+
+lidit:caduto_dalle_nuvole_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:caduto_dalle_nuvole_sense ;
+	skos:definition "completely surprised, or pretending to be."@en .
+
+lidit:campa_cavallo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:campa_cavallo_sense ;
+	ontolex:canonicalForm lidit:campa_cavallo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "campa cavallo"@it .
+
+lidit:campa_cavallo_form a ontolex:form ;
+	ontolex:writtenRep "campa cavallo"@it .
+
+lidit:campa_cavallo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:campa_cavallo_def .
+
+lidit:campa_cavallo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:campa_cavallo_sense ;
+	skos:definition "something, that is eagerly, but hopelessly, anticipated."@en .
+
+lidit:capita_a_fagiolo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:capita_a_fagiolo_sense ;
+	ontolex:canonicalForm lidit:capita_a_fagiolo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "capita a fagiolo"@it .
+
+lidit:capita_a_fagiolo_form a ontolex:form ;
+	ontolex:writtenRep "capita a fagiolo"@it .
+
+lidit:capita_a_fagiolo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:capita_a_fagiolo_def .
+
+lidit:capita_a_fagiolo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:capita_a_fagiolo_sense ;
+	skos:definition "happens at exactly the right moment. this derives from a time when beans were an essential and common part of the diet of many poor italians, so to capitare a fagiolo was to turn up just in time for a (probably much-needed) meal."@en .
+
+lidit:cavallo_di_battaglia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cavallo_di_battaglia_sense ;
+	ontolex:canonicalForm lidit:cavallo_di_battaglia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cavallo di battaglia"@it .
+
+lidit:cavallo_di_battaglia_form a ontolex:form ;
+	ontolex:writtenRep "cavallo di battaglia"@it .
+
+lidit:cavallo_di_battaglia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cavallo_di_battaglia_def .
+
+lidit:cavallo_di_battaglia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cavallo_di_battaglia_sense ;
+	skos:definition "forte, strong suit, strong point, flagship product/piece of art."@en .
+
+lidit:cavare_le_castagne_dal_fuoco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cavare_le_castagne_dal_fuoco_sense ;
+	ontolex:canonicalForm lidit:cavare_le_castagne_dal_fuoco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cavare le castagne dal fuoco"@it .
+
+lidit:cavare_le_castagne_dal_fuoco_form a ontolex:form ;
+	ontolex:writtenRep "cavare le castagne dal fuoco"@it .
+
+lidit:cavare_le_castagne_dal_fuoco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cavare_le_castagne_dal_fuoco_def .
+
+lidit:cavare_le_castagne_dal_fuoco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cavare_le_castagne_dal_fuoco_sense ;
+	skos:definition "to rescue someone, especially at the last moment."@en .
+
+lidit:cercare_il_pelo_nelluovo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cercare_il_pelo_nelluovo_sense ;
+	ontolex:canonicalForm lidit:cercare_il_pelo_nelluovo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cercare il pelo nell'uovo"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13753496v> .
+
+lidit:cercare_il_pelo_nelluovo_form a ontolex:form ;
+	ontolex:writtenRep "cercare il pelo nell'uovo"@it .
+
+lidit:cercare_il_pelo_nelluovo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cercare_il_pelo_nelluovo_def .
+
+lidit:cercare_il_pelo_nelluovo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cercare_il_pelo_nelluovo_sense ;
+	skos:definition "to be picky"@en .
+
+lidit:chiudere_la_stalla a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:chiudere_la_stalla_sense ;
+	ontolex:canonicalForm lidit:chiudere_la_stalla_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "chiudere la stalla"@it .
+
+lidit:chiudere_la_stalla_form a ontolex:form ;
+	ontolex:writtenRep "chiudere la stalla"@it .
+
+lidit:chiudere_la_stalla_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:chiudere_la_stalla_def .
+
+lidit:chiudere_la_stalla_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:chiudere_la_stalla_sense ;
+	skos:definition "to attempt to prevent a problem only to find it has already happened"@en .
+
+lidit:ci_corre_quanto_dal_cielo_alla_terra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ci_corre_quanto_dal_cielo_alla_terra_sense ;
+	ontolex:canonicalForm lidit:ci_corre_quanto_dal_cielo_alla_terra_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "ci corre quanto dal cielo alla terra"@it .
+
+lidit:ci_corre_quanto_dal_cielo_alla_terra_form a ontolex:form ;
+	ontolex:writtenRep "ci corre quanto dal cielo alla terra"@it .
+
+lidit:ci_corre_quanto_dal_cielo_alla_terra_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ci_corre_quanto_dal_cielo_alla_terra_def .
+
+lidit:ci_corre_quanto_dal_cielo_alla_terra_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ci_corre_quanto_dal_cielo_alla_terra_sense ;
+	skos:definition "there is a very great difference between two things"@en .
+
+lidit:cogliere_qualcuno_con_le_mani_nel_sacco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cogliere_qualcuno_con_le_mani_nel_sacco_sense ;
+	ontolex:canonicalForm lidit:cogliere_qualcuno_con_le_mani_nel_sacco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cogliere qualcuno con le mani nel sacco"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13701852a> .
+
+lidit:cogliere_qualcuno_con_le_mani_nel_sacco_form a ontolex:form ;
+	ontolex:writtenRep "cogliere qualcuno con le mani nel sacco"@it .
+
+lidit:cogliere_qualcuno_con_le_mani_nel_sacco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cogliere_qualcuno_con_le_mani_nel_sacco_def .
+
+lidit:cogliere_qualcuno_con_le_mani_nel_sacco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cogliere_qualcuno_con_le_mani_nel_sacco_sense ;
+	skos:definition "to catch someone red"@en .
+
+lidit:colto_con_le_mani_nel_sacco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:colto_con_le_mani_nel_sacco_sense ;
+	ontolex:canonicalForm lidit:colto_con_le_mani_nel_sacco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "colto con le mani nel sacco"@it .
+
+lidit:colto_con_le_mani_nel_sacco_form a ontolex:form ;
+	ontolex:writtenRep "colto con le mani nel sacco"@it .
+
+lidit:colto_con_le_mani_nel_sacco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:colto_con_le_mani_nel_sacco_def .
+
+lidit:colto_con_le_mani_nel_sacco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:colto_con_le_mani_nel_sacco_sense ;
+	skos:definition "observed or apprehended while committing a theft, especially while embezzling money."@en .
+
+lidit:comandare_e_meglio_che_fottere a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:comandare_e_meglio_che_fottere_sense ;
+	ontolex:canonicalForm lidit:comandare_e_meglio_che_fottere_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "comandare é meglio che fottere"@it .
+
+lidit:comandare_e_meglio_che_fottere_form a ontolex:form ;
+	ontolex:writtenRep "comandare é meglio che fottere"@it .
+
+lidit:comandare_e_meglio_che_fottere_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:comandare_e_meglio_che_fottere_def .
+
+lidit:comandare_e_meglio_che_fottere_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:comandare_e_meglio_che_fottere_sense ;
+	skos:definition "the pleasures of power are even greater than the pleasures of sex."@en .
+
+lidit:con_lacqua_alla_gola a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:con_lacqua_alla_gola_sense ;
+	ontolex:canonicalForm lidit:con_lacqua_alla_gola_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "con l'acqua alla gola"@it .
+
+lidit:con_lacqua_alla_gola_form a ontolex:form ;
+	ontolex:writtenRep "con l'acqua alla gola"@it .
+
+lidit:con_lacqua_alla_gola_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:con_lacqua_alla_gola_def .
+
+lidit:con_lacqua_alla_gola_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:con_lacqua_alla_gola_sense ;
+	skos:definition "in a very serious, bad circumstance."@en .
+
+lidit:cuore_doro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:cuore_doro_sense ;
+	ontolex:canonicalForm lidit:cuore_doro_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "cuore d'oro"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s04026700n> .
+
+lidit:cuore_doro_form a ontolex:form ;
+	ontolex:writtenRep "cuore d'oro"@it .
+
+lidit:cuore_doro_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:cuore_doro_def .
+
+lidit:cuore_doro_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:cuore_doro_sense ;
+	skos:definition "a kind, compassionate, or caring attitude; kindheartedness."@en .
+
+lidit:da_cosa_nasce_cosa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:da_cosa_nasce_cosa_sense ;
+	ontolex:canonicalForm lidit:da_cosa_nasce_cosa_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "da cosa nasce cosa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s15874251n> .
+
+lidit:da_cosa_nasce_cosa_form a ontolex:form ;
+	ontolex:writtenRep "da cosa nasce cosa"@it .
+
+lidit:da_cosa_nasce_cosa_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:da_cosa_nasce_cosa_def .
+
+lidit:da_cosa_nasce_cosa_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:da_cosa_nasce_cosa_sense ;
+	skos:definition "one thing leads to another"@en .
+
+lidit:dalle_stelle_alle_stalle_from_riches_to_rugs a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_sense ;
+	ontolex:canonicalForm lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dalle stelle alle stalle from riches to rugs"@it .
+
+lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_form a ontolex:form ;
+	ontolex:writtenRep "dalle stelle alle stalle from riches to rugs"@it .
+
+lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_def .
+
+lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:dalle_stelle_alle_stalle_from_riches_to_rugs_sense ;
+	skos:definition "to fall from grace"@en .
+
+lidit:dare_acqua_alle_funi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:dare_acqua_alle_funi_sense ;
+	ontolex:canonicalForm lidit:dare_acqua_alle_funi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dare acqua alle funi"@it .
+
+lidit:dare_acqua_alle_funi_form a ontolex:form ;
+	ontolex:writtenRep "dare acqua alle funi"@it .
+
+lidit:dare_acqua_alle_funi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:dare_acqua_alle_funi_def .
+
+lidit:dare_acqua_alle_funi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:dare_acqua_alle_funi_sense ;
+	skos:definition "to speed up or hurry a task"@en .
+
+lidit:dare_manforte a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:dare_manforte_sense ;
+	ontolex:canonicalForm lidit:dare_manforte_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dare manforte"@it .
+
+lidit:dare_manforte_form a ontolex:form ;
+	ontolex:writtenRep "dare manforte"@it .
+
+lidit:dare_manforte_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:dare_manforte_def .
+
+lidit:dare_manforte_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:dare_manforte_sense ;
+	skos:definition "to come to the rescue"@en .
+
+lidit:dare_una_mano_a_qualcuno a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:dare_una_mano_a_qualcuno_sense ;
+	ontolex:canonicalForm lidit:dare_una_mano_a_qualcuno_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dare una mano a qualcuno"@it .
+
+lidit:dare_una_mano_a_qualcuno_form a ontolex:form ;
+	ontolex:writtenRep "dare una mano a qualcuno"@it .
+
+lidit:dare_una_mano_a_qualcuno_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:dare_una_mano_a_qualcuno_def .
+
+lidit:dare_una_mano_a_qualcuno_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:dare_una_mano_a_qualcuno_sense ;
+	skos:definition "to help someone"@en .
+
+lidit:darsela_a_gambe a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:darsela_a_gambe_sense ;
+	ontolex:canonicalForm lidit:darsela_a_gambe_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "darsela a gambe"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00082164v> .
+
+lidit:darsela_a_gambe_form a ontolex:form ;
+	ontolex:writtenRep "darsela a gambe"@it .
+
+lidit:darsela_a_gambe_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:darsela_a_gambe_def .
+
+lidit:darsela_a_gambe_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:darsela_a_gambe_sense ;
+	skos:definition "to run away"@en .
+
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_form> ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dente avvelenato – ho il dente avvelenato"@it .
+
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_form> a ontolex:form ;
+	ontolex:writtenRep "dente avvelenato – ho il dente avvelenato"@it .
+
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_def> .
+
+<http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/it/dente_avvelenato_–_ho_il_dente_avvelenato_sense> ;
+	skos:definition "i am quite upset"@en .
+
+lidit:dio_ce_ne_scampi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:dio_ce_ne_scampi_sense ;
+	ontolex:canonicalForm lidit:dio_ce_ne_scampi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dio ce ne scampi"@it .
+
+lidit:dio_ce_ne_scampi_form a ontolex:form ;
+	ontolex:writtenRep "dio ce ne scampi"@it .
+
+lidit:dio_ce_ne_scampi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:dio_ce_ne_scampi_def .
+
+lidit:dio_ce_ne_scampi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:dio_ce_ne_scampi_sense ;
+	skos:definition "when a person wants to ​hope that something do not ​happen:"@en .
+
+lidit:dio_li_fa_poi_li_accoppia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:dio_li_fa_poi_li_accoppia_sense ;
+	ontolex:canonicalForm lidit:dio_li_fa_poi_li_accoppia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "dio li fa, poi li accoppia"@it .
+
+lidit:dio_li_fa_poi_li_accoppia_form a ontolex:form ;
+	ontolex:writtenRep "dio li fa, poi li accoppia"@it .
+
+lidit:dio_li_fa_poi_li_accoppia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:dio_li_fa_poi_li_accoppia_def .
+
+lidit:dio_li_fa_poi_li_accoppia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:dio_li_fa_poi_li_accoppia_sense ;
+	skos:definition "said of any couple or pair who seem destined to be together by reason of sheer eccentricity."@en .
+
+lidit:e_acqua_passata a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:e_acqua_passata_sense ;
+	ontolex:canonicalForm lidit:e_acqua_passata_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "è acqua passata"@it .
+
+lidit:e_acqua_passata_form a ontolex:form ;
+	ontolex:writtenRep "è acqua passata"@it .
+
+lidit:e_acqua_passata_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:e_acqua_passata_def .
+
+lidit:e_acqua_passata_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:e_acqua_passata_sense ;
+	skos:definition "something belongs to the past and isn't important or disturbing any more."@en .
+
+lidit:e_andato_tutto_liscio_come_lolio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:e_andato_tutto_liscio_come_lolio_sense ;
+	ontolex:canonicalForm lidit:e_andato_tutto_liscio_come_lolio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "e’ andato tutto liscio come l’olio"@it .
+
+lidit:e_andato_tutto_liscio_come_lolio_form a ontolex:form ;
+	ontolex:writtenRep "e’ andato tutto liscio come l’olio"@it .
+
+lidit:e_andato_tutto_liscio_come_lolio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:e_andato_tutto_liscio_come_lolio_def .
+
+lidit:e_andato_tutto_liscio_come_lolio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:e_andato_tutto_liscio_come_lolio_sense ;
+	skos:definition "it went smooth as silk, there weren’t any problems"@en .
+
+lidit:e_buono_come_un_pezzo_di_pane a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:e_buono_come_un_pezzo_di_pane_sense ;
+	ontolex:canonicalForm lidit:e_buono_come_un_pezzo_di_pane_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "e’ buono come un pezzo di pane"@it .
+
+lidit:e_buono_come_un_pezzo_di_pane_form a ontolex:form ;
+	ontolex:writtenRep "e’ buono come un pezzo di pane"@it .
+
+lidit:e_buono_come_un_pezzo_di_pane_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:e_buono_come_un_pezzo_di_pane_def .
+
+lidit:e_buono_come_un_pezzo_di_pane_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:e_buono_come_un_pezzo_di_pane_sense ;
+	skos:definition "he’s a good person, a really nice guy"@en .
+
+lidit:e_dolce_come_lo_zucchero a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:e_dolce_come_lo_zucchero_sense ;
+	ontolex:canonicalForm lidit:e_dolce_come_lo_zucchero_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "e’ dolce come lo zucchero"@it .
+
+lidit:e_dolce_come_lo_zucchero_form a ontolex:form ;
+	ontolex:writtenRep "e’ dolce come lo zucchero"@it .
+
+lidit:e_dolce_come_lo_zucchero_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:e_dolce_come_lo_zucchero_def .
+
+lidit:e_dolce_come_lo_zucchero_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:e_dolce_come_lo_zucchero_sense ;
+	skos:definition "pretty self-explanatory, usually used to describe fruit it is also used for people sometimes"@en .
+
+lidit:e_facile_come_rubare_le_caramelle_a_un_bambino a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_sense ;
+	ontolex:canonicalForm lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "e’ facile come rubare le caramelle a un bambino"@it .
+
+lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_form a ontolex:form ;
+	ontolex:writtenRep "e’ facile come rubare le caramelle a un bambino"@it .
+
+lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_def .
+
+lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:e_facile_come_rubare_le_caramelle_a_un_bambino_sense ;
+	skos:definition "it is very simple task that anyone can do"@en .
+
+lidit:e_rigido_come_un_baccala a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:e_rigido_come_un_baccala_sense ;
+	ontolex:canonicalForm lidit:e_rigido_come_un_baccala_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "e’ rigido come un baccala"@it .
+
+lidit:e_rigido_come_un_baccala_form a ontolex:form ;
+	ontolex:writtenRep "e’ rigido come un baccala"@it .
+
+lidit:e_rigido_come_un_baccala_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:e_rigido_come_un_baccala_def .
+
+lidit:e_rigido_come_un_baccala_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:e_rigido_come_un_baccala_sense ;
+	skos:definition "he is not comfortable, he looks stiff"@en .
+
+lidit:essere_al_verde a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_al_verde_sense ;
+	ontolex:canonicalForm lidit:essere_al_verde_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere al verde"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s09069147n> .
+
+lidit:essere_al_verde_form a ontolex:form ;
+	ontolex:writtenRep "essere al verde"@it .
+
+lidit:essere_al_verde_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_al_verde_def .
+
+lidit:essere_al_verde_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_al_verde_sense ;
+	skos:definition "to have no money"@en .
+
+lidit:essere_alla_frutta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_alla_frutta_sense ;
+	ontolex:canonicalForm lidit:essere_alla_frutta_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere alla frutta"@it .
+
+lidit:essere_alla_frutta_form a ontolex:form ;
+	ontolex:writtenRep "essere alla frutta"@it .
+
+lidit:essere_alla_frutta_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_alla_frutta_def .
+
+lidit:essere_alla_frutta_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_alla_frutta_sense ;
+	skos:definition "to reach the lowest possible level or be in the worst possible situation"@en .
+
+lidit:essere_alla_mano a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_alla_mano_sense ;
+	ontolex:canonicalForm lidit:essere_alla_mano_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere alla mano"@it .
+
+lidit:essere_alla_mano_form a ontolex:form ;
+	ontolex:writtenRep "essere alla mano"@it .
+
+lidit:essere_alla_mano_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_alla_mano_def .
+
+lidit:essere_alla_mano_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_alla_mano_sense ;
+	skos:definition "to be easy going"@en .
+
+lidit:essere_con_lacqua_alla_gola a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_con_lacqua_alla_gola_sense ;
+	ontolex:canonicalForm lidit:essere_con_lacqua_alla_gola_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere con l'acqua alla gola"@it .
+
+lidit:essere_con_lacqua_alla_gola_form a ontolex:form ;
+	ontolex:writtenRep "essere con l'acqua alla gola"@it .
+
+lidit:essere_con_lacqua_alla_gola_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_con_lacqua_alla_gola_def .
+
+lidit:essere_con_lacqua_alla_gola_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_con_lacqua_alla_gola_sense ;
+	skos:definition "to be in a dangerous situation"@en .
+
+lidit:essere_di_bocca_buona a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_di_bocca_buona_sense ;
+	ontolex:canonicalForm lidit:essere_di_bocca_buona_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere di bocca buona"@it .
+
+lidit:essere_di_bocca_buona_form a ontolex:form ;
+	ontolex:writtenRep "essere di bocca buona"@it .
+
+lidit:essere_di_bocca_buona_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_di_bocca_buona_def .
+
+lidit:essere_di_bocca_buona_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_di_bocca_buona_sense ;
+	skos:definition "to eat everything"@en .
+
+lidit:essere_in_gamba a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_in_gamba_sense ;
+	ontolex:canonicalForm lidit:essere_in_gamba_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere in gamba"@it .
+
+lidit:essere_in_gamba_form a ontolex:form ;
+	ontolex:writtenRep "essere in gamba"@it .
+
+lidit:essere_in_gamba_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_in_gamba_def .
+
+lidit:essere_in_gamba_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_in_gamba_sense ;
+	skos:definition "to be smart"@en .
+
+lidit:essere_rosso_come_un_peperone a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_rosso_come_un_peperone_sense ;
+	ontolex:canonicalForm lidit:essere_rosso_come_un_peperone_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere rosso come un peperone"@it .
+
+lidit:essere_rosso_come_un_peperone_form a ontolex:form ;
+	ontolex:writtenRep "essere rosso come un peperone"@it .
+
+lidit:essere_rosso_come_un_peperone_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_rosso_come_un_peperone_def .
+
+lidit:essere_rosso_come_un_peperone_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_rosso_come_un_peperone_sense ;
+	skos:definition "to look lobster red- said of a sunburn but also of someone who’s blushing"@en .
+
+lidit:essere_su_questa_terra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:essere_su_questa_terra_sense ;
+	ontolex:canonicalForm lidit:essere_su_questa_terra_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "essere su questa terra"@it .
+
+lidit:essere_su_questa_terra_form a ontolex:form ;
+	ontolex:writtenRep "essere su questa terra"@it .
+
+lidit:essere_su_questa_terra_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:essere_su_questa_terra_def .
+
+lidit:essere_su_questa_terra_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:essere_su_questa_terra_sense ;
+	skos:definition "to live"@en .
+
+lidit:fa_un_freddo_cane a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fa_un_freddo_cane_sense ;
+	ontolex:canonicalForm lidit:fa_un_freddo_cane_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fa un freddo cane!"@it .
+
+lidit:fa_un_freddo_cane_form a ontolex:form ;
+	ontolex:writtenRep "fa un freddo cane!"@it .
+
+lidit:fa_un_freddo_cane_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fa_un_freddo_cane_def .
+
+lidit:fa_un_freddo_cane_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fa_un_freddo_cane_sense ;
+	skos:definition "really, really cold"@en .
+
+lidit:fare_giri_di_parole a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_giri_di_parole_sense ;
+	ontolex:canonicalForm lidit:fare_giri_di_parole_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare giri di parole"@it .
+
+lidit:fare_giri_di_parole_form a ontolex:form ;
+	ontolex:writtenRep "fare giri di parole"@it .
+
+lidit:fare_giri_di_parole_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_giri_di_parole_def .
+
+lidit:fare_giri_di_parole_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_giri_di_parole_sense ;
+	skos:definition "to delay or avoid talking about something difficult or unpleasant."@en .
+
+lidit:fare_i_salti_mortali a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_i_salti_mortali_sense ;
+	ontolex:canonicalForm lidit:fare_i_salti_mortali_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare i salti mortali"@it .
+
+lidit:fare_i_salti_mortali_form a ontolex:form ;
+	ontolex:writtenRep "fare i salti mortali"@it .
+
+lidit:fare_i_salti_mortali_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_i_salti_mortali_def .
+
+lidit:fare_i_salti_mortali_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_i_salti_mortali_sense ;
+	skos:definition "to bend over backwards"@en .
+
+lidit:fare_il_passo_più_lungo_della_gamba a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_il_passo_più_lungo_della_gamba_sense ;
+	ontolex:canonicalForm lidit:fare_il_passo_più_lungo_della_gamba_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare il passo più lungo della gamba"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13638257v> .
+
+lidit:fare_il_passo_più_lungo_della_gamba_form a ontolex:form ;
+	ontolex:writtenRep "fare il passo più lungo della gamba"@it .
+
+lidit:fare_il_passo_più_lungo_della_gamba_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_il_passo_più_lungo_della_gamba_def .
+
+lidit:fare_il_passo_più_lungo_della_gamba_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_il_passo_più_lungo_della_gamba_sense ;
+	skos:definition "to try to do more than you are able to do"@en .
+
+lidit:fare_la_scarpetta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_la_scarpetta_sense ;
+	ontolex:canonicalForm lidit:fare_la_scarpetta_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare la scarpetta"@it .
+
+lidit:fare_la_scarpetta_form a ontolex:form ;
+	ontolex:writtenRep "fare la scarpetta"@it .
+
+lidit:fare_la_scarpetta_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_la_scarpetta_def .
+
+lidit:fare_la_scarpetta_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_la_scarpetta_sense ;
+	skos:definition "to mop up the sauce from a plate of food with a piece of bread"@en .
+
+lidit:fare_orecchi_da_mercante a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_orecchi_da_mercante_sense ;
+	ontolex:canonicalForm lidit:fare_orecchi_da_mercante_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare orecchi da mercante"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13619147v> .
+
+lidit:fare_orecchi_da_mercante_form a ontolex:form ;
+	ontolex:writtenRep "fare orecchi da mercante"@it .
+
+lidit:fare_orecchi_da_mercante_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_orecchi_da_mercante_def .
+
+lidit:fare_orecchi_da_mercante_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_orecchi_da_mercante_sense ;
+	skos:definition "to refuse to listen or hear something"@en .
+
+lidit:fare_passi_da_gigante a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_passi_da_gigante_sense ;
+	ontolex:canonicalForm lidit:fare_passi_da_gigante_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare passi da gigante"@it .
+
+lidit:fare_passi_da_gigante_form a ontolex:form ;
+	ontolex:writtenRep "fare passi da gigante"@it .
+
+lidit:fare_passi_da_gigante_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_passi_da_gigante_def .
+
+lidit:fare_passi_da_gigante_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_passi_da_gigante_sense ;
+	skos:definition "to make extraordinary progress in a short period of time."@en .
+
+lidit:fare_una_figuraccia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fare_una_figuraccia_sense ;
+	ontolex:canonicalForm lidit:fare_una_figuraccia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fare una figuraccia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13672804v> .
+
+lidit:fare_una_figuraccia_form a ontolex:form ;
+	ontolex:writtenRep "fare una figuraccia"@it .
+
+lidit:fare_una_figuraccia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fare_una_figuraccia_def .
+
+lidit:fare_una_figuraccia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fare_una_figuraccia_sense ;
+	skos:definition "to make a bad impression."@en .
+
+lidit:farsene_una_ragione a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:farsene_una_ragione_sense ;
+	ontolex:canonicalForm lidit:farsene_una_ragione_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "farsene una ragione"@it .
+
+lidit:farsene_una_ragione_form a ontolex:form ;
+	ontolex:writtenRep "farsene una ragione"@it .
+
+lidit:farsene_una_ragione_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:farsene_una_ragione_def .
+
+lidit:farsene_una_ragione_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:farsene_una_ragione_sense ;
+	skos:definition "to reach an agreement or settle a dispute."@en .
+
+lidit:farsi_furbo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:farsi_furbo_sense ;
+	ontolex:canonicalForm lidit:farsi_furbo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "farsi furbo"@it .
+
+lidit:farsi_furbo_form a ontolex:form ;
+	ontolex:writtenRep "farsi furbo"@it .
+
+lidit:farsi_furbo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:farsi_furbo_def .
+
+lidit:farsi_furbo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:farsi_furbo_sense ;
+	skos:definition "to sense something suspicious, get wise"@en .
+
+lidit:fior_fiore a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fior_fiore_sense ;
+	ontolex:canonicalForm lidit:fior_fiore_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fior fiore"@it .
+
+lidit:fior_fiore_form a ontolex:form ;
+	ontolex:writtenRep "fior fiore"@it .
+
+lidit:fior_fiore_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fior_fiore_def .
+
+lidit:fior_fiore_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fior_fiore_sense ;
+	skos:definition "the best part of something"@en .
+
+lidit:fuori_di_testa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:fuori_di_testa_sense ;
+	ontolex:canonicalForm lidit:fuori_di_testa_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "fuori di testa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00027640n> .
+
+lidit:fuori_di_testa_form a ontolex:form ;
+	ontolex:writtenRep "fuori di testa"@it .
+
+lidit:fuori_di_testa_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:fuori_di_testa_def .
+
+lidit:fuori_di_testa_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:fuori_di_testa_sense ;
+	skos:definition "something insane"@en .
+
+lidit:gallina_vecchia_fa_buon_brodo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:gallina_vecchia_fa_buon_brodo_sense ;
+	ontolex:canonicalForm lidit:gallina_vecchia_fa_buon_brodo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "gallina vecchia fa buon brodo"@it .
+
+lidit:gallina_vecchia_fa_buon_brodo_form a ontolex:form ;
+	ontolex:writtenRep "gallina vecchia fa buon brodo"@it .
+
+lidit:gallina_vecchia_fa_buon_brodo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:gallina_vecchia_fa_buon_brodo_def .
+
+lidit:gallina_vecchia_fa_buon_brodo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:gallina_vecchia_fa_buon_brodo_sense ;
+	skos:definition "for people, experience is very important"@en .
+
+lidit:gatta_da_pelare a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:gatta_da_pelare_sense ;
+	ontolex:canonicalForm lidit:gatta_da_pelare_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "gatta da pelare"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13667786n> .
+
+lidit:gatta_da_pelare_form a ontolex:form ;
+	ontolex:writtenRep "gatta da pelare"@it .
+
+lidit:gatta_da_pelare_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:gatta_da_pelare_def .
+
+lidit:gatta_da_pelare_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:gatta_da_pelare_sense ;
+	skos:definition "a problem that is challenging to solve."@en .
+
+lidit:gettar_fumo_negli_occhi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:gettar_fumo_negli_occhi_sense ;
+	ontolex:canonicalForm lidit:gettar_fumo_negli_occhi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "gettar fumo negli occhi"@it .
+
+lidit:gettar_fumo_negli_occhi_form a ontolex:form ;
+	ontolex:writtenRep "gettar fumo negli occhi"@it .
+
+lidit:gettar_fumo_negli_occhi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:gettar_fumo_negli_occhi_def .
+
+lidit:gettar_fumo_negli_occhi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:gettar_fumo_negli_occhi_sense ;
+	skos:definition "to deceive (someone)"@en .
+
+lidit:gettare_acqua_sul_fuoco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:gettare_acqua_sul_fuoco_sense ;
+	ontolex:canonicalForm lidit:gettare_acqua_sul_fuoco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "gettare acqua sul fuoco"@it .
+
+lidit:gettare_acqua_sul_fuoco_form a ontolex:form ;
+	ontolex:writtenRep "gettare acqua sul fuoco"@it .
+
+lidit:gettare_acqua_sul_fuoco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:gettare_acqua_sul_fuoco_def .
+
+lidit:gettare_acqua_sul_fuoco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:gettare_acqua_sul_fuoco_sense ;
+	skos:definition "to belittle or dismiss; to cast doubt upon; to debunk."@en .
+
+lidit:girarci_intorno a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:girarci_intorno_sense ;
+	ontolex:canonicalForm lidit:girarci_intorno_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "girarci intorno"@it .
+
+lidit:girarci_intorno_form a ontolex:form ;
+	ontolex:writtenRep "girarci intorno"@it .
+
+lidit:girarci_intorno_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:girarci_intorno_def .
+
+lidit:girarci_intorno_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:girarci_intorno_sense ;
+	skos:definition "to delay or avoid talking about something difficult or unpleasant."@en .
+
+lidit:guai a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:guai_sense ;
+	ontolex:canonicalForm lidit:guai_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "guai"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00078424n> .
+
+lidit:guai_form a ontolex:form ;
+	ontolex:writtenRep "guai"@it .
+
+lidit:guai_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:guai_def .
+
+lidit:guai_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:guai_sense ;
+	skos:definition "someone is in trouble"@en .
+
+lidit:ha_la_faccia_da_pesce_lesso a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ha_la_faccia_da_pesce_lesso_sense ;
+	ontolex:canonicalForm lidit:ha_la_faccia_da_pesce_lesso_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "ha la faccia da pesce lesso"@it .
+
+lidit:ha_la_faccia_da_pesce_lesso_form a ontolex:form ;
+	ontolex:writtenRep "ha la faccia da pesce lesso"@it .
+
+lidit:ha_la_faccia_da_pesce_lesso_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ha_la_faccia_da_pesce_lesso_def .
+
+lidit:ha_la_faccia_da_pesce_lesso_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ha_la_faccia_da_pesce_lesso_sense ;
+	skos:definition "he looks like someone uninteresting and uninterested, not someone you want to make friends with"@en .
+
+lidit:hai_voluto_la_bicicletta_e_adesso_pedala a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:hai_voluto_la_bicicletta_e_adesso_pedala_sense ;
+	ontolex:canonicalForm lidit:hai_voluto_la_bicicletta_e_adesso_pedala_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "hai voluto la bicicletta? e adesso pedala!"@it .
+
+lidit:hai_voluto_la_bicicletta_e_adesso_pedala_form a ontolex:form ;
+	ontolex:writtenRep "hai voluto la bicicletta? e adesso pedala!"@it .
+
+lidit:hai_voluto_la_bicicletta_e_adesso_pedala_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:hai_voluto_la_bicicletta_e_adesso_pedala_def .
+
+lidit:hai_voluto_la_bicicletta_e_adesso_pedala_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:hai_voluto_la_bicicletta_e_adesso_pedala_sense ;
+	skos:definition "when someone refuses to take responsibility for his or her own actions."@en .
+
+lidit:ho_la_testa_nel_pallone a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ho_la_testa_nel_pallone_sense ;
+	ontolex:canonicalForm lidit:ho_la_testa_nel_pallone_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "ho la testa nel pallone"@it .
+
+lidit:ho_la_testa_nel_pallone_form a ontolex:form ;
+	ontolex:writtenRep "ho la testa nel pallone"@it .
+
+lidit:ho_la_testa_nel_pallone_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ho_la_testa_nel_pallone_def .
+
+lidit:ho_la_testa_nel_pallone_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ho_la_testa_nel_pallone_sense ;
+	skos:definition "i am in pannic"@en .
+
+lidit:il_gatto_ti_ha_mangiato_la_lingua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:il_gatto_ti_ha_mangiato_la_lingua_sense ;
+	ontolex:canonicalForm lidit:il_gatto_ti_ha_mangiato_la_lingua_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "il gatto ti ha mangiato la lingua"@it .
+
+lidit:il_gatto_ti_ha_mangiato_la_lingua_form a ontolex:form ;
+	ontolex:writtenRep "il gatto ti ha mangiato la lingua"@it .
+
+lidit:il_gatto_ti_ha_mangiato_la_lingua_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:il_gatto_ti_ha_mangiato_la_lingua_def .
+
+lidit:il_gatto_ti_ha_mangiato_la_lingua_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:il_gatto_ti_ha_mangiato_la_lingua_sense ;
+	skos:definition "why are you not saying anything?"@en .
+
+lidit:il_sangue_al_cervello a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:il_sangue_al_cervello_sense ;
+	ontolex:canonicalForm lidit:il_sangue_al_cervello_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "il sangue al cervello"@it .
+
+lidit:il_sangue_al_cervello_form a ontolex:form ;
+	ontolex:writtenRep "il sangue al cervello"@it .
+
+lidit:il_sangue_al_cervello_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:il_sangue_al_cervello_def .
+
+lidit:il_sangue_al_cervello_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:il_sangue_al_cervello_sense ;
+	skos:definition "to describe that anger incrases"@en .
+
+lidit:il_treno_non_passa_due_volte a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:il_treno_non_passa_due_volte_sense ;
+	ontolex:canonicalForm lidit:il_treno_non_passa_due_volte_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "il treno non passa due volte"@it .
+
+lidit:il_treno_non_passa_due_volte_form a ontolex:form ;
+	ontolex:writtenRep "il treno non passa due volte"@it .
+
+lidit:il_treno_non_passa_due_volte_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:il_treno_non_passa_due_volte_def .
+
+lidit:il_treno_non_passa_due_volte_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:il_treno_non_passa_due_volte_sense ;
+	skos:definition "when you have an opportunity you must not it get away."@en .
+
+lidit:in_bocca_al_lupo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:in_bocca_al_lupo_sense ;
+	ontolex:canonicalForm lidit:in_bocca_al_lupo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "in bocca al lupo!"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s02657915n> .
+
+lidit:in_bocca_al_lupo_form a ontolex:form ;
+	ontolex:writtenRep "in bocca al lupo!"@it .
+
+lidit:in_bocca_al_lupo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:in_bocca_al_lupo_def .
+
+lidit:in_bocca_al_lupo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:in_bocca_al_lupo_sense ;
+	skos:definition "good luck! ironic way"@en .
+
+lidit:intorbidare_le_acque a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:intorbidare_le_acque_sense ;
+	ontolex:canonicalForm lidit:intorbidare_le_acque_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "intorbidare le acque"@it .
+
+lidit:intorbidare_le_acque_form a ontolex:form ;
+	ontolex:writtenRep "intorbidare le acque"@it .
+
+lidit:intorbidare_le_acque_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:intorbidare_le_acque_def .
+
+lidit:intorbidare_le_acque_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:intorbidare_le_acque_sense ;
+	skos:definition "to make something unclear and difficult to understand."@en .
+
+lidit:labito_non_fa_il_monaco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:labito_non_fa_il_monaco_sense ;
+	ontolex:canonicalForm lidit:labito_non_fa_il_monaco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "l'abito non fa il monaco"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08982674n> .
+
+lidit:labito_non_fa_il_monaco_form a ontolex:form ;
+	ontolex:writtenRep "l'abito non fa il monaco"@it .
+
+lidit:labito_non_fa_il_monaco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:labito_non_fa_il_monaco_def .
+
+lidit:labito_non_fa_il_monaco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:labito_non_fa_il_monaco_sense ;
+	skos:definition "it is not possible to judge things by external appearances alone"@en .
+
+lidit:lho_comprato_per_un_tozzo_di_pane a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:lho_comprato_per_un_tozzo_di_pane_sense ;
+	ontolex:canonicalForm lidit:lho_comprato_per_un_tozzo_di_pane_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "l’ho comprato per un tozzo di pane"@it .
+
+lidit:lho_comprato_per_un_tozzo_di_pane_form a ontolex:form ;
+	ontolex:writtenRep "l’ho comprato per un tozzo di pane"@it .
+
+lidit:lho_comprato_per_un_tozzo_di_pane_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:lho_comprato_per_un_tozzo_di_pane_def .
+
+lidit:lho_comprato_per_un_tozzo_di_pane_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:lho_comprato_per_un_tozzo_di_pane_sense ;
+	skos:definition "it was a real deal, very underpriced compared to its value"@en .
+
+lidit:la_goccia_che_fa_traboccare_il_vaso a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:la_goccia_che_fa_traboccare_il_vaso_sense ;
+	ontolex:canonicalForm lidit:la_goccia_che_fa_traboccare_il_vaso_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "la goccia che fa traboccare il vaso"@it .
+
+lidit:la_goccia_che_fa_traboccare_il_vaso_form a ontolex:form ;
+	ontolex:writtenRep "la goccia che fa traboccare il vaso"@it .
+
+lidit:la_goccia_che_fa_traboccare_il_vaso_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:la_goccia_che_fa_traboccare_il_vaso_def .
+
+lidit:la_goccia_che_fa_traboccare_il_vaso_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:la_goccia_che_fa_traboccare_il_vaso_sense ;
+	skos:definition "there is something bad that happens and represents an added problem to an already problematic situation."@en .
+
+lidit:la_quiete_prima_della_tempesta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:la_quiete_prima_della_tempesta_sense ;
+	ontolex:canonicalForm lidit:la_quiete_prima_della_tempesta_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "la quiete prima della tempesta"@it .
+
+lidit:la_quiete_prima_della_tempesta_form a ontolex:form ;
+	ontolex:writtenRep "la quiete prima della tempesta"@it .
+
+lidit:la_quiete_prima_della_tempesta_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:la_quiete_prima_della_tempesta_def .
+
+lidit:la_quiete_prima_della_tempesta_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:la_quiete_prima_della_tempesta_sense ;
+	skos:definition "a period of peace before a disturbance or crisis; an unnatural or false calm before a storm."@en .
+
+lidit:lasciarci_le_cuoia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:lasciarci_le_cuoia_sense ;
+	ontolex:canonicalForm lidit:lasciarci_le_cuoia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "lasciarci le cuoia"@it .
+
+lidit:lasciarci_le_cuoia_form a ontolex:form ;
+	ontolex:writtenRep "lasciarci le cuoia"@it .
+
+lidit:lasciarci_le_cuoia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:lasciarci_le_cuoia_def .
+
+lidit:lasciarci_le_cuoia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:lasciarci_le_cuoia_sense ;
+	skos:definition "to cease clinging to life; to die"@en .
+
+lidit:lasciare_questa_terra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:lasciare_questa_terra_sense ;
+	ontolex:canonicalForm lidit:lasciare_questa_terra_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "lasciare questa terra"@it .
+
+lidit:lasciare_questa_terra_form a ontolex:form ;
+	ontolex:writtenRep "lasciare questa terra"@it .
+
+lidit:lasciare_questa_terra_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:lasciare_questa_terra_def .
+
+lidit:lasciare_questa_terra_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:lasciare_questa_terra_sense ;
+	skos:definition "to die"@en .
+
+lidit:legarsela_al_dito a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:legarsela_al_dito_sense ;
+	ontolex:canonicalForm lidit:legarsela_al_dito_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "legarsela al dito"@it .
+
+lidit:legarsela_al_dito_form a ontolex:form ;
+	ontolex:writtenRep "legarsela al dito"@it .
+
+lidit:legarsela_al_dito_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:legarsela_al_dito_def .
+
+lidit:legarsela_al_dito_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:legarsela_al_dito_sense ;
+	skos:definition "to remember a wrong bitterly"@en .
+
+lidit:levati_di_torno a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:levati_di_torno_sense ;
+	ontolex:canonicalForm lidit:levati_di_torno_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "levati di torno"@it .
+
+lidit:levati_di_torno_form a ontolex:form ;
+	ontolex:writtenRep "levati di torno"@it .
+
+lidit:levati_di_torno_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:levati_di_torno_def .
+
+lidit:levati_di_torno_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:levati_di_torno_sense ;
+	skos:definition "to tell somebody to go away or leave one alone."@en .
+
+lidit:mal_comune_mezzo_gaudio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mal_comune_mezzo_gaudio_sense ;
+	ontolex:canonicalForm lidit:mal_comune_mezzo_gaudio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mal comune, mezzo gaudio"@it .
+
+lidit:mal_comune_mezzo_gaudio_form a ontolex:form ;
+	ontolex:writtenRep "mal comune, mezzo gaudio"@it .
+
+lidit:mal_comune_mezzo_gaudio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mal_comune_mezzo_gaudio_def .
+
+lidit:mal_comune_mezzo_gaudio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mal_comune_mezzo_gaudio_sense ;
+	skos:definition "trouble shared is trouble halved "@en .
+
+lidit:mancargli_qualche_rotella a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mancargli_qualche_rotella_sense ;
+	ontolex:canonicalForm lidit:mancargli_qualche_rotella_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mancargli qualche rotella"@it .
+
+lidit:mancargli_qualche_rotella_form a ontolex:form ;
+	ontolex:writtenRep "mancargli qualche rotella"@it .
+
+lidit:mancargli_qualche_rotella_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mancargli_qualche_rotella_def .
+
+lidit:mancargli_qualche_rotella_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mancargli_qualche_rotella_sense ;
+	skos:definition "mentally deranged; demented; insane."@en .
+
+lidit:mandare_a_monte a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mandare_a_monte_sense ;
+	ontolex:canonicalForm lidit:mandare_a_monte_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mandare a monte"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00091031v> .
+
+lidit:mandare_a_monte_form a ontolex:form ;
+	ontolex:writtenRep "mandare a monte"@it .
+
+lidit:mandare_a_monte_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mandare_a_monte_def .
+
+lidit:mandare_a_monte_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mandare_a_monte_sense ;
+	skos:definition "to mess up, to ruin"@en .
+
+lidit:menare_il_can_per_laia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:menare_il_can_per_laia_sense ;
+	ontolex:canonicalForm lidit:menare_il_can_per_laia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "menare il can per l'aia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s09067531n> .
+
+lidit:menare_il_can_per_laia_form a ontolex:form ;
+	ontolex:writtenRep "menare il can per l'aia"@it .
+
+lidit:menare_il_can_per_laia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:menare_il_can_per_laia_def .
+
+lidit:menare_il_can_per_laia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:menare_il_can_per_laia_sense ;
+	skos:definition "to delay or avoid talking about something difficult or unpleasant."@en .
+
+lidit:metter_le_mani_avanti_prima_di_cadere a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:metter_le_mani_avanti_prima_di_cadere_sense ;
+	ontolex:canonicalForm lidit:metter_le_mani_avanti_prima_di_cadere_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "metter le mani avanti (prima di cadere)"@it .
+
+lidit:metter_le_mani_avanti_prima_di_cadere_form a ontolex:form ;
+	ontolex:writtenRep "metter le mani avanti (prima di cadere)"@it .
+
+lidit:metter_le_mani_avanti_prima_di_cadere_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:metter_le_mani_avanti_prima_di_cadere_def .
+
+lidit:metter_le_mani_avanti_prima_di_cadere_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:metter_le_mani_avanti_prima_di_cadere_sense ;
+	skos:definition "to take action to prevent later damage"@en .
+
+lidit:metterci_il_cappello a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:metterci_il_cappello_sense ;
+	ontolex:canonicalForm lidit:metterci_il_cappello_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "metterci il cappello"@it .
+
+lidit:metterci_il_cappello_form a ontolex:form ;
+	ontolex:writtenRep "metterci il cappello"@it .
+
+lidit:metterci_il_cappello_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:metterci_il_cappello_def .
+
+lidit:metterci_il_cappello_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:metterci_il_cappello_sense ;
+	skos:definition "to falsely claim ownership of or credit for."@en .
+
+lidit:metterci_la_ciliegina_sopra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:metterci_la_ciliegina_sopra_sense ;
+	ontolex:canonicalForm lidit:metterci_la_ciliegina_sopra_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "metterci la ciliegina sopra"@it .
+
+lidit:metterci_la_ciliegina_sopra_form a ontolex:form ;
+	ontolex:writtenRep "metterci la ciliegina sopra"@it .
+
+lidit:metterci_la_ciliegina_sopra_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:metterci_la_ciliegina_sopra_def .
+
+lidit:metterci_la_ciliegina_sopra_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:metterci_la_ciliegina_sopra_sense ;
+	skos:definition "to finish up something putting extra beyond the basic requirement"@en .
+
+lidit:mettere_il_bastone_tra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mettere_il_bastone_tra_sense ;
+	ontolex:canonicalForm lidit:mettere_il_bastone_tra_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mettere il bastone tra"@it .
+
+lidit:mettere_il_bastone_tra_form a ontolex:form ;
+	ontolex:writtenRep "mettere il bastone tra"@it .
+
+lidit:mettere_il_bastone_tra_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mettere_il_bastone_tra_def .
+
+lidit:mettere_il_bastone_tra_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mettere_il_bastone_tra_sense ;
+	skos:definition "to hinder the carrying out of an activity or plan."@en .
+
+lidit:mettere_il_dito_sulla_piaga a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mettere_il_dito_sulla_piaga_sense ;
+	ontolex:canonicalForm lidit:mettere_il_dito_sulla_piaga_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mettere il dito sulla piaga"@it .
+
+lidit:mettere_il_dito_sulla_piaga_form a ontolex:form ;
+	ontolex:writtenRep "mettere il dito sulla piaga"@it .
+
+lidit:mettere_il_dito_sulla_piaga_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mettere_il_dito_sulla_piaga_def .
+
+lidit:mettere_il_dito_sulla_piaga_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mettere_il_dito_sulla_piaga_sense ;
+	skos:definition "to touch where it hurts"@en .
+
+lidit:mettere_la_ciliegina_sulla_torta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mettere_la_ciliegina_sulla_torta_sense ;
+	ontolex:canonicalForm lidit:mettere_la_ciliegina_sulla_torta_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mettere la ciliegina sulla torta"@it .
+
+lidit:mettere_la_ciliegina_sulla_torta_form a ontolex:form ;
+	ontolex:writtenRep "mettere la ciliegina sulla torta"@it .
+
+lidit:mettere_la_ciliegina_sulla_torta_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mettere_la_ciliegina_sulla_torta_def .
+
+lidit:mettere_la_ciliegina_sulla_torta_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mettere_la_ciliegina_sulla_torta_sense ;
+	skos:definition "something that intensifies the appreciation of something already good"@en .
+
+lidit:mettersi_le_mani_nei_capelli a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mettersi_le_mani_nei_capelli_sense ;
+	ontolex:canonicalForm lidit:mettersi_le_mani_nei_capelli_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mettersi le mani nei capelli"@it .
+
+lidit:mettersi_le_mani_nei_capelli_form a ontolex:form ;
+	ontolex:writtenRep "mettersi le mani nei capelli"@it .
+
+lidit:mettersi_le_mani_nei_capelli_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mettersi_le_mani_nei_capelli_def .
+
+lidit:mettersi_le_mani_nei_capelli_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mettersi_le_mani_nei_capelli_sense ;
+	skos:definition "to be desperate, helpless"@en .
+
+lidit:metti_il_sale_sulla_coda a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:metti_il_sale_sulla_coda_sense ;
+	ontolex:canonicalForm lidit:metti_il_sale_sulla_coda_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "metti il sale sulla coda"@it .
+
+lidit:metti_il_sale_sulla_coda_form a ontolex:form ;
+	ontolex:writtenRep "metti il sale sulla coda"@it .
+
+lidit:metti_il_sale_sulla_coda_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:metti_il_sale_sulla_coda_def .
+
+lidit:metti_il_sale_sulla_coda_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:metti_il_sale_sulla_coda_sense ;
+	skos:definition "try to catch it !"@en .
+
+lidit:mi_piace_un_casino a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mi_piace_un_casino_sense ;
+	ontolex:canonicalForm lidit:mi_piace_un_casino_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mi piace un casino"@it .
+
+lidit:mi_piace_un_casino_form a ontolex:form ;
+	ontolex:writtenRep "mi piace un casino"@it .
+
+lidit:mi_piace_un_casino_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mi_piace_un_casino_def .
+
+lidit:mi_piace_un_casino_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mi_piace_un_casino_sense ;
+	skos:definition "i like it a lot."@en .
+
+lidit:mollarne_una a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mollarne_una_sense ;
+	ontolex:canonicalForm lidit:mollarne_una_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mollarne una"@it .
+
+lidit:mollarne_una_form a ontolex:form ;
+	ontolex:writtenRep "mollarne una"@it .
+
+lidit:mollarne_una_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mollarne_una_def .
+
+lidit:mollarne_una_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mollarne_una_sense ;
+	skos:definition "to fart; to let one rip."@en .
+
+lidit:mordersi_le_mani a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:mordersi_le_mani_sense ;
+	ontolex:canonicalForm lidit:mordersi_le_mani_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "mordersi le mani"@it .
+
+lidit:mordersi_le_mani_form a ontolex:form ;
+	ontolex:writtenRep "mordersi le mani"@it .
+
+lidit:mordersi_le_mani_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:mordersi_le_mani_def .
+
+lidit:mordersi_le_mani_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:mordersi_le_mani_sense ;
+	skos:definition "to regret something"@en .
+
+lidit:ne_carne_ne_pesce a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ne_carne_ne_pesce_sense ;
+	ontolex:canonicalForm lidit:ne_carne_ne_pesce_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "nè carne nè pesce"@it .
+
+lidit:ne_carne_ne_pesce_form a ontolex:form ;
+	ontolex:writtenRep "nè carne nè pesce"@it .
+
+lidit:ne_carne_ne_pesce_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ne_carne_ne_pesce_def .
+
+lidit:ne_carne_ne_pesce_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ne_carne_ne_pesce_sense ;
+	skos:definition "something or someone which is not easily categorized; something or someone that does not rightly belong or fit well in a given group or situation."@en .
+
+lidit:nella_botte_piccola_ce_vino_buono a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:nella_botte_piccola_ce_vino_buono_sense ;
+	ontolex:canonicalForm lidit:nella_botte_piccola_ce_vino_buono_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "nella botte piccola c'è vino buono"@it .
+
+lidit:nella_botte_piccola_ce_vino_buono_form a ontolex:form ;
+	ontolex:writtenRep "nella botte piccola c'è vino buono"@it .
+
+lidit:nella_botte_piccola_ce_vino_buono_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:nella_botte_piccola_ce_vino_buono_def .
+
+lidit:nella_botte_piccola_ce_vino_buono_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:nella_botte_piccola_ce_vino_buono_sense ;
+	skos:definition "a friendly compliment to a short person."@en .
+
+lidit:non_mi_rompere_i_maroni a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:non_mi_rompere_i_maroni_sense ;
+	ontolex:canonicalForm lidit:non_mi_rompere_i_maroni_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "non mi rompere i maroni"@it .
+
+lidit:non_mi_rompere_i_maroni_form a ontolex:form ;
+	ontolex:writtenRep "non mi rompere i maroni"@it .
+
+lidit:non_mi_rompere_i_maroni_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:non_mi_rompere_i_maroni_def .
+
+lidit:non_mi_rompere_i_maroni_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:non_mi_rompere_i_maroni_sense ;
+	skos:definition "typically what you’d say to someone annoying."@en .
+
+lidit:non_sono_affari_tuoi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:non_sono_affari_tuoi_sense ;
+	ontolex:canonicalForm lidit:non_sono_affari_tuoi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "non sono affari tuoi"@it .
+
+lidit:non_sono_affari_tuoi_form a ontolex:form ;
+	ontolex:writtenRep "non sono affari tuoi"@it .
+
+lidit:non_sono_affari_tuoi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:non_sono_affari_tuoi_def .
+
+lidit:non_sono_affari_tuoi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:non_sono_affari_tuoi_sense ;
+	skos:definition "something does not interest to another"@en .
+
+lidit:non_tutti_i_mali_vengono_per_nuocere a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:non_tutti_i_mali_vengono_per_nuocere_sense ;
+	ontolex:canonicalForm lidit:non_tutti_i_mali_vengono_per_nuocere_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "non tutti i mali vengono per nuocere"@it .
+
+lidit:non_tutti_i_mali_vengono_per_nuocere_form a ontolex:form ;
+	ontolex:writtenRep "non tutti i mali vengono per nuocere"@it .
+
+lidit:non_tutti_i_mali_vengono_per_nuocere_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:non_tutti_i_mali_vengono_per_nuocere_def .
+
+lidit:non_tutti_i_mali_vengono_per_nuocere_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:non_tutti_i_mali_vengono_per_nuocere_sense ;
+	skos:definition "every bad situation has some good aspect to it."@en .
+
+lidit:parlare_a_braccio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:parlare_a_braccio_sense ;
+	ontolex:canonicalForm lidit:parlare_a_braccio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "parlare a braccio"@it .
+
+lidit:parlare_a_braccio_form a ontolex:form ;
+	ontolex:writtenRep "parlare a braccio"@it .
+
+lidit:parlare_a_braccio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:parlare_a_braccio_def .
+
+lidit:parlare_a_braccio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:parlare_a_braccio_sense ;
+	skos:definition "to extemporize"@en .
+
+lidit:parlare_fuori_dai_denti a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:parlare_fuori_dai_denti_sense ;
+	ontolex:canonicalForm lidit:parlare_fuori_dai_denti_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "parlare fuori dai denti"@it .
+
+lidit:parlare_fuori_dai_denti_form a ontolex:form ;
+	ontolex:writtenRep "parlare fuori dai denti"@it .
+
+lidit:parlare_fuori_dai_denti_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:parlare_fuori_dai_denti_def .
+
+lidit:parlare_fuori_dai_denti_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:parlare_fuori_dai_denti_sense ;
+	skos:definition "to say openly what’s on your mind."@en .
+
+lidit:peli_sulla_lingua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:peli_sulla_lingua_sense ;
+	ontolex:canonicalForm lidit:peli_sulla_lingua_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "peli sulla lingua"@it .
+
+lidit:peli_sulla_lingua_form a ontolex:form ;
+	ontolex:writtenRep "peli sulla lingua"@it .
+
+lidit:peli_sulla_lingua_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:peli_sulla_lingua_def .
+
+lidit:peli_sulla_lingua_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:peli_sulla_lingua_sense ;
+	skos:definition "to speak frankly about something in negative way"@en .
+
+lidit:peli_sulla_pancia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:peli_sulla_pancia_sense ;
+	ontolex:canonicalForm lidit:peli_sulla_pancia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "peli sulla pancia"@it .
+
+lidit:peli_sulla_pancia_form a ontolex:form ;
+	ontolex:writtenRep "peli sulla pancia"@it .
+
+lidit:peli_sulla_pancia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:peli_sulla_pancia_def .
+
+lidit:peli_sulla_pancia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:peli_sulla_pancia_sense ;
+	skos:definition "to be tough, able to stand up to criticism."@en .
+
+lidit:per_favore_non_rompermi_le_palle a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:per_favore_non_rompermi_le_palle_sense ;
+	ontolex:canonicalForm lidit:per_favore_non_rompermi_le_palle_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "per favore, non rompermi le palle"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00116627r> .
+
+lidit:per_favore_non_rompermi_le_palle_form a ontolex:form ;
+	ontolex:writtenRep "per favore, non rompermi le palle"@it .
+
+lidit:per_favore_non_rompermi_le_palle_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:per_favore_non_rompermi_le_palle_def .
+
+lidit:per_favore_non_rompermi_le_palle_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:per_favore_non_rompermi_le_palle_sense ;
+	skos:definition "you dont have to piece me off"@en .
+
+lidit:perdere_la_bussola a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:perdere_la_bussola_sense ;
+	ontolex:canonicalForm lidit:perdere_la_bussola_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "perdere la bussola"@it .
+
+lidit:perdere_la_bussola_form a ontolex:form ;
+	ontolex:writtenRep "perdere la bussola"@it .
+
+lidit:perdere_la_bussola_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:perdere_la_bussola_def .
+
+lidit:perdere_la_bussola_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:perdere_la_bussola_sense ;
+	skos:definition "you are crazy"@en .
+
+lidit:perdere_le_staffe a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:perdere_le_staffe_sense ;
+	ontolex:canonicalForm lidit:perdere_le_staffe_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "perdere le staffe"@it .
+
+lidit:perdere_le_staffe_form a ontolex:form ;
+	ontolex:writtenRep "perdere le staffe"@it .
+
+lidit:perdere_le_staffe_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:perdere_le_staffe_def .
+
+lidit:perdere_le_staffe_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:perdere_le_staffe_sense ;
+	skos:definition "to lose self-control by getting extremely angry."@en .
+
+lidit:pestar_lacqua_nel_mortaio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:pestar_lacqua_nel_mortaio_sense ;
+	ontolex:canonicalForm lidit:pestar_lacqua_nel_mortaio_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "pestar l'acqua nel mortaio"@it .
+
+lidit:pestar_lacqua_nel_mortaio_form a ontolex:form ;
+	ontolex:writtenRep "pestar l'acqua nel mortaio"@it .
+
+lidit:pestar_lacqua_nel_mortaio_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:pestar_lacqua_nel_mortaio_def .
+
+lidit:pestar_lacqua_nel_mortaio_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:pestar_lacqua_nel_mortaio_sense ;
+	skos:definition "to do something useless; to waste time"@en .
+
+lidit:piove_sul_bagnato a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:piove_sul_bagnato_sense ;
+	ontolex:canonicalForm lidit:piove_sul_bagnato_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "piove sul bagnato"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08840902n> .
+
+lidit:piove_sul_bagnato_form a ontolex:form ;
+	ontolex:writtenRep "piove sul bagnato"@it .
+
+lidit:piove_sul_bagnato_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:piove_sul_bagnato_def .
+
+lidit:piove_sul_bagnato_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:piove_sul_bagnato_sense ;
+	skos:definition "too much of a good thing."@en .
+
+lidit:prendere_due_piccioni_con_una_fava a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:prendere_due_piccioni_con_una_fava_sense ;
+	ontolex:canonicalForm lidit:prendere_due_piccioni_con_una_fava_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "prendere due piccioni con una fava"@it .
+
+lidit:prendere_due_piccioni_con_una_fava_form a ontolex:form ;
+	ontolex:writtenRep "prendere due piccioni con una fava"@it .
+
+lidit:prendere_due_piccioni_con_una_fava_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:prendere_due_piccioni_con_una_fava_def .
+
+lidit:prendere_due_piccioni_con_una_fava_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:prendere_due_piccioni_con_una_fava_sense ;
+	skos:definition "to solve two problems with one single action"@en .
+
+lidit:prendere_qualcosa_sottogamba a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:prendere_qualcosa_sottogamba_sense ;
+	ontolex:canonicalForm lidit:prendere_qualcosa_sottogamba_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "prendere qualcosa sottogamba"@it .
+
+lidit:prendere_qualcosa_sottogamba_form a ontolex:form ;
+	ontolex:writtenRep "prendere qualcosa sottogamba"@it .
+
+lidit:prendere_qualcosa_sottogamba_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:prendere_qualcosa_sottogamba_def .
+
+lidit:prendere_qualcosa_sottogamba_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:prendere_qualcosa_sottogamba_sense ;
+	skos:definition "not to take it seriously"@en .
+
+lidit:punta_delliceberg a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:punta_delliceberg_sense ;
+	ontolex:canonicalForm lidit:punta_delliceberg_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "punta dell'iceberg"@it .
+
+lidit:punta_delliceberg_form a ontolex:form ;
+	ontolex:writtenRep "punta dell'iceberg"@it .
+
+lidit:punta_delliceberg_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:punta_delliceberg_def .
+
+lidit:punta_delliceberg_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:punta_delliceberg_sense ;
+	skos:definition "a problem is much bigger than it seems"@en .
+
+lidit:qualcosa_bolle_in_pentola a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:qualcosa_bolle_in_pentola_sense ;
+	ontolex:canonicalForm lidit:qualcosa_bolle_in_pentola_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "qualcosa bolle in pentola"@it .
+
+lidit:qualcosa_bolle_in_pentola_form a ontolex:form ;
+	ontolex:writtenRep "qualcosa bolle in pentola"@it .
+
+lidit:qualcosa_bolle_in_pentola_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:qualcosa_bolle_in_pentola_def .
+
+lidit:qualcosa_bolle_in_pentola_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:qualcosa_bolle_in_pentola_sense ;
+	skos:definition "to be illogical"@en .
+
+lidit:quando_gli_asini_voleranno a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:quando_gli_asini_voleranno_sense ;
+	ontolex:canonicalForm lidit:quando_gli_asini_voleranno_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "quando gli asini voleranno"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13744788n> .
+
+lidit:quando_gli_asini_voleranno_form a ontolex:form ;
+	ontolex:writtenRep "quando gli asini voleranno"@it .
+
+lidit:quando_gli_asini_voleranno_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:quando_gli_asini_voleranno_def .
+
+lidit:quando_gli_asini_voleranno_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:quando_gli_asini_voleranno_sense ;
+	skos:definition "something that will not never happen"@en .
+
+lidit:quella_persona_ha_il_pelo_sullo_stomaco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:quella_persona_ha_il_pelo_sullo_stomaco_sense ;
+	ontolex:canonicalForm lidit:quella_persona_ha_il_pelo_sullo_stomaco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "quella persona ha il pelo sullo stomaco"@it .
+
+lidit:quella_persona_ha_il_pelo_sullo_stomaco_form a ontolex:form ;
+	ontolex:writtenRep "quella persona ha il pelo sullo stomaco"@it .
+
+lidit:quella_persona_ha_il_pelo_sullo_stomaco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:quella_persona_ha_il_pelo_sullo_stomaco_def .
+
+lidit:quella_persona_ha_il_pelo_sullo_stomaco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:quella_persona_ha_il_pelo_sullo_stomaco_sense ;
+	skos:definition "it is said of people who are unethical, reckless, and overall willing to push the limits of legality in business"@en .
+
+lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_sense ;
+	ontolex:canonicalForm lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "questa cosa mi fa venire il latte alle ginocchia"@it .
+
+lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_form a ontolex:form ;
+	ontolex:writtenRep "questa cosa mi fa venire il latte alle ginocchia"@it .
+
+lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_def .
+
+lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:questa_cosa_mi_fa_venire_il_latte_alle_ginocchia_sense ;
+	skos:definition "it is said of something (or someone) boring and exasperating, something that makes you want to get away as fast as possible!"@en .
+
+lidit:questa_cosa_mi_sta_sullo_stomaco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:questa_cosa_mi_sta_sullo_stomaco_sense ;
+	ontolex:canonicalForm lidit:questa_cosa_mi_sta_sullo_stomaco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "questa cosa mi sta sullo stomaco"@it .
+
+lidit:questa_cosa_mi_sta_sullo_stomaco_form a ontolex:form ;
+	ontolex:writtenRep "questa cosa mi sta sullo stomaco"@it .
+
+lidit:questa_cosa_mi_sta_sullo_stomaco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:questa_cosa_mi_sta_sullo_stomaco_def .
+
+lidit:questa_cosa_mi_sta_sullo_stomaco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:questa_cosa_mi_sta_sullo_stomaco_sense ;
+	skos:definition "this thing is really unpleasant and annoying. often also said of people (questa persona mi sta sullo stomaco)"@en .
+
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_form> ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "questa cosa/ questa persona e’ amara come la cicoria"@it .
+
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_form> a ontolex:form ;
+	ontolex:writtenRep "questa cosa/ questa persona e’ amara come la cicoria"@it .
+
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_def> .
+
+<http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/it/questa_cosa/_questa_persona_e_amara_come_la_cicoria_sense> ;
+	skos:definition "said of something bitter in taste, but also of a bitter person"@en .
+
+lidit:radere_al_suolo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:radere_al_suolo_sense ;
+	ontolex:canonicalForm lidit:radere_al_suolo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "radere al suolo"@it .
+
+lidit:radere_al_suolo_form a ontolex:form ;
+	ontolex:writtenRep "radere al suolo"@it .
+
+lidit:radere_al_suolo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:radere_al_suolo_def .
+
+lidit:radere_al_suolo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:radere_al_suolo_sense ;
+	skos:definition "to destroy"@en .
+
+lidit:rendere_pan_per_focaccia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:rendere_pan_per_focaccia_sense ;
+	ontolex:canonicalForm lidit:rendere_pan_per_focaccia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "rendere pan per focaccia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s08841995n> .
+
+lidit:rendere_pan_per_focaccia_form a ontolex:form ;
+	ontolex:writtenRep "rendere pan per focaccia"@it .
+
+lidit:rendere_pan_per_focaccia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:rendere_pan_per_focaccia_def .
+
+lidit:rendere_pan_per_focaccia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:rendere_pan_per_focaccia_sense ;
+	skos:definition "t is used metaphorically to illustrate a payback for a suffered wrong"@en , "returning exactly what you get."@en .
+
+lidit:ridotto_allosso a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ridotto_allosso_sense ;
+	ontolex:canonicalForm lidit:ridotto_allosso_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "ridotto all’osso"@it .
+
+lidit:ridotto_allosso_form a ontolex:form ;
+	ontolex:writtenRep "ridotto all’osso"@it .
+
+lidit:ridotto_allosso_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ridotto_allosso_def .
+
+lidit:ridotto_allosso_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ridotto_allosso_sense ;
+	skos:definition "as bare-bone as it gets- often said of a price during bargaining, or of a family budget, it means it has been rid of the excess, muck like bones used to make stock."@en .
+
+lidit:rimboccarsi_le_maniche a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:rimboccarsi_le_maniche_sense ;
+	ontolex:canonicalForm lidit:rimboccarsi_le_maniche_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "rimboccarsi le maniche"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13789023> , <http://babelnet.org/rdf/page/s13789024v> .
+
+lidit:rimboccarsi_le_maniche_form a ontolex:form ;
+	ontolex:writtenRep "rimboccarsi le maniche"@it .
+
+lidit:rimboccarsi_le_maniche_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:rimboccarsi_le_maniche_def .
+
+lidit:rimboccarsi_le_maniche_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:rimboccarsi_le_maniche_sense ;
+	skos:definition "to prepare to work"@en .
+
+lidit:sbagliando_simpara a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:sbagliando_simpara_sense ;
+	ontolex:canonicalForm lidit:sbagliando_simpara_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "sbagliando s'impara"@it .
+
+lidit:sbagliando_simpara_form a ontolex:form ;
+	ontolex:writtenRep "sbagliando s'impara"@it .
+
+lidit:sbagliando_simpara_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:sbagliando_simpara_def .
+
+lidit:sbagliando_simpara_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:sbagliando_simpara_sense ;
+	skos:definition "you learn from your mistakes "@en .
+
+lidit:scoprire_lacqua_calda a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:scoprire_lacqua_calda_sense ;
+	ontolex:canonicalForm lidit:scoprire_lacqua_calda_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "scoprire l'acqua calda"@it .
+
+lidit:scoprire_lacqua_calda_form a ontolex:form ;
+	ontolex:writtenRep "scoprire l'acqua calda"@it .
+
+lidit:scoprire_lacqua_calda_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:scoprire_lacqua_calda_def .
+
+lidit:scoprire_lacqua_calda_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:scoprire_lacqua_calda_sense ;
+	skos:definition "to do work unnecessarily when it has already been done satisfactorily by others"@en .
+
+lidit:se_non_e_zuppa_e_pan_bagnato a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:se_non_e_zuppa_e_pan_bagnato_sense ;
+	ontolex:canonicalForm lidit:se_non_e_zuppa_e_pan_bagnato_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "se non e zuppa, e pan bagnato"@it .
+
+lidit:se_non_e_zuppa_e_pan_bagnato_form a ontolex:form ;
+	ontolex:writtenRep "se non e zuppa, e pan bagnato"@it .
+
+lidit:se_non_e_zuppa_e_pan_bagnato_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:se_non_e_zuppa_e_pan_bagnato_def .
+
+lidit:se_non_e_zuppa_e_pan_bagnato_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:se_non_e_zuppa_e_pan_bagnato_sense ;
+	skos:definition "to say something equal to another. to be redundant"@en .
+
+lidit:sei_sempre_in_mezzo_come_il_prezzemolo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:sei_sempre_in_mezzo_come_il_prezzemolo_sense ;
+	ontolex:canonicalForm lidit:sei_sempre_in_mezzo_come_il_prezzemolo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "sei sempre in mezzo come il prezzemolo"@it .
+
+lidit:sei_sempre_in_mezzo_come_il_prezzemolo_form a ontolex:form ;
+	ontolex:writtenRep "sei sempre in mezzo come il prezzemolo"@it .
+
+lidit:sei_sempre_in_mezzo_come_il_prezzemolo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:sei_sempre_in_mezzo_come_il_prezzemolo_def .
+
+lidit:sei_sempre_in_mezzo_come_il_prezzemolo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:sei_sempre_in_mezzo_come_il_prezzemolo_sense ;
+	skos:definition "you mingle in things that are not your own, you are always in the way"@en .
+
+lidit:sentirsi_mancare_la_terra_sotto_i_piedi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:sentirsi_mancare_la_terra_sotto_i_piedi_sense ;
+	ontolex:canonicalForm lidit:sentirsi_mancare_la_terra_sotto_i_piedi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "sentirsi mancare la terra sotto i piedi"@it .
+
+lidit:sentirsi_mancare_la_terra_sotto_i_piedi_form a ontolex:form ;
+	ontolex:writtenRep "sentirsi mancare la terra sotto i piedi"@it .
+
+lidit:sentirsi_mancare_la_terra_sotto_i_piedi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:sentirsi_mancare_la_terra_sotto_i_piedi_def .
+
+lidit:sentirsi_mancare_la_terra_sotto_i_piedi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:sentirsi_mancare_la_terra_sotto_i_piedi_sense ;
+	skos:definition "to feel lost or lacking support"@en .
+
+lidit:sentirsi_prudere_le_mani a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:sentirsi_prudere_le_mani_sense ;
+	ontolex:canonicalForm lidit:sentirsi_prudere_le_mani_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "sentirsi prudere le mani"@it .
+
+lidit:sentirsi_prudere_le_mani_form a ontolex:form ;
+	ontolex:writtenRep "sentirsi prudere le mani"@it .
+
+lidit:sentirsi_prudere_le_mani_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:sentirsi_prudere_le_mani_def .
+
+lidit:sentirsi_prudere_le_mani_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:sentirsi_prudere_le_mani_sense ;
+	skos:definition "to feel like hitting someone"@en .
+
+lidit:siamo_incasinati a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:siamo_incasinati_sense ;
+	ontolex:canonicalForm lidit:siamo_incasinati_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "siamo incasinati"@it .
+
+lidit:siamo_incasinati_form a ontolex:form ;
+	ontolex:writtenRep "siamo incasinati"@it .
+
+lidit:siamo_incasinati_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:siamo_incasinati_def .
+
+lidit:siamo_incasinati_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:siamo_incasinati_sense ;
+	skos:definition "we’re in a mess(or we’re very busy”)."@en .
+
+<http://lid.aksw.org/it/sono_cotta/o> a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense <http://lid.aksw.org/it/sono_cotta/o_sense> ;
+	ontolex:canonicalForm <http://lid.aksw.org/it/sono_cotta/o_form> ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "sono cotta/o"@it .
+
+<http://lid.aksw.org/it/sono_cotta/o_form> a ontolex:form ;
+	ontolex:writtenRep "sono cotta/o"@it .
+
+<http://lid.aksw.org/it/sono_cotta/o_sense> a ontolex:LexicalSense ;
+	ontolex:reference <http://lid.aksw.org/it/sono_cotta/o_def> .
+
+<http://lid.aksw.org/it/sono_cotta/o_def> a ontolex:LexicalConcept ;
+	ontolex:isConceptOf <http://lid.aksw.org/it/sono_cotta/o_sense> ;
+	skos:definition "you are really like person"@en .
+
+lidit:sono_pieno_come_un_uovo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:sono_pieno_come_un_uovo_sense ;
+	ontolex:canonicalForm lidit:sono_pieno_come_un_uovo_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "sono pieno come un uovo"@it .
+
+lidit:sono_pieno_come_un_uovo_form a ontolex:form ;
+	ontolex:writtenRep "sono pieno come un uovo"@it .
+
+lidit:sono_pieno_come_un_uovo_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:sono_pieno_come_un_uovo_def .
+
+lidit:sono_pieno_come_un_uovo_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:sono_pieno_come_un_uovo_sense ;
+	skos:definition "i am stuffed, i can’t eat anymore (very useful when someone is trying to fill your plate yet again!)"@en .
+
+lidit:star_con_le_mani_in_mano a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:star_con_le_mani_in_mano_sense ;
+	ontolex:canonicalForm lidit:star_con_le_mani_in_mano_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "star con le mani in mano"@it .
+
+lidit:star_con_le_mani_in_mano_form a ontolex:form ;
+	ontolex:writtenRep "star con le mani in mano"@it .
+
+lidit:star_con_le_mani_in_mano_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:star_con_le_mani_in_mano_def .
+
+lidit:star_con_le_mani_in_mano_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:star_con_le_mani_in_mano_sense ;
+	skos:definition "to be idle, to be sitting on the fence"@en .
+
+lidit:stare_tra_le_due_acque a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:stare_tra_le_due_acque_sense ;
+	ontolex:canonicalForm lidit:stare_tra_le_due_acque_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "stare tra le due acque"@it .
+
+lidit:stare_tra_le_due_acque_form a ontolex:form ;
+	ontolex:writtenRep "stare tra le due acque"@it .
+
+lidit:stare_tra_le_due_acque_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:stare_tra_le_due_acque_def .
+
+lidit:stare_tra_le_due_acque_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:stare_tra_le_due_acque_sense ;
+	skos:definition "to not compromise oneself too much"@en .
+
+lidit:tenero_come_il_burro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tenero_come_il_burro_sense ;
+	ontolex:canonicalForm lidit:tenero_come_il_burro_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tenero come il burro"@it .
+
+lidit:tenero_come_il_burro_form a ontolex:form ;
+	ontolex:writtenRep "tenero come il burro"@it .
+
+lidit:tenero_come_il_burro_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tenero_come_il_burro_def .
+
+lidit:tenero_come_il_burro_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tenero_come_il_burro_sense ;
+	skos:definition "it is very tender, it usually refers to meat or other foods, and sometimes to people"@en .
+
+lidit:testa_a_testa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:testa_a_testa_sense ;
+	ontolex:canonicalForm lidit:testa_a_testa_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "testa a testa"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s00022970n> .
+
+lidit:testa_a_testa_form a ontolex:form ;
+	ontolex:writtenRep "testa a testa"@it .
+
+lidit:testa_a_testa_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:testa_a_testa_def .
+
+lidit:testa_a_testa_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:testa_a_testa_sense ;
+	skos:definition "so evenly matched that the advantage shifts from one to the other, and the outcome is uncertain"@en .
+
+lidit:ti_scureggia_il_cervello a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:ti_scureggia_il_cervello_sense ;
+	ontolex:canonicalForm lidit:ti_scureggia_il_cervello_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "ti scureggia il cervello"@it .
+
+lidit:ti_scureggia_il_cervello_form a ontolex:form ;
+	ontolex:writtenRep "ti scureggia il cervello"@it .
+
+lidit:ti_scureggia_il_cervello_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:ti_scureggia_il_cervello_def .
+
+lidit:ti_scureggia_il_cervello_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:ti_scureggia_il_cervello_sense ;
+	skos:definition "you are saying something very stupid"@en .
+
+lidit:tirar_lacqua_al_proprio_mulino a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tirar_lacqua_al_proprio_mulino_sense ;
+	ontolex:canonicalForm lidit:tirar_lacqua_al_proprio_mulino_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tirar l'acqua al proprio mulino"@it .
+
+lidit:tirar_lacqua_al_proprio_mulino_form a ontolex:form ;
+	ontolex:writtenRep "tirar l'acqua al proprio mulino"@it .
+
+lidit:tirar_lacqua_al_proprio_mulino_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tirar_lacqua_al_proprio_mulino_def .
+
+lidit:tirar_lacqua_al_proprio_mulino_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tirar_lacqua_al_proprio_mulino_sense ;
+	skos:definition "to do only what is in one's own interest"@en .
+
+lidit:tirare_acqua_al_proprio_mulino a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tirare_acqua_al_proprio_mulino_sense ;
+	ontolex:canonicalForm lidit:tirare_acqua_al_proprio_mulino_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tirare acqua al proprio mulino"@it .
+
+lidit:tirare_acqua_al_proprio_mulino_form a ontolex:form ;
+	ontolex:writtenRep "tirare acqua al proprio mulino"@it .
+
+lidit:tirare_acqua_al_proprio_mulino_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tirare_acqua_al_proprio_mulino_def .
+
+lidit:tirare_acqua_al_proprio_mulino_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tirare_acqua_al_proprio_mulino_sense ;
+	skos:definition "to act in one's own interests"@en .
+
+lidit:tirare_le_cuoia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tirare_le_cuoia_sense ;
+	ontolex:canonicalForm lidit:tirare_le_cuoia_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tirare le cuoia"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s03650753n> .
+
+lidit:tirare_le_cuoia_form a ontolex:form ;
+	ontolex:writtenRep "tirare le cuoia"@it .
+
+lidit:tirare_le_cuoia_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tirare_le_cuoia_def .
+
+lidit:tirare_le_cuoia_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tirare_le_cuoia_sense ;
+	skos:definition "to die"@en .
+
+lidit:tirarsi_su_le_maniche a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tirarsi_su_le_maniche_sense ;
+	ontolex:canonicalForm lidit:tirarsi_su_le_maniche_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tirarsi su le maniche"@it .
+
+lidit:tirarsi_su_le_maniche_form a ontolex:form ;
+	ontolex:writtenRep "tirarsi su le maniche"@it .
+
+lidit:tirarsi_su_le_maniche_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tirarsi_su_le_maniche_def .
+
+lidit:tirarsi_su_le_maniche_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tirarsi_su_le_maniche_sense ;
+	skos:definition "getting ready to work"@en .
+
+lidit:togliere_il_terreno_da_sotto_i_piedi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:togliere_il_terreno_da_sotto_i_piedi_sense ;
+	ontolex:canonicalForm lidit:togliere_il_terreno_da_sotto_i_piedi_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "togliere il terreno da sotto i piedi"@it .
+
+lidit:togliere_il_terreno_da_sotto_i_piedi_form a ontolex:form ;
+	ontolex:writtenRep "togliere il terreno da sotto i piedi"@it .
+
+lidit:togliere_il_terreno_da_sotto_i_piedi_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:togliere_il_terreno_da_sotto_i_piedi_def .
+
+lidit:togliere_il_terreno_da_sotto_i_piedi_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:togliere_il_terreno_da_sotto_i_piedi_sense ;
+	skos:definition "to discourage someone greatly"@en .
+
+lidit:togliersi_un_peso_dallo_stomaco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:togliersi_un_peso_dallo_stomaco_sense ;
+	ontolex:canonicalForm lidit:togliersi_un_peso_dallo_stomaco_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "togliersi un peso dallo stomaco"@it .
+
+lidit:togliersi_un_peso_dallo_stomaco_form a ontolex:form ;
+	ontolex:writtenRep "togliersi un peso dallo stomaco"@it .
+
+lidit:togliersi_un_peso_dallo_stomaco_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:togliersi_un_peso_dallo_stomaco_def .
+
+lidit:togliersi_un_peso_dallo_stomaco_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:togliersi_un_peso_dallo_stomaco_sense ;
+	skos:definition "to relieve oneself by talking to someone"@en .
+
+lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_sense ;
+	ontolex:canonicalForm lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tra il dire e il fare c'è di mezzo il mare"@it .
+
+lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_form a ontolex:form ;
+	ontolex:writtenRep "tra il dire e il fare c'è di mezzo il mare"@it .
+
+lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_def .
+
+lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_sense ;
+	skos:definition "this expression is a comment on good intentions and the idea that they often don't come to fruition."@en .
+
+lidit:tutto_fumo_e_niente_arrosto a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:tutto_fumo_e_niente_arrosto_sense ;
+	ontolex:canonicalForm lidit:tutto_fumo_e_niente_arrosto_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "tutto fumo e niente arrosto"@it ;
+	owl:sameAs <http://babelnet.org/rdf/page/s13669577a> .
+
+lidit:tutto_fumo_e_niente_arrosto_form a ontolex:form ;
+	ontolex:writtenRep "tutto fumo e niente arrosto"@it .
+
+lidit:tutto_fumo_e_niente_arrosto_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:tutto_fumo_e_niente_arrosto_def .
+
+lidit:tutto_fumo_e_niente_arrosto_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:tutto_fumo_e_niente_arrosto_sense ;
+	skos:definition "a thing or person which fails to measure up to its description or advanced promotion"@en .
+
+lidit:vai_a_quel_paese a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:vai_a_quel_paese_sense ;
+	ontolex:canonicalForm lidit:vai_a_quel_paese_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "vai a quel paese"@it .
+
+lidit:vai_a_quel_paese_form a ontolex:form ;
+	ontolex:writtenRep "vai a quel paese"@it .
+
+lidit:vai_a_quel_paese_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:vai_a_quel_paese_def .
+
+lidit:vai_a_quel_paese_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:vai_a_quel_paese_sense ;
+	skos:definition "to tell somebody to go away or leave one alone."@en .
+
+lidit:venire_alle_mani a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ita.html> ;
+	ontolex:sense lidit:venire_alle_mani_sense ;
+	ontolex:canonicalForm lidit:venire_alle_mani_form ;
+	dbo:location <http://dbpedia.org/page/Italy> ;
+	rdfs:label "venire alle mani"@it .
+
+lidit:venire_alle_mani_form a ontolex:form ;
+	ontolex:writtenRep "venire alle mani"@it .
+
+lidit:venire_alle_mani_sense a ontolex:LexicalSense ;
+	ontolex:reference lidit:venire_alle_mani_def .
+
+lidit:venire_alle_mani_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidit:venire_alle_mani_sense ;
+	skos:definition "to fight"@en .

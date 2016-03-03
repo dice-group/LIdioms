@@ -273,3 +273,28 @@ lidtr:im_eimer_trans_de_en a vartrans:Translation ;
 	vartrans:source lidde:im_eimer_sense ;
 	vartrans:target liden:down_the_drain_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:um_den_heißen_brei_herumreden_trans_de_en a vartrans:Translation ;
+	vartrans:source lidde:um_den_heißen_brei_herumreden_sense ;
+	vartrans:target liden:beat_around_the_bush_sense_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:da_kannst_du_gift_drauf_nehmen_sense_trans_de_en a vartrans:Translation ;
+	vartrans:source lidde:da_kannst_du_gift_drauf_nehmen_sense ;
+	vartrans:target liden:you can _bet_your_life_on_that_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:zwei_fliegen_mit_einer_klappe_schlagen_sense_trans_de_en a vartrans:Translation ;
+	vartrans:source lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense ;
+	vartrans:target liden:kill_two_birds_with_one_stone_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:den_nagel_auf_den_kopf_treffen_trans_de_en a vartrans:Translation ;
+	vartrans:source lidde:den_nagel_auf_den_kopf_treffen_sense ;
+	vartrans:target liden:hit_the_nail_on_the_head_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:jdm_die_daumen_drucken_trans_de_en a vartrans:Translation ;
+	vartrans:source lidde:jdm_die_daumen_drucken_sense ;
+	vartrans:target liden:keep_your_fingers_crossed_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .

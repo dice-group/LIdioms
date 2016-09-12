@@ -12,11 +12,6 @@ lidtr:alle_jubeljahre_trans_de_en a vartrans:Translation ;
 	vartrans:target liden:once_in_a_blue_moon_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:andere_lander_andere_sitten_trans_de_en a vartrans:Translation ;
-	vartrans:source lidde:andere_lander_andere_sitten_sense ;
-	vartrans:target liden:when_in_rome_do_as_the_romans_do_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:arbeit_macht_das_leben_suß_trans_de_en a vartrans:Translation ;
 	vartrans:source lidde:arbeit_macht_das_leben_suß_sense ;
 	vartrans:target liden:hard_work_never_hurt_anyone_sense ;
@@ -62,11 +57,6 @@ lidtr:aus_den_augen_aus_dem_sinn_trans_de_en a vartrans:Translation ;
 	vartrans:target liden:out_of_sight_out_of_mind_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:aus_einer_mucke_einen_elefanten_machen_trans_de_en a vartrans:Translation ;
-	vartrans:source lidde:aus_einer_mucke_einen_elefanten_machen_sense ;
-	vartrans:target liden:make_a_mountain_out_of_a_molehill_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:beim_bart_des_propheten_trans_de_en a vartrans:Translation ;
 	vartrans:source lidde:beim_bart_des_propheten_sense ;
 	vartrans:target liden:honest_to_god_sense ;
@@ -80,11 +70,6 @@ lidtr:blass_vor_neid_sein_trans_de_en a vartrans:Translation ;
 lidtr:borgen_macht_sorgen_trans_de_en a vartrans:Translation ;
 	vartrans:source lidde:borgen_macht_sorgen_sense ;
 	vartrans:target liden:neither_a_borrower_or_a_lender_be_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:da_bist_du_auf_dem_holzweg_trans_de_en a vartrans:Translation ;
-	vartrans:source lidde:da_bist_du_auf_dem_holzweg_sense ;
-	vartrans:target liden:youre_barking_up_the_wrong_tree_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:da_liegt_der_hund_begraben_trans_de_en a vartrans:Translation ;
@@ -322,11 +307,6 @@ lidtr:alle_calende_greche_trans_it_en a vartrans:Translation ;
 	vartrans:target liden:when_pigs_fly_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:alto_come_un_soldo_di_cacio_trans_it_en a vartrans:Translation ;
-	vartrans:source lidit:alto_come_un_soldo_di_cacio_sense ;
-	vartrans:target liden:knee_high_to_a_grasshopper_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:avere_la_botte_piena_e_la_moglie_ubriaca_trans_it_en a vartrans:Translation ;
 	vartrans:source lidit:avere_la_botte_piena_e_la_moglie_ubriaca_sense ;
 	vartrans:target liden:to_have_your_cake_and_eat_it_too_sense ;
@@ -342,11 +322,6 @@ lidtr:avere_un_culo_così_grande_trans_it_en a vartrans:Translation ;
 	vartrans:target liden:on_the_pigs_back_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:battere_il_ferro_finche_e_caldo_trans_it_en a vartrans:Translation ;
-	vartrans:source lidit:battere_il_ferro_finche_e_caldo_sense ;
-	vartrans:target liden:strike_while_the_iron_is_hot_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:buttare_il_bambino_con_lacqua_sporca_trans_it_en a vartrans:Translation ;
 	vartrans:source lidit:buttare_il_bambino_con_lacqua_sporca_sense ;
 	vartrans:target liden:throw_the_baby_out_with_the_bathwater_sense ;
@@ -360,11 +335,6 @@ lidtr:cadere_sempre_in_piedi_trans_it_en a vartrans:Translation ;
 lidtr:cavare_le_castagne_dal_fuoco_trans_it_en a vartrans:Translation ;
 	vartrans:source lidit:cavare_le_castagne_dal_fuoco_sense ;
 	vartrans:target liden:pull_someones_bacon_out_of_the_fire_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:chiudere_la_stalla_trans_it_en a vartrans:Translation ;
-	vartrans:source lidit:chiudere_la_stalla_sense ;
-	vartrans:target liden:close_the_stable_door_after_the_horse_has_bolted_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:colto_con_le_mani_nel_sacco_trans_it_en a vartrans:Translation ;
@@ -552,19 +522,9 @@ lidtr:non_sono_affari_tuoi_trans_it_en a vartrans:Translation ;
 	vartrans:target liden:none_of_your_business_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:non_tutti_i_mali_vengono_per_nuocere_trans_it_en a vartrans:Translation ;
-	vartrans:source lidit:non_tutti_i_mali_vengono_per_nuocere_sense ;
-	vartrans:target liden:every_cloud_has_a_silver_lining_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:parlare_a_braccio_trans_it_en a vartrans:Translation ;
 	vartrans:source lidit:parlare_a_braccio_sense ;
 	vartrans:target liden:speak_off_the_cuff_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:perdere_le_staffe_trans_it_en a vartrans:Translation ;
-	vartrans:source lidit:perdere_le_staffe_sense ;
-	vartrans:target liden:to_fly_off_the_handle_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:prendere_due_piccioni_con_una_fava_trans_it_en a vartrans:Translation ;
@@ -620,11 +580,6 @@ lidtr:tirarsi_su_le_maniche_trans_it_en a vartrans:Translation ;
 lidtr:togliere_il_terreno_da_sotto_i_piedi_trans_it_en a vartrans:Translation ;
 	vartrans:source lidit:togliere_il_terreno_da_sotto_i_piedi_sense ;
 	vartrans:target liden:take_the_wind_out_of_someones_sails_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:togliersi_un_peso_dallo_stomaco_trans_it_en a vartrans:Translation ;
-	vartrans:source lidit:togliersi_un_peso_dallo_stomaco_sense ;
-	vartrans:target liden:get_off_ones_chest_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:tra_il_dire_e_il_fare_ce_di_mezzo_il_mare_trans_it_en a vartrans:Translation ;
@@ -705,11 +660,6 @@ lidtr:amigo_da_onca_trans_pt_en a vartrans:Translation ;
 lidtr:ao_pe_da_letra_trans_pt_en a vartrans:Translation ;
 	vartrans:source lidpt:ao_pe_da_letra_sense ;
 	vartrans:target liden:_by_the_book_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:apareca_trans_pt_en a vartrans:Translation ;
-	vartrans:source lidpt:apareca_sense ;
-	vartrans:target liden:drop_by_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:apertar_o_passo_trans_pt_en a vartrans:Translation ;
@@ -839,7 +789,7 @@ lidtr:estar_duro_trans_pt_en a vartrans:Translation ;
 
 lidtr:estar_pela_hora_da_morte_trans_pt_en a vartrans:Translation ;
 	vartrans:source lidpt:estar_pela_hora_da_morte_sense ;
-	vartrans:target liden:costs_an_arm_and_a_leg_sense ;
+	vartrans:target liden:arm_and_a_leg_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:farinha_do_mesmo_saco_trans_pt_en a vartrans:Translation ;
@@ -897,29 +847,19 @@ lidtr:sem_eira_nem_beira_trans_pt_en a vartrans:Translation ;
 	vartrans:target liden:have_two_pennies_to_rub_together_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:ser_carta_fora_do_baralho_trans_pt_en a vartrans:Translation ;
-	vartrans:source lidpt:ser_carta_fora_do_baralho_sense ;
-	vartrans:target liden:a_cuckoo_in_the_nest_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:tirar_o_cavalinho_da_chuva_trans_pt_en a vartrans:Translation ;
 	vartrans:source lidpt:tirar_o_cavalinho_da_chuva_sense ;
 	vartrans:target liden:take_the_wind_out_of_someones_sails_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:custa_os_olhos_da_cara_trans_pt_en a vartrans:Translation ;
+lidtr:olhos_da_cara_trans_pt_en a vartrans:Translation ;
 	vartrans:source lidpt:custa_os_olhos_da_cara_sense ;
-	vartrans:target liden:costs_an_arm_and_a_leg_sense ;
+	vartrans:target liden:arm_and_a_leg_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:o_gato_comeu_sua_lingua_trans_pt_en a vartrans:Translation ;
 	vartrans:source lidpt:o_gato_comeu_sua_lingua_sense ;
 	vartrans:target liden:cat_got_your_tongue_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:cafe_com_leite_trans_pt_en a vartrans:Translation ;
-	vartrans:source lidpt:cafe_com_leite_sense ;
-	vartrans:target liden:noobie_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:querer_abracar_o_mundo_trans_pt_en a vartrans:Translation ;
@@ -993,8 +933,13 @@ lidtr:estar_nas_nuvens_trans_pt_en a vartrans:Translation ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:matar_dois_coelhos_trans_pt_en a vartrans:Translation ;
-	vartrans:source lidpt:matar_dois_coelhos_com_uma_cajada_so_sense ;
+	vartrans:source lidpt:matar_dois_coelhos_com_uma_cajadada_so_sense ;
 	vartrans:target liden:kill_two_birds_with_one_stone_sense ;
+	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
+
+lidtr:nem_que_a_vaca_tussa_trans_pt_en a vartrans:Translation ;
+	vartrans:source lidpt:nem_que_a_vaca_tussa_sense ;
+	vartrans:target liden:when_pigs_fly_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:водить_за_нос_trans_rus_en a vartrans:Translation ;
@@ -1077,11 +1022,6 @@ lidtr:довести_до_белого_каления_trans_rus_en a vartrans:Tr
 	vartrans:target liden:hopping_mad_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:зарубить_на_носу_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:зарубить_на_носу_sense ;
-	vartrans:target liden:put_that_in_your_pipe_and_smoke_it_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:как_кур_во_щи_попасть_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:как_кур_во_щи_попасть_sense ;
 	vartrans:target liden:short_straw_sense ;
@@ -1130,16 +1070,6 @@ lidtr:в_гостях_хорошо_а_дома_лучше_trans_rus_en a vartran
 lidtr:цель_оправдывает_средства_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:цель_оправдывает_средства_sense ;
 	vartrans:target liden:the_ends_justify_the_means_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:на_вкус_и_цвет_товарищей_нет_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:на_вкус_и_цвет_товарищей_нет_sense ;
-	vartrans:target liden:to_each_his_own_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:исключение_подтверждает_правило_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:исключение_подтверждает_правило_sense ;
-	vartrans:target liden:the_exception_proves_the_rool_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:запретный_плод_сладок_trans_rus_en a vartrans:Translation ;
@@ -1262,11 +1192,6 @@ lidtr:как_гром_среди_ясного_неба_trans_rus_en a vartrans:T
 	vartrans:target liden:out_of_the_blue_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:на_воре_и_шапка_горит_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:на_воре_и_шапка_горит_sense ;
-	vartrans:target liden:protest_too_much_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:выбивать_из_колеи_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:выбивать_из_колеи_sense ;
 	vartrans:target liden:lose_ones_train_of_thought_sense ;
@@ -1297,11 +1222,6 @@ lidtr:быть_начеку_trans_rus_en a vartrans:Translation ;
 	vartrans:target liden:a_bigwig_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
-lidtr:остаешься_за_главного_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:остаешься_за_главного_sense ;
-	vartrans:target liden:hold_down_the_fort_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
 lidtr:обвести_вокруг_пальца_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:обвести_вокруг_пальца_sense ;
 	vartrans:target liden:to_wrap_you_around_their_finger_sense ;
@@ -1315,11 +1235,6 @@ lidtr:держать_язык_за_зубами_trans_rus_en a vartrans:Translat
 lidtr:москва_не_сразу_строилась_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:москва_не_сразу_строилась_sense ;
 	vartrans:target liden:rome_wasnt_built_in_a_day_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:нужда_заставляет_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:нужда_заставляет_sense ;
-	vartrans:target liden:necessity_is_the_mother_of_invention_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:плечом_к_плечу_trans_rus_en a vartrans:Translation ;
@@ -1350,11 +1265,6 @@ lidtr:чесать_репу_trans_rus_en a vartrans:Translation ;
 lidtr:рыба_тухнет_с_головы_trans_rus_en a vartrans:Translation ;
 	vartrans:source lidrus:рыба_тухнет_с_головы_sense ;
 	vartrans:target liden:a_fish_rots_from_the_head_down_sense ;
-	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
-
-lidtr:грызть_гранит_науки_trans_rus_en a vartrans:Translation ;
-	vartrans:source lidrus:грызть_гранит_науки_sense ;
-	vartrans:target liden:burn_the_midnight_oil_sense ;
 	vartrans:category <http://purl.org/net/translation-categories#culturalEquivalent> .
 
 lidtr:и_так_и_сяк_trans_rus_en a vartrans:Translation ;

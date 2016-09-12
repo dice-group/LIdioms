@@ -2416,6 +2416,24 @@ lidde:im_eimer_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:im_eimer_sense ;
 	skos:definition "to waste or lose something"@en .
 
+lidde:zwei_fliegen_mit_einer_klappe_schlagen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
+	ontolex:sense lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense ;
+	ontolex:canonicalForm lidde:zwei_fliegen_mit_einer_klappe_schlagen_form ;
+	dbo:location <http://dbpedia.org/page/Germany> ;
+	rdfs:label "zwei fliegen mit einer klappe schlagen"@de .
+
+lidde:zwei_fliegen_mit_einer_klappe_schlagen_form a ontolex:form ;
+	ontolex:writtenRep "zwei fliegen mit einer klappe schlagen"@de .
+
+lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense a ontolex:LexicalSense ;
+	ontolex:reference lidde:zwei_fliegen_mit_einer_klappe_schlagen_def .
+
+lidde:zwei_fliegen_mit_einer_klappe_schlagen_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense ;
+	skos:definition "To solve two problems with unique action"@en .
+
 lidde:die_axt_im_haus_erspart_den_zimmermann owl:sameAs <http://kaiko.getalp.org/dbnary/deu/die_Axt_im_Haus_erspart_den_Zimmermann__Sprichwort__1> .
 lidde:gleich_und_gleich_gesellt_sich_gern owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Gleich_und_Gleich_gesellt_sich_gern__Sprichwort__1> .
 lidde:abbitte_leisten owl:sameAs <http://kaiko.getalp.org/dbnary/deu/Abbitte_leisten__Redewendung__1> .

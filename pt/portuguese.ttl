@@ -2050,22 +2050,22 @@ lidpt:estar_nas_nuvens_def a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:estar_nas_nuvens_sense ;
 	skos:definition "to be bliss way"@en .
 
-lidpt:quando_a_vaca_tossir a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+lidpt:nem_que_a_vaca_tussa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
-	ontolex:sense lidpt:quando_a_vaca_tossir_sense ;
-	ontolex:canonicalForm lidpt:quando_a_vaca_tossir_form ;
+	ontolex:sense lidpt:nem_que_a_vaca_tussa_sense ;
+	ontolex:canonicalForm lidpt:nem_que_a_vaca_tussa_form ;
 	dbo:location <http://dbpedia.org/page/Brazil> ;
-	rdfs:label "quando a vaca tossir"@pt .
+	rdfs:label "nem que a vaca tussa"@pt .
 
-lidpt:quando_a_vaca_tossir_form a ontolex:form ;
-	ontolex:writtenRep "quando a vaca tossir"@pt .
+lidpt:nem_que_a_vaca_tussa_form a ontolex:form ;
+	ontolex:writtenRep "nem que a vaca tussa"@pt .
 
-lidpt:quando_a_vaca_tossir_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:quando_a_vaca_tossir_def .
+lidpt:nem_que_a_vaca_tussa_sense a ontolex:LexicalSense ;
+	ontolex:reference lidpt:nem_que_a_vaca_tussa_def .
 
-lidpt:quando_a_vaca_tossir_def a ontolex:LexicalConcept ;
-	ontolex:isConceptOf lidpt:quando_a_vaca_tossir_sense ;
+lidpt:nem_que_a_vaca_tussa_def a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidpt:nem_que_a_vaca_tussa_sense ;
 	skos:definition "something that will not happen"@en .
 
 lidpt:matar_dois_coelhos_com_uma_cajadada_so a ontolex:LexicalEntry , ontolex:MultiwordExpression ;

@@ -1,4 +1,4 @@
-# LIdioms - A Multilingual Linked Idioms Data Set in five differente languages. 
+# LIdioms - A Multilingual Linked Idioms Data Set in five different languages. 
 
 The data set is intended to support natural-language processing applications by providing links between idioms across languages.
 The underlying data was crawled and integrated from various sources. To ensure the quality of the crawled data, all idioms were

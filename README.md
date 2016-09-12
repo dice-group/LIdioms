@@ -9,7 +9,10 @@ Linguistic Linked Open Data Community.
 
 ## Lidiom Endoint - http://lid.aksw.org/sparql
 
-## Example - http://lid.aksw.org/en/kill_two_birds_with_one_stone
+## Example - 
+
+1. http://lid.aksw.org/en/kill_two_birds_with_one_stone
+2. http://lid.aksw.org/lodview/en/when_pigs_fly_sense - Translation examples.
 
 ## License
 

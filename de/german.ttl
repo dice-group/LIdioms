@@ -13,16 +13,16 @@ lidde:abbitte_leisten a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:abbitte_leisten_sense ;
 	ontolex:canonicalForm lidde:abbitte_leisten_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "abbitte leisten"@de .
 
 lidde:abbitte_leisten_form a ontolex:form ;
 	ontolex:writtenRep "abbitte leisten"@de .
 
 lidde:abbitte_leisten_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:abbitte_leisten_def .
+	ontolex:isLexicalizedSenseOf lidde:abbitte_leisten_concept .
 
-lidde:abbitte_leisten_def a ontolex:LexicalConcept ;
+lidde:abbitte_leisten_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:abbitte_leisten_sense ;
 	skos:definition "to ask for pardon, make amends"@en .
 
@@ -31,16 +31,16 @@ lidde:um_den_heißen_brei_herumreden a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:um_den_heißen_brei_herumreden_sense ;
 	ontolex:canonicalForm lidde:um_den_heißen_brei_herumreden_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "um den heißen brei herumreden"@de .
 
 lidde:um_den_heißen_brei_herumreden_form a ontolex:form ;
 	ontolex:writtenRep "um den heißen brei herumreden"@de .
 
 lidde:um_den_heißen_brei_herumreden_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:um_den_heißen_brei_herumreden_def .
+	ontolex:isLexicalizedSenseOf lidde:um_den_heißen_brei_herumreden_concept .
 
-lidde:um_den_heißen_brei_herumreden_def a ontolex:LexicalConcept ;
+lidde:um_den_heißen_brei_herumreden_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:um_den_heißen_brei_herumreden_sense ;
 	skos:definition "speaking avoiding the main topic"@en .
 
@@ -49,7 +49,7 @@ lidde:ach_was a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ach_was_sense ;
 	ontolex:canonicalForm lidde:ach_was_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ach was!"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s01257611n> .
 
@@ -57,9 +57,9 @@ lidde:ach_was_form a ontolex:form ;
 	ontolex:writtenRep "ach was!"@de .
 
 lidde:ach_was_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ach_was_def .
+	ontolex:isLexicalizedSenseOf lidde:ach_was_concept .
 
-lidde:ach_was_def a ontolex:LexicalConcept ;
+lidde:ach_was_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ach_was_sense ;
 	skos:definition "of course not!"@en .
 
@@ -68,16 +68,16 @@ lidde:da_kannst_du_gift_drauf_nehmen a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:da_kannst_du_gift_drauf_nehmen_sense ;
 	ontolex:canonicalForm lidde:da_kannst_du_gift_drauf_nehmen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "da kannst du gift drauf nehmen"@de .
 
 lidde:da_kannst_du_gift_drauf_nehmen_form a ontolex:form ;
 	ontolex:writtenRep "da kannst du gift drauf nehmen"@de .
 
 lidde:da_kannst_du_gift_drauf_nehmen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:da_kannst_du_gift_drauf_nehmen_def .
+	ontolex:isLexicalizedSenseOf lidde:da_kannst_du_gift_drauf_nehmen_concept .
 
-lidde:da_kannst_du_gift_drauf_nehmen_def a ontolex:LexicalConcept ;
+lidde:da_kannst_du_gift_drauf_nehmen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:da_kannst_du_gift_drauf_nehmen_sense ;
 	skos:definition "absolutely ​certain about truth of something"@en .
 
@@ -86,7 +86,7 @@ lidde:alle_jubeljahre a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:alle_jubeljahre_sense ;
 	ontolex:canonicalForm lidde:alle_jubeljahre_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "alle jubeljahre"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13739814r> .
 
@@ -94,9 +94,9 @@ lidde:alle_jubeljahre_form a ontolex:form ;
 	ontolex:writtenRep "alle jubeljahre"@de .
 
 lidde:alle_jubeljahre_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:alle_jubeljahre_def .
+	ontolex:isLexicalizedSenseOf lidde:alle_jubeljahre_concept .
 
-lidde:alle_jubeljahre_def a ontolex:LexicalConcept ;
+lidde:alle_jubeljahre_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:alle_jubeljahre_sense ;
 	skos:definition "something happening seldom"@en .
 
@@ -105,16 +105,16 @@ lidde:etwas_in_einem_aufwasch_erledigen a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:etwas_in_einem_aufwasch_erledigen_sense ;
 	ontolex:canonicalForm lidde:etwas_in_einem_aufwasch_erledigen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "etwas in einem aufwasch erledigen"@de .
 
 lidde:etwas_in_einem_aufwasch_erledigen_form a ontolex:form ;
 	ontolex:writtenRep "etwas in einem aufwasch erledigen"@de .
 
 lidde:etwas_in_einem_aufwasch_erledigen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:etwas_in_einem_aufwasch_erledigen_def .
+	ontolex:isLexicalizedSenseOf lidde:etwas_in_einem_aufwasch_erledigen_concept .
 
-lidde:etwas_in_einem_aufwasch_erledigen_def a ontolex:LexicalConcept ;
+lidde:etwas_in_einem_aufwasch_erledigen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:etwas_in_einem_aufwasch_erledigen_sense ;
 	skos:definition "to solve two problem through one action"@en .
 
@@ -123,16 +123,16 @@ lidde:alles_grau_in_grau_malen a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:alles_grau_in_grau_malen_sense ;
 	ontolex:canonicalForm lidde:alles_grau_in_grau_malen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "alles grau in grau malen"@de .
 
 lidde:alles_grau_in_grau_malen_form a ontolex:form ;
 	ontolex:writtenRep "alles grau in grau malen"@de .
 
 lidde:alles_grau_in_grau_malen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:alles_grau_in_grau_malen_def .
+	ontolex:isLexicalizedSenseOf lidde:alles_grau_in_grau_malen_concept .
 
-lidde:alles_grau_in_grau_malen_def a ontolex:LexicalConcept ;
+lidde:alles_grau_in_grau_malen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:alles_grau_in_grau_malen_sense ;
 	skos:definition "to be pessimistic"@en .
 
@@ -141,16 +141,16 @@ lidde:den_nagel_auf_den_kopf_treffen a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:den_nagel_auf_den_kopf_treffen_sense ;
 	ontolex:canonicalForm lidde:den_nagel_auf_den_kopf_treffen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "den nagel auf den kopf treffen"@de .
 
 lidde:den_nagel_auf_den_kopf_treffen_form a ontolex:form ;
 	ontolex:writtenRep "den nagel auf den kopf treffen"@de .
 
 lidde:den_nagel_auf_den_kopf_treffen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:den_nagel_auf_den_kopf_treffen_def .
+	ontolex:isLexicalizedSenseOf lidde:den_nagel_auf_den_kopf_treffen_concept .
 
-lidde:den_nagel_auf_den_kopf_treffen_def a ontolex:LexicalConcept ;
+lidde:den_nagel_auf_den_kopf_treffen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:den_nagel_auf_den_kopf_treffen_sense ;
 	skos:definition "to do something exactly correct"@en .
 
@@ -159,16 +159,16 @@ lidde:andere_lander_andere_sitten a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:andere_lander_andere_sitten_sense ;
 	ontolex:canonicalForm lidde:andere_lander_andere_sitten_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "andere länder, andere sitten."@de .
 
 lidde:andere_lander_andere_sitten_form a ontolex:form ;
 	ontolex:writtenRep "andere länder, andere sitten."@de .
 
 lidde:andere_lander_andere_sitten_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:andere_lander_andere_sitten_def .
+	ontolex:isLexicalizedSenseOf lidde:andere_lander_andere_sitten_concept .
 
-lidde:andere_lander_andere_sitten_def a ontolex:LexicalConcept ;
+lidde:andere_lander_andere_sitten_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:andere_lander_andere_sitten_sense ;
 	skos:definition "respect the beliefs and practices of a local culture"@en .
 
@@ -177,16 +177,16 @@ lidde:jdm_die_daumen_drucken a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:jdm_die_daumen_drucken_sense ;
 	ontolex:canonicalForm lidde:jdm_die_daumen_drucken_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "jdm die daumen drucken"@de .
 
 lidde:jdm_die_daumen_drucken_form a ontolex:form ;
 	ontolex:writtenRep "jdm die daumen drucken"@de .
 
 lidde:jdm_die_daumen_drucken_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:jdm_die_daumen_drucken_def .
+	ontolex:isLexicalizedSenseOf lidde:jdm_die_daumen_drucken_concept .
 
-lidde:jdm_die_daumen_drucken_def a ontolex:LexicalConcept ;
+lidde:jdm_die_daumen_drucken_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:jdm_die_daumen_drucken_sense ;
 	skos:definition "to hope that good things happen in according to thinking or praying"@en .
 
@@ -195,16 +195,16 @@ lidde:arbeit_macht_das_leben_suß a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:arbeit_macht_das_leben_suß_sense ;
 	ontolex:canonicalForm lidde:arbeit_macht_das_leben_suß_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "arbeit macht das leben süß."@de .
 
 lidde:arbeit_macht_das_leben_suß_form a ontolex:form ;
 	ontolex:writtenRep "arbeit macht das leben süß."@de .
 
 lidde:arbeit_macht_das_leben_suß_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:arbeit_macht_das_leben_suß_def .
+	ontolex:isLexicalizedSenseOf lidde:arbeit_macht_das_leben_suß_concept .
 
-lidde:arbeit_macht_das_leben_suß_def a ontolex:LexicalConcept ;
+lidde:arbeit_macht_das_leben_suß_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:arbeit_macht_das_leben_suß_sense ;
 	skos:definition "one should expect to do hard or difficult work and not avoid doing it."@en .
 
@@ -213,16 +213,16 @@ lidde:auf_biegen_oder_brechen a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_biegen_oder_brechen_sense ;
 	ontolex:canonicalForm lidde:auf_biegen_oder_brechen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf biegen oder brechen"@de .
 
 lidde:auf_biegen_oder_brechen_form a ontolex:form ;
 	ontolex:writtenRep "auf biegen oder brechen"@de .
 
 lidde:auf_biegen_oder_brechen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_biegen_oder_brechen_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_biegen_oder_brechen_concept .
 
-lidde:auf_biegen_oder_brechen_def a ontolex:LexicalConcept ;
+lidde:auf_biegen_oder_brechen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_biegen_oder_brechen_sense ;
 	skos:definition "by any means possible, in one way or another."@en .
 
@@ -231,16 +231,16 @@ lidde:auf_den_beinen_sein a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_den_beinen_sein_sense ;
 	ontolex:canonicalForm lidde:auf_den_beinen_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf den beinen sein"@de .
 
 lidde:auf_den_beinen_sein_form a ontolex:form ;
 	ontolex:writtenRep "auf den beinen sein"@de .
 
 lidde:auf_den_beinen_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_den_beinen_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_den_beinen_sein_concept .
 
-lidde:auf_den_beinen_sein_def a ontolex:LexicalConcept ;
+lidde:auf_den_beinen_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_den_beinen_sein_sense ;
 	skos:definition "standing up again after a fall."@en .
 
@@ -249,16 +249,16 @@ lidde:auf_die_beine_kommen a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_die_beine_kommen_sense ;
 	ontolex:canonicalForm lidde:auf_die_beine_kommen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf die beine kommen"@de .
 
 lidde:auf_die_beine_kommen_form a ontolex:form ;
 	ontolex:writtenRep "auf die beine kommen"@de .
 
 lidde:auf_die_beine_kommen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_die_beine_kommen_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_die_beine_kommen_concept .
 
-lidde:auf_die_beine_kommen_def a ontolex:LexicalConcept ;
+lidde:auf_die_beine_kommen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_die_beine_kommen_sense ;
 	skos:definition "standing up again after a fall."@en .
 
@@ -267,16 +267,16 @@ lidde:auf_die_pauke_hauen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_die_pauke_hauen_sense ;
 	ontolex:canonicalForm lidde:auf_die_pauke_hauen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf die pauke hauen"@de .
 
 lidde:auf_die_pauke_hauen_form a ontolex:form ;
 	ontolex:writtenRep "auf die pauke hauen"@de .
 
 lidde:auf_die_pauke_hauen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_die_pauke_hauen_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_die_pauke_hauen_concept .
 
-lidde:auf_die_pauke_hauen_def a ontolex:LexicalConcept ;
+lidde:auf_die_pauke_hauen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_die_pauke_hauen_sense ;
 	skos:definition "to go on a drinking bout; to get drunk."@en .
 
@@ -285,16 +285,16 @@ lidde:auf_draht_sein a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_draht_sein_sense ;
 	ontolex:canonicalForm lidde:auf_draht_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf draht sein"@de .
 
 lidde:auf_draht_sein_form a ontolex:form ;
 	ontolex:writtenRep "auf draht sein"@de .
 
 lidde:auf_draht_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_draht_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_draht_sein_concept .
 
-lidde:auf_draht_sein_def a ontolex:LexicalConcept ;
+lidde:auf_draht_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_draht_sein_sense ;
 	skos:definition "to be smart"@en .
 
@@ -303,16 +303,16 @@ lidde:auf_eigene_faust a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_eigene_faust_sense ;
 	ontolex:canonicalForm lidde:auf_eigene_faust_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf eigene faust"@de .
 
 lidde:auf_eigene_faust_form a ontolex:form ;
 	ontolex:writtenRep "auf eigene faust"@de .
 
 lidde:auf_eigene_faust_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_eigene_faust_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_eigene_faust_concept .
 
-lidde:auf_eigene_faust_def a ontolex:LexicalConcept ;
+lidde:auf_eigene_faust_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_eigene_faust_sense ;
 	skos:definition "by or through one's individual efforts or means"@en .
 
@@ -321,16 +321,16 @@ lidde:auf_gut_gluck a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:auf_gut_gluck_sense ;
 	ontolex:canonicalForm lidde:auf_gut_gluck_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "auf gut glück"@de .
 
 lidde:auf_gut_gluck_form a ontolex:form ;
 	ontolex:writtenRep "auf gut glück"@de .
 
 lidde:auf_gut_gluck_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:auf_gut_gluck_def .
+	ontolex:isLexicalizedSenseOf lidde:auf_gut_gluck_concept .
 
-lidde:auf_gut_gluck_def a ontolex:LexicalConcept ;
+lidde:auf_gut_gluck_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:auf_gut_gluck_sense ;
 	skos:definition "on the off chance"@en .
 
@@ -339,16 +339,16 @@ lidde:aufs_ganze_gehen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:aufs_ganze_gehen_sense ;
 	ontolex:canonicalForm lidde:aufs_ganze_gehen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "aufs ganze gehen"@de .
 
 lidde:aufs_ganze_gehen_form a ontolex:form ;
 	ontolex:writtenRep "aufs ganze gehen"@de .
 
 lidde:aufs_ganze_gehen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:aufs_ganze_gehen_def .
+	ontolex:isLexicalizedSenseOf lidde:aufs_ganze_gehen_concept .
 
-lidde:aufs_ganze_gehen_def a ontolex:LexicalConcept ;
+lidde:aufs_ganze_gehen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:aufs_ganze_gehen_sense ;
 	skos:definition "to go all out"@en .
 
@@ -357,16 +357,16 @@ lidde:aufs_tote_gleis_kommen a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:aufs_tote_gleis_kommen_sense ;
 	ontolex:canonicalForm lidde:aufs_tote_gleis_kommen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "aufs tote gleis kommen"@de .
 
 lidde:aufs_tote_gleis_kommen_form a ontolex:form ;
 	ontolex:writtenRep "aufs tote gleis kommen"@de .
 
 lidde:aufs_tote_gleis_kommen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:aufs_tote_gleis_kommen_def .
+	ontolex:isLexicalizedSenseOf lidde:aufs_tote_gleis_kommen_concept .
 
-lidde:aufs_tote_gleis_kommen_def a ontolex:LexicalConcept ;
+lidde:aufs_tote_gleis_kommen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:aufs_tote_gleis_kommen_sense ;
 	skos:definition "to come to a dead end"@en .
 
@@ -375,16 +375,16 @@ lidde:aus_dem_grobsten_heraus_sein a ontolex:LexicalEntry , ontolex:MultiwordExp
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:aus_dem_grobsten_heraus_sein_sense ;
 	ontolex:canonicalForm lidde:aus_dem_grobsten_heraus_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "aus dem gröbsten heraus sein"@de .
 
 lidde:aus_dem_grobsten_heraus_sein_form a ontolex:form ;
 	ontolex:writtenRep "aus dem gröbsten heraus sein"@de .
 
 lidde:aus_dem_grobsten_heraus_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:aus_dem_grobsten_heraus_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:aus_dem_grobsten_heraus_sein_concept .
 
-lidde:aus_dem_grobsten_heraus_sein_def a ontolex:LexicalConcept ;
+lidde:aus_dem_grobsten_heraus_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:aus_dem_grobsten_heraus_sein_sense ;
 	skos:definition "something which makes you believe that a difficult or unpleasant situation will end"@en .
 
@@ -393,16 +393,16 @@ lidde:aus_den_augen_aus_dem_sinn a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:aus_den_augen_aus_dem_sinn_sense ;
 	ontolex:canonicalForm lidde:aus_den_augen_aus_dem_sinn_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "aus den augen, aus dem sinn."@de .
 
 lidde:aus_den_augen_aus_dem_sinn_form a ontolex:form ;
 	ontolex:writtenRep "aus den augen, aus dem sinn."@de .
 
 lidde:aus_den_augen_aus_dem_sinn_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:aus_den_augen_aus_dem_sinn_def .
+	ontolex:isLexicalizedSenseOf lidde:aus_den_augen_aus_dem_sinn_concept .
 
-lidde:aus_den_augen_aus_dem_sinn_def a ontolex:LexicalConcept ;
+lidde:aus_den_augen_aus_dem_sinn_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:aus_den_augen_aus_dem_sinn_sense ;
 	skos:definition "if you do not see someone or something frequently, you will forget about it."@en .
 
@@ -411,7 +411,7 @@ lidde:aus_einer_mucke_einen_elefanten_machen a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:aus_einer_mucke_einen_elefanten_machen_sense ;
 	ontolex:canonicalForm lidde:aus_einer_mucke_einen_elefanten_machen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "aus einer mücke einen elefanten machen"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13738659v> .
 
@@ -419,9 +419,9 @@ lidde:aus_einer_mucke_einen_elefanten_machen_form a ontolex:form ;
 	ontolex:writtenRep "aus einer mücke einen elefanten machen"@de .
 
 lidde:aus_einer_mucke_einen_elefanten_machen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:aus_einer_mucke_einen_elefanten_machen_def .
+	ontolex:isLexicalizedSenseOf lidde:aus_einer_mucke_einen_elefanten_machen_concept .
 
-lidde:aus_einer_mucke_einen_elefanten_machen_def a ontolex:LexicalConcept ;
+lidde:aus_einer_mucke_einen_elefanten_machen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:aus_einer_mucke_einen_elefanten_machen_sense ;
 	skos:definition "to exaggerate the importance of something."@en .
 
@@ -430,16 +430,16 @@ lidde:bei_ihm_ist_hopfen_und_malz_verloren a ontolex:LexicalEntry , ontolex:Mult
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:bei_ihm_ist_hopfen_und_malz_verloren_sense ;
 	ontolex:canonicalForm lidde:bei_ihm_ist_hopfen_und_malz_verloren_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "bei ihm ist hopfen und malz verloren."@de .
 
 lidde:bei_ihm_ist_hopfen_und_malz_verloren_form a ontolex:form ;
 	ontolex:writtenRep "bei ihm ist hopfen und malz verloren."@de .
 
 lidde:bei_ihm_ist_hopfen_und_malz_verloren_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:bei_ihm_ist_hopfen_und_malz_verloren_def .
+	ontolex:isLexicalizedSenseOf lidde:bei_ihm_ist_hopfen_und_malz_verloren_concept .
 
-lidde:bei_ihm_ist_hopfen_und_malz_verloren_def a ontolex:LexicalConcept ;
+lidde:bei_ihm_ist_hopfen_und_malz_verloren_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:bei_ihm_ist_hopfen_und_malz_verloren_sense ;
 	skos:definition "he's such a loser."@en .
 
@@ -448,16 +448,16 @@ lidde:bei_ihm_rieselt_schon_der_kalk a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:bei_ihm_rieselt_schon_der_kalk_sense ;
 	ontolex:canonicalForm lidde:bei_ihm_rieselt_schon_der_kalk_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "bei ihm rieselt schon der kalk."@de .
 
 lidde:bei_ihm_rieselt_schon_der_kalk_form a ontolex:form ;
 	ontolex:writtenRep "bei ihm rieselt schon der kalk."@de .
 
 lidde:bei_ihm_rieselt_schon_der_kalk_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:bei_ihm_rieselt_schon_der_kalk_def .
+	ontolex:isLexicalizedSenseOf lidde:bei_ihm_rieselt_schon_der_kalk_concept .
 
-lidde:bei_ihm_rieselt_schon_der_kalk_def a ontolex:LexicalConcept ;
+lidde:bei_ihm_rieselt_schon_der_kalk_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:bei_ihm_rieselt_schon_der_kalk_sense ;
 	skos:definition "he's losing his marbles."@en .
 
@@ -466,16 +466,16 @@ lidde:beim_bart_des_propheten a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:beim_bart_des_propheten_sense ;
 	ontolex:canonicalForm lidde:beim_bart_des_propheten_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "beim bart des propheten!"@de .
 
 lidde:beim_bart_des_propheten_form a ontolex:form ;
 	ontolex:writtenRep "beim bart des propheten!"@de .
 
 lidde:beim_bart_des_propheten_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:beim_bart_des_propheten_def .
+	ontolex:isLexicalizedSenseOf lidde:beim_bart_des_propheten_concept .
 
-lidde:beim_bart_des_propheten_def a ontolex:LexicalConcept ;
+lidde:beim_bart_des_propheten_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:beim_bart_des_propheten_sense ;
 	skos:definition "something you say in order to emphasize that you are telling the truth"@en .
 
@@ -484,16 +484,16 @@ lidde:bekannt_wie_ein_bunter_hund a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:bekannt_wie_ein_bunter_hund_sense ;
 	ontolex:canonicalForm lidde:bekannt_wie_ein_bunter_hund_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "bekannt wie ein bunter hund"@de .
 
 lidde:bekannt_wie_ein_bunter_hund_form a ontolex:form ;
 	ontolex:writtenRep "bekannt wie ein bunter hund"@de .
 
 lidde:bekannt_wie_ein_bunter_hund_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:bekannt_wie_ein_bunter_hund_def .
+	ontolex:isLexicalizedSenseOf lidde:bekannt_wie_ein_bunter_hund_concept .
 
-lidde:bekannt_wie_ein_bunter_hund_def a ontolex:LexicalConcept ;
+lidde:bekannt_wie_ein_bunter_hund_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:bekannt_wie_ein_bunter_hund_sense ;
 	skos:definition "well known"@en .
 
@@ -502,16 +502,16 @@ lidde:bellende_hunde_beißen_nicht a ontolex:LexicalEntry , ontolex:MultiwordExp
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:bellende_hunde_beißen_nicht_sense ;
 	ontolex:canonicalForm lidde:bellende_hunde_beißen_nicht_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "bellende hunde beißen nicht."@de .
 
 lidde:bellende_hunde_beißen_nicht_form a ontolex:form ;
 	ontolex:writtenRep "bellende hunde beißen nicht."@de .
 
 lidde:bellende_hunde_beißen_nicht_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:bellende_hunde_beißen_nicht_def .
+	ontolex:isLexicalizedSenseOf lidde:bellende_hunde_beißen_nicht_concept .
 
-lidde:bellende_hunde_beißen_nicht_def a ontolex:LexicalConcept ;
+lidde:bellende_hunde_beißen_nicht_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:bellende_hunde_beißen_nicht_sense ;
 	skos:definition "who talks a lot, shouts, threatens, generally does nothing."@en .
 
@@ -520,16 +520,16 @@ lidde:bis_in_die_puppen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:bis_in_die_puppen_sense ;
 	ontolex:canonicalForm lidde:bis_in_die_puppen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "bis in die puppen"@de .
 
 lidde:bis_in_die_puppen_form a ontolex:form ;
 	ontolex:writtenRep "bis in die puppen"@de .
 
 lidde:bis_in_die_puppen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:bis_in_die_puppen_def .
+	ontolex:isLexicalizedSenseOf lidde:bis_in_die_puppen_concept .
 
-lidde:bis_in_die_puppen_def a ontolex:LexicalConcept ;
+lidde:bis_in_die_puppen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:bis_in_die_puppen_sense ;
 	skos:definition "when something is taking a long time"@en .
 
@@ -538,16 +538,16 @@ lidde:blass_vor_neid_sein a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:blass_vor_neid_sein_sense ;
 	ontolex:canonicalForm lidde:blass_vor_neid_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "blass vor neid sein"@de .
 
 lidde:blass_vor_neid_sein_form a ontolex:form ;
 	ontolex:writtenRep "blass vor neid sein"@de .
 
 lidde:blass_vor_neid_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:blass_vor_neid_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:blass_vor_neid_sein_concept .
 
-lidde:blass_vor_neid_sein_def a ontolex:LexicalConcept ;
+lidde:blass_vor_neid_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:blass_vor_neid_sein_sense ;
 	skos:definition "wishing very much that you had what someone else has"@en .
 
@@ -556,16 +556,16 @@ lidde:blau_machen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:blau_machen_sense ;
 	ontolex:canonicalForm lidde:blau_machen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "blau machen"@de .
 
 lidde:blau_machen_form a ontolex:form ;
 	ontolex:writtenRep "blau machen"@de .
 
 lidde:blau_machen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:blau_machen_def .
+	ontolex:isLexicalizedSenseOf lidde:blau_machen_concept .
 
-lidde:blau_machen_def a ontolex:LexicalConcept ;
+lidde:blau_machen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:blau_machen_sense ;
 	skos:definition "to skip school/work"@en .
 
@@ -574,16 +574,16 @@ lidde:borgen_macht_sorgen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:borgen_macht_sorgen_sense ;
 	ontolex:canonicalForm lidde:borgen_macht_sorgen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "borgen macht sorgen."@de .
 
 lidde:borgen_macht_sorgen_form a ontolex:form ;
 	ontolex:writtenRep "borgen macht sorgen."@de .
 
 lidde:borgen_macht_sorgen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:borgen_macht_sorgen_def .
+	ontolex:isLexicalizedSenseOf lidde:borgen_macht_sorgen_concept .
 
-lidde:borgen_macht_sorgen_def a ontolex:LexicalConcept ;
+lidde:borgen_macht_sorgen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:borgen_macht_sorgen_sense ;
 	skos:definition "it is difficult to be friends with someone who owes you money or with someone to whom you owe something"@en .
 
@@ -592,16 +592,16 @@ lidde:boses_im_schilde_fuhren a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:boses_im_schilde_fuhren_sense ;
 	ontolex:canonicalForm lidde:boses_im_schilde_fuhren_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "böses im schilde führen"@de .
 
 lidde:boses_im_schilde_fuhren_form a ontolex:form ;
 	ontolex:writtenRep "böses im schilde führen"@de .
 
 lidde:boses_im_schilde_fuhren_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:boses_im_schilde_fuhren_def .
+	ontolex:isLexicalizedSenseOf lidde:boses_im_schilde_fuhren_concept .
 
-lidde:boses_im_schilde_fuhren_def a ontolex:LexicalConcept ;
+lidde:boses_im_schilde_fuhren_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:boses_im_schilde_fuhren_sense ;
 	skos:definition "be up to no good"@en .
 
@@ -610,16 +610,16 @@ lidde:da_bist_du_auf_dem_holzweg a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:da_bist_du_auf_dem_holzweg_sense ;
 	ontolex:canonicalForm lidde:da_bist_du_auf_dem_holzweg_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "da bist du auf dem holzweg."@de .
 
 lidde:da_bist_du_auf_dem_holzweg_form a ontolex:form ;
 	ontolex:writtenRep "da bist du auf dem holzweg."@de .
 
 lidde:da_bist_du_auf_dem_holzweg_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:da_bist_du_auf_dem_holzweg_def .
+	ontolex:isLexicalizedSenseOf lidde:da_bist_du_auf_dem_holzweg_concept .
 
-lidde:da_bist_du_auf_dem_holzweg_def a ontolex:LexicalConcept ;
+lidde:da_bist_du_auf_dem_holzweg_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:da_bist_du_auf_dem_holzweg_sense ;
 	skos:definition "looking in the wrong place. accusing the wrong person"@en .
 
@@ -628,16 +628,16 @@ lidde:da_liegt_der_hund_begraben a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:da_liegt_der_hund_begraben_sense ;
 	ontolex:canonicalForm lidde:da_liegt_der_hund_begraben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "da liegt der hund begraben."@de .
 
 lidde:da_liegt_der_hund_begraben_form a ontolex:form ;
 	ontolex:writtenRep "da liegt der hund begraben."@de .
 
 lidde:da_liegt_der_hund_begraben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:da_liegt_der_hund_begraben_def .
+	ontolex:isLexicalizedSenseOf lidde:da_liegt_der_hund_begraben_concept .
 
-lidde:da_liegt_der_hund_begraben_def a ontolex:LexicalConcept ;
+lidde:da_liegt_der_hund_begraben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:da_liegt_der_hund_begraben_sense ;
 	skos:definition "the focal, central, or most important element of a topic, problem, or issue."@en .
 
@@ -646,16 +646,16 @@ lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht a ontolex:LexicalEntry , ontolex:M
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_sense ;
 	ontolex:canonicalForm lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "da wo selbst der kaiser zu fuß hingeht."@de .
 
 lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_form a ontolex:form ;
 	ontolex:writtenRep "da wo selbst der kaiser zu fuß hingeht."@de .
 
 lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_def .
+	ontolex:isLexicalizedSenseOf lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_concept .
 
-lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_def a ontolex:LexicalConcept ;
+lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:da_wo_selbst_der_kaiser_zu_fuß_hingeht_sense ;
 	skos:definition "the bathroom"@en .
 
@@ -664,16 +664,16 @@ lidde:danach_kraht_kein_hahn_mehr a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:danach_kraht_kein_hahn_mehr_sense ;
 	ontolex:canonicalForm lidde:danach_kraht_kein_hahn_mehr_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "danach kräht kein hahn mehr."@de .
 
 lidde:danach_kraht_kein_hahn_mehr_form a ontolex:form ;
 	ontolex:writtenRep "danach kräht kein hahn mehr."@de .
 
 lidde:danach_kraht_kein_hahn_mehr_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:danach_kraht_kein_hahn_mehr_def .
+	ontolex:isLexicalizedSenseOf lidde:danach_kraht_kein_hahn_mehr_concept .
 
-lidde:danach_kraht_kein_hahn_mehr_def a ontolex:LexicalConcept ;
+lidde:danach_kraht_kein_hahn_mehr_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:danach_kraht_kein_hahn_mehr_sense ;
 	skos:definition "no one gives a hoot about that anymore."@en .
 
@@ -682,16 +682,16 @@ lidde:das_a_und_o a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_a_und_o_sense ;
 	ontolex:canonicalForm lidde:das_a_und_o_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das a und o"@de .
 
 lidde:das_a_und_o_form a ontolex:form ;
 	ontolex:writtenRep "das a und o"@de .
 
 lidde:das_a_und_o_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_a_und_o_def .
+	ontolex:isLexicalizedSenseOf lidde:das_a_und_o_concept .
 
-lidde:das_a_und_o_def a ontolex:LexicalConcept ;
+lidde:das_a_und_o_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_a_und_o_sense ;
 	skos:definition "the most important thing"@en .
 
@@ -700,16 +700,16 @@ lidde:das_dicke_ende_kommt_noch a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_dicke_ende_kommt_noch_sense ;
 	ontolex:canonicalForm lidde:das_dicke_ende_kommt_noch_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das dicke ende kommt noch."@de .
 
 lidde:das_dicke_ende_kommt_noch_form a ontolex:form ;
 	ontolex:writtenRep "das dicke ende kommt noch."@de .
 
 lidde:das_dicke_ende_kommt_noch_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_dicke_ende_kommt_noch_def .
+	ontolex:isLexicalizedSenseOf lidde:das_dicke_ende_kommt_noch_concept .
 
-lidde:das_dicke_ende_kommt_noch_def a ontolex:LexicalConcept ;
+lidde:das_dicke_ende_kommt_noch_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_dicke_ende_kommt_noch_sense ;
 	skos:definition "the worst is yet to come."@en .
 
@@ -718,16 +718,16 @@ lidde:das_ei_des_kolumbus a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ei_des_kolumbus_sense ;
 	ontolex:canonicalForm lidde:das_ei_des_kolumbus_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ei des kolumbus"@de .
 
 lidde:das_ei_des_kolumbus_form a ontolex:form ;
 	ontolex:writtenRep "das ei des kolumbus"@de .
 
 lidde:das_ei_des_kolumbus_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ei_des_kolumbus_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ei_des_kolumbus_concept .
 
-lidde:das_ei_des_kolumbus_def a ontolex:LexicalConcept ;
+lidde:das_ei_des_kolumbus_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ei_des_kolumbus_sense ;
 	skos:definition "just the thing, a simple solution to a seemingly difficult problem"@en .
 
@@ -736,16 +736,16 @@ lidde:das_ei_will_kluger_als_die_henne_sein a ontolex:LexicalEntry , ontolex:Mul
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ei_will_kluger_als_die_henne_sein_sense ;
 	ontolex:canonicalForm lidde:das_ei_will_kluger_als_die_henne_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ei will klüger als die henne sein."@de .
 
 lidde:das_ei_will_kluger_als_die_henne_sein_form a ontolex:form ;
 	ontolex:writtenRep "das ei will klüger als die henne sein."@de .
 
 lidde:das_ei_will_kluger_als_die_henne_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ei_will_kluger_als_die_henne_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ei_will_kluger_als_die_henne_sein_concept .
 
-lidde:das_ei_will_kluger_als_die_henne_sein_def a ontolex:LexicalConcept ;
+lidde:das_ei_will_kluger_als_die_henne_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ei_will_kluger_als_die_henne_sein_sense ;
 	skos:definition "don't think you're smarter than your elders."@en .
 
@@ -754,16 +754,16 @@ lidde:das_eisen_schmieden_so_lange_es_heiß_ist a ontolex:LexicalEntry , ontolex
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_eisen_schmieden_so_lange_es_heiß_ist_sense ;
 	ontolex:canonicalForm lidde:das_eisen_schmieden_so_lange_es_heiß_ist_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das eisen schmieden, so lange es heiß ist."@de .
 
 lidde:das_eisen_schmieden_so_lange_es_heiß_ist_form a ontolex:form ;
 	ontolex:writtenRep "das eisen schmieden, so lange es heiß ist."@de .
 
 lidde:das_eisen_schmieden_so_lange_es_heiß_ist_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_eisen_schmieden_so_lange_es_heiß_ist_def .
+	ontolex:isLexicalizedSenseOf lidde:das_eisen_schmieden_so_lange_es_heiß_ist_concept .
 
-lidde:das_eisen_schmieden_so_lange_es_heiß_ist_def a ontolex:LexicalConcept ;
+lidde:das_eisen_schmieden_so_lange_es_heiß_ist_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_eisen_schmieden_so_lange_es_heiß_ist_sense ;
 	skos:definition "when you have an opportunity to do something, do it before you lose your chance."@en .
 
@@ -772,16 +772,16 @@ lidde:das_ende_vom_lied a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ende_vom_lied_sense ;
 	ontolex:canonicalForm lidde:das_ende_vom_lied_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ende vom lied"@de .
 
 lidde:das_ende_vom_lied_form a ontolex:form ;
 	ontolex:writtenRep "das ende vom lied"@de .
 
 lidde:das_ende_vom_lied_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ende_vom_lied_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ende_vom_lied_concept .
 
-lidde:das_ende_vom_lied_def a ontolex:LexicalConcept ;
+lidde:das_ende_vom_lied_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ende_vom_lied_sense ;
 	skos:definition "the most important fact in a situation"@en .
 
@@ -790,16 +790,16 @@ lidde:das_geht_auf_keine_kuhhaut a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_geht_auf_keine_kuhhaut_sense ;
 	ontolex:canonicalForm lidde:das_geht_auf_keine_kuhhaut_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das geht auf keine kuhhaut!"@de .
 
 lidde:das_geht_auf_keine_kuhhaut_form a ontolex:form ;
 	ontolex:writtenRep "das geht auf keine kuhhaut!"@de .
 
 lidde:das_geht_auf_keine_kuhhaut_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_geht_auf_keine_kuhhaut_def .
+	ontolex:isLexicalizedSenseOf lidde:das_geht_auf_keine_kuhhaut_concept .
 
-lidde:das_geht_auf_keine_kuhhaut_def a ontolex:LexicalConcept ;
+lidde:das_geht_auf_keine_kuhhaut_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_geht_auf_keine_kuhhaut_sense ;
 	skos:definition "that's beyond belief! (negative)"@en .
 
@@ -807,23 +807,23 @@ lidde:das_geht_auf_keine_kuhhaut rdfs:label "das geht auf keine kuhhaut."@de .
 
 lidde:das_geht_auf_keine_kuhhaut_form ontolex:writtenRep "das geht auf keine kuhhaut."@de .
 
-lidde:das_geht_auf_keine_kuhhaut_def skos:definition "that's absolutlely incredible."@en .
+lidde:das_geht_auf_keine_kuhhaut_concept skos:definition "that's absolutlely incredible."@en .
 
 lidde:das_halt_ja_kein_pferd_aus a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_halt_ja_kein_pferd_aus_sense ;
 	ontolex:canonicalForm lidde:das_halt_ja_kein_pferd_aus_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das hält ja kein pferd aus."@de .
 
 lidde:das_halt_ja_kein_pferd_aus_form a ontolex:form ;
 	ontolex:writtenRep "das hält ja kein pferd aus."@de .
 
 lidde:das_halt_ja_kein_pferd_aus_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_halt_ja_kein_pferd_aus_def .
+	ontolex:isLexicalizedSenseOf lidde:das_halt_ja_kein_pferd_aus_concept .
 
-lidde:das_halt_ja_kein_pferd_aus_def a ontolex:LexicalConcept ;
+lidde:das_halt_ja_kein_pferd_aus_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_halt_ja_kein_pferd_aus_sense ;
 	skos:definition "that's more than flesh and blood can stand."@en .
 
@@ -832,16 +832,16 @@ lidde:das_hast_du_dir_selbst_eingebrockt a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_hast_du_dir_selbst_eingebrockt_sense ;
 	ontolex:canonicalForm lidde:das_hast_du_dir_selbst_eingebrockt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das hast du dir selbst eingebrockt."@de .
 
 lidde:das_hast_du_dir_selbst_eingebrockt_form a ontolex:form ;
 	ontolex:writtenRep "das hast du dir selbst eingebrockt."@de .
 
 lidde:das_hast_du_dir_selbst_eingebrockt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_hast_du_dir_selbst_eingebrockt_def .
+	ontolex:isLexicalizedSenseOf lidde:das_hast_du_dir_selbst_eingebrockt_concept .
 
-lidde:das_hast_du_dir_selbst_eingebrockt_def a ontolex:LexicalConcept ;
+lidde:das_hast_du_dir_selbst_eingebrockt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_hast_du_dir_selbst_eingebrockt_sense ;
 	skos:definition "you got yourself into this mess."@en .
 
@@ -850,16 +850,16 @@ lidde:das_ist_alles_fur_die_katz a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_alles_fur_die_katz_sense ;
 	ontolex:canonicalForm lidde:das_ist_alles_fur_die_katz_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist alles für die katz."@de .
 
 lidde:das_ist_alles_fur_die_katz_form a ontolex:form ;
 	ontolex:writtenRep "das ist alles für die katz."@de .
 
 lidde:das_ist_alles_fur_die_katz_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_alles_fur_die_katz_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_alles_fur_die_katz_concept .
 
-lidde:das_ist_alles_fur_die_katz_def a ontolex:LexicalConcept ;
+lidde:das_ist_alles_fur_die_katz_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_alles_fur_die_katz_sense ;
 	skos:definition "trivial; worthless; only of interest to gullible people."@en .
 
@@ -868,16 +868,16 @@ lidde:das_ist_eine_brotlose_kunst a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_eine_brotlose_kunst_sense ;
 	ontolex:canonicalForm lidde:das_ist_eine_brotlose_kunst_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist eine brotlose kunst."@de .
 
 lidde:das_ist_eine_brotlose_kunst_form a ontolex:form ;
 	ontolex:writtenRep "das ist eine brotlose kunst."@de .
 
 lidde:das_ist_eine_brotlose_kunst_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_eine_brotlose_kunst_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_eine_brotlose_kunst_concept .
 
-lidde:das_ist_eine_brotlose_kunst_def a ontolex:LexicalConcept ;
+lidde:das_ist_eine_brotlose_kunst_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_eine_brotlose_kunst_sense ;
 	skos:definition "there's no money in it."@en .
 
@@ -886,16 +886,16 @@ lidde:das_ist_gehupft_wie_gesprungen a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_gehupft_wie_gesprungen_sense ;
 	ontolex:canonicalForm lidde:das_ist_gehupft_wie_gesprungen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist gehüpft wie gesprungen."@de .
 
 lidde:das_ist_gehupft_wie_gesprungen_form a ontolex:form ;
 	ontolex:writtenRep "das ist gehüpft wie gesprungen."@de .
 
 lidde:das_ist_gehupft_wie_gesprungen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_gehupft_wie_gesprungen_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_gehupft_wie_gesprungen_concept .
 
-lidde:das_ist_gehupft_wie_gesprungen_def a ontolex:LexicalConcept ;
+lidde:das_ist_gehupft_wie_gesprungen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_gehupft_wie_gesprungen_sense ;
 	skos:definition "it doesn't make a difference."@en .
 
@@ -904,16 +904,16 @@ lidde:das_ist_jacke_wie_hose a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_jacke_wie_hose_sense ;
 	ontolex:canonicalForm lidde:das_ist_jacke_wie_hose_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist jacke wie hose."@de .
 
 lidde:das_ist_jacke_wie_hose_form a ontolex:form ;
 	ontolex:writtenRep "das ist jacke wie hose."@de .
 
 lidde:das_ist_jacke_wie_hose_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_jacke_wie_hose_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_jacke_wie_hose_concept .
 
-lidde:das_ist_jacke_wie_hose_def a ontolex:LexicalConcept ;
+lidde:das_ist_jacke_wie_hose_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_jacke_wie_hose_sense ;
 	skos:definition "it doesn't make a difference."@en .
 
@@ -922,16 +922,16 @@ lidde:das_ist_keine_kunst a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_keine_kunst_sense ;
 	ontolex:canonicalForm lidde:das_ist_keine_kunst_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist keine kunst."@de .
 
 lidde:das_ist_keine_kunst_form a ontolex:form ;
 	ontolex:writtenRep "das ist keine kunst."@de .
 
 lidde:das_ist_keine_kunst_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_keine_kunst_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_keine_kunst_concept .
 
-lidde:das_ist_keine_kunst_def a ontolex:LexicalConcept ;
+lidde:das_ist_keine_kunst_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_keine_kunst_sense ;
 	skos:definition "it's like taking candy from a baby."@en .
 
@@ -940,16 +940,16 @@ lidde:das_ist_mein_bier a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_mein_bier_sense ;
 	ontolex:canonicalForm lidde:das_ist_mein_bier_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist mein bier!"@de .
 
 lidde:das_ist_mein_bier_form a ontolex:form ;
 	ontolex:writtenRep "das ist mein bier!"@de .
 
 lidde:das_ist_mein_bier_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_mein_bier_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_mein_bier_concept .
 
-lidde:das_ist_mein_bier_def a ontolex:LexicalConcept ;
+lidde:das_ist_mein_bier_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_mein_bier_sense ;
 	skos:definition "that's my business!"@en .
 
@@ -958,16 +958,16 @@ lidde:das_ist_nicht_dein_bier a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_nicht_dein_bier_sense ;
 	ontolex:canonicalForm lidde:das_ist_nicht_dein_bier_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist nicht dein bier!"@de .
 
 lidde:das_ist_nicht_dein_bier_form a ontolex:form ;
 	ontolex:writtenRep "das ist nicht dein bier!"@de .
 
 lidde:das_ist_nicht_dein_bier_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_nicht_dein_bier_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_nicht_dein_bier_concept .
 
-lidde:das_ist_nicht_dein_bier_def a ontolex:LexicalConcept ;
+lidde:das_ist_nicht_dein_bier_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_nicht_dein_bier_sense ;
 	skos:definition "none of your business!"@en .
 
@@ -976,16 +976,16 @@ lidde:das_ist_nicht_mein_fall a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_nicht_mein_fall_sense ;
 	ontolex:canonicalForm lidde:das_ist_nicht_mein_fall_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist nicht mein fall."@de .
 
 lidde:das_ist_nicht_mein_fall_form a ontolex:form ;
 	ontolex:writtenRep "das ist nicht mein fall."@de .
 
 lidde:das_ist_nicht_mein_fall_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_nicht_mein_fall_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_nicht_mein_fall_concept .
 
-lidde:das_ist_nicht_mein_fall_def a ontolex:LexicalConcept ;
+lidde:das_ist_nicht_mein_fall_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_nicht_mein_fall_sense ;
 	skos:definition "that's not my cup of tea."@en .
 
@@ -994,16 +994,16 @@ lidde:das_ist_schnee_von_gestern a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_ist_schnee_von_gestern_sense ;
 	ontolex:canonicalForm lidde:das_ist_schnee_von_gestern_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das ist schnee von gestern."@de .
 
 lidde:das_ist_schnee_von_gestern_form a ontolex:form ;
 	ontolex:writtenRep "das ist schnee von gestern."@de .
 
 lidde:das_ist_schnee_von_gestern_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_ist_schnee_von_gestern_def .
+	ontolex:isLexicalizedSenseOf lidde:das_ist_schnee_von_gestern_concept .
 
-lidde:das_ist_schnee_von_gestern_def a ontolex:LexicalConcept ;
+lidde:das_ist_schnee_von_gestern_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_ist_schnee_von_gestern_sense ;
 	skos:definition "that's old news."@en .
 
@@ -1012,16 +1012,16 @@ lidde:das_kommt_mir_spanisch_vor a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_kommt_mir_spanisch_vor_sense ;
 	ontolex:canonicalForm lidde:das_kommt_mir_spanisch_vor_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das kommt mir spanisch vor."@de .
 
 lidde:das_kommt_mir_spanisch_vor_form a ontolex:form ;
 	ontolex:writtenRep "das kommt mir spanisch vor."@de .
 
 lidde:das_kommt_mir_spanisch_vor_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_kommt_mir_spanisch_vor_def .
+	ontolex:isLexicalizedSenseOf lidde:das_kommt_mir_spanisch_vor_concept .
 
-lidde:das_kommt_mir_spanisch_vor_def a ontolex:LexicalConcept ;
+lidde:das_kommt_mir_spanisch_vor_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_kommt_mir_spanisch_vor_sense ;
 	skos:definition "something that is not clear for anyone without meaning"@en .
 
@@ -1030,16 +1030,16 @@ lidde:das_liegt_auf_der_hand a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_liegt_auf_der_hand_sense ;
 	ontolex:canonicalForm lidde:das_liegt_auf_der_hand_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das liegt auf der hand."@de .
 
 lidde:das_liegt_auf_der_hand_form a ontolex:form ;
 	ontolex:writtenRep "das liegt auf der hand."@de .
 
 lidde:das_liegt_auf_der_hand_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_liegt_auf_der_hand_def .
+	ontolex:isLexicalizedSenseOf lidde:das_liegt_auf_der_hand_concept .
 
-lidde:das_liegt_auf_der_hand_def a ontolex:LexicalConcept ;
+lidde:das_liegt_auf_der_hand_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_liegt_auf_der_hand_sense ;
 	skos:definition "that's obvious."@en .
 
@@ -1048,16 +1048,16 @@ lidde:das_passt_wie_die_faust_aufs_auge a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_passt_wie_die_faust_aufs_auge_sense ;
 	ontolex:canonicalForm lidde:das_passt_wie_die_faust_aufs_auge_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das passt wie die faust aufs auge."@de .
 
 lidde:das_passt_wie_die_faust_aufs_auge_form a ontolex:form ;
 	ontolex:writtenRep "das passt wie die faust aufs auge."@de .
 
 lidde:das_passt_wie_die_faust_aufs_auge_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_passt_wie_die_faust_aufs_auge_def .
+	ontolex:isLexicalizedSenseOf lidde:das_passt_wie_die_faust_aufs_auge_concept .
 
-lidde:das_passt_wie_die_faust_aufs_auge_def a ontolex:LexicalConcept ;
+lidde:das_passt_wie_die_faust_aufs_auge_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_passt_wie_die_faust_aufs_auge_sense ;
 	skos:definition "to be a perfect match"@en .
 
@@ -1066,16 +1066,16 @@ lidde:das_sind_mir_bohmische_dorfer a ontolex:LexicalEntry , ontolex:MultiwordEx
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_sind_mir_bohmische_dorfer_sense ;
 	ontolex:canonicalForm lidde:das_sind_mir_bohmische_dorfer_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das sind mir böhmische dörfer."@de .
 
 lidde:das_sind_mir_bohmische_dorfer_form a ontolex:form ;
 	ontolex:writtenRep "das sind mir böhmische dörfer."@de .
 
 lidde:das_sind_mir_bohmische_dorfer_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_sind_mir_bohmische_dorfer_def .
+	ontolex:isLexicalizedSenseOf lidde:das_sind_mir_bohmische_dorfer_concept .
 
-lidde:das_sind_mir_bohmische_dorfer_def a ontolex:LexicalConcept ;
+lidde:das_sind_mir_bohmische_dorfer_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_sind_mir_bohmische_dorfer_sense ;
 	skos:definition "something that is not clear for anyone without meaning"@en .
 
@@ -1084,16 +1084,16 @@ lidde:das_sind_ungelegte_eier a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_sind_ungelegte_eier_sense ;
 	ontolex:canonicalForm lidde:das_sind_ungelegte_eier_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das sind ungelegte eier."@de .
 
 lidde:das_sind_ungelegte_eier_form a ontolex:form ;
 	ontolex:writtenRep "das sind ungelegte eier."@de .
 
 lidde:das_sind_ungelegte_eier_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_sind_ungelegte_eier_def .
+	ontolex:isLexicalizedSenseOf lidde:das_sind_ungelegte_eier_concept .
 
-lidde:das_sind_ungelegte_eier_def a ontolex:LexicalConcept ;
+lidde:das_sind_ungelegte_eier_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_sind_ungelegte_eier_sense ;
 	skos:definition "we'll cross that bridge when we come to it."@en .
 
@@ -1102,16 +1102,16 @@ lidde:das_steht_auf_einem_anderen_blatt a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_steht_auf_einem_anderen_blatt_sense ;
 	ontolex:canonicalForm lidde:das_steht_auf_einem_anderen_blatt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das steht auf einem anderen blatt."@de .
 
 lidde:das_steht_auf_einem_anderen_blatt_form a ontolex:form ;
 	ontolex:writtenRep "das steht auf einem anderen blatt."@de .
 
 lidde:das_steht_auf_einem_anderen_blatt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_steht_auf_einem_anderen_blatt_def .
+	ontolex:isLexicalizedSenseOf lidde:das_steht_auf_einem_anderen_blatt_concept .
 
-lidde:das_steht_auf_einem_anderen_blatt_def a ontolex:LexicalConcept ;
+lidde:das_steht_auf_einem_anderen_blatt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_steht_auf_einem_anderen_blatt_sense ;
 	skos:definition "that's another story."@en .
 
@@ -1120,16 +1120,16 @@ lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht a ontolex:LexicalEntry , onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_sense ;
 	ontolex:canonicalForm lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das wird nicht so heiß gegessen wie gekocht."@de .
 
 lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_form a ontolex:form ;
 	ontolex:writtenRep "das wird nicht so heiß gegessen wie gekocht."@de .
 
 lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_def .
+	ontolex:isLexicalizedSenseOf lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_concept .
 
-lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_def a ontolex:LexicalConcept ;
+lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_wird_nicht_so_heiß_gegessen_wie_gekocht_sense ;
 	skos:definition "it's not as bad as it seems."@en .
 
@@ -1138,16 +1138,16 @@ lidde:das_wird_sich_alles_finden a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:das_wird_sich_alles_finden_sense ;
 	ontolex:canonicalForm lidde:das_wird_sich_alles_finden_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "das wird sich alles finden."@de .
 
 lidde:das_wird_sich_alles_finden_form a ontolex:form ;
 	ontolex:writtenRep "das wird sich alles finden."@de .
 
 lidde:das_wird_sich_alles_finden_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:das_wird_sich_alles_finden_def .
+	ontolex:isLexicalizedSenseOf lidde:das_wird_sich_alles_finden_concept .
 
-lidde:das_wird_sich_alles_finden_def a ontolex:LexicalConcept ;
+lidde:das_wird_sich_alles_finden_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:das_wird_sich_alles_finden_sense ;
 	skos:definition "everything will turn out alright."@en .
 
@@ -1156,16 +1156,16 @@ lidde:daumen_drehen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:daumen_drehen_sense ;
 	ontolex:canonicalForm lidde:daumen_drehen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "daumen drehen"@de .
 
 lidde:daumen_drehen_form a ontolex:form ;
 	ontolex:writtenRep "daumen drehen"@de .
 
 lidde:daumen_drehen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:daumen_drehen_def .
+	ontolex:isLexicalizedSenseOf lidde:daumen_drehen_concept .
 
-lidde:daumen_drehen_def a ontolex:LexicalConcept ;
+lidde:daumen_drehen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:daumen_drehen_sense ;
 	skos:definition "be bored or idle"@en .
 
@@ -1174,16 +1174,16 @@ lidde:daumen_drucken a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:daumen_drucken_sense ;
 	ontolex:canonicalForm lidde:daumen_drucken_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "daumen drücken!"@de .
 
 lidde:daumen_drucken_form a ontolex:form ;
 	ontolex:writtenRep "daumen drücken!"@de .
 
 lidde:daumen_drucken_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:daumen_drucken_def .
+	ontolex:isLexicalizedSenseOf lidde:daumen_drucken_concept .
 
-lidde:daumen_drucken_def a ontolex:LexicalConcept ;
+lidde:daumen_drucken_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:daumen_drucken_sense ;
 	skos:definition "to wish or pray for something or someone"@en .
 
@@ -1192,16 +1192,16 @@ lidde:den_karren_in_den_dreck_fahren a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:den_karren_in_den_dreck_fahren_sense ;
 	ontolex:canonicalForm lidde:den_karren_in_den_dreck_fahren_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "den karren in den dreck fahren"@de .
 
 lidde:den_karren_in_den_dreck_fahren_form a ontolex:form ;
 	ontolex:writtenRep "den karren in den dreck fahren"@de .
 
 lidde:den_karren_in_den_dreck_fahren_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:den_karren_in_den_dreck_fahren_def .
+	ontolex:isLexicalizedSenseOf lidde:den_karren_in_den_dreck_fahren_concept .
 
-lidde:den_karren_in_den_dreck_fahren_def a ontolex:LexicalConcept ;
+lidde:den_karren_in_den_dreck_fahren_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:den_karren_in_den_dreck_fahren_sense ;
 	skos:definition "to make a mess of things"@en .
 
@@ -1210,16 +1210,16 @@ lidde:der_apfel_fallt_nicht_weit_vom_stamm a ontolex:LexicalEntry , ontolex:Mult
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:der_apfel_fallt_nicht_weit_vom_stamm_sense ;
 	ontolex:canonicalForm lidde:der_apfel_fallt_nicht_weit_vom_stamm_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "der apfel fällt nicht weit vom stamm."@de .
 
 lidde:der_apfel_fallt_nicht_weit_vom_stamm_form a ontolex:form ;
 	ontolex:writtenRep "der apfel fällt nicht weit vom stamm."@de .
 
 lidde:der_apfel_fallt_nicht_weit_vom_stamm_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:der_apfel_fallt_nicht_weit_vom_stamm_def .
+	ontolex:isLexicalizedSenseOf lidde:der_apfel_fallt_nicht_weit_vom_stamm_concept .
 
-lidde:der_apfel_fallt_nicht_weit_vom_stamm_def a ontolex:LexicalConcept ;
+lidde:der_apfel_fallt_nicht_weit_vom_stamm_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:der_apfel_fallt_nicht_weit_vom_stamm_sense ;
 	skos:definition "kids are like their parents"@en .
 
@@ -1228,16 +1228,16 @@ lidde:der_fisch_stinkt_vom_kopf_her a ontolex:LexicalEntry , ontolex:MultiwordEx
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:der_fisch_stinkt_vom_kopf_her_sense ;
 	ontolex:canonicalForm lidde:der_fisch_stinkt_vom_kopf_her_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "der fisch stinkt vom kopf her."@de .
 
 lidde:der_fisch_stinkt_vom_kopf_her_form a ontolex:form ;
 	ontolex:writtenRep "der fisch stinkt vom kopf her."@de .
 
 lidde:der_fisch_stinkt_vom_kopf_her_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:der_fisch_stinkt_vom_kopf_her_def .
+	ontolex:isLexicalizedSenseOf lidde:der_fisch_stinkt_vom_kopf_her_concept .
 
-lidde:der_fisch_stinkt_vom_kopf_her_def a ontolex:LexicalConcept ;
+lidde:der_fisch_stinkt_vom_kopf_her_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:der_fisch_stinkt_vom_kopf_her_sense ;
 	skos:definition "the problems start at the top."@en .
 
@@ -1246,16 +1246,16 @@ lidde:der_groschen_ist_gefallen a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:der_groschen_ist_gefallen_sense ;
 	ontolex:canonicalForm lidde:der_groschen_ist_gefallen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "der groschen ist gefallen"@de .
 
 lidde:der_groschen_ist_gefallen_form a ontolex:form ;
 	ontolex:writtenRep "der groschen ist gefallen"@de .
 
 lidde:der_groschen_ist_gefallen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:der_groschen_ist_gefallen_def .
+	ontolex:isLexicalizedSenseOf lidde:der_groschen_ist_gefallen_concept .
 
-lidde:der_groschen_ist_gefallen_def a ontolex:LexicalConcept ;
+lidde:der_groschen_ist_gefallen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:der_groschen_ist_gefallen_sense ;
 	skos:definition "to get it something"@en .
 
@@ -1264,16 +1264,16 @@ lidde:der_haussegen_hangt_schief a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:der_haussegen_hangt_schief_sense ;
 	ontolex:canonicalForm lidde:der_haussegen_hangt_schief_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "der haussegen hängt schief"@de .
 
 lidde:der_haussegen_hangt_schief_form a ontolex:form ;
 	ontolex:writtenRep "der haussegen hängt schief"@de .
 
 lidde:der_haussegen_hangt_schief_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:der_haussegen_hangt_schief_def .
+	ontolex:isLexicalizedSenseOf lidde:der_haussegen_hangt_schief_concept .
 
-lidde:der_haussegen_hangt_schief_def a ontolex:LexicalConcept ;
+lidde:der_haussegen_hangt_schief_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:der_haussegen_hangt_schief_sense ;
 	skos:definition "the marriage is in trouble"@en .
 
@@ -1282,16 +1282,16 @@ lidde:der_karren_steckt_im_dreck a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:der_karren_steckt_im_dreck_sense ;
 	ontolex:canonicalForm lidde:der_karren_steckt_im_dreck_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "der karren steckt im dreck."@de .
 
 lidde:der_karren_steckt_im_dreck_form a ontolex:form ;
 	ontolex:writtenRep "der karren steckt im dreck."@de .
 
 lidde:der_karren_steckt_im_dreck_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:der_karren_steckt_im_dreck_def .
+	ontolex:isLexicalizedSenseOf lidde:der_karren_steckt_im_dreck_concept .
 
-lidde:der_karren_steckt_im_dreck_def a ontolex:LexicalConcept ;
+lidde:der_karren_steckt_im_dreck_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:der_karren_steckt_im_dreck_sense ;
 	skos:definition "things/they are really in a mess."@en .
 
@@ -1300,16 +1300,16 @@ lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht a ontolex:LexicalEntry , 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_sense ;
 	ontolex:canonicalForm lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "der krug geht so lange zum brunnen, bis er bricht."@de .
 
 lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_form a ontolex:form ;
 	ontolex:writtenRep "der krug geht so lange zum brunnen, bis er bricht."@de .
 
 lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_def .
+	ontolex:isLexicalizedSenseOf lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_concept .
 
-lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_def a ontolex:LexicalConcept ;
+lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:der_krug_geht_so_lange_zum_brunnen_bis_er_bricht_sense ;
 	skos:definition "one day you'll take it too far."@en .
 
@@ -1318,16 +1318,16 @@ lidde:die_axt_im_haus_erspart_den_zimmermann a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:die_axt_im_haus_erspart_den_zimmermann_sense ;
 	ontolex:canonicalForm lidde:die_axt_im_haus_erspart_den_zimmermann_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "die axt im haus erspart den zimmermann."@de .
 
 lidde:die_axt_im_haus_erspart_den_zimmermann_form a ontolex:form ;
 	ontolex:writtenRep "die axt im haus erspart den zimmermann."@de .
 
 lidde:die_axt_im_haus_erspart_den_zimmermann_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:die_axt_im_haus_erspart_den_zimmermann_def .
+	ontolex:isLexicalizedSenseOf lidde:die_axt_im_haus_erspart_den_zimmermann_concept .
 
-lidde:die_axt_im_haus_erspart_den_zimmermann_def a ontolex:LexicalConcept ;
+lidde:die_axt_im_haus_erspart_den_zimmermann_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:die_axt_im_haus_erspart_den_zimmermann_sense ;
 	skos:definition "an axe in the house keeps the carpenter away."@en .
 
@@ -1336,16 +1336,16 @@ lidde:die_buchse_der_pandora_offnen a ontolex:LexicalEntry , ontolex:MultiwordEx
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:die_buchse_der_pandora_offnen_sense ;
 	ontolex:canonicalForm lidde:die_buchse_der_pandora_offnen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "die büchse der pandora öffnen"@de .
 
 lidde:die_buchse_der_pandora_offnen_form a ontolex:form ;
 	ontolex:writtenRep "die büchse der pandora öffnen"@de .
 
 lidde:die_buchse_der_pandora_offnen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:die_buchse_der_pandora_offnen_def .
+	ontolex:isLexicalizedSenseOf lidde:die_buchse_der_pandora_offnen_concept .
 
-lidde:die_buchse_der_pandora_offnen_def a ontolex:LexicalConcept ;
+lidde:die_buchse_der_pandora_offnen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:die_buchse_der_pandora_offnen_sense ;
 	skos:definition "a source of unforeseen trouble"@en .
 
@@ -1354,16 +1354,16 @@ lidde:die_kirche_im_dorf_lassen a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:die_kirche_im_dorf_lassen_sense ;
 	ontolex:canonicalForm lidde:die_kirche_im_dorf_lassen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "die kirche im dorf lassen"@de .
 
 lidde:die_kirche_im_dorf_lassen_form a ontolex:form ;
 	ontolex:writtenRep "die kirche im dorf lassen"@de .
 
 lidde:die_kirche_im_dorf_lassen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:die_kirche_im_dorf_lassen_def .
+	ontolex:isLexicalizedSenseOf lidde:die_kirche_im_dorf_lassen_concept .
 
-lidde:die_kirche_im_dorf_lassen_def a ontolex:LexicalConcept ;
+lidde:die_kirche_im_dorf_lassen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:die_kirche_im_dorf_lassen_sense ;
 	skos:definition "to not get carried away"@en .
 
@@ -1372,16 +1372,16 @@ lidde:die_sache_hat_ein_aber a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:die_sache_hat_ein_aber_sense ;
 	ontolex:canonicalForm lidde:die_sache_hat_ein_aber_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "die sache hat ein aber."@de .
 
 lidde:die_sache_hat_ein_aber_form a ontolex:form ;
 	ontolex:writtenRep "die sache hat ein aber."@de .
 
 lidde:die_sache_hat_ein_aber_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:die_sache_hat_ein_aber_def .
+	ontolex:isLexicalizedSenseOf lidde:die_sache_hat_ein_aber_concept .
 
-lidde:die_sache_hat_ein_aber_def a ontolex:LexicalConcept ;
+lidde:die_sache_hat_ein_aber_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:die_sache_hat_ein_aber_sense ;
 	skos:definition "there's a catch"@en .
 
@@ -1390,16 +1390,16 @@ lidde:die_sache_hat_einen_haken a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:die_sache_hat_einen_haken_sense ;
 	ontolex:canonicalForm lidde:die_sache_hat_einen_haken_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "die sache hat einen haken."@de .
 
 lidde:die_sache_hat_einen_haken_form a ontolex:form ;
 	ontolex:writtenRep "die sache hat einen haken."@de .
 
 lidde:die_sache_hat_einen_haken_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:die_sache_hat_einen_haken_def .
+	ontolex:isLexicalizedSenseOf lidde:die_sache_hat_einen_haken_concept .
 
-lidde:die_sache_hat_einen_haken_def a ontolex:LexicalConcept ;
+lidde:die_sache_hat_einen_haken_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:die_sache_hat_einen_haken_sense ;
 	skos:definition "there's a catch."@en .
 
@@ -1408,16 +1408,16 @@ lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan a ontolex:LexicalEntry , onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_sense ;
 	ontolex:canonicalForm lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "dir haben sie wohl etwas in den kaffee getan."@de .
 
 lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_form a ontolex:form ;
 	ontolex:writtenRep "dir haben sie wohl etwas in den kaffee getan."@de .
 
 lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_def .
+	ontolex:isLexicalizedSenseOf lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_concept .
 
-lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_def a ontolex:LexicalConcept ;
+lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:dir_haben_sie_wohl_etwas_in_den_kaffee_getan_sense ;
 	skos:definition "you've got to be joking/kidding."@en .
 
@@ -1426,16 +1426,16 @@ lidde:dreck_am_stecken_haben a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:dreck_am_stecken_haben_sense ;
 	ontolex:canonicalForm lidde:dreck_am_stecken_haben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "dreck am stecken haben"@de .
 
 lidde:dreck_am_stecken_haben_form a ontolex:form ;
 	ontolex:writtenRep "dreck am stecken haben"@de .
 
 lidde:dreck_am_stecken_haben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:dreck_am_stecken_haben_def .
+	ontolex:isLexicalizedSenseOf lidde:dreck_am_stecken_haben_concept .
 
-lidde:dreck_am_stecken_haben_def a ontolex:LexicalConcept ;
+lidde:dreck_am_stecken_haben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:dreck_am_stecken_haben_sense ;
 	skos:definition "to hidden and shocking secret"@en .
 
@@ -1444,16 +1444,16 @@ lidde:du_flasche a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:du_flasche_sense ;
 	ontolex:canonicalForm lidde:du_flasche_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "du flasche!"@de .
 
 lidde:du_flasche_form a ontolex:form ;
 	ontolex:writtenRep "du flasche!"@de .
 
 lidde:du_flasche_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:du_flasche_def .
+	ontolex:isLexicalizedSenseOf lidde:du_flasche_concept .
 
-lidde:du_flasche_def a ontolex:LexicalConcept ;
+lidde:du_flasche_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:du_flasche_sense ;
 	skos:definition "you loser!"@en .
 
@@ -1462,7 +1462,7 @@ lidde:dumm_wie_bohnenstroh a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:dumm_wie_bohnenstroh_sense ;
 	ontolex:canonicalForm lidde:dumm_wie_bohnenstroh_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "dumm wie bohnenstroh"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13658639a> .
 
@@ -1470,9 +1470,9 @@ lidde:dumm_wie_bohnenstroh_form a ontolex:form ;
 	ontolex:writtenRep "dumm wie bohnenstroh"@de .
 
 lidde:dumm_wie_bohnenstroh_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:dumm_wie_bohnenstroh_def .
+	ontolex:isLexicalizedSenseOf lidde:dumm_wie_bohnenstroh_concept .
 
-lidde:dumm_wie_bohnenstroh_def a ontolex:LexicalConcept ;
+lidde:dumm_wie_bohnenstroh_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:dumm_wie_bohnenstroh_sense ;
 	skos:definition "one person very stupid"@en .
 
@@ -1481,7 +1481,7 @@ lidde:dumm_wie_brot a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:dumm_wie_brot_sense ;
 	ontolex:canonicalForm lidde:dumm_wie_brot_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "dumm wie brot"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13658639a> .
 
@@ -1489,9 +1489,9 @@ lidde:dumm_wie_brot_form a ontolex:form ;
 	ontolex:writtenRep "dumm wie brot"@de .
 
 lidde:dumm_wie_brot_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:dumm_wie_brot_def .
+	ontolex:isLexicalizedSenseOf lidde:dumm_wie_brot_concept .
 
-lidde:dumm_wie_brot_def a ontolex:LexicalConcept ;
+lidde:dumm_wie_brot_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:dumm_wie_brot_sense ;
 	skos:definition "one person very stupid"@en .
 
@@ -1500,16 +1500,16 @@ lidde:dumm_wie_eine_gans a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:dumm_wie_eine_gans_sense ;
 	ontolex:canonicalForm lidde:dumm_wie_eine_gans_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "dumm wie eine gans"@de .
 
 lidde:dumm_wie_eine_gans_form a ontolex:form ;
 	ontolex:writtenRep "dumm wie eine gans"@de .
 
 lidde:dumm_wie_eine_gans_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:dumm_wie_eine_gans_def .
+	ontolex:isLexicalizedSenseOf lidde:dumm_wie_eine_gans_concept .
 
-lidde:dumm_wie_eine_gans_def a ontolex:LexicalConcept ;
+lidde:dumm_wie_eine_gans_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:dumm_wie_eine_gans_sense ;
 	skos:definition "one person very stupid"@en .
 
@@ -1518,16 +1518,16 @@ lidde:dummer_als_die_polizei_erlaubt a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:dummer_als_die_polizei_erlaubt_sense ;
 	ontolex:canonicalForm lidde:dummer_als_die_polizei_erlaubt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "dümmer als die polizei erlaubt"@de .
 
 lidde:dummer_als_die_polizei_erlaubt_form a ontolex:form ;
 	ontolex:writtenRep "dümmer als die polizei erlaubt"@de .
 
 lidde:dummer_als_die_polizei_erlaubt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:dummer_als_die_polizei_erlaubt_def .
+	ontolex:isLexicalizedSenseOf lidde:dummer_als_die_polizei_erlaubt_concept .
 
-lidde:dummer_als_die_polizei_erlaubt_def a ontolex:LexicalConcept ;
+lidde:dummer_als_die_polizei_erlaubt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:dummer_als_die_polizei_erlaubt_sense ;
 	skos:definition "as dumb as it gets"@en .
 
@@ -1536,7 +1536,7 @@ lidde:ehre_wem_ehre_gebuhrt a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ehre_wem_ehre_gebuhrt_sense ;
 	ontolex:canonicalForm lidde:ehre_wem_ehre_gebuhrt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ehre, wem ehre gebührt"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00021834n> .
 
@@ -1544,9 +1544,9 @@ lidde:ehre_wem_ehre_gebuhrt_form a ontolex:form ;
 	ontolex:writtenRep "ehre, wem ehre gebührt"@de .
 
 lidde:ehre_wem_ehre_gebuhrt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ehre_wem_ehre_gebuhrt_def .
+	ontolex:isLexicalizedSenseOf lidde:ehre_wem_ehre_gebuhrt_concept .
 
-lidde:ehre_wem_ehre_gebuhrt_def a ontolex:LexicalConcept ;
+lidde:ehre_wem_ehre_gebuhrt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ehre_wem_ehre_gebuhrt_sense ;
 	skos:definition "acknowledge someone's contribution or ability"@en .
 
@@ -1555,16 +1555,16 @@ lidde:eigenlob_stinkt a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:eigenlob_stinkt_sense ;
 	ontolex:canonicalForm lidde:eigenlob_stinkt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "eigenlob stinkt."@de .
 
 lidde:eigenlob_stinkt_form a ontolex:form ;
 	ontolex:writtenRep "eigenlob stinkt."@de .
 
 lidde:eigenlob_stinkt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:eigenlob_stinkt_def .
+	ontolex:isLexicalizedSenseOf lidde:eigenlob_stinkt_concept .
 
-lidde:eigenlob_stinkt_def a ontolex:LexicalConcept ;
+lidde:eigenlob_stinkt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:eigenlob_stinkt_sense ;
 	skos:definition "to brag about one's own talents."@en .
 
@@ -1573,16 +1573,16 @@ lidde:eile_mit_weile a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:eile_mit_weile_sense ;
 	ontolex:canonicalForm lidde:eile_mit_weile_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "eile mit weile."@de .
 
 lidde:eile_mit_weile_form a ontolex:form ;
 	ontolex:writtenRep "eile mit weile."@de .
 
 lidde:eile_mit_weile_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:eile_mit_weile_def .
+	ontolex:isLexicalizedSenseOf lidde:eile_mit_weile_concept .
 
-lidde:eile_mit_weile_def a ontolex:LexicalConcept ;
+lidde:eile_mit_weile_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:eile_mit_weile_sense ;
 	skos:definition "you do not save any time by working too fast; hurrying will cause you to make mistakes, and you will have to take extra time to do the job over again."@en .
 
@@ -1591,16 +1591,16 @@ lidde:ein_haar_in_der_suppe a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ein_haar_in_der_suppe_sense ;
 	ontolex:canonicalForm lidde:ein_haar_in_der_suppe_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ein haar in der suppe"@de .
 
 lidde:ein_haar_in_der_suppe_form a ontolex:form ;
 	ontolex:writtenRep "ein haar in der suppe"@de .
 
 lidde:ein_haar_in_der_suppe_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ein_haar_in_der_suppe_def .
+	ontolex:isLexicalizedSenseOf lidde:ein_haar_in_der_suppe_concept .
 
-lidde:ein_haar_in_der_suppe_def a ontolex:LexicalConcept ;
+lidde:ein_haar_in_der_suppe_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ein_haar_in_der_suppe_sense ;
 	skos:definition "something to complain about"@en .
 
@@ -1609,16 +1609,16 @@ lidde:ein_herz_und_eine_seele_sein a ontolex:LexicalEntry , ontolex:MultiwordExp
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ein_herz_und_eine_seele_sein_sense ;
 	ontolex:canonicalForm lidde:ein_herz_und_eine_seele_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ein herz und eine seele sein"@de .
 
 lidde:ein_herz_und_eine_seele_sein_form a ontolex:form ;
 	ontolex:writtenRep "ein herz und eine seele sein"@de .
 
 lidde:ein_herz_und_eine_seele_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ein_herz_und_eine_seele_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:ein_herz_und_eine_seele_sein_concept .
 
-lidde:ein_herz_und_eine_seele_sein_def a ontolex:LexicalConcept ;
+lidde:ein_herz_und_eine_seele_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ein_herz_und_eine_seele_sein_sense ;
 	skos:definition "to be the best of friends"@en .
 
@@ -1627,16 +1627,16 @@ lidde:ein_katzensprung a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ein_katzensprung_sense ;
 	ontolex:canonicalForm lidde:ein_katzensprung_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ein katzensprung"@de .
 
 lidde:ein_katzensprung_form a ontolex:form ;
 	ontolex:writtenRep "ein katzensprung"@de .
 
 lidde:ein_katzensprung_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ein_katzensprung_def .
+	ontolex:isLexicalizedSenseOf lidde:ein_katzensprung_concept .
 
-lidde:ein_katzensprung_def a ontolex:LexicalConcept ;
+lidde:ein_katzensprung_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ein_katzensprung_sense ;
 	skos:definition "a very short distance"@en .
 
@@ -1645,16 +1645,16 @@ lidde:ein_mann_vom_fach a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ein_mann_vom_fach_sense ;
 	ontolex:canonicalForm lidde:ein_mann_vom_fach_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ein mann vom fach"@de .
 
 lidde:ein_mann_vom_fach_form a ontolex:form ;
 	ontolex:writtenRep "ein mann vom fach"@de .
 
 lidde:ein_mann_vom_fach_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ein_mann_vom_fach_def .
+	ontolex:isLexicalizedSenseOf lidde:ein_mann_vom_fach_concept .
 
-lidde:ein_mann_vom_fach_def a ontolex:LexicalConcept ;
+lidde:ein_mann_vom_fach_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ein_mann_vom_fach_sense ;
 	skos:definition "an expert"@en .
 
@@ -1663,16 +1663,16 @@ lidde:ein_mann_ein_wort a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ein_mann_ein_wort_sense ;
 	ontolex:canonicalForm lidde:ein_mann_ein_wort_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ein mann, ein wort."@de .
 
 lidde:ein_mann_ein_wort_form a ontolex:form ;
 	ontolex:writtenRep "ein mann, ein wort."@de .
 
 lidde:ein_mann_ein_wort_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ein_mann_ein_wort_def .
+	ontolex:isLexicalizedSenseOf lidde:ein_mann_ein_wort_concept .
 
-lidde:ein_mann_ein_wort_def a ontolex:LexicalConcept ;
+lidde:ein_mann_ein_wort_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ein_mann_ein_wort_sense ;
 	skos:definition "a promise is a promise."@en .
 
@@ -1681,16 +1681,16 @@ lidde:ein_ungluck_kommt_selten_allein a ontolex:LexicalEntry , ontolex:Multiword
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ein_ungluck_kommt_selten_allein_sense ;
 	ontolex:canonicalForm lidde:ein_ungluck_kommt_selten_allein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ein unglück kommt selten allein."@de .
 
 lidde:ein_ungluck_kommt_selten_allein_form a ontolex:form ;
 	ontolex:writtenRep "ein unglück kommt selten allein."@de .
 
 lidde:ein_ungluck_kommt_selten_allein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ein_ungluck_kommt_selten_allein_def .
+	ontolex:isLexicalizedSenseOf lidde:ein_ungluck_kommt_selten_allein_concept .
 
-lidde:ein_ungluck_kommt_selten_allein_def a ontolex:LexicalConcept ;
+lidde:ein_ungluck_kommt_selten_allein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ein_ungluck_kommt_selten_allein_sense ;
 	skos:definition "bad things tend to happen in groups."@en .
 
@@ -1699,16 +1699,16 @@ lidde:eine_fahrte_verfolgen a ontolex:LexicalEntry , ontolex:MultiwordExpression
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:eine_fahrte_verfolgen_sense ;
 	ontolex:canonicalForm lidde:eine_fahrte_verfolgen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "eine fährte verfolgen"@de .
 
 lidde:eine_fahrte_verfolgen_form a ontolex:form ;
 	ontolex:writtenRep "eine fährte verfolgen"@de .
 
 lidde:eine_fahrte_verfolgen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:eine_fahrte_verfolgen_def .
+	ontolex:isLexicalizedSenseOf lidde:eine_fahrte_verfolgen_concept .
 
-lidde:eine_fahrte_verfolgen_def a ontolex:LexicalConcept ;
+lidde:eine_fahrte_verfolgen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:eine_fahrte_verfolgen_sense ;
 	skos:definition "to follow a lead"@en .
 
@@ -1717,16 +1717,16 @@ lidde:eine_grimasse_schneiden a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:eine_grimasse_schneiden_sense ;
 	ontolex:canonicalForm lidde:eine_grimasse_schneiden_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "eine grimasse schneiden"@de .
 
 lidde:eine_grimasse_schneiden_form a ontolex:form ;
 	ontolex:writtenRep "eine grimasse schneiden"@de .
 
 lidde:eine_grimasse_schneiden_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:eine_grimasse_schneiden_def .
+	ontolex:isLexicalizedSenseOf lidde:eine_grimasse_schneiden_concept .
 
-lidde:eine_grimasse_schneiden_def a ontolex:LexicalConcept ;
+lidde:eine_grimasse_schneiden_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:eine_grimasse_schneiden_sense ;
 	skos:definition "to make a face"@en .
 
@@ -1735,16 +1735,16 @@ lidde:eine_hand_wascht_die_andere a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:eine_hand_wascht_die_andere_sense ;
 	ontolex:canonicalForm lidde:eine_hand_wascht_die_andere_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "eine hand wäscht die andere."@de .
 
 lidde:eine_hand_wascht_die_andere_form a ontolex:form ;
 	ontolex:writtenRep "eine hand wäscht die andere."@de .
 
 lidde:eine_hand_wascht_die_andere_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:eine_hand_wascht_die_andere_def .
+	ontolex:isLexicalizedSenseOf lidde:eine_hand_wascht_die_andere_concept .
 
-lidde:eine_hand_wascht_die_andere_def a ontolex:LexicalConcept ;
+lidde:eine_hand_wascht_die_andere_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:eine_hand_wascht_die_andere_sense ;
 	skos:definition "if someone does you a favor, you should do a favor for that person in return"@en .
 
@@ -1753,16 +1753,16 @@ lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul a ontolex:LexicalEntry , 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_sense ;
 	ontolex:canonicalForm lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einem geschenkten gaul schaut man nicht ins maul."@de .
 
 lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_form a ontolex:form ;
 	ontolex:writtenRep "einem geschenkten gaul schaut man nicht ins maul."@de .
 
 lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_def .
+	ontolex:isLexicalizedSenseOf lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_concept .
 
-lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_def a ontolex:LexicalConcept ;
+lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einem_geschenkten_gaul_schaut_man_nicht_ins_maul_sense ;
 	skos:definition "to be ungrateful to someone who gives you something"@en .
 
@@ -1771,16 +1771,16 @@ lidde:einen_abbeißen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einen_abbeißen_sense ;
 	ontolex:canonicalForm lidde:einen_abbeißen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einen abbeißen"@de .
 
 lidde:einen_abbeißen_form a ontolex:form ;
 	ontolex:writtenRep "einen abbeißen"@de .
 
 lidde:einen_abbeißen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einen_abbeißen_def .
+	ontolex:isLexicalizedSenseOf lidde:einen_abbeißen_concept .
 
-lidde:einen_abbeißen_def a ontolex:LexicalConcept ;
+lidde:einen_abbeißen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einen_abbeißen_sense ;
 	skos:definition "to have a drink"@en .
 
@@ -1789,16 +1789,16 @@ lidde:einen_guten_draht_zu_jemandem_haben a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einen_guten_draht_zu_jemandem_haben_sense ;
 	ontolex:canonicalForm lidde:einen_guten_draht_zu_jemandem_haben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einen guten draht zu jemandem haben"@de .
 
 lidde:einen_guten_draht_zu_jemandem_haben_form a ontolex:form ;
 	ontolex:writtenRep "einen guten draht zu jemandem haben"@de .
 
 lidde:einen_guten_draht_zu_jemandem_haben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einen_guten_draht_zu_jemandem_haben_def .
+	ontolex:isLexicalizedSenseOf lidde:einen_guten_draht_zu_jemandem_haben_concept .
 
-lidde:einen_guten_draht_zu_jemandem_haben_def a ontolex:LexicalConcept ;
+lidde:einen_guten_draht_zu_jemandem_haben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einen_guten_draht_zu_jemandem_haben_sense ;
 	skos:definition "to be on good terms with someone"@en .
 
@@ -1807,16 +1807,16 @@ lidde:einen_langen_bart_haben a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einen_langen_bart_haben_sense ;
 	ontolex:canonicalForm lidde:einen_langen_bart_haben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einen langen bart haben"@de .
 
 lidde:einen_langen_bart_haben_form a ontolex:form ;
 	ontolex:writtenRep "einen langen bart haben"@de .
 
 lidde:einen_langen_bart_haben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einen_langen_bart_haben_def .
+	ontolex:isLexicalizedSenseOf lidde:einen_langen_bart_haben_concept .
 
-lidde:einen_langen_bart_haben_def a ontolex:LexicalConcept ;
+lidde:einen_langen_bart_haben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einen_langen_bart_haben_sense ;
 	skos:definition "something is very old"@en .
 
@@ -1825,16 +1825,16 @@ lidde:einen_schonen_bockmist_machen a ontolex:LexicalEntry , ontolex:MultiwordEx
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einen_schonen_bockmist_machen_sense ;
 	ontolex:canonicalForm lidde:einen_schonen_bockmist_machen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einen schönen bockmist machen"@de .
 
 lidde:einen_schonen_bockmist_machen_form a ontolex:form ;
 	ontolex:writtenRep "einen schönen bockmist machen"@de .
 
 lidde:einen_schonen_bockmist_machen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einen_schonen_bockmist_machen_def .
+	ontolex:isLexicalizedSenseOf lidde:einen_schonen_bockmist_machen_concept .
 
-lidde:einen_schonen_bockmist_machen_def a ontolex:LexicalConcept ;
+lidde:einen_schonen_bockmist_machen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einen_schonen_bockmist_machen_sense ;
 	skos:definition "to make a holy mess"@en .
 
@@ -1843,7 +1843,7 @@ lidde:einen_vogel_haben a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einen_vogel_haben_sense ;
 	ontolex:canonicalForm lidde:einen_vogel_haben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einen vogel haben"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s05584523n> .
 
@@ -1851,9 +1851,9 @@ lidde:einen_vogel_haben_form a ontolex:form ;
 	ontolex:writtenRep "einen vogel haben"@de .
 
 lidde:einen_vogel_haben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einen_vogel_haben_def .
+	ontolex:isLexicalizedSenseOf lidde:einen_vogel_haben_concept .
 
-lidde:einen_vogel_haben_def a ontolex:LexicalConcept ;
+lidde:einen_vogel_haben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einen_vogel_haben_sense ;
 	skos:definition "to be nuts"@en .
 
@@ -1862,16 +1862,16 @@ lidde:einen_ziemlichen_bockmist_verzapfen a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:einen_ziemlichen_bockmist_verzapfen_sense ;
 	ontolex:canonicalForm lidde:einen_ziemlichen_bockmist_verzapfen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "einen ziemlichen bockmist verzapfen"@de .
 
 lidde:einen_ziemlichen_bockmist_verzapfen_form a ontolex:form ;
 	ontolex:writtenRep "einen ziemlichen bockmist verzapfen"@de .
 
 lidde:einen_ziemlichen_bockmist_verzapfen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:einen_ziemlichen_bockmist_verzapfen_def .
+	ontolex:isLexicalizedSenseOf lidde:einen_ziemlichen_bockmist_verzapfen_concept .
 
-lidde:einen_ziemlichen_bockmist_verzapfen_def a ontolex:LexicalConcept ;
+lidde:einen_ziemlichen_bockmist_verzapfen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:einen_ziemlichen_bockmist_verzapfen_sense ;
 	skos:definition "to come out with a load of bull"@en .
 
@@ -1880,16 +1880,16 @@ lidde:eintracht_nahrt_unfriede_verzehrt a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:eintracht_nahrt_unfriede_verzehrt_sense ;
 	ontolex:canonicalForm lidde:eintracht_nahrt_unfriede_verzehrt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "eintracht nährt, unfriede verzehrt."@de .
 
 lidde:eintracht_nahrt_unfriede_verzehrt_form a ontolex:form ;
 	ontolex:writtenRep "eintracht nährt, unfriede verzehrt."@de .
 
 lidde:eintracht_nahrt_unfriede_verzehrt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:eintracht_nahrt_unfriede_verzehrt_def .
+	ontolex:isLexicalizedSenseOf lidde:eintracht_nahrt_unfriede_verzehrt_concept .
 
-lidde:eintracht_nahrt_unfriede_verzehrt_def a ontolex:LexicalConcept ;
+lidde:eintracht_nahrt_unfriede_verzehrt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:eintracht_nahrt_unfriede_verzehrt_sense ;
 	skos:definition "people who join together as a group are much harder to defeat than they would be separately."@en .
 
@@ -1898,16 +1898,16 @@ lidde:er_hat_das_pulver_nicht_gerade_erfunden a ontolex:LexicalEntry , ontolex:M
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:er_hat_das_pulver_nicht_gerade_erfunden_sense ;
 	ontolex:canonicalForm lidde:er_hat_das_pulver_nicht_gerade_erfunden_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "er hat das pulver nicht gerade erfunden."@de .
 
 lidde:er_hat_das_pulver_nicht_gerade_erfunden_form a ontolex:form ;
 	ontolex:writtenRep "er hat das pulver nicht gerade erfunden."@de .
 
 lidde:er_hat_das_pulver_nicht_gerade_erfunden_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:er_hat_das_pulver_nicht_gerade_erfunden_def .
+	ontolex:isLexicalizedSenseOf lidde:er_hat_das_pulver_nicht_gerade_erfunden_concept .
 
-lidde:er_hat_das_pulver_nicht_gerade_erfunden_def a ontolex:LexicalConcept ;
+lidde:er_hat_das_pulver_nicht_gerade_erfunden_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:er_hat_das_pulver_nicht_gerade_erfunden_sense ;
 	skos:definition "he's not the sharpest tool in the shed."@en .
 
@@ -1916,16 +1916,16 @@ lidde:er_ist_kein_unbeschriebenes_blatt a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:er_ist_kein_unbeschriebenes_blatt_sense ;
 	ontolex:canonicalForm lidde:er_ist_kein_unbeschriebenes_blatt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "er ist kein unbeschriebenes blatt."@de .
 
 lidde:er_ist_kein_unbeschriebenes_blatt_form a ontolex:form ;
 	ontolex:writtenRep "er ist kein unbeschriebenes blatt."@de .
 
 lidde:er_ist_kein_unbeschriebenes_blatt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:er_ist_kein_unbeschriebenes_blatt_def .
+	ontolex:isLexicalizedSenseOf lidde:er_ist_kein_unbeschriebenes_blatt_concept .
 
-lidde:er_ist_kein_unbeschriebenes_blatt_def a ontolex:LexicalConcept ;
+lidde:er_ist_kein_unbeschriebenes_blatt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:er_ist_kein_unbeschriebenes_blatt_sense ;
 	skos:definition "he has a (criminal) record."@en .
 
@@ -1934,16 +1934,16 @@ lidde:es_hofft_der_mensch_so_lang_er_lebt a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:es_hofft_der_mensch_so_lang_er_lebt_sense ;
 	ontolex:canonicalForm lidde:es_hofft_der_mensch_so_lang_er_lebt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "es hofft der mensch so lang er lebt."@de .
 
 lidde:es_hofft_der_mensch_so_lang_er_lebt_form a ontolex:form ;
 	ontolex:writtenRep "es hofft der mensch so lang er lebt."@de .
 
 lidde:es_hofft_der_mensch_so_lang_er_lebt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:es_hofft_der_mensch_so_lang_er_lebt_def .
+	ontolex:isLexicalizedSenseOf lidde:es_hofft_der_mensch_so_lang_er_lebt_concept .
 
-lidde:es_hofft_der_mensch_so_lang_er_lebt_def a ontolex:LexicalConcept ;
+lidde:es_hofft_der_mensch_so_lang_er_lebt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:es_hofft_der_mensch_so_lang_er_lebt_sense ;
 	skos:definition "as long as you are alive, you should be hopeful, because it is possible that your situation will improve."@en .
 
@@ -1952,16 +1952,16 @@ lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen a ontolex:Lexical
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_sense ;
 	ontolex:canonicalForm lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "es ist kein baum, der nicht zuvor ein sträuchlein gewesen."@de .
 
 lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_form a ontolex:form ;
 	ontolex:writtenRep "es ist kein baum, der nicht zuvor ein sträuchlein gewesen."@de .
 
 lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_def .
+	ontolex:isLexicalizedSenseOf lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_concept .
 
-lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_def a ontolex:LexicalConcept ;
+lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:es_ist_kein_baum_der_nicht_zuvor_ein_strauchlein_gewesen_sense ;
 	skos:definition "great things start with small beginnings."@en .
 
@@ -1970,16 +1970,16 @@ lidde:es_ist_nicht_alles_gold_was_glanzt a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:es_ist_nicht_alles_gold_was_glanzt_sense ;
 	ontolex:canonicalForm lidde:es_ist_nicht_alles_gold_was_glanzt_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "es ist nicht alles gold, was glänzt."@de .
 
 lidde:es_ist_nicht_alles_gold_was_glanzt_form a ontolex:form ;
 	ontolex:writtenRep "es ist nicht alles gold, was glänzt."@de .
 
 lidde:es_ist_nicht_alles_gold_was_glanzt_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:es_ist_nicht_alles_gold_was_glanzt_def .
+	ontolex:isLexicalizedSenseOf lidde:es_ist_nicht_alles_gold_was_glanzt_concept .
 
-lidde:es_ist_nicht_alles_gold_was_glanzt_def a ontolex:LexicalConcept ;
+lidde:es_ist_nicht_alles_gold_was_glanzt_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:es_ist_nicht_alles_gold_was_glanzt_sense ;
 	skos:definition "just because something looks attractive does not mean it is genuine or valuable."@en .
 
@@ -1988,16 +1988,16 @@ lidde:es_ist_noch_kein_meister_vom_himmel_gefallen a ontolex:LexicalEntry , onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_sense ;
 	ontolex:canonicalForm lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "es ist noch kein meister vom himmel gefallen."@de .
 
 lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_form a ontolex:form ;
 	ontolex:writtenRep "es ist noch kein meister vom himmel gefallen."@de .
 
 lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_def .
+	ontolex:isLexicalizedSenseOf lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_concept .
 
-lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_def a ontolex:LexicalConcept ;
+lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:es_ist_noch_kein_meister_vom_himmel_gefallen_sense ;
 	skos:definition "you can't always expect to get it right the first time."@en .
 
@@ -2006,16 +2006,16 @@ lidde:etwas_auf_die_lange_bank_schieben a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:etwas_auf_die_lange_bank_schieben_sense ;
 	ontolex:canonicalForm lidde:etwas_auf_die_lange_bank_schieben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "etwas auf die lange bank schieben"@de .
 
 lidde:etwas_auf_die_lange_bank_schieben_form a ontolex:form ;
 	ontolex:writtenRep "etwas auf die lange bank schieben"@de .
 
 lidde:etwas_auf_die_lange_bank_schieben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:etwas_auf_die_lange_bank_schieben_def .
+	ontolex:isLexicalizedSenseOf lidde:etwas_auf_die_lange_bank_schieben_concept .
 
-lidde:etwas_auf_die_lange_bank_schieben_def a ontolex:LexicalConcept ;
+lidde:etwas_auf_die_lange_bank_schieben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:etwas_auf_die_lange_bank_schieben_sense ;
 	skos:definition "to put something off"@en .
 
@@ -2024,16 +2024,16 @@ lidde:etwas_aus_dem_armel_schutteln a ontolex:LexicalEntry , ontolex:MultiwordEx
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:etwas_aus_dem_armel_schutteln_sense ;
 	ontolex:canonicalForm lidde:etwas_aus_dem_armel_schutteln_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "etwas aus dem ärmel schütteln"@de .
 
 lidde:etwas_aus_dem_armel_schutteln_form a ontolex:form ;
 	ontolex:writtenRep "etwas aus dem ärmel schütteln"@de .
 
 lidde:etwas_aus_dem_armel_schutteln_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:etwas_aus_dem_armel_schutteln_def .
+	ontolex:isLexicalizedSenseOf lidde:etwas_aus_dem_armel_schutteln_concept .
 
-lidde:etwas_aus_dem_armel_schutteln_def a ontolex:LexicalConcept ;
+lidde:etwas_aus_dem_armel_schutteln_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:etwas_aus_dem_armel_schutteln_sense ;
 	skos:definition "to pull something out of a hat"@en .
 
@@ -2042,16 +2042,16 @@ lidde:etwas_mit_den_fußen_treten a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:etwas_mit_den_fußen_treten_sense ;
 	ontolex:canonicalForm lidde:etwas_mit_den_fußen_treten_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "etwas mit den füßen treten"@de .
 
 lidde:etwas_mit_den_fußen_treten_form a ontolex:form ;
 	ontolex:writtenRep "etwas mit den füßen treten"@de .
 
 lidde:etwas_mit_den_fußen_treten_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:etwas_mit_den_fußen_treten_def .
+	ontolex:isLexicalizedSenseOf lidde:etwas_mit_den_fußen_treten_concept .
 
-lidde:etwas_mit_den_fußen_treten_def a ontolex:LexicalConcept ;
+lidde:etwas_mit_den_fußen_treten_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:etwas_mit_den_fußen_treten_sense ;
 	skos:definition "to treat something with contempt"@en .
 
@@ -2060,16 +2060,16 @@ lidde:farbe_bedienen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:farbe_bedienen_sense ;
 	ontolex:canonicalForm lidde:farbe_bedienen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "farbe bedienen"@de .
 
 lidde:farbe_bedienen_form a ontolex:form ;
 	ontolex:writtenRep "farbe bedienen"@de .
 
 lidde:farbe_bedienen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:farbe_bedienen_def .
+	ontolex:isLexicalizedSenseOf lidde:farbe_bedienen_concept .
 
-lidde:farbe_bedienen_def a ontolex:LexicalConcept ;
+lidde:farbe_bedienen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:farbe_bedienen_sense ;
 	skos:definition "to follow suit"@en .
 
@@ -2078,16 +2078,16 @@ lidde:farbe_bekennen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:farbe_bekennen_sense ;
 	ontolex:canonicalForm lidde:farbe_bekennen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "farbe bekennen"@de .
 
 lidde:farbe_bekennen_form a ontolex:form ;
 	ontolex:writtenRep "farbe bekennen"@de .
 
 lidde:farbe_bekennen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:farbe_bekennen_def .
+	ontolex:isLexicalizedSenseOf lidde:farbe_bekennen_concept .
 
-lidde:farbe_bekennen_def a ontolex:LexicalConcept ;
+lidde:farbe_bekennen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:farbe_bekennen_sense ;
 	skos:definition "to come clean"@en .
 
@@ -2096,7 +2096,7 @@ lidde:fix_und_fertig_sein a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:fix_und_fertig_sein_sense ;
 	ontolex:canonicalForm lidde:fix_und_fertig_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "fix und fertig sein"@de ;
 	owl:sameAs <http://babelnet.org/rdf/page/s05305544n> .
 
@@ -2104,9 +2104,9 @@ lidde:fix_und_fertig_sein_form a ontolex:form ;
 	ontolex:writtenRep "fix und fertig sein"@de .
 
 lidde:fix_und_fertig_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:fix_und_fertig_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:fix_und_fertig_sein_concept .
 
-lidde:fix_und_fertig_sein_def a ontolex:LexicalConcept ;
+lidde:fix_und_fertig_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:fix_und_fertig_sein_sense ;
 	skos:definition "to reach the lowest possible level or be in the worst possible situation"@en .
 
@@ -2115,16 +2115,16 @@ lidde:gebranntes_kind_scheut_das_feuer a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:gebranntes_kind_scheut_das_feuer_sense ;
 	ontolex:canonicalForm lidde:gebranntes_kind_scheut_das_feuer_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "gebranntes kind scheut das feuer."@de .
 
 lidde:gebranntes_kind_scheut_das_feuer_form a ontolex:form ;
 	ontolex:writtenRep "gebranntes kind scheut das feuer."@de .
 
 lidde:gebranntes_kind_scheut_das_feuer_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:gebranntes_kind_scheut_das_feuer_def .
+	ontolex:isLexicalizedSenseOf lidde:gebranntes_kind_scheut_das_feuer_concept .
 
-lidde:gebranntes_kind_scheut_das_feuer_def a ontolex:LexicalConcept ;
+lidde:gebranntes_kind_scheut_das_feuer_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:gebranntes_kind_scheut_das_feuer_sense ;
 	skos:definition "when something or someone has hurt you once, you tend to avoid that thing or person"@en .
 
@@ -2133,16 +2133,16 @@ lidde:gedrangt_wie_die_sardinen a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:gedrangt_wie_die_sardinen_sense ;
 	ontolex:canonicalForm lidde:gedrangt_wie_die_sardinen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "gedrängt wie die sardinen"@de .
 
 lidde:gedrangt_wie_die_sardinen_form a ontolex:form ;
 	ontolex:writtenRep "gedrängt wie die sardinen"@de .
 
 lidde:gedrangt_wie_die_sardinen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:gedrangt_wie_die_sardinen_def .
+	ontolex:isLexicalizedSenseOf lidde:gedrangt_wie_die_sardinen_concept .
 
-lidde:gedrangt_wie_die_sardinen_def a ontolex:LexicalConcept ;
+lidde:gedrangt_wie_die_sardinen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:gedrangt_wie_die_sardinen_sense ;
 	skos:definition "someplace too much crowded"@en .
 
@@ -2151,16 +2151,16 @@ lidde:geld_wie_heu_haben a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:geld_wie_heu_haben_sense ;
 	ontolex:canonicalForm lidde:geld_wie_heu_haben_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "geld wie heu haben"@de .
 
 lidde:geld_wie_heu_haben_form a ontolex:form ;
 	ontolex:writtenRep "geld wie heu haben"@de .
 
 lidde:geld_wie_heu_haben_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:geld_wie_heu_haben_def .
+	ontolex:isLexicalizedSenseOf lidde:geld_wie_heu_haben_concept .
 
-lidde:geld_wie_heu_haben_def a ontolex:LexicalConcept ;
+lidde:geld_wie_heu_haben_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:geld_wie_heu_haben_sense ;
 	skos:definition "to have lot's of money"@en .
 
@@ -2169,16 +2169,16 @@ lidde:gleich_und_gleich_gesellt_sich_gern a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:gleich_und_gleich_gesellt_sich_gern_sense ;
 	ontolex:canonicalForm lidde:gleich_und_gleich_gesellt_sich_gern_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "gleich und gleich gesellt sich gern."@de .
 
 lidde:gleich_und_gleich_gesellt_sich_gern_form a ontolex:form ;
 	ontolex:writtenRep "gleich und gleich gesellt sich gern."@de .
 
 lidde:gleich_und_gleich_gesellt_sich_gern_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:gleich_und_gleich_gesellt_sich_gern_def .
+	ontolex:isLexicalizedSenseOf lidde:gleich_und_gleich_gesellt_sich_gern_concept .
 
-lidde:gleich_und_gleich_gesellt_sich_gern_def a ontolex:LexicalConcept ;
+lidde:gleich_und_gleich_gesellt_sich_gern_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:gleich_und_gleich_gesellt_sich_gern_sense ;
 	skos:definition "similar people tend to associate with each other"@en .
 
@@ -2187,16 +2187,16 @@ lidde:gluck_im_ungluck a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:gluck_im_ungluck_sense ;
 	ontolex:canonicalForm lidde:gluck_im_ungluck_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "glück im unglück"@de .
 
 lidde:gluck_im_ungluck_form a ontolex:form ;
 	ontolex:writtenRep "glück im unglück"@de .
 
 lidde:gluck_im_ungluck_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:gluck_im_ungluck_def .
+	ontolex:isLexicalizedSenseOf lidde:gluck_im_ungluck_concept .
 
-lidde:gluck_im_ungluck_def a ontolex:LexicalConcept ;
+lidde:gluck_im_ungluck_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:gluck_im_ungluck_sense ;
 	skos:definition "good luck in misfortune"@en .
 
@@ -2205,16 +2205,16 @@ lidde:grottenschlecht a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:grottenschlecht_sense ;
 	ontolex:canonicalForm lidde:grottenschlecht_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "grottenschlecht"@de .
 
 lidde:grottenschlecht_form a ontolex:form ;
 	ontolex:writtenRep "grottenschlecht"@de .
 
 lidde:grottenschlecht_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:grottenschlecht_def .
+	ontolex:isLexicalizedSenseOf lidde:grottenschlecht_concept .
 
-lidde:grottenschlecht_def a ontolex:LexicalConcept ;
+lidde:grottenschlecht_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:grottenschlecht_sense ;
 	skos:definition "the worst of the worst"@en .
 
@@ -2223,16 +2223,16 @@ lidde:hahn_im_korb_sein a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:hahn_im_korb_sein_sense ;
 	ontolex:canonicalForm lidde:hahn_im_korb_sein_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "hahn im korb sein"@de .
 
 lidde:hahn_im_korb_sein_form a ontolex:form ;
 	ontolex:writtenRep "hahn im korb sein"@de .
 
 lidde:hahn_im_korb_sein_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:hahn_im_korb_sein_def .
+	ontolex:isLexicalizedSenseOf lidde:hahn_im_korb_sein_concept .
 
-lidde:hahn_im_korb_sein_def a ontolex:LexicalConcept ;
+lidde:hahn_im_korb_sein_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:hahn_im_korb_sein_sense ;
 	skos:definition "be one who dominates a group/situation"@en .
 
@@ -2241,16 +2241,16 @@ lidde:hals_uber_kopf a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:hals_uber_kopf_sense ;
 	ontolex:canonicalForm lidde:hals_uber_kopf_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "hals über kopf"@de .
 
 lidde:hals_uber_kopf_form a ontolex:form ;
 	ontolex:writtenRep "hals über kopf"@de .
 
 lidde:hals_uber_kopf_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:hals_uber_kopf_def .
+	ontolex:isLexicalizedSenseOf lidde:hals_uber_kopf_concept .
 
-lidde:hals_uber_kopf_def a ontolex:LexicalConcept ;
+lidde:hals_uber_kopf_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:hals_uber_kopf_sense ;
 	skos:definition "to be joyful when you are especially in love"@en .
 
@@ -2259,16 +2259,16 @@ lidde:hals_und_beinbruch a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:hals_und_beinbruch_sense ;
 	ontolex:canonicalForm lidde:hals_und_beinbruch_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "hals und beinbruch!"@de .
 
 lidde:hals_und_beinbruch_form a ontolex:form ;
 	ontolex:writtenRep "hals und beinbruch!"@de .
 
 lidde:hals_und_beinbruch_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:hals_und_beinbruch_def .
+	ontolex:isLexicalizedSenseOf lidde:hals_und_beinbruch_concept .
 
-lidde:hals_und_beinbruch_def a ontolex:LexicalConcept ;
+lidde:hals_und_beinbruch_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:hals_und_beinbruch_sense ;
 	skos:definition "good luck! ironic way"@en .
 
@@ -2277,16 +2277,16 @@ lidde:hinter_den_kulissen a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:hinter_den_kulissen_sense ;
 	ontolex:canonicalForm lidde:hinter_den_kulissen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "hinter den kulissen"@de .
 
 lidde:hinter_den_kulissen_form a ontolex:form ;
 	ontolex:writtenRep "hinter den kulissen"@de .
 
 lidde:hinter_den_kulissen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:hinter_den_kulissen_def .
+	ontolex:isLexicalizedSenseOf lidde:hinter_den_kulissen_concept .
 
-lidde:hinter_den_kulissen_def a ontolex:LexicalConcept ;
+lidde:hinter_den_kulissen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:hinter_den_kulissen_sense ;
 	skos:definition "without receiving credit or fame; out of public view."@en .
 
@@ -2295,16 +2295,16 @@ lidde:hor_mal_zu a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:hor_mal_zu_sense ;
 	ontolex:canonicalForm lidde:hor_mal_zu_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "hör mal zu!"@de .
 
 lidde:hor_mal_zu_form a ontolex:form ;
 	ontolex:writtenRep "hör mal zu!"@de .
 
 lidde:hor_mal_zu_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:hor_mal_zu_def .
+	ontolex:isLexicalizedSenseOf lidde:hor_mal_zu_concept .
 
-lidde:hor_mal_zu_def a ontolex:LexicalConcept ;
+lidde:hor_mal_zu_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:hor_mal_zu_sense ;
 	skos:definition "to requestion attention"@en .
 
@@ -2313,16 +2313,16 @@ lidde:hute_deine_zunge a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:hute_deine_zunge_sense ;
 	ontolex:canonicalForm lidde:hute_deine_zunge_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "hüte deine zunge!"@de .
 
 lidde:hute_deine_zunge_form a ontolex:form ;
 	ontolex:writtenRep "hüte deine zunge!"@de .
 
 lidde:hute_deine_zunge_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:hute_deine_zunge_def .
+	ontolex:isLexicalizedSenseOf lidde:hute_deine_zunge_concept .
 
-lidde:hute_deine_zunge_def a ontolex:LexicalConcept ;
+lidde:hute_deine_zunge_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:hute_deine_zunge_sense ;
 	skos:definition "watch what you say!"@en .
 
@@ -2331,16 +2331,16 @@ lidde:ich_bin_keine_kuh_die_man_melken_kann a ontolex:LexicalEntry , ontolex:Mul
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ich_bin_keine_kuh_die_man_melken_kann_sense ;
 	ontolex:canonicalForm lidde:ich_bin_keine_kuh_die_man_melken_kann_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ich bin keine kuh, die man melken kann."@de .
 
 lidde:ich_bin_keine_kuh_die_man_melken_kann_form a ontolex:form ;
 	ontolex:writtenRep "ich bin keine kuh, die man melken kann."@de .
 
 lidde:ich_bin_keine_kuh_die_man_melken_kann_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ich_bin_keine_kuh_die_man_melken_kann_def .
+	ontolex:isLexicalizedSenseOf lidde:ich_bin_keine_kuh_die_man_melken_kann_concept .
 
-lidde:ich_bin_keine_kuh_die_man_melken_kann_def a ontolex:LexicalConcept ;
+lidde:ich_bin_keine_kuh_die_man_melken_kann_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ich_bin_keine_kuh_die_man_melken_kann_sense ;
 	skos:definition "something that you say in order to tell someone who asks you for money that you do not have very much"@en .
 
@@ -2349,16 +2349,16 @@ lidde:ich_fresse_einen_besen_wenn a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ich_fresse_einen_besen_wenn_sense ;
 	ontolex:canonicalForm lidde:ich_fresse_einen_besen_wenn_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ich fresse einen besen, wenn..."@de .
 
 lidde:ich_fresse_einen_besen_wenn_form a ontolex:form ;
 	ontolex:writtenRep "ich fresse einen besen, wenn..."@de .
 
 lidde:ich_fresse_einen_besen_wenn_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ich_fresse_einen_besen_wenn_def .
+	ontolex:isLexicalizedSenseOf lidde:ich_fresse_einen_besen_wenn_concept .
 
-lidde:ich_fresse_einen_besen_wenn_def a ontolex:LexicalConcept ;
+lidde:ich_fresse_einen_besen_wenn_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ich_fresse_einen_besen_wenn_sense ;
 	skos:definition "i will be very surprised. (used to express strong disbelief in something.)"@en .
 
@@ -2367,16 +2367,16 @@ lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen a ontolex:LexicalEntr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_sense ;
 	ontolex:canonicalForm lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ich habe die elster vernommen, es werden gäste kommen."@de .
 
 lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_form a ontolex:form ;
 	ontolex:writtenRep "ich habe die elster vernommen, es werden gäste kommen."@de .
 
 lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_def .
+	ontolex:isLexicalizedSenseOf lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_concept .
 
-lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_def a ontolex:LexicalConcept ;
+lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ich_habe_die_elster_vernommen_es_werden_gaste_kommen_sense ;
 	skos:definition "company's coming."@en .
 
@@ -2385,16 +2385,16 @@ lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen a ontolex:LexicalEntry , 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_sense ;
 	ontolex:canonicalForm lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "ich lasse mir keine grauen haare darüber wachsen."@de .
 
 lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_form a ontolex:form ;
 	ontolex:writtenRep "ich lasse mir keine grauen haare darüber wachsen."@de .
 
 lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_def .
+	ontolex:isLexicalizedSenseOf lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_concept .
 
-lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_def a ontolex:LexicalConcept ;
+lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:ich_lasse_mir_keine_grauen_haare_daruber_wachsen_sense ;
 	skos:definition "to worry about someone or something a lot"@en .
 
@@ -2403,16 +2403,16 @@ lidde:im_eimer a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:im_eimer_sense ;
 	ontolex:canonicalForm lidde:im_eimer_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "im eimer"@de .
 
 lidde:im_eimer_form a ontolex:form ;
 	ontolex:writtenRep "im eimer"@de .
 
 lidde:im_eimer_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:im_eimer_def .
+	ontolex:isLexicalizedSenseOf lidde:im_eimer_concept .
 
-lidde:im_eimer_def a ontolex:LexicalConcept ;
+lidde:im_eimer_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:im_eimer_sense ;
 	skos:definition "to waste or lose something"@en .
 
@@ -2421,16 +2421,16 @@ lidde:zwei_fliegen_mit_einer_klappe_schlagen a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/ger.html> ;
 	ontolex:sense lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense ;
 	ontolex:canonicalForm lidde:zwei_fliegen_mit_einer_klappe_schlagen_form ;
-	dbo:location <http://dbpedia.org/page/Germany> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Germany> ;
 	rdfs:label "zwei fliegen mit einer klappe schlagen"@de .
 
 lidde:zwei_fliegen_mit_einer_klappe_schlagen_form a ontolex:form ;
 	ontolex:writtenRep "zwei fliegen mit einer klappe schlagen"@de .
 
 lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense a ontolex:LexicalSense ;
-	ontolex:reference lidde:zwei_fliegen_mit_einer_klappe_schlagen_def .
+	ontolex:isLexicalizedSenseOf lidde:zwei_fliegen_mit_einer_klappe_schlagen_concept .
 
-lidde:zwei_fliegen_mit_einer_klappe_schlagen_def a ontolex:LexicalConcept ;
+lidde:zwei_fliegen_mit_einer_klappe_schlagen_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidde:zwei_fliegen_mit_einer_klappe_schlagen_sense ;
 	skos:definition "To solve two problems with unique action"@en .
 

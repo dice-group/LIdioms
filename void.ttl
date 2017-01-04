@@ -1,0 +1,53 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix : <http://lid.aksw.org/void.ttl#> .
+@prefix lidioms-dataset: <http://lid.aksw.org/dataset/> .
+
+<http://aksw.org/DiegoMoussallem>
+    rdfs:label "Diego Moussallem"@en ;
+    .
+
+<http://creativecommons.org/publicdomain/zero/2.0/>
+    rdfs:label "CC0 2.0 Universal"@en ;
+    .
+
+<http://lid.aksw.org/void.ttl>
+    a void:DatasetDescription ;
+    dcterms:title "A VoiD Description of the Linked Idioms Dataset"@en ;
+    dcterms:creator <http://aksw.org/DiegoMoussallem> ;
+    foaf:primaryTopic lidioms-dataset:main .
+
+
+lidioms-dataset:main
+    a void:Dataset ;
+    foaf:homepage <http://lid.aksw.org/> ;
+     void:dataDump <http://lid.aksw.org/dataset/dump-1-0.tar.gz> ;
+    dcterms:title "Multilingual Linked Idioms Data Set "@en ;
+    dcterms:description "A multilingual RDF representation of idioms containing five languages. The data set is intended to support natural-language processing applications by providing links between idioms across  languages."@en ;
+    dcterms:source [ foaf:homepage <http://dictionary.cambridge.org> ] , [ foaf:homepage <http://www.phrases.org.uk/> ] , [ foaf:homepage < http://idioms.thefreedictionary.com> ] , [ foaf:homepage < http://www.collinsdictionary.com> ] , [ foaf:homepage <http://www.oxforddictionaries.com
+> ] , [ foaf:homepage <https://www.memrise.com/> ] ;
+    dcterms:publisher <http://aksw.org/DiegoMoussallem> ;
+    dcterms:created "2016-01-15"^^xsd:date ;
+    dcterms:modified "2016-02-23"^^xsd:date ;
+    void:subset lidioms-dataset:void ;
+    void:triples 14604 ;
+    dcterms:subject
+        <http://dbpedia.org/page/Idiom> ;
+    void:sparqlEndpoint <http://lid.aksw.org/sparql> ;
+    void:feature <http://www.w3.org/ns/formats/RDF_XML> ,
+                 <http://www.w3.org/ns/formats/Turtle> ;
+    .
+
+lidioms-dataset:void
+    a sd:Graph, void:Dataset ;
+    dcterms:title "SD+VoID triples"@en ;
+#    void:triples 1588 ;
+    void:dataDump <http://lid.aksw.org/void.ttl> ;
+    .

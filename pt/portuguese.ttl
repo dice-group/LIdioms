@@ -10,172 +10,172 @@
 
 lidpt:a_cavalo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:a_cavalo_sense ;
 	ontolex:canonicalForm lidpt:a_cavalo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "a cavalo"@pt .
 
 lidpt:a_cavalo_form a ontolex:form ;
 	ontolex:writtenRep "a cavalo"@pt .
 
 lidpt:a_cavalo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:a_cavalo_def .
+	ontolex:isLexicalizedSenseOf lidpt:a_cavalo_concept .
 
-lidpt:a_cavalo_def a ontolex:LexicalConcept ;
+lidpt:a_cavalo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:a_cavalo_sense ;
 	skos:definition "to do something too fast"@en .
 
 lidpt:a_coisa_ta_preta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:a_coisa_ta_preta_sense ;
 	ontolex:canonicalForm lidpt:a_coisa_ta_preta_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "a coisa tá preta"@pt .
 
 lidpt:a_coisa_ta_preta_form a ontolex:form ;
 	ontolex:writtenRep "a coisa tá preta"@pt .
 
 lidpt:a_coisa_ta_preta_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:a_coisa_ta_preta_def .
+	ontolex:isLexicalizedSenseOf lidpt:a_coisa_ta_preta_concept .
 
-lidpt:a_coisa_ta_preta_def a ontolex:LexicalConcept ;
+lidpt:a_coisa_ta_preta_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:a_coisa_ta_preta_sense ;
 	skos:definition "things are looking bad"@en .
 
 lidpt:a_meu_ver a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:a_meu_ver_sense ;
 	ontolex:canonicalForm lidpt:a_meu_ver_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "a meu ver"@pt .
 
 lidpt:a_meu_ver_form a ontolex:form ;
 	ontolex:writtenRep "a meu ver"@pt .
 
 lidpt:a_meu_ver_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:a_meu_ver_def .
+	ontolex:isLexicalizedSenseOf lidpt:a_meu_ver_concept .
 
-lidpt:a_meu_ver_def a ontolex:LexicalConcept ;
+lidpt:a_meu_ver_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:a_meu_ver_sense ;
 	skos:definition "in my opinion"@en .
 
 lidpt:a_moda_antiga a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:a_moda_antiga_sense ;
 	ontolex:canonicalForm lidpt:a_moda_antiga_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "à moda antiga"@pt .
 
 lidpt:a_moda_antiga_form a ontolex:form ;
 	ontolex:writtenRep "à moda antiga"@pt .
 
 lidpt:a_moda_antiga_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:a_moda_antiga_def .
+	ontolex:isLexicalizedSenseOf lidpt:a_moda_antiga_concept .
 
-lidpt:a_moda_antiga_def a ontolex:LexicalConcept ;
+lidpt:a_moda_antiga_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:a_moda_antiga_sense ;
 	skos:definition "in the old-fashioned way"@en .
 
 lidpt:a_perder_de_vista a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:a_perder_de_vista_sense ;
 	ontolex:canonicalForm lidpt:a_perder_de_vista_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "a perder de vista"@pt .
 
 lidpt:a_perder_de_vista_form a ontolex:form ;
 	ontolex:writtenRep "a perder de vista"@pt .
 
 lidpt:a_perder_de_vista_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:a_perder_de_vista_def .
+	ontolex:isLexicalizedSenseOf lidpt:a_perder_de_vista_concept .
 
-lidpt:a_perder_de_vista_def a ontolex:LexicalConcept ;
+lidpt:a_perder_de_vista_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:a_perder_de_vista_sense ;
 	skos:definition "something in long period"@en .
 
 lidpt:abotoar_o_paleto a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:abotoar_o_paleto_sense ;
 	ontolex:canonicalForm lidpt:abotoar_o_paleto_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "abotoar o paletó"@pt .
 
 lidpt:abotoar_o_paleto_form a ontolex:form ;
 	ontolex:writtenRep "abotoar o paletó"@pt .
 
 lidpt:abotoar_o_paleto_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:abotoar_o_paleto_def .
+	ontolex:isLexicalizedSenseOf lidpt:abotoar_o_paleto_concept .
 
-lidpt:abotoar_o_paleto_def a ontolex:LexicalConcept ;
+lidpt:abotoar_o_paleto_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:abotoar_o_paleto_sense ;
 	skos:definition "to die"@en .
 
 lidpt:abra_o_olho a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:abra_o_olho_sense ;
 	ontolex:canonicalForm lidpt:abra_o_olho_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "abra o olho"@pt .
 
 lidpt:abra_o_olho_form a ontolex:form ;
 	ontolex:writtenRep "abra o olho"@pt .
 
 lidpt:abra_o_olho_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:abra_o_olho_def .
+	ontolex:isLexicalizedSenseOf lidpt:abra_o_olho_concept .
 
-lidpt:abra_o_olho_def a ontolex:LexicalConcept ;
+lidpt:abra_o_olho_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:abra_o_olho_sense ;
 	skos:definition "to be in alert"@en .
 
 lidpt:acabar_em_pizza a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:acabar_em_pizza_sense ;
 	ontolex:canonicalForm lidpt:acabar_em_pizza_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "acabar em pizza"@pt .
 
 lidpt:acabar_em_pizza_form a ontolex:form ;
 	ontolex:writtenRep "acabar em pizza"@pt .
 
 lidpt:acabar_em_pizza_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:acabar_em_pizza_def .
+	ontolex:isLexicalizedSenseOf lidpt:acabar_em_pizza_concept .
 
-lidpt:acabar_em_pizza_def a ontolex:LexicalConcept ;
+lidpt:acabar_em_pizza_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:acabar_em_pizza_sense ;
 	skos:definition "to end some happening without any consequence"@en .
 
 lidpt:acertar_na_mosca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:acertar_na_mosca_sense ;
 	ontolex:canonicalForm lidpt:acertar_na_mosca_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "acertar na mosca"@pt .
 
 lidpt:acertar_na_mosca_form a ontolex:form ;
 	ontolex:writtenRep "acertar na mosca"@pt .
 
 lidpt:acertar_na_mosca_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:acertar_na_mosca_def .
+	ontolex:isLexicalizedSenseOf lidpt:acertar_na_mosca_concept .
 
-lidpt:acertar_na_mosca_def a ontolex:LexicalConcept ;
+lidpt:acertar_na_mosca_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:acertar_na_mosca_sense ;
 	skos:definition "to hit precisely"@en .
 
 lidpt:afinal_de_contas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:afinal_de_contas_sense ;
 	ontolex:canonicalForm lidpt:afinal_de_contas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "afinal de contas"@pt ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00114417r> .
 
@@ -183,198 +183,216 @@ lidpt:afinal_de_contas_form a ontolex:form ;
 	ontolex:writtenRep "afinal de contas"@pt .
 
 lidpt:afinal_de_contas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:afinal_de_contas_def .
+	ontolex:isLexicalizedSenseOf lidpt:afinal_de_contas_concept .
 
-lidpt:afinal_de_contas_def a ontolex:LexicalConcept ;
+lidpt:afinal_de_contas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:afinal_de_contas_sense ;
 	skos:definition "to conclude some story"@en .
 
 lidpt:afogar_o_ganso a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:afogar_o_ganso_sense ;
 	ontolex:canonicalForm lidpt:afogar_o_ganso_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "afogar o ganso"@pt .
 
 lidpt:afogar_o_ganso_form a ontolex:form ;
 	ontolex:writtenRep "afogar o ganso"@pt .
 
 lidpt:afogar_o_ganso_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:afogar_o_ganso_def .
+	ontolex:isLexicalizedSenseOf lidpt:afogar_o_ganso_concept .
 
-lidpt:afogar_o_ganso_def a ontolex:LexicalConcept ;
+lidpt:afogar_o_ganso_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:afogar_o_ganso_sense ;
 	skos:definition "to have sex"@en .
 
 lidpt:agora_que_sao_elas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:agora_que_sao_elas_sense ;
 	ontolex:canonicalForm lidpt:agora_que_sao_elas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "agora que são elas"@pt .
 
 lidpt:agora_que_sao_elas_form a ontolex:form ;
 	ontolex:writtenRep "agora que são elas"@pt .
 
 lidpt:agora_que_sao_elas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:agora_que_sao_elas_def .
+	ontolex:isLexicalizedSenseOf lidpt:agora_que_sao_elas_concept .
 
-lidpt:agora_que_sao_elas_def a ontolex:LexicalConcept ;
+lidpt:agora_que_sao_elas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:agora_que_sao_elas_sense ;
 	skos:definition "start some challenge that is difficult"@en .
 
 lidpt:ajoelhou_tem_que_rezar a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ajoelhou_tem_que_rezar_sense ;
 	ontolex:canonicalForm lidpt:ajoelhou_tem_que_rezar_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ajoelhou, tem que rezar"@pt .
 
 lidpt:ajoelhou_tem_que_rezar_form a ontolex:form ;
 	ontolex:writtenRep "ajoelhou, tem que rezar"@pt .
 
 lidpt:ajoelhou_tem_que_rezar_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ajoelhou_tem_que_rezar_def .
+	ontolex:isLexicalizedSenseOf lidpt:ajoelhou_tem_que_rezar_concept .
 
-lidpt:ajoelhou_tem_que_rezar_def a ontolex:LexicalConcept ;
+lidpt:ajoelhou_tem_que_rezar_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ajoelhou_tem_que_rezar_sense ;
 	skos:definition "accepted, now go on until the end"@en .
 
 lidpt:amarelar a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:amarelar_sense ;
 	ontolex:canonicalForm lidpt:amarelar_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "amarelar"@pt .
 
 lidpt:amarelar_form a ontolex:form ;
 	ontolex:writtenRep "amarelar"@pt .
 
 lidpt:amarelar_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:amarelar_def .
+	ontolex:isLexicalizedSenseOf lidpt:amarelar_concept .
 
-lidpt:amarelar_def a ontolex:LexicalConcept ;
+lidpt:amarelar_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:amarelar_sense ;
 	skos:definition "to be afraid"@en .
 
 lidpt:amarrar_o_burro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-2/por.html> ;
 	ontolex:sense lidpt:amarrar_o_burro_sense ;
 	ontolex:canonicalForm lidpt:amarrar_o_burro_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Portugal> ;
 	rdfs:label "amarrar o burro"@pt .
 
 lidpt:amarrar_o_burro_form a ontolex:form ;
 	ontolex:writtenRep "amarrar o burro"@pt .
 
 lidpt:amarrar_o_burro_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:amarrar_o_burro_def .
+	ontolex:isLexicalizedSenseOf lidpt:amarrar_o_burro_concept .
 
-lidpt:amarrar_o_burro_def a ontolex:LexicalConcept ;
+lidpt:amarrar_o_burro_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:amarrar_o_burro_sense ;
 	skos:definition "to relax"@en .
 
+lidpt:amarrar_o_burro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
+	lexinfo:termType lexinfo:idiom ;
+	dct:language <<http://dbpedia.org/resource/Brazilian_Portuguese> ;
+	ontolex:sense lidpt:amarrar_o_burro_sense ;
+	ontolex:canonicalForm lidpt:amarrar_o_burro_form ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
+	rdfs:label "amarrar o burro"@pt .
+
+lidpt:amarrar_o_burro_form a ontolex:form ;
+	ontolex:writtenRep "amarrar o burro"@pt .
+
+lidpt:amarrar_o_burro_sense a ontolex:LexicalSense ;
+	ontolex:isLexicalizedSenseOf lidpt:amarrar_o_burro_concept .
+
+lidpt:amarrar_o_burro_concept a ontolex:LexicalConcept ;
+	ontolex:isConceptOf lidpt:amarrar_o_burro_sense ;
+	skos:definition "to advise someone about future problems from one action"@en .
+
 lidpt:amigo_da_onca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:amigo_da_onca_sense ;
 	ontolex:canonicalForm lidpt:amigo_da_onca_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "amigo da onça"@pt .
 
 lidpt:amigo_da_onca_form a ontolex:form ;
 	ontolex:writtenRep "amigo da onça"@pt .
 
 lidpt:amigo_da_onca_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:amigo_da_onca_def .
+	ontolex:isLexicalizedSenseOf lidpt:amigo_da_onca_concept .
 
-lidpt:amigo_da_onca_def a ontolex:LexicalConcept ;
+lidpt:amigo_da_onca_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:amigo_da_onca_sense ;
 	skos:definition "a false friend"@en .
 
 lidpt:ao_pe_da_letra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ao_pe_da_letra_sense ;
 	ontolex:canonicalForm lidpt:ao_pe_da_letra_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ao pé da letra"@pt .
 
 lidpt:ao_pe_da_letra_form a ontolex:form ;
 	ontolex:writtenRep "ao pé da letra"@pt .
 
 lidpt:ao_pe_da_letra_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ao_pe_da_letra_def .
+	ontolex:isLexicalizedSenseOf lidpt:ao_pe_da_letra_concept .
 
-lidpt:ao_pe_da_letra_def a ontolex:LexicalConcept ;
+lidpt:ao_pe_da_letra_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ao_pe_da_letra_sense ;
 	skos:definition "literally"@en .
 
 lidpt:apareca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:apareca_sense ;
 	ontolex:canonicalForm lidpt:apareca_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "apareça!"@pt .
 
 lidpt:apareca_form a ontolex:form ;
 	ontolex:writtenRep "apareça!"@pt .
 
 lidpt:apareca_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:apareca_def .
+	ontolex:isLexicalizedSenseOf lidpt:apareca_concept .
 
-lidpt:apareca_def a ontolex:LexicalConcept ;
+lidpt:apareca_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:apareca_sense ;
 	skos:definition "come again (to visit us)"@en .
 
 lidpt:apertar_o_passo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:apertar_o_passo_sense ;
 	ontolex:canonicalForm lidpt:apertar_o_passo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "apertar o passo"@pt .
 
 lidpt:apertar_o_passo_form a ontolex:form ;
 	ontolex:writtenRep "apertar o passo"@pt .
 
 lidpt:apertar_o_passo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:apertar_o_passo_def .
+	ontolex:isLexicalizedSenseOf lidpt:apertar_o_passo_concept .
 
-lidpt:apertar_o_passo_def a ontolex:LexicalConcept ;
+lidpt:apertar_o_passo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:apertar_o_passo_sense ;
 	skos:definition "to walk fastest"@en .
 
 lidpt:as_suas_ordens a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:as_suas_ordens_sense ;
 	ontolex:canonicalForm lidpt:as_suas_ordens_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "às suas ordens"@pt .
 
 lidpt:as_suas_ordens_form a ontolex:form ;
 	ontolex:writtenRep "às suas ordens"@pt .
 
 lidpt:as_suas_ordens_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:as_suas_ordens_def .
+	ontolex:isLexicalizedSenseOf lidpt:as_suas_ordens_concept .
 
-lidpt:as_suas_ordens_def a ontolex:LexicalConcept ;
+lidpt:as_suas_ordens_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:as_suas_ordens_sense ;
 	skos:definition "at your disposal"@en .
 
 lidpt:ate_que_enfim a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ate_que_enfim_sense ;
 	ontolex:canonicalForm lidpt:ate_que_enfim_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "até que enfim"@pt ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00114417r> .
 
@@ -382,378 +400,378 @@ lidpt:ate_que_enfim_form a ontolex:form ;
 	ontolex:writtenRep "até que enfim"@pt .
 
 lidpt:ate_que_enfim_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ate_que_enfim_def .
+	ontolex:isLexicalizedSenseOf lidpt:ate_que_enfim_concept .
 
-lidpt:ate_que_enfim_def a ontolex:LexicalConcept ;
+lidpt:ate_que_enfim_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ate_que_enfim_sense ;
 	skos:definition "to finish something"@en .
 
 lidpt:atirar_de_cabeaa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:atirar_de_cabeca_sense ;
 	ontolex:canonicalForm lidpt:atirar_de_cabeca_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "atirar-se de cabeça"@pt .
 
 lidpt:atirar_de_cabeca_form a ontolex:form ;
 	ontolex:writtenRep "atirar-se de cabeça"@pt .
 
 lidpt:atirar_de_cabeca_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:atirar_de_cabeca_def .
+	ontolex:isLexicalizedSenseOf lidpt:atirar_de_cabeca_concept .
 
-lidpt:atirar_de_cabeca_def a ontolex:LexicalConcept ;
+lidpt:atirar_de_cabeca_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:atirar_de_cabeca_sense ;
 	skos:definition "face a problem without hesitation"@en .
 
 lidpt:bater_o_queixo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:bater_o_queixo_sense ;
 	ontolex:canonicalForm lidpt:bater_o_queixo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "bater o queixo"@pt .
 
 lidpt:bater_o_queixo_form a ontolex:form ;
 	ontolex:writtenRep "bater o queixo"@pt .
 
 lidpt:bater_o_queixo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:bater_o_queixo_def .
+	ontolex:isLexicalizedSenseOf lidpt:bater_o_queixo_concept .
 
-lidpt:bater_o_queixo_def a ontolex:LexicalConcept ;
+lidpt:bater_o_queixo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:bater_o_queixo_sense ;
 	skos:definition "to be cold"@en .
 
 lidpt:bem_feito a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:bem_feito_sense ;
 	ontolex:canonicalForm lidpt:bem_feito_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "bem feito!"@pt .
 
 lidpt:bem_feito_form a ontolex:form ;
 	ontolex:writtenRep "bem feito!"@pt .
 
 lidpt:bem_feito_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:bem_feito_def .
+	ontolex:isLexicalizedSenseOf lidpt:bem_feito_concept .
 
-lidpt:bem_feito_def a ontolex:LexicalConcept ;
+lidpt:bem_feito_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:bem_feito_sense ;
 	skos:definition "nice going! (sarcastic)"@en .
 
 lidpt:bicho_de_sete_cabecas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:bicho_de_sete_cabecas_sense ;
 	ontolex:canonicalForm lidpt:bicho_de_sete_cabecas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "bicho de sete cabeças"@pt .
 
 lidpt:bicho_de_sete_cabecas_form a ontolex:form ;
 	ontolex:writtenRep "bicho de sete cabeças"@pt .
 
 lidpt:bicho_de_sete_cabecas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:bicho_de_sete_cabecas_def .
+	ontolex:isLexicalizedSenseOf lidpt:bicho_de_sete_cabecas_concept .
 
-lidpt:bicho_de_sete_cabecas_def a ontolex:LexicalConcept ;
+lidpt:bicho_de_sete_cabecas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:bicho_de_sete_cabecas_sense ;
 	skos:definition "huge complication"@en .
 
 lidpt:botar_a_boca_no_mundo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:botar_a_boca_no_mundo_sense ;
 	ontolex:canonicalForm lidpt:botar_a_boca_no_mundo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "botar a boca no mundo"@pt .
 
 lidpt:botar_a_boca_no_mundo_form a ontolex:form ;
 	ontolex:writtenRep "botar a boca no mundo"@pt .
 
 lidpt:botar_a_boca_no_mundo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:botar_a_boca_no_mundo_def .
+	ontolex:isLexicalizedSenseOf lidpt:botar_a_boca_no_mundo_concept .
 
-lidpt:botar_a_boca_no_mundo_def a ontolex:LexicalConcept ;
+lidpt:botar_a_boca_no_mundo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:botar_a_boca_no_mundo_sense ;
 	skos:definition "to tell evebody any secret"@en .
 
 lidpt:botar_no_olho_da_rua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:botar_no_olho_da_rua_sense ;
 	ontolex:canonicalForm lidpt:botar_no_olho_da_rua_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "botar no olho da rua"@pt .
 
 lidpt:botar_no_olho_da_rua_form a ontolex:form ;
 	ontolex:writtenRep "botar no olho da rua"@pt .
 
 lidpt:botar_no_olho_da_rua_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:botar_no_olho_da_rua_def .
+	ontolex:isLexicalizedSenseOf lidpt:botar_no_olho_da_rua_concept .
 
-lidpt:botar_no_olho_da_rua_def a ontolex:LexicalConcept ;
+lidpt:botar_no_olho_da_rua_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:botar_no_olho_da_rua_sense ;
 	skos:definition "to fire"@en .
 
 lidpt:botar_os_pingos_nos_is a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:botar_os_pingos_nos_is_sense ;
 	ontolex:canonicalForm lidpt:botar_os_pingos_nos_is_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "botar os pingos nos i’s"@pt .
 
 lidpt:botar_os_pingos_nos_is_form a ontolex:form ;
 	ontolex:writtenRep "botar os pingos nos i’s"@pt .
 
 lidpt:botar_os_pingos_nos_is_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:botar_os_pingos_nos_is_def .
+	ontolex:isLexicalizedSenseOf lidpt:botar_os_pingos_nos_is_concept .
 
-lidpt:botar_os_pingos_nos_is_def a ontolex:LexicalConcept ;
+lidpt:botar_os_pingos_nos_is_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:botar_os_pingos_nos_is_sense ;
 	skos:definition "to get things straightened out"@en .
 
 lidpt:cabeca_de_vento a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cabeca_de_vento_sense ;
 	ontolex:canonicalForm lidpt:cabeca_de_vento_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cabeça de vento"@pt .
 
 lidpt:cabeca_de_vento_form a ontolex:form ;
 	ontolex:writtenRep "cabeça de vento"@pt .
 
 lidpt:cabeca_de_vento_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cabeca_de_vento_def .
+	ontolex:isLexicalizedSenseOf lidpt:cabeca_de_vento_concept .
 
-lidpt:cabeca_de_vento_def a ontolex:LexicalConcept ;
+lidpt:cabeca_de_vento_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cabeca_de_vento_sense ;
 	skos:definition "a person who is disorganized and forgetting many things"@en .
 
 lidpt:cada_macaco_no_seu_galho a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cada_macaco_no_seu_galho_sense ;
 	ontolex:canonicalForm lidpt:cada_macaco_no_seu_galho_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cada macaco no seu galho."@pt .
 
 lidpt:cada_macaco_no_seu_galho_form a ontolex:form ;
 	ontolex:writtenRep "cada macaco no seu galho."@pt .
 
 lidpt:cada_macaco_no_seu_galho_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cada_macaco_no_seu_galho_def .
+	ontolex:isLexicalizedSenseOf lidpt:cada_macaco_no_seu_galho_concept .
 
-lidpt:cada_macaco_no_seu_galho_def a ontolex:LexicalConcept ;
+lidpt:cada_macaco_no_seu_galho_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cada_macaco_no_seu_galho_sense ;
 	skos:definition "everyone should care for their own life"@en .
 
 lidpt:cair_a_ficha a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cair_a_ficha_sense ;
 	ontolex:canonicalForm lidpt:cair_a_ficha_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cair a ficha"@pt .
 
 lidpt:cair_a_ficha_form a ontolex:form ;
 	ontolex:writtenRep "cair a ficha"@pt .
 
 lidpt:cair_a_ficha_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cair_a_ficha_def .
+	ontolex:isLexicalizedSenseOf lidpt:cair_a_ficha_concept .
 
-lidpt:cair_a_ficha_def a ontolex:LexicalConcept ;
+lidpt:cair_a_ficha_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cair_a_ficha_sense ;
 	skos:definition "got it"@en .
 
 lidpt:cair_de_maduro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cair_de_maduro_sense ;
 	ontolex:canonicalForm lidpt:cair_de_maduro_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cair de maduro"@pt .
 
 lidpt:cair_de_maduro_form a ontolex:form ;
 	ontolex:writtenRep "cair de maduro"@pt .
 
 lidpt:cair_de_maduro_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cair_de_maduro_def .
+	ontolex:isLexicalizedSenseOf lidpt:cair_de_maduro_concept .
 
-lidpt:cair_de_maduro_def a ontolex:LexicalConcept ;
+lidpt:cair_de_maduro_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cair_de_maduro_sense ;
 	skos:definition "when something happens that was predictable since a long time"@en .
 
 lidpt:cair_de_quatro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cair_de_quatro_sense ;
 	ontolex:canonicalForm lidpt:cair_de_quatro_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cair de quatro"@pt .
 
 lidpt:cair_de_quatro_form a ontolex:form ;
 	ontolex:writtenRep "cair de quatro"@pt .
 
 lidpt:cair_de_quatro_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cair_de_quatro_def .
+	ontolex:isLexicalizedSenseOf lidpt:cair_de_quatro_concept .
 
-lidpt:cair_de_quatro_def a ontolex:LexicalConcept ;
+lidpt:cair_de_quatro_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cair_de_quatro_sense ;
 	skos:definition "to be passionate"@en .
 
 lidpt:cair_em_si a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cair_em_si_sense ;
 	ontolex:canonicalForm lidpt:cair_em_si_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cair em si"@pt .
 
 lidpt:cair_em_si_form a ontolex:form ;
 	ontolex:writtenRep "cair em si"@pt .
 
 lidpt:cair_em_si_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cair_em_si_def .
+	ontolex:isLexicalizedSenseOf lidpt:cair_em_si_concept .
 
-lidpt:cair_em_si_def a ontolex:LexicalConcept ;
+lidpt:cair_em_si_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cair_em_si_sense ;
 	skos:definition "to suddenly realize"@en .
 
 lidpt:cair_por_terra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cair_por_terra_sense ;
 	ontolex:canonicalForm lidpt:cair_por_terra_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cair por terra"@pt .
 
 lidpt:cair_por_terra_form a ontolex:form ;
 	ontolex:writtenRep "cair por terra"@pt .
 
 lidpt:cair_por_terra_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cair_por_terra_def .
+	ontolex:isLexicalizedSenseOf lidpt:cair_por_terra_concept .
 
-lidpt:cair_por_terra_def a ontolex:LexicalConcept ;
+lidpt:cair_por_terra_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cair_por_terra_sense ;
 	skos:definition "to fail"@en .
 
 lidpt:calar_o_bico a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:calar_o_bico_sense ;
 	ontolex:canonicalForm lidpt:calar_o_bico_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "calar o bico"@pt .
 
 lidpt:calar_o_bico_form a ontolex:form ;
 	ontolex:writtenRep "calar o bico"@pt .
 
 lidpt:calar_o_bico_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:calar_o_bico_def .
+	ontolex:isLexicalizedSenseOf lidpt:calar_o_bico_concept .
 
-lidpt:calar_o_bico_def a ontolex:LexicalConcept ;
+lidpt:calar_o_bico_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:calar_o_bico_sense ;
 	skos:definition "to be quiet, keep a secret"@en .
 
 lidpt:calma_que_brasil_e_nosso a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:calma_que_brasil_e_nosso_sense ;
 	ontolex:canonicalForm lidpt:calma_que_brasil_e_nosso_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "calma que brasil é nosso!"@pt .
 
 lidpt:calma_que_brasil_e_nosso_form a ontolex:form ;
 	ontolex:writtenRep "calma que brasil é nosso!"@pt .
 
 lidpt:calma_que_brasil_e_nosso_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:calma_que_brasil_e_nosso_def .
+	ontolex:isLexicalizedSenseOf lidpt:calma_que_brasil_e_nosso_concept .
 
-lidpt:calma_que_brasil_e_nosso_def a ontolex:LexicalConcept ;
+lidpt:calma_que_brasil_e_nosso_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:calma_que_brasil_e_nosso_sense ;
 	skos:definition "something very easy"@en .
 
 lidpt:cantar_de_galo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cantar_de_galo_sense ;
 	ontolex:canonicalForm lidpt:cantar_de_galo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cantar de galo"@pt .
 
 lidpt:cantar_de_galo_form a ontolex:form ;
 	ontolex:writtenRep "cantar de galo"@pt .
 
 lidpt:cantar_de_galo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cantar_de_galo_def .
+	ontolex:isLexicalizedSenseOf lidpt:cantar_de_galo_concept .
 
-lidpt:cantar_de_galo_def a ontolex:LexicalConcept ;
+lidpt:cantar_de_galo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cantar_de_galo_sense ;
 	skos:definition "to dictate the rules"@en .
 
 lidpt:cerrar_as_cortinas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cerrar_as_cortinas_sense ;
 	ontolex:canonicalForm lidpt:cerrar_as_cortinas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cerrar as cortinas"@pt .
 
 lidpt:cerrar_as_cortinas_form a ontolex:form ;
 	ontolex:writtenRep "cerrar as cortinas"@pt .
 
 lidpt:cerrar_as_cortinas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cerrar_as_cortinas_def .
+	ontolex:isLexicalizedSenseOf lidpt:cerrar_as_cortinas_concept .
 
-lidpt:cerrar_as_cortinas_def a ontolex:LexicalConcept ;
+lidpt:cerrar_as_cortinas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cerrar_as_cortinas_sense ;
 	skos:definition "fabulous finish"@en .
 
 lidpt:chamar_a_atencao a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:chamar_a_atencao_sense ;
 	ontolex:canonicalForm lidpt:chamar_a_atencao_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "chamar a atenção"@pt .
 
 lidpt:chamar_a_atencao_form a ontolex:form ;
 	ontolex:writtenRep "chamar a atenção"@pt .
 
 lidpt:chamar_a_atencao_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:chamar_a_atencao_def .
+	ontolex:isLexicalizedSenseOf lidpt:chamar_a_atencao_concept .
 
-lidpt:chamar_a_atencao_def a ontolex:LexicalConcept ;
+lidpt:chamar_a_atencao_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:chamar_a_atencao_sense ;
 	skos:definition " to give an advice"@en .
 
 lidpt:chega a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:chega_sense ;
 	ontolex:canonicalForm lidpt:chega_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "chega!"@pt .
 
 lidpt:chega_form a ontolex:form ;
 	ontolex:writtenRep "chega!"@pt .
 
 lidpt:chega_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:chega_def .
+	ontolex:isLexicalizedSenseOf lidpt:chega_concept .
 
-lidpt:chega_def a ontolex:LexicalConcept ;
+lidpt:chega_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:chega_sense ;
 	skos:definition "that’s enough!"@en .
 
 lidpt:cheio_de_si a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cheio_de_si_sense ;
 	ontolex:canonicalForm lidpt:cheio_de_si_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cheio de si"@pt ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00100139a> , <http://babelnet.org/rdf/page/s00110333a> .
 
@@ -761,198 +779,198 @@ lidpt:cheio_de_si_form a ontolex:form ;
 	ontolex:writtenRep "cheio de si"@pt .
 
 lidpt:cheio_de_si_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cheio_de_si_def .
+	ontolex:isLexicalizedSenseOf lidpt:cheio_de_si_concept .
 
-lidpt:cheio_de_si_def a ontolex:LexicalConcept ;
+lidpt:cheio_de_si_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cheio_de_si_sense ;
 	skos:definition "proud"@en .
 
 lidpt:chutar_para_canto a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:chutar_para_canto_sense ;
 	ontolex:canonicalForm lidpt:chutar_para_canto_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "chutar para canto"@pt .
 
 lidpt:chutar_para_canto_form a ontolex:form ;
 	ontolex:writtenRep "chutar para canto"@pt .
 
 lidpt:chutar_para_canto_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:chutar_para_canto_def .
+	ontolex:isLexicalizedSenseOf lidpt:chutar_para_canto_concept .
 
-lidpt:chutar_para_canto_def a ontolex:LexicalConcept ;
+lidpt:chutar_para_canto_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:chutar_para_canto_sense ;
 	skos:definition "it does not matter"@en .
 
 lidpt:com_as_maos_abanando a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:com_as_maos_abanando_sense ;
 	ontolex:canonicalForm lidpt:com_as_maos_abanando_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "com as mãos abanando"@pt .
 
 lidpt:com_as_maos_abanando_form a ontolex:form ;
 	ontolex:writtenRep "com as mãos abanando"@pt .
 
 lidpt:com_as_maos_abanando_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:com_as_maos_abanando_def .
+	ontolex:isLexicalizedSenseOf lidpt:com_as_maos_abanando_concept .
 
-lidpt:com_as_maos_abanando_def a ontolex:LexicalConcept ;
+lidpt:com_as_maos_abanando_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:com_as_maos_abanando_sense ;
 	skos:definition "without achieving one’s purpose"@en .
 
 lidpt:comer_com_os_olhos a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:comer_com_os_olhos_sense ;
 	ontolex:canonicalForm lidpt:comer_com_os_olhos_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "comer com os olhos"@pt .
 
 lidpt:comer_com_os_olhos_form a ontolex:form ;
 	ontolex:writtenRep "comer com os olhos"@pt .
 
 lidpt:comer_com_os_olhos_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:comer_com_os_olhos_def .
+	ontolex:isLexicalizedSenseOf lidpt:comer_com_os_olhos_concept .
 
-lidpt:comer_com_os_olhos_def a ontolex:LexicalConcept ;
+lidpt:comer_com_os_olhos_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:comer_com_os_olhos_sense ;
 	skos:definition "to want something very much"@en .
 
 lidpt:comer_o_pao_que_o_diabo_amassou a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:comer_o_pao_que_o_diabo_amassou_sense ;
 	ontolex:canonicalForm lidpt:comer_o_pao_que_o_diabo_amassou_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "comer o pão que o diabo amassou"@pt .
 
 lidpt:comer_o_pao_que_o_diabo_amassou_form a ontolex:form ;
 	ontolex:writtenRep "comer o pão que o diabo amassou"@pt .
 
 lidpt:comer_o_pao_que_o_diabo_amassou_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:comer_o_pao_que_o_diabo_amassou_def .
+	ontolex:isLexicalizedSenseOf lidpt:comer_o_pao_que_o_diabo_amassou_concept .
 
-lidpt:comer_o_pao_que_o_diabo_amassou_def a ontolex:LexicalConcept ;
+lidpt:comer_o_pao_que_o_diabo_amassou_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:comer_o_pao_que_o_diabo_amassou_sense ;
 	skos:definition "to suffer intolerably"@en , "to go through great hardship"@en .
 
 lidpt:contente_da_vida a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:contente_da_vida_sense ;
 	ontolex:canonicalForm lidpt:contente_da_vida_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "contente da vida"@pt .
 
 lidpt:contente_da_vida_form a ontolex:form ;
 	ontolex:writtenRep "contente da vida"@pt .
 
 lidpt:contente_da_vida_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:contente_da_vida_def .
+	ontolex:isLexicalizedSenseOf lidpt:contente_da_vida_concept .
 
-lidpt:contente_da_vida_def a ontolex:LexicalConcept ;
+lidpt:contente_da_vida_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:contente_da_vida_sense ;
 	skos:definition "very happy"@en .
 
 lidpt:correr_o_mundo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:correr_o_mundo_sense ;
 	ontolex:canonicalForm lidpt:correr_o_mundo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "correr o mundo"@pt .
 
 lidpt:correr_o_mundo_form a ontolex:form ;
 	ontolex:writtenRep "correr o mundo"@pt .
 
 lidpt:correr_o_mundo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:correr_o_mundo_def .
+	ontolex:isLexicalizedSenseOf lidpt:correr_o_mundo_concept .
 
-lidpt:correr_o_mundo_def a ontolex:LexicalConcept ;
+lidpt:correr_o_mundo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:correr_o_mundo_sense ;
 	skos:definition "to travel"@en .
 
 lidpt:cospir_no_prato_que_comeu a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cospir_no_prato_que_comeu_sense ;
 	ontolex:canonicalForm lidpt:cospir_no_prato_que_comeu_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "cospir no prato que comeu"@pt .
 
 lidpt:cospir_no_prato_que_comeu_form a ontolex:form ;
 	ontolex:writtenRep "cospir no prato que comeu"@pt .
 
 lidpt:cospir_no_prato_que_comeu_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cospir_no_prato_que_comeu_def .
+	ontolex:isLexicalizedSenseOf lidpt:cospir_no_prato_que_comeu_concept .
 
-lidpt:cospir_no_prato_que_comeu_def a ontolex:LexicalConcept ;
+lidpt:cospir_no_prato_que_comeu_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cospir_no_prato_que_comeu_sense ;
 	skos:definition "to renege"@en .
 
 lidpt:dar_a_volta_em a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dar_a_volta_em_sense ;
 	ontolex:canonicalForm lidpt:dar_a_volta_em_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dar a volta em"@pt .
 
 lidpt:dar_a_volta_em_form a ontolex:form ;
 	ontolex:writtenRep "dar a volta em"@pt .
 
 lidpt:dar_a_volta_em_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dar_a_volta_em_def .
+	ontolex:isLexicalizedSenseOf lidpt:dar_a_volta_em_concept .
 
-lidpt:dar_a_volta_em_def a ontolex:LexicalConcept ;
+lidpt:dar_a_volta_em_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dar_a_volta_em_sense ;
 	skos:definition "to \"milk\" money from a gullible person or to cheat someone"@en .
 
 lidpt:dar_com_os_burros_nagua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dar_com_os_burros_nagua_sense ;
 	ontolex:canonicalForm lidpt:dar_com_os_burros_nagua_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dar com os burros n'água"@pt .
 
 lidpt:dar_com_os_burros_nagua_form a ontolex:form ;
 	ontolex:writtenRep "dar com os burros n'água"@pt .
 
 lidpt:dar_com_os_burros_nagua_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dar_com_os_burros_nagua_def .
+	ontolex:isLexicalizedSenseOf lidpt:dar_com_os_burros_nagua_concept .
 
-lidpt:dar_com_os_burros_nagua_def a ontolex:LexicalConcept ;
+lidpt:dar_com_os_burros_nagua_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dar_com_os_burros_nagua_sense ;
 	skos:definition "to have a great frustration or to not accomplish an aim"@en .
 
 lidpt:dar_no_couro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dar_no_couro_sense ;
 	ontolex:canonicalForm lidpt:dar_no_couro_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dar no couro"@pt .
 
 lidpt:dar_no_couro_form a ontolex:form ;
 	ontolex:writtenRep "dar no couro"@pt .
 
 lidpt:dar_no_couro_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dar_no_couro_def .
+	ontolex:isLexicalizedSenseOf lidpt:dar_no_couro_concept .
 
-lidpt:dar_no_couro_def a ontolex:LexicalConcept ;
+lidpt:dar_no_couro_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dar_no_couro_sense ;
 	skos:definition "to have sex (brazil only)"@en .
 
 lidpt:dar_uma_mao a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dar_uma_mao_sense ;
 	ontolex:canonicalForm lidpt:dar_uma_mao_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dar uma mão"@pt ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13727130v> .
 
@@ -960,576 +978,576 @@ lidpt:dar_uma_mao_form a ontolex:form ;
 	ontolex:writtenRep "dar uma mão"@pt .
 
 lidpt:dar_uma_mao_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dar_uma_mao_def .
+	ontolex:isLexicalizedSenseOf lidpt:dar_uma_mao_concept .
 
-lidpt:dar_uma_mao_def a ontolex:LexicalConcept ;
+lidpt:dar_uma_mao_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dar_uma_mao_sense ;
 	skos:definition "to help or to support"@en .
 
 lidpt:dar_o_troco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dar_o_troco_sense ;
 	ontolex:canonicalForm lidpt:dar_o_troco_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dar o troco"@pt .
 
 lidpt:dar_o_troco_form a ontolex:form ;
 	ontolex:writtenRep "dar o troco"@pt .
 
 lidpt:dar_o_troco_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dar_o_troco_def .
+	ontolex:isLexicalizedSenseOf lidpt:dar_o_troco_concept .
 
-lidpt:dar_o_troco_def a ontolex:LexicalConcept ;
+lidpt:dar_o_troco_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dar_o_troco_sense ;
 	skos:definition "to have a revenge"@en .
 
 lidpt:deitar_o_cabelo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:deitar_o_cabelo_sense ;
 	ontolex:canonicalForm lidpt:deitar_o_cabelo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "deitar o cabelo"@pt .
 
 lidpt:deitar_o_cabelo_form a ontolex:form ;
 	ontolex:writtenRep "deitar o cabelo"@pt .
 
 lidpt:deitar_o_cabelo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:deitar_o_cabelo_def .
+	ontolex:isLexicalizedSenseOf lidpt:deitar_o_cabelo_concept .
 
-lidpt:deitar_o_cabelo_def a ontolex:LexicalConcept ;
+lidpt:deitar_o_cabelo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:deitar_o_cabelo_sense ;
 	skos:definition "to enjoy"@en .
 
 lidpt:deixar_passar_em_brancas_nuvens a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:deixar_passar_em_brancas_nuvens_sense ;
 	ontolex:canonicalForm lidpt:deixar_passar_em_brancas_nuvens_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "deixar passar em brancas nuvens"@pt .
 
 lidpt:deixar_passar_em_brancas_nuvens_form a ontolex:form ;
 	ontolex:writtenRep "deixar passar em brancas nuvens"@pt .
 
 lidpt:deixar_passar_em_brancas_nuvens_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:deixar_passar_em_brancas_nuvens_def .
+	ontolex:isLexicalizedSenseOf lidpt:deixar_passar_em_brancas_nuvens_concept .
 
-lidpt:deixar_passar_em_brancas_nuvens_def a ontolex:LexicalConcept ;
+lidpt:deixar_passar_em_brancas_nuvens_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:deixar_passar_em_brancas_nuvens_sense ;
 	skos:definition "to ignore something, to forgive"@en .
 
 lidpt:descascar_um_abacaxi a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:descascar_um_abacaxi_sense ;
 	ontolex:canonicalForm lidpt:descascar_um_abacaxi_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "descascar um abacaxi"@pt .
 
 lidpt:descascar_um_abacaxi_form a ontolex:form ;
 	ontolex:writtenRep "descascar um abacaxi"@pt .
 
 lidpt:descascar_um_abacaxi_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:descascar_um_abacaxi_def .
+	ontolex:isLexicalizedSenseOf lidpt:descascar_um_abacaxi_concept .
 
-lidpt:descascar_um_abacaxi_def a ontolex:LexicalConcept ;
+lidpt:descascar_um_abacaxi_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:descascar_um_abacaxi_sense ;
 	skos:definition "to solve a hard problem"@en .
 
 lidpt:dizem_as_mas_linguas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dizem_as_mas_linguas_sense ;
 	ontolex:canonicalForm lidpt:dizem_as_mas_linguas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dizem as más línguas"@pt .
 
 lidpt:dizem_as_mas_linguas_form a ontolex:form ;
 	ontolex:writtenRep "dizem as más línguas"@pt .
 
 lidpt:dizem_as_mas_linguas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dizem_as_mas_linguas_def .
+	ontolex:isLexicalizedSenseOf lidpt:dizem_as_mas_linguas_concept .
 
-lidpt:dizem_as_mas_linguas_def a ontolex:LexicalConcept ;
+lidpt:dizem_as_mas_linguas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dizem_as_mas_linguas_sense ;
 	skos:definition "somebody is talking about it"@en .
 
 lidpt:do_outro_mundo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:do_outro_mundo_sense ;
 	ontolex:canonicalForm lidpt:do_outro_mundo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "do outro mundo"@pt .
 
 lidpt:do_outro_mundo_form a ontolex:form ;
 	ontolex:writtenRep "do outro mundo"@pt .
 
 lidpt:do_outro_mundo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:do_outro_mundo_def .
+	ontolex:isLexicalizedSenseOf lidpt:do_outro_mundo_concept .
 
-lidpt:do_outro_mundo_def a ontolex:LexicalConcept ;
+lidpt:do_outro_mundo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:do_outro_mundo_sense ;
 	skos:definition "extraordinary"@en .
 
 lidpt:doidinho_da_silva a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:doidinho_da_silva_sense ;
 	ontolex:canonicalForm lidpt:doidinho_da_silva_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "doidinho da silva"@pt .
 
 lidpt:doidinho_da_silva_form a ontolex:form ;
 	ontolex:writtenRep "doidinho da silva"@pt .
 
 lidpt:doidinho_da_silva_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:doidinho_da_silva_def .
+	ontolex:isLexicalizedSenseOf lidpt:doidinho_da_silva_concept .
 
-lidpt:doidinho_da_silva_def a ontolex:LexicalConcept ;
+lidpt:doidinho_da_silva_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:doidinho_da_silva_sense ;
 	skos:definition "raving mad, completely crazy"@en .
 
 lidpt:dormir_como_anjo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dormir_como_anjo_sense ;
 	ontolex:canonicalForm lidpt:dormir_como_anjo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dormir como anjo"@pt .
 
 lidpt:dormir_como_anjo_form a ontolex:form ;
 	ontolex:writtenRep "dormir como anjo"@pt .
 
 lidpt:dormir_como_anjo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dormir_como_anjo_def .
+	ontolex:isLexicalizedSenseOf lidpt:dormir_como_anjo_concept .
 
-lidpt:dormir_como_anjo_def a ontolex:LexicalConcept ;
+lidpt:dormir_como_anjo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dormir_como_anjo_sense ;
 	skos:definition "to sleep softly"@en .
 
 lidpt:dormir_como_uma_pedra a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:dormir_como_uma_pedra_sense ;
 	ontolex:canonicalForm lidpt:dormir_como_uma_pedra_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "dormir como uma pedra"@pt .
 
 lidpt:dormir_como_uma_pedra_form a ontolex:form ;
 	ontolex:writtenRep "dormir como uma pedra"@pt .
 
 lidpt:dormir_como_uma_pedra_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:dormir_como_uma_pedra_def .
+	ontolex:isLexicalizedSenseOf lidpt:dormir_como_uma_pedra_concept .
 
-lidpt:dormir_como_uma_pedra_def a ontolex:LexicalConcept ;
+lidpt:dormir_como_uma_pedra_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:dormir_como_uma_pedra_sense ;
 	skos:definition "to sleep deeply"@en .
 
 lidpt:e_canja_de_galinha a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:e_canja_de_galinha_sense ;
 	ontolex:canonicalForm lidpt:e_canja_de_galinha_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "é canja de galinha"@pt .
 
 lidpt:e_canja_de_galinha_form a ontolex:form ;
 	ontolex:writtenRep "é canja de galinha"@pt .
 
 lidpt:e_canja_de_galinha_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:e_canja_de_galinha_def .
+	ontolex:isLexicalizedSenseOf lidpt:e_canja_de_galinha_concept .
 
-lidpt:e_canja_de_galinha_def a ontolex:LexicalConcept ;
+lidpt:e_canja_de_galinha_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:e_canja_de_galinha_sense ;
 	skos:definition "it’s a piece of cake, very easy"@en .
 
 lidpt:enfiar_o_pe_na_jaca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:enfiar_o_pe_na_jaca_sense ;
 	ontolex:canonicalForm lidpt:enfiar_o_pe_na_jaca_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "enfiar o pé na jaca"@pt .
 
 lidpt:enfiar_o_pe_na_jaca_form a ontolex:form ;
 	ontolex:writtenRep "enfiar o pé na jaca"@pt .
 
 lidpt:enfiar_o_pe_na_jaca_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:enfiar_o_pe_na_jaca_def .
+	ontolex:isLexicalizedSenseOf lidpt:enfiar_o_pe_na_jaca_concept .
 
-lidpt:enfiar_o_pe_na_jaca_def a ontolex:LexicalConcept ;
+lidpt:enfiar_o_pe_na_jaca_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:enfiar_o_pe_na_jaca_sense ;
 	skos:definition "to eat a lot"@en .
 
 lidpt:engolir_sapo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:engolir_sapo_sense ;
 	ontolex:canonicalForm lidpt:engolir_sapo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "engolir sapo"@pt .
 
 lidpt:engolir_sapo_form a ontolex:form ;
 	ontolex:writtenRep "engolir sapo"@pt .
 
 lidpt:engolir_sapo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:engolir_sapo_def .
+	ontolex:isLexicalizedSenseOf lidpt:engolir_sapo_concept .
 
-lidpt:engolir_sapo_def a ontolex:LexicalConcept ;
+lidpt:engolir_sapo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:engolir_sapo_sense ;
 	skos:definition "something unpleasant that must be accepted or endured"@en .
 
 lidpt:estar_cheio_de_dedos a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:estar_cheio_de_dedos_sense ;
 	ontolex:canonicalForm lidpt:estar_cheio_de_dedos_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "estar cheio de dedos"@pt .
 
 lidpt:estar_cheio_de_dedos_form a ontolex:form ;
 	ontolex:writtenRep "estar cheio de dedos"@pt .
 
 lidpt:estar_cheio_de_dedos_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:estar_cheio_de_dedos_def .
+	ontolex:isLexicalizedSenseOf lidpt:estar_cheio_de_dedos_concept .
 
-lidpt:estar_cheio_de_dedos_def a ontolex:LexicalConcept ;
+lidpt:estar_cheio_de_dedos_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:estar_cheio_de_dedos_sense ;
 	skos:definition "to be careful"@en .
 
 lidpt:estar_duro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:estar_duro_sense ;
 	ontolex:canonicalForm lidpt:estar_duro_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "estar duro"@pt .
 
 lidpt:estar_duro_form a ontolex:form ;
 	ontolex:writtenRep "estar duro"@pt .
 
 lidpt:estar_duro_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:estar_duro_def .
+	ontolex:isLexicalizedSenseOf lidpt:estar_duro_concept .
 
-lidpt:estar_duro_def a ontolex:LexicalConcept ;
+lidpt:estar_duro_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:estar_duro_sense ;
 	skos:definition "to be without money"@en .
 
 lidpt:estar_pela_hora_da_morte a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:estar_pela_hora_da_morte_sense ;
 	ontolex:canonicalForm lidpt:estar_pela_hora_da_morte_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "estar pela hora da morte"@pt .
 
 lidpt:estar_pela_hora_da_morte_form a ontolex:form ;
 	ontolex:writtenRep "estar pela hora da morte"@pt .
 
 lidpt:estar_pela_hora_da_morte_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:estar_pela_hora_da_morte_def .
+	ontolex:isLexicalizedSenseOf lidpt:estar_pela_hora_da_morte_concept .
 
-lidpt:estar_pela_hora_da_morte_def a ontolex:LexicalConcept ;
+lidpt:estar_pela_hora_da_morte_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:estar_pela_hora_da_morte_sense ;
 	skos:definition "to be exorbitant in price"@en .
 
 lidpt:falar_pelos_cotovelos a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:falar_pelos_cotovelos_sense ;
 	ontolex:canonicalForm lidpt:falar_pelos_cotovelos_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "falar pelos cotovelos"@pt .
 
 lidpt:falar_pelos_cotovelos_form a ontolex:form ;
 	ontolex:writtenRep "falar pelos cotovelos"@pt .
 
 lidpt:falar_pelos_cotovelos_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:falar_pelos_cotovelos_def .
+	ontolex:isLexicalizedSenseOf lidpt:falar_pelos_cotovelos_concept .
 
-lidpt:falar_pelos_cotovelos_def a ontolex:LexicalConcept ;
+lidpt:falar_pelos_cotovelos_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:falar_pelos_cotovelos_sense ;
 	skos:definition "to speak too much"@en .
 
 lidpt:farinha_do_mesmo_saco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:farinha_do_mesmo_saco_sense ;
 	ontolex:canonicalForm lidpt:farinha_do_mesmo_saco_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "farinha do mesmo saco"@pt .
 
 lidpt:farinha_do_mesmo_saco_form a ontolex:form ;
 	ontolex:writtenRep "farinha do mesmo saco"@pt .
 
 lidpt:farinha_do_mesmo_saco_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:farinha_do_mesmo_saco_def .
+	ontolex:isLexicalizedSenseOf lidpt:farinha_do_mesmo_saco_concept .
 
-lidpt:farinha_do_mesmo_saco_def a ontolex:LexicalConcept ;
+lidpt:farinha_do_mesmo_saco_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:farinha_do_mesmo_saco_sense ;
 	skos:definition "when a person is similar to another person or group"@en .
 
 lidpt:ficar_a_ver_navios a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ficar_a_ver_navios_sense ;
 	ontolex:canonicalForm lidpt:ficar_a_ver_navios_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ficar a ver navios"@pt .
 
 lidpt:ficar_a_ver_navios_form a ontolex:form ;
 	ontolex:writtenRep "ficar a ver navios"@pt .
 
 lidpt:ficar_a_ver_navios_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ficar_a_ver_navios_def .
+	ontolex:isLexicalizedSenseOf lidpt:ficar_a_ver_navios_concept .
 
-lidpt:ficar_a_ver_navios_def a ontolex:LexicalConcept ;
+lidpt:ficar_a_ver_navios_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ficar_a_ver_navios_sense ;
 	skos:definition "to be left without anything"@en .
 
 lidpt:ficar_de_molho a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ficar_de_molho_sense ;
 	ontolex:canonicalForm lidpt:ficar_de_molho_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ficar de molho"@pt .
 
 lidpt:ficar_de_molho_form a ontolex:form ;
 	ontolex:writtenRep "ficar de molho"@pt .
 
 lidpt:ficar_de_molho_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ficar_de_molho_def .
+	ontolex:isLexicalizedSenseOf lidpt:ficar_de_molho_concept .
 
-lidpt:ficar_de_molho_def a ontolex:LexicalConcept ;
+lidpt:ficar_de_molho_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ficar_de_molho_sense ;
 	skos:definition "to be forgotten"@en .
 
 lidpt:ir_para_o_saco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ir_para_o_saco_sense ;
 	ontolex:canonicalForm lidpt:ir_para_o_saco_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ir para o saco"@pt .
 
 lidpt:ir_para_o_saco_form a ontolex:form ;
 	ontolex:writtenRep "ir para o saco"@pt .
 
 lidpt:ir_para_o_saco_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ir_para_o_saco_def .
+	ontolex:isLexicalizedSenseOf lidpt:ir_para_o_saco_concept .
 
-lidpt:ir_para_o_saco_def a ontolex:LexicalConcept ;
+lidpt:ir_para_o_saco_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ir_para_o_saco_sense ;
 	skos:definition "to die"@en .
 
 lidpt:isso_e_o_de_menos a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:isso_e_o_de_menos_sense ;
 	ontolex:canonicalForm lidpt:isso_e_o_de_menos_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "isso é o de menos"@pt .
 
 lidpt:isso_e_o_de_menos_form a ontolex:form ;
 	ontolex:writtenRep "isso é o de menos"@pt .
 
 lidpt:isso_e_o_de_menos_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:isso_e_o_de_menos_def .
+	ontolex:isLexicalizedSenseOf lidpt:isso_e_o_de_menos_concept .
 
-lidpt:isso_e_o_de_menos_def a ontolex:LexicalConcept ;
+lidpt:isso_e_o_de_menos_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:isso_e_o_de_menos_sense ;
 	skos:definition "that is not the worst part"@en .
 
 lidpt:jogar_agua_fora_da_bacia a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:jogar_agua_fora_da_bacia_sense ;
 	ontolex:canonicalForm lidpt:jogar_agua_fora_da_bacia_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "jogar água fora da bacia"@pt .
 
 lidpt:jogar_agua_fora_da_bacia_form a ontolex:form ;
 	ontolex:writtenRep "jogar água fora da bacia"@pt .
 
 lidpt:jogar_agua_fora_da_bacia_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:jogar_agua_fora_da_bacia_def .
+	ontolex:isLexicalizedSenseOf lidpt:jogar_agua_fora_da_bacia_concept .
 
-lidpt:jogar_agua_fora_da_bacia_def a ontolex:LexicalConcept ;
+lidpt:jogar_agua_fora_da_bacia_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:jogar_agua_fora_da_bacia_sense ;
 	skos:definition "to make a mistake"@en .
 
 lidpt:lavar_a_egua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:lavar_a_egua_sense ;
 	ontolex:canonicalForm lidpt:lavar_a_egua_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "lavar a égua"@pt .
 
 lidpt:lavar_a_egua_form a ontolex:form ;
 	ontolex:writtenRep "lavar a égua"@pt .
 
 lidpt:lavar_a_egua_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:lavar_a_egua_def .
+	ontolex:isLexicalizedSenseOf lidpt:lavar_a_egua_concept .
 
-lidpt:lavar_a_egua_def a ontolex:LexicalConcept ;
+lidpt:lavar_a_egua_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:lavar_a_egua_sense ;
 	skos:definition "to do something one had been desiring for a long time"@en .
 
 lidpt:levar_a_vida_na_flauta a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:levar_a_vida_na_flauta_sense ;
 	ontolex:canonicalForm lidpt:levar_a_vida_na_flauta_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "levar a vida na flauta"@pt .
 
 lidpt:levar_a_vida_na_flauta_form a ontolex:form ;
 	ontolex:writtenRep "levar a vida na flauta"@pt .
 
 lidpt:levar_a_vida_na_flauta_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:levar_a_vida_na_flauta_def .
+	ontolex:isLexicalizedSenseOf lidpt:levar_a_vida_na_flauta_concept .
 
-lidpt:levar_a_vida_na_flauta_def a ontolex:LexicalConcept ;
+lidpt:levar_a_vida_na_flauta_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:levar_a_vida_na_flauta_sense ;
 	skos:definition "not to take something seriously"@en .
 
 lidpt:nao_faz_mal a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:nao_faz_mal_sense ;
 	ontolex:canonicalForm lidpt:nao_faz_mal_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "não faz mal"@pt .
 
 lidpt:nao_faz_mal_form a ontolex:form ;
 	ontolex:writtenRep "não faz mal"@pt .
 
 lidpt:nao_faz_mal_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:nao_faz_mal_def .
+	ontolex:isLexicalizedSenseOf lidpt:nao_faz_mal_concept .
 
-lidpt:nao_faz_mal_def a ontolex:LexicalConcept ;
+lidpt:nao_faz_mal_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:nao_faz_mal_sense ;
 	skos:definition "it does not matter, never mind"@en .
 
 lidpt:nao_ter_pes_nem_cabeca a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:nao_ter_pes_nem_cabeca_sense ;
 	ontolex:canonicalForm lidpt:nao_ter_pes_nem_cabeca_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "não ter pés nem cabeça"@pt .
 
 lidpt:nao_ter_pes_nem_cabeca_form a ontolex:form ;
 	ontolex:writtenRep "não ter pés nem cabeça"@pt .
 
 lidpt:nao_ter_pes_nem_cabeca_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:nao_ter_pes_nem_cabeca_def .
+	ontolex:isLexicalizedSenseOf lidpt:nao_ter_pes_nem_cabeca_concept .
 
-lidpt:nao_ter_pes_nem_cabeca_def a ontolex:LexicalConcept ;
+lidpt:nao_ter_pes_nem_cabeca_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:nao_ter_pes_nem_cabeca_sense ;
 	skos:definition "not to make any sense"@en .
 
 lidpt:nao_to_nem_ai a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:nao_to_nem_ai_sense ;
 	ontolex:canonicalForm lidpt:nao_to_nem_ai_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "não tô nem aí"@pt .
 
 lidpt:nao_to_nem_ai_form a ontolex:form ;
 	ontolex:writtenRep "não tô nem aí"@pt .
 
 lidpt:nao_to_nem_ai_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:nao_to_nem_ai_def .
+	ontolex:isLexicalizedSenseOf lidpt:nao_to_nem_ai_concept .
 
-lidpt:nao_to_nem_ai_def a ontolex:LexicalConcept ;
+lidpt:nao_to_nem_ai_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:nao_to_nem_ai_sense ;
 	skos:definition "i just don’t care"@en .
 
 lidpt:novinho_em_folha a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:novinho_em_folha_sense ;
 	ontolex:canonicalForm lidpt:novinho_em_folha_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "novinho em folha"@pt .
 
 lidpt:novinho_em_folha_form a ontolex:form ;
 	ontolex:writtenRep "novinho em folha"@pt .
 
 lidpt:novinho_em_folha_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:novinho_em_folha_def .
+	ontolex:isLexicalizedSenseOf lidpt:novinho_em_folha_concept .
 
-lidpt:novinho_em_folha_def a ontolex:LexicalConcept ;
+lidpt:novinho_em_folha_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:novinho_em_folha_sense ;
 	skos:definition "to be recovered from disease or game"@en .
 
 lidpt:olhar_com_o_rabo_do_olho a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:olhar_com_o_rabo_do_olho_sense ;
 	ontolex:canonicalForm lidpt:olhar_com_o_rabo_do_olho_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "olhar com o rabo do olho"@pt .
 
 lidpt:olhar_com_o_rabo_do_olho_form a ontolex:form ;
 	ontolex:writtenRep "olhar com o rabo do olho"@pt .
 
 lidpt:olhar_com_o_rabo_do_olho_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:olhar_com_o_rabo_do_olho_def .
+	ontolex:isLexicalizedSenseOf lidpt:olhar_com_o_rabo_do_olho_concept .
 
-lidpt:olhar_com_o_rabo_do_olho_def a ontolex:LexicalConcept ;
+lidpt:olhar_com_o_rabo_do_olho_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:olhar_com_o_rabo_do_olho_sense ;
 	skos:definition "to look at someone briefly, obliquely"@en .
 
 lidpt:osso_dificil_de_roer a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:osso_dificil_de_roer_sense ;
 	ontolex:canonicalForm lidpt:osso_dificil_de_roer_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "osso difícil de roer"@pt .
 
 lidpt:osso_dificil_de_roer_form a ontolex:form ;
 	ontolex:writtenRep "osso difícil de roer"@pt .
 
 lidpt:osso_dificil_de_roer_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:osso_dificil_de_roer_def .
+	ontolex:isLexicalizedSenseOf lidpt:osso_dificil_de_roer_concept .
 
-lidpt:osso_dificil_de_roer_def a ontolex:LexicalConcept ;
+lidpt:osso_dificil_de_roer_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:osso_dificil_de_roer_sense ;
 	skos:definition "an ignorant person that is hard to satisfy or persuade"@en .
 
 lidpt:ouvir_o_galo_cantar_e_nao_saber_onde a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_sense ;
 	ontolex:canonicalForm lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ouvir o galo cantar e não saber onde"@pt .
 
 lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_form a ontolex:form ;
 	ontolex:writtenRep "ouvir o galo cantar e não saber onde"@pt .
 
 lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_def .
+	ontolex:isLexicalizedSenseOf lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_concept .
 
-lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_def a ontolex:LexicalConcept ;
+lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ouvir_o_galo_cantar_e_nao_saber_onde_sense ;
 	skos:definition "give an opinion without having a deep knowledge"@en .
 
 lidpt:paoduro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:paoduro_sense ;
 	ontolex:canonicalForm lidpt:paoduro_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "pão-duro"@pt ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00017976n> , <http://babelnet.org/rdf/page/s00603732n> .
 
@@ -1537,36 +1555,36 @@ lidpt:paoduro_form a ontolex:form ;
 	ontolex:writtenRep "pão-duro"@pt .
 
 lidpt:paoduro_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:paoduro_def .
+	ontolex:isLexicalizedSenseOf lidpt:paoduro_concept .
 
-lidpt:paoduro_def a ontolex:LexicalConcept ;
+lidpt:paoduro_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:paoduro_sense ;
 	skos:definition "miser, a stingy person"@en .
 
 lidpt:para_ingles_ver a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:para_ingles_ver_sense ;
 	ontolex:canonicalForm lidpt:para_ingles_ver_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "para inglês ver"@pt .
 
 lidpt:para_ingles_ver_form a ontolex:form ;
 	ontolex:writtenRep "para inglês ver"@pt .
 
 lidpt:para_ingles_ver_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:para_ingles_ver_def .
+	ontolex:isLexicalizedSenseOf lidpt:para_ingles_ver_concept .
 
-lidpt:para_ingles_ver_def a ontolex:LexicalConcept ;
+lidpt:para_ingles_ver_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:para_ingles_ver_sense ;
 	skos:definition "just for show - make an impression"@en .
 
 lidpt:pisar_em_ovos a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:pisar_em_ovos_sense ;
 	ontolex:canonicalForm lidpt:pisar_em_ovos_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "pisar em ovos"@pt ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13688441v> , <http://babelnet.org/rdf/page/s13688440v> .
 
@@ -1574,515 +1592,515 @@ lidpt:pisar_em_ovos_form a ontolex:form ;
 	ontolex:writtenRep "pisar em ovos"@pt .
 
 lidpt:pisar_em_ovos_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:pisar_em_ovos_def .
+	ontolex:isLexicalizedSenseOf lidpt:pisar_em_ovos_concept .
 
-lidpt:pisar_em_ovos_def a ontolex:LexicalConcept ;
+lidpt:pisar_em_ovos_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:pisar_em_ovos_sense ;
 	skos:definition "to be careful"@en .
 
 lidpt:pisar_na_bola a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:pisar_na_bola_sense ;
 	ontolex:canonicalForm lidpt:pisar_na_bola_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "pisar na bola"@pt .
 
 lidpt:pisar_na_bola_form a ontolex:form ;
 	ontolex:writtenRep "pisar na bola"@pt .
 
 lidpt:pisar_na_bola_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:pisar_na_bola_def .
+	ontolex:isLexicalizedSenseOf lidpt:pisar_na_bola_concept .
 
-lidpt:pisar_na_bola_def a ontolex:LexicalConcept ;
+lidpt:pisar_na_bola_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:pisar_na_bola_sense ;
 	skos:definition "to make a mistake"@en .
 
 lidpt:por_o_rabo_entre_as_pernas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:por_o_rabo_entre_as_pernas_sense ;
 	ontolex:canonicalForm lidpt:por_o_rabo_entre_as_pernas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "pôr o rabo entre as pernas"@pt .
 
 lidpt:por_o_rabo_entre_as_pernas_form a ontolex:form ;
 	ontolex:writtenRep "pôr o rabo entre as pernas"@pt .
 
 lidpt:por_o_rabo_entre_as_pernas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:por_o_rabo_entre_as_pernas_def .
+	ontolex:isLexicalizedSenseOf lidpt:por_o_rabo_entre_as_pernas_concept .
 
-lidpt:por_o_rabo_entre_as_pernas_def a ontolex:LexicalConcept ;
+lidpt:por_o_rabo_entre_as_pernas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:por_o_rabo_entre_as_pernas_sense ;
 	skos:definition "to withdraw from a position, usually with shame"@en .
 
 lidpt:santo_de_casa_nao_faz_milagre a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:santo_de_casa_nao_faz_milagre_sense ;
 	ontolex:canonicalForm lidpt:santo_de_casa_nao_faz_milagre_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "santo de casa não faz milagre"@pt .
 
 lidpt:santo_de_casa_nao_faz_milagre_form a ontolex:form ;
 	ontolex:writtenRep "santo de casa não faz milagre"@pt .
 
 lidpt:santo_de_casa_nao_faz_milagre_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:santo_de_casa_nao_faz_milagre_def .
+	ontolex:isLexicalizedSenseOf lidpt:santo_de_casa_nao_faz_milagre_concept .
 
-lidpt:santo_de_casa_nao_faz_milagre_def a ontolex:LexicalConcept ;
+lidpt:santo_de_casa_nao_faz_milagre_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:santo_de_casa_nao_faz_milagre_sense ;
 	skos:definition "if you are someone important at work or in the world, at home you are no one special"@en .
 
 lidpt:segurar_vela a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:segurar_vela_sense ;
 	ontolex:canonicalForm lidpt:segurar_vela_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "segurar vela"@pt .
 
 lidpt:segurar_vela_form a ontolex:form ;
 	ontolex:writtenRep "segurar vela"@pt .
 
 lidpt:segurar_vela_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:segurar_vela_def .
+	ontolex:isLexicalizedSenseOf lidpt:segurar_vela_concept .
 
-lidpt:segurar_vela_def a ontolex:LexicalConcept ;
+lidpt:segurar_vela_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:segurar_vela_sense ;
 	skos:definition "when a friend accompany some couple to somewhere"@en .
 
 lidpt:sem_eira_nem_beira a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:sem_eira_nem_beira_sense ;
 	ontolex:canonicalForm lidpt:sem_eira_nem_beira_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "sem eira nem beira"@pt .
 
 lidpt:sem_eira_nem_beira_form a ontolex:form ;
 	ontolex:writtenRep "sem eira nem beira"@pt .
 
 lidpt:sem_eira_nem_beira_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:sem_eira_nem_beira_def .
+	ontolex:isLexicalizedSenseOf lidpt:sem_eira_nem_beira_concept .
 
-lidpt:sem_eira_nem_beira_def a ontolex:LexicalConcept ;
+lidpt:sem_eira_nem_beira_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:sem_eira_nem_beira_sense ;
 	skos:definition "someone that do not have anything"@en .
 
 lidpt:ser_carta_fora_do_baralho a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ser_carta_fora_do_baralho_sense ;
 	ontolex:canonicalForm lidpt:ser_carta_fora_do_baralho_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ser carta fora do baralho"@pt .
 
 lidpt:ser_carta_fora_do_baralho_form a ontolex:form ;
 	ontolex:writtenRep "ser carta fora do baralho"@pt .
 
 lidpt:ser_carta_fora_do_baralho_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ser_carta_fora_do_baralho_def .
+	ontolex:isLexicalizedSenseOf lidpt:ser_carta_fora_do_baralho_concept .
 
-lidpt:ser_carta_fora_do_baralho_def a ontolex:LexicalConcept ;
+lidpt:ser_carta_fora_do_baralho_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ser_carta_fora_do_baralho_sense ;
 	skos:definition "to be relegated to an irrelevant position"@en .
 
 lidpt:tirar_o_cavalinho_da_chuva a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:tirar_o_cavalinho_da_chuva_sense ;
 	ontolex:canonicalForm lidpt:tirar_o_cavalinho_da_chuva_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "tirar o cavalinho da chuva"@pt .
 
 lidpt:tirar_o_cavalinho_da_chuva_form a ontolex:form ;
 	ontolex:writtenRep "tirar o cavalinho da chuva"@pt .
 
 lidpt:tirar_o_cavalinho_da_chuva_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:tirar_o_cavalinho_da_chuva_def .
+	ontolex:isLexicalizedSenseOf lidpt:tirar_o_cavalinho_da_chuva_concept .
 
-lidpt:tirar_o_cavalinho_da_chuva_def a ontolex:LexicalConcept ;
+lidpt:tirar_o_cavalinho_da_chuva_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:tirar_o_cavalinho_da_chuva_sense ;
 	skos:definition "forget it/don't wait for it"@en .
 
 lidpt:custa_os_olhos_da_cara a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:custa_os_olhos_da_cara_sense ;
 	ontolex:canonicalForm lidpt:custa_os_olhos_da_cara_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "custa os olhos da cara"@pt .
 
 lidpt:custa_os_olhos_da_cara_form a ontolex:form ;
 	ontolex:writtenRep "custa os olhos da cara"@pt .
 
 lidpt:custa_os_olhos_da_cara_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:custa_os_olhos_da_cara_def .
+	ontolex:isLexicalizedSenseOf lidpt:custa_os_olhos_da_cara_concept .
 
-lidpt:custa_os_olhos_da_cara_def a ontolex:LexicalConcept ;
+lidpt:custa_os_olhos_da_cara_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:custa_os_olhos_da_cara_sense ;
 	skos:definition "something very expensive"@en .
 
 lidpt:o_gato_comeu_sua_lingua a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:o_gato_comeu_sua_lingua_sense ;
 	ontolex:canonicalForm lidpt:o_gato_comeu_sua_lingua_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "o gato comeu sua língua"@pt .
 
 lidpt:o_gato_comeu_sua_lingua_form a ontolex:form ;
 	ontolex:writtenRep "o gato comeu sua língua"@pt .
 
 lidpt:o_gato_comeu_sua_lingua_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:o_gato_comeu_sua_lingua_def .
+	ontolex:isLexicalizedSenseOf lidpt:o_gato_comeu_sua_lingua_concept .
 
-lidpt:o_gato_comeu_sua_lingua_def a ontolex:LexicalConcept ;
+lidpt:o_gato_comeu_sua_lingua_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:o_gato_comeu_sua_lingua_sense ;
 	skos:definition "someone that do not want to speak"@en .
 
 lidpt:cafe_com_leite a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:cafe_com_leite_sense ;
 	ontolex:canonicalForm lidpt:cafe_com_leite_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "café com leite"@pt .
 
 lidpt:cafe_com_leite_form a ontolex:form ;
 	ontolex:writtenRep "café com leite"@pt .
 
 lidpt:cafe_com_leite_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:cafe_com_leite_def .
+	ontolex:isLexicalizedSenseOf lidpt:cafe_com_leite_concept .
 
-lidpt:cafe_com_leite_def a ontolex:LexicalConcept ;
+lidpt:cafe_com_leite_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:cafe_com_leite_sense ;
 	skos:definition "someone tha is not expert to do something"@en .
 
 lidpt:querer_abracar_o_mundo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:querer_abracar_o_mundo_sense ;
 	ontolex:canonicalForm lidpt:querer_abracar_o_mundo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "querer abracar o mundo"@pt .
 
 lidpt:querer_abracar_o_mundo_form a ontolex:form ;
 	ontolex:writtenRep "querer abracar o mundo"@pt .
 
 lidpt:querer_abracar_o_mundo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:querer_abracar_o_mundo_def .
+	ontolex:isLexicalizedSenseOf lidpt:querer_abracar_o_mundo_concept .
 
-lidpt:querer_abracar_o_mundo_def a ontolex:LexicalConcept ;
+lidpt:querer_abracar_o_mundo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:querer_abracar_o_mundo_sense ;
 	skos:definition "to make many thing in the same time"@en .
 
 lidpt:estamos_no_mesmo_barco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:estamos_no_mesmo_barco_sense ;
 	ontolex:canonicalForm lidpt:estamos_no_mesmo_barco_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "estamos no mesmo barco"@pt .
 
 lidpt:estamos_no_mesmo_barco_form a ontolex:form ;
 	ontolex:writtenRep "estamos no mesmo barco"@pt .
 
 lidpt:estamos_no_mesmo_barco_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:estamos_no_mesmo_barco_def .
+	ontolex:isLexicalizedSenseOf lidpt:estamos_no_mesmo_barco_concept .
 
-lidpt:estamos_no_mesmo_barco_def a ontolex:LexicalConcept ;
+lidpt:estamos_no_mesmo_barco_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:estamos_no_mesmo_barco_sense ;
 	skos:definition "everybody is facing the same problem"@en .
 
 lidpt:puxao_de_orelhas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:puxao_de_orelhas_sense ;
 	ontolex:canonicalForm lidpt:puxao_de_orelhas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "puxão de orelhas"@pt .
 
 lidpt:puxao_de_orelhas_form a ontolex:form ;
 	ontolex:writtenRep "puxão de orelhas"@pt .
 
 lidpt:puxao_de_orelhas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:puxao_de_orelhas_def .
+	ontolex:isLexicalizedSenseOf lidpt:puxao_de_orelhas_concept .
 
-lidpt:puxao_de_orelhas_def a ontolex:LexicalConcept ;
+lidpt:puxao_de_orelhas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:puxao_de_orelhas_sense ;
 	skos:definition "soft penalty"@en .
 
 lidpt:bem_vindo_ao_grupo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:bem_vindo_ao_grupo_sense ;
 	ontolex:canonicalForm lidpt:bem_vindo_ao_grupo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "bem vindo ao grupo"@pt .
 
 lidpt:bem_vindo_ao_grupo_form a ontolex:form ;
 	ontolex:writtenRep "bem vindo ao grupo"@pt .
 
 lidpt:bem_vindo_ao_grupo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:bem_vindo_ao_grupo_def .
+	ontolex:isLexicalizedSenseOf lidpt:bem_vindo_ao_grupo_concept .
 
-lidpt:bem_vindo_ao_grupo_def a ontolex:LexicalConcept ;
+lidpt:bem_vindo_ao_grupo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:bem_vindo_ao_grupo_sense ;
 	skos:definition "someone just arrived in somewhere and to join a group in the bad situation"@en .
 
 lidpt:puxa_saco a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:puxa_saco_sense ;
 	ontolex:canonicalForm lidpt:puxa_saco_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "puxa saco"@pt .
 
 lidpt:puxa_saco_form a ontolex:form ;
 	ontolex:writtenRep "puxa saco"@pt .
 
 lidpt:puxa_saco_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:puxa_saco_def .
+	ontolex:isLexicalizedSenseOf lidpt:puxa_saco_concept .
 
-lidpt:puxa_saco_def a ontolex:LexicalConcept ;
+lidpt:puxa_saco_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:puxa_saco_sense ;
 	skos:definition "a person trying to please someone with a better position than it "@en .
 
 lidpt:quebra_galho a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:quebra_galho_sense ;
 	ontolex:canonicalForm lidpt:quebra_galho_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "quebra galho"@pt .
 
 lidpt:quebra_galho_form a ontolex:form ;
 	ontolex:writtenRep "quebra galho"@pt .
 
 lidpt:quebra_galho_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:quebra_galho_def .
+	ontolex:isLexicalizedSenseOf lidpt:quebra_galho_concept .
 
-lidpt:quebra_galho_def a ontolex:LexicalConcept ;
+lidpt:quebra_galho_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:quebra_galho_sense ;
 	skos:definition "a person that is "@en .
 
-lidpt:amarelar_def skos:definition "don't make anytask because of fear"@en .
+lidpt:amarelar_concept skos:definition "don't make anytask because of fear"@en .
 
 lidpt:comprei_um_mamao a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:comprei_um_mamao_sense ;
 	ontolex:canonicalForm lidpt:comprei_um_mamao_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "comprei um mamão"@pt .
 
 lidpt:comprei_um_mamao_form a ontolex:form ;
 	ontolex:writtenRep "comprei um mamão"@pt .
 
 lidpt:comprei_um_mamao_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:comprei_um_mamao_def .
+	ontolex:isLexicalizedSenseOf lidpt:comprei_um_mamao_concept .
 
-lidpt:comprei_um_mamao_def a ontolex:LexicalConcept ;
+lidpt:comprei_um_mamao_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:comprei_um_mamao_sense ;
 	skos:definition "a person buys something that all time gives problems"@en .
 
 lidpt:nao_morre_tao_cedo a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:nao_morre_tao_cedo_sense ;
 	ontolex:canonicalForm lidpt:nao_morre_tao_cedo_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "não morre tão cedo"@pt .
 
 lidpt:nao_morre_tao_cedo_form a ontolex:form ;
 	ontolex:writtenRep "não morre tão cedo"@pt .
 
 lidpt:nao_morre_tao_cedo_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:nao_morre_tao_cedo_def .
+	ontolex:isLexicalizedSenseOf lidpt:nao_morre_tao_cedo_concept .
 
-lidpt:nao_morre_tao_cedo_def a ontolex:LexicalConcept ;
+lidpt:nao_morre_tao_cedo_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:nao_morre_tao_cedo_sense ;
 	skos:definition "when is talking about one person and this person appears"@en .
 
 lidpt:lavar_a_roupa_suja a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:lavar_a_roupa_suja_sense ;
 	ontolex:canonicalForm lidpt:lavar_a_roupa_suja_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "lavar a roupa suja"@pt .
 
 lidpt:lavar_a_roupa_suja_form a ontolex:form ;
 	ontolex:writtenRep "lavar a roupa suja"@pt .
 
 lidpt:lavar_a_roupa_suja_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:lavar_a_roupa_suja_def .
+	ontolex:isLexicalizedSenseOf lidpt:lavar_a_roupa_suja_concept .
 
-lidpt:lavar_a_roupa_suja_def a ontolex:LexicalConcept ;
+lidpt:lavar_a_roupa_suja_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:lavar_a_roupa_suja_sense ;
 	skos:definition "to discuss in public"@en .
 
 lidpt:chorar_pelo_leite_derramado a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:chorar_pelo_leite_derramado_sense ;
 	ontolex:canonicalForm lidpt:chorar_pelo_leite_derramado_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "chorar pelo leite derramado"@pt .
 
 lidpt:chorar_pelo_leite_derramado_form a ontolex:form ;
 	ontolex:writtenRep "chorar pelo leite derramado"@pt .
 
 lidpt:chorar_pelo_leite_derramado_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:chorar_pelo_leite_derramado_def .
+	ontolex:isLexicalizedSenseOf lidpt:chorar_pelo_leite_derramado_concept .
 
-lidpt:chorar_pelo_leite_derramado_def a ontolex:LexicalConcept ;
+lidpt:chorar_pelo_leite_derramado_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:chorar_pelo_leite_derramado_sense ;
 	skos:definition "when something happens and nothing can be done."@en .
 
 lidpt:o_mundo_da_voltas a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:o_mundo_da_voltas_sense ;
 	ontolex:canonicalForm lidpt:o_mundo_da_voltas_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "o mundo da voltas"@pt .
 
 lidpt:o_mundo_da_voltas_form a ontolex:form ;
 	ontolex:writtenRep "o mundo da voltas"@pt .
 
 lidpt:o_mundo_da_voltas_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:o_mundo_da_voltas_def .
+	ontolex:isLexicalizedSenseOf lidpt:o_mundo_da_voltas_concept .
 
-lidpt:o_mundo_da_voltas_def a ontolex:LexicalConcept ;
+lidpt:o_mundo_da_voltas_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:o_mundo_da_voltas_sense ;
 	skos:definition "when a person does something bad for someone, in the future bad thing can happen for her"@en .
 
 lidpt:mamao_com_acucar a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:mamao_com_acucar_sense ;
 	ontolex:canonicalForm lidpt:mamao_com_acucar_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "mamão com acucar"@pt .
 
 lidpt:mamao_com_acucar_form a ontolex:form ;
 	ontolex:writtenRep "mamão com acucar"@pt .
 
 lidpt:mamao_com_acucar_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:mamao_com_acucar_def .
+	ontolex:isLexicalizedSenseOf lidpt:mamao_com_acucar_concept .
 
-lidpt:mamao_com_acucar_def a ontolex:LexicalConcept ;
+lidpt:mamao_com_acucar_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:mamao_com_acucar_sense ;
 	skos:definition "something easy to solving"@en .
 
 lidpt:deus_ajuda_quem_cedo_madruga a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:deus_ajuda_quem_cedo_madruga_sense ;
 	ontolex:canonicalForm lidpt:deus_ajuda_quem_cedo_madruga_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "deus ajuda quem cedo madruga"@pt .
 
 lidpt:deus_ajuda_quem_cedo_madruga_form a ontolex:form ;
 	ontolex:writtenRep "deus ajuda quem cedo madruga"@pt .
 
 lidpt:deus_ajuda_quem_cedo_madruga_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:deus_ajuda_quem_cedo_madruga_def .
+	ontolex:isLexicalizedSenseOf lidpt:deus_ajuda_quem_cedo_madruga_concept .
 
-lidpt:deus_ajuda_quem_cedo_madruga_def a ontolex:LexicalConcept ;
+lidpt:deus_ajuda_quem_cedo_madruga_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:deus_ajuda_quem_cedo_madruga_sense ;
 	skos:definition "good things come for whom to prepare very well"@en .
 
 lidpt:muito_cacique_para_pouco_indio a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:muito_cacique_para_pouco_indio_sense ;
 	ontolex:canonicalForm lidpt:muito_cacique_para_pouco_indio_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "muito cacique para pouco indio"@pt .
 
 lidpt:muito_cacique_para_pouco_indio_form a ontolex:form ;
 	ontolex:writtenRep "muito cacique para pouco indio"@pt .
 
 lidpt:muito_cacique_para_pouco_indio_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:muito_cacique_para_pouco_indio_def .
+	ontolex:isLexicalizedSenseOf lidpt:muito_cacique_para_pouco_indio_concept .
 
-lidpt:muito_cacique_para_pouco_indio_def a ontolex:LexicalConcept ;
+lidpt:muito_cacique_para_pouco_indio_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:muito_cacique_para_pouco_indio_sense ;
 	skos:definition "many people doing the same thing, it will not result in good things"@en .
 
 lidpt:ficar_puto a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:ficar_puto_sense ;
 	ontolex:canonicalForm lidpt:ficar_puto_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "ficar puto"@pt .
 
 lidpt:ficar_puto_form a ontolex:form ;
 	ontolex:writtenRep "ficar puto"@pt .
 
 lidpt:ficar_puto_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:ficar_puto_def .
+	ontolex:isLexicalizedSenseOf lidpt:ficar_puto_concept .
 
-lidpt:ficar_puto_def a ontolex:LexicalConcept ;
+lidpt:ficar_puto_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:ficar_puto_sense ;
 	skos:definition "to be angry with something or someone"@en .
 
 lidpt:estar_nas_nuvens a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:estar_nas_nuvens_sense ;
 	ontolex:canonicalForm lidpt:estar_nas_nuvens_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "estar nas nuvens"@pt .
 
 lidpt:estar_nas_nuvens_form a ontolex:form ;
 	ontolex:writtenRep "estar nas nuvens"@pt .
 
 lidpt:estar_nas_nuvens_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:estar_nas_nuvens_def .
+	ontolex:isLexicalizedSenseOf lidpt:estar_nas_nuvens_concept .
 
-lidpt:estar_nas_nuvens_def a ontolex:LexicalConcept ;
+lidpt:estar_nas_nuvens_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:estar_nas_nuvens_sense ;
 	skos:definition "to be bliss way"@en .
 
 lidpt:nem_que_a_vaca_tussa a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:nem_que_a_vaca_tussa_sense ;
 	ontolex:canonicalForm lidpt:nem_que_a_vaca_tussa_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "nem que a vaca tussa"@pt .
 
 lidpt:nem_que_a_vaca_tussa_form a ontolex:form ;
 	ontolex:writtenRep "nem que a vaca tussa"@pt .
 
 lidpt:nem_que_a_vaca_tussa_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:nem_que_a_vaca_tussa_def .
+	ontolex:isLexicalizedSenseOf lidpt:nem_que_a_vaca_tussa_concept .
 
-lidpt:nem_que_a_vaca_tussa_def a ontolex:LexicalConcept ;
+lidpt:nem_que_a_vaca_tussa_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:nem_que_a_vaca_tussa_sense ;
 	skos:definition "something that will not happen"@en .
 
 lidpt:matar_dois_coelhos_com_uma_cajadada_so a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <http://dbpedia.org/page/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:matar_dois_coelhos_com_uma_cajadada_so_sense ;
 	ontolex:canonicalForm lidpt:matar_dois_coelhos_com_uma_cajadada_so_form ;
-	dbo:location <http://dbpedia.org/page/Brazil> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;
 	rdfs:label "matar dois coelhos com uma cajadada só"@pt .
 
 lidpt:matar_dois_coelhos_com_uma_cajadada_so_form a ontolex:form ;
 	ontolex:writtenRep "matar dois coelhos com uma cajadada só"@pt .
 
 lidpt:matar_dois_coelhos_com_uma_cajadada_so_sense a ontolex:LexicalSense ;
-	ontolex:reference lidpt:matar_dois_coelhos_com_uma_cajadada_so_def .
+	ontolex:isLexicalizedSenseOf lidpt:matar_dois_coelhos_com_uma_cajadada_so_concept .
 
-lidpt:matar_dois_coelhos_com_uma_cajadada_so_def a ontolex:LexicalConcept ;
+lidpt:matar_dois_coelhos_com_uma_cajadada_so_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidpt:matar_dois_coelhos_com_uma_cajadada_so_sense ;
 	skos:definition "to solve two problems with one resource"@en .
 

@@ -13,16 +13,16 @@ lidrus:вернемся_к_нашим_баранам a ontolex:LexicalEntry , on
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:вернемся_к_нашим_баранам_sense ;
 	ontolex:canonicalForm lidrus:вернемся_к_нашим_баранам_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "вернемся к нашим баранам"@rus .
 
 lidrus:вернемся_к_нашим_баранам_form a ontolex:form ;
 	ontolex:writtenRep "вернемся к нашим баранам"@rus .
 
 lidrus:вернемся_к_нашим_баранам_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:вернемся_к_нашим_баранам_def .
+	ontolex:isLexicalizedSenseOf lidrus:вернемся_к_нашим_баранам_concept .
 
-lidrus:вернемся_к_нашим_баранам_def a ontolex:LexicalConcept ;
+lidrus:вернемся_к_нашим_баранам_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:вернемся_к_нашим_баранам_sense ;
 	skos:definition "let's return to our subject"@en .
 
@@ -31,16 +31,16 @@ lidrus:льёт_как_из_ведра a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:льёт_как_из_ведра_sense ;
 	ontolex:canonicalForm lidrus:льёт_как_из_ведра_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "льёт как из ведра"@rus .
 
 lidrus:льёт_как_из_ведра_form a ontolex:form ;
 	ontolex:writtenRep "льёт как из ведра"@rus .
 
 lidrus:льёт_как_из_ведра_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:льёт_как_из_ведра_def .
+	ontolex:isLexicalizedSenseOf lidrus:льёт_как_из_ведра_concept .
 
-lidrus:льёт_как_из_ведра_def a ontolex:LexicalConcept ;
+lidrus:льёт_как_из_ведра_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:льёт_как_из_ведра_sense ;
 	skos:definition "heavly rain"@en .
 
@@ -49,16 +49,16 @@ lidrus:водить_за_нос a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:водить_за_нос_sense ;
 	ontolex:canonicalForm lidrus:водить_за_нос_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "водить за нос"@rus .
 
 lidrus:водить_за_нос_form a ontolex:form ;
 	ontolex:writtenRep "водить за нос"@rus .
 
 lidrus:водить_за_нос_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:водить_за_нос_def .
+	ontolex:isLexicalizedSenseOf lidrus:водить_за_нос_concept .
 
-lidrus:водить_за_нос_def a ontolex:LexicalConcept ;
+lidrus:водить_за_нос_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:водить_за_нос_sense ;
 	skos:definition "fool, trick"@en .
 
@@ -67,16 +67,16 @@ lidrus:мастер_на_все_руки a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:мастер_на_все_руки_sense ;
 	ontolex:canonicalForm lidrus:мастер_на_все_руки_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "мастер на все руки"@rus .
 
 lidrus:мастер_на_все_руки_form a ontolex:form ;
 	ontolex:writtenRep "мастер на все руки"@rus .
 
 lidrus:мастер_на_все_руки_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:мастер_на_все_руки_def .
+	ontolex:isLexicalizedSenseOf lidrus:мастер_на_все_руки_concept .
 
-lidrus:мастер_на_все_руки_def a ontolex:LexicalConcept ;
+lidrus:мастер_на_все_руки_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:мастер_на_все_руки_sense ;
 	skos:definition "guy who can do everything (in a good way)"@en .
 
@@ -85,16 +85,16 @@ lidrus:волосы_дыбом a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:волосы_дыбом_sense ;
 	ontolex:canonicalForm lidrus:волосы_дыбом_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "волосы дыбом"@rus .
 
 lidrus:волосы_дыбом_form a ontolex:form ;
 	ontolex:writtenRep "волосы дыбом"@rus .
 
 lidrus:волосы_дыбом_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:волосы_дыбом_def .
+	ontolex:isLexicalizedSenseOf lidrus:волосы_дыбом_concept .
 
-lidrus:волосы_дыбом_def a ontolex:LexicalConcept ;
+lidrus:волосы_дыбом_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:волосы_дыбом_sense ;
 	skos:definition "to make someone feel very frightened"@en .
 
@@ -103,16 +103,16 @@ lidrus:ни_рыба_ни_мясо a ontolex:LexicalEntry , ontolex:MultiwordExp
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:ни_рыба_ни_мясо_sense ;
 	ontolex:canonicalForm lidrus:ни_рыба_ни_мясо_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "ни рыба ни мясо"@rus .
 
 lidrus:ни_рыба_ни_мясо_form a ontolex:form ;
 	ontolex:writtenRep "ни рыба ни мясо"@rus .
 
 lidrus:ни_рыба_ни_мясо_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:ни_рыба_ни_мясо_def .
+	ontolex:isLexicalizedSenseOf lidrus:ни_рыба_ни_мясо_concept .
 
-lidrus:ни_рыба_ни_мясо_def a ontolex:LexicalConcept ;
+lidrus:ни_рыба_ни_мясо_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:ни_рыба_ни_мясо_sense ;
 	skos:definition "not this, not that (like something in the middle which nobody wants)"@en .
 
@@ -121,16 +121,16 @@ lidrus:вот_где_собака_зарыта a ontolex:LexicalEntry , ontolex:
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:вот_где_собака_зарыта_sense ;
 	ontolex:canonicalForm lidrus:вот_где_собака_зарыта_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "вот где собака зарыта"@rus .
 
 lidrus:вот_где_собака_зарыта_form a ontolex:form ;
 	ontolex:writtenRep "вот где собака зарыта"@rus .
 
 lidrus:вот_где_собака_зарыта_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:вот_где_собака_зарыта_def .
+	ontolex:isLexicalizedSenseOf lidrus:вот_где_собака_зарыта_concept .
 
-lidrus:вот_где_собака_зарыта_def a ontolex:LexicalConcept ;
+lidrus:вот_где_собака_зарыта_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:вот_где_собака_зарыта_sense ;
 	skos:definition "the essential part or cause of something"@en .
 
@@ -139,16 +139,16 @@ lidrus:смотреть_в_оба a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:смотреть_в_оба_sense ;
 	ontolex:canonicalForm lidrus:смотреть_в_оба_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "смотреть в оба"@rus .
 
 lidrus:смотреть_в_оба_form a ontolex:form ;
 	ontolex:writtenRep "смотреть в оба"@rus .
 
 lidrus:смотреть_в_оба_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:смотреть_в_оба_def .
+	ontolex:isLexicalizedSenseOf lidrus:смотреть_в_оба_concept .
 
-lidrus:смотреть_в_оба_def a ontolex:LexicalConcept ;
+lidrus:смотреть_в_оба_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:смотреть_в_оба_sense ;
 	skos:definition "be aware, looking out for something, be suspicious"@en .
 
@@ -157,16 +157,16 @@ lidrus:всыпать_по_первое_число a ontolex:LexicalEntry , onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:всыпать_по_первое_число_sense ;
 	ontolex:canonicalForm lidrus:всыпать_по_первое_число_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "всыпать по первое число"@rus .
 
 lidrus:всыпать_по_первое_число_form a ontolex:form ;
 	ontolex:writtenRep "всыпать по первое число"@rus .
 
 lidrus:всыпать_по_первое_число_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:всыпать_по_первое_число_def .
+	ontolex:isLexicalizedSenseOf lidrus:всыпать_по_первое_число_concept .
 
-lidrus:всыпать_по_первое_число_def a ontolex:LexicalConcept ;
+lidrus:всыпать_по_первое_число_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:всыпать_по_первое_число_sense ;
 	skos:definition "to interrogate, scrutinize, or question someone intensely or thoroughly"@en .
 
@@ -175,16 +175,16 @@ lidrus:проще_пареной_репы a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:проще_пареной_репы_sense ;
 	ontolex:canonicalForm lidrus:проще_пареной_репы_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "проще пареной репы"@rus .
 
 lidrus:проще_пареной_репы_form a ontolex:form ;
 	ontolex:writtenRep "проще пареной репы"@rus .
 
 lidrus:проще_пареной_репы_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:проще_пареной_репы_def .
+	ontolex:isLexicalizedSenseOf lidrus:проще_пареной_репы_concept .
 
-lidrus:проще_пареной_репы_def a ontolex:LexicalConcept ;
+lidrus:проще_пареной_репы_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:проще_пареной_репы_sense ;
 	skos:definition "easier than easy (super easy)"@en .
 
@@ -193,16 +193,16 @@ lidrus:втирать_очки a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:втирать_очки_sense ;
 	ontolex:canonicalForm lidrus:втирать_очки_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "втирать очки"@rus .
 
 lidrus:втирать_очки_form a ontolex:form ;
 	ontolex:writtenRep "втирать очки"@rus .
 
 lidrus:втирать_очки_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:втирать_очки_def .
+	ontolex:isLexicalizedSenseOf lidrus:втирать_очки_concept .
 
-lidrus:втирать_очки_def a ontolex:LexicalConcept ;
+lidrus:втирать_очки_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:втирать_очки_sense ;
 	skos:definition "to deceive someone"@en .
 
@@ -211,16 +211,16 @@ lidrus:убить_двух_зайцев_одним_выстрелом a ontolex:
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:убить_двух_зайцев_одним_выстрелом_sense ;
 	ontolex:canonicalForm lidrus:убить_двух_зайцев_одним_выстрелом_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "убить двух зайцев одним выстрелом"@rus .
 
 lidrus:убить_двух_зайцев_одним_выстрелом_form a ontolex:form ;
 	ontolex:writtenRep "убить двух зайцев одним выстрелом"@rus .
 
 lidrus:убить_двух_зайцев_одним_выстрелом_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:убить_двух_зайцев_одним_выстрелом_def .
+	ontolex:isLexicalizedSenseOf lidrus:убить_двух_зайцев_одним_выстрелом_concept .
 
-lidrus:убить_двух_зайцев_одним_выстрелом_def a ontolex:LexicalConcept ;
+lidrus:убить_двух_зайцев_одним_выстрелом_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:убить_двух_зайцев_одним_выстрелом_sense ;
 	skos:definition "make two things with one action"@en .
 
@@ -229,16 +229,16 @@ lidrus:глас_вопиющего_в_пустыне a ontolex:LexicalEntry , on
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:глас_вопиющего_в_пустыне_sense ;
 	ontolex:canonicalForm lidrus:глас_вопиющего_в_пустыне_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "глас вопиющего в пустыне"@rus .
 
 lidrus:глас_вопиющего_в_пустыне_form a ontolex:form ;
 	ontolex:writtenRep "глас вопиющего в пустыне"@rus .
 
 lidrus:глас_вопиющего_в_пустыне_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:глас_вопиющего_в_пустыне_def .
+	ontolex:isLexicalizedSenseOf lidrus:глас_вопиющего_в_пустыне_concept .
 
-lidrus:глас_вопиющего_в_пустыне_def a ontolex:LexicalConcept ;
+lidrus:глас_вопиющего_в_пустыне_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:глас_вопиющего_в_пустыне_sense ;
 	skos:definition "someone who expresses an idea or opinion that is not popular"@en .
 
@@ -247,7 +247,7 @@ lidrus:гол_как_сокол a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:гол_как_сокол_sense ;
 	ontolex:canonicalForm lidrus:гол_как_сокол_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "гол как сокол"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s06021916n> .
 
@@ -255,9 +255,9 @@ lidrus:гол_как_сокол_form a ontolex:form ;
 	ontolex:writtenRep "гол как сокол"@rus .
 
 lidrus:гол_как_сокол_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:гол_как_сокол_def .
+	ontolex:isLexicalizedSenseOf lidrus:гол_как_сокол_concept .
 
-lidrus:гол_как_сокол_def a ontolex:LexicalConcept ;
+lidrus:гол_как_сокол_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:гол_как_сокол_sense ;
 	skos:definition "very poor"@en .
 
@@ -266,16 +266,16 @@ lidrus:голая_правда a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:голая_правда_sense ;
 	ontolex:canonicalForm lidrus:голая_правда_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "голая правда"@rus .
 
 lidrus:голая_правда_form a ontolex:form ;
 	ontolex:writtenRep "голая правда"@rus .
 
 lidrus:голая_правда_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:голая_правда_def .
+	ontolex:isLexicalizedSenseOf lidrus:голая_правда_concept .
 
-lidrus:голая_правда_def a ontolex:LexicalConcept ;
+lidrus:голая_правда_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:голая_правда_sense ;
 	skos:definition "the complete, unembellished truth."@en .
 
@@ -284,7 +284,7 @@ lidrus:горе_луковое a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:горе_луковое_sense ;
 	ontolex:canonicalForm lidrus:горе_луковое_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "горе луковое"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13684048n> .
 
@@ -292,9 +292,9 @@ lidrus:горе_луковое_form a ontolex:form ;
 	ontolex:writtenRep "горе луковое"@rus .
 
 lidrus:горе_луковое_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:горе_луковое_def .
+	ontolex:isLexicalizedSenseOf lidrus:горе_луковое_concept .
 
-lidrus:горе_луковое_def a ontolex:LexicalConcept ;
+lidrus:горе_луковое_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:горе_луковое_sense ;
 	skos:definition "having to do with someone in the last period of a term in an elective office."@en .
 
@@ -303,7 +303,7 @@ lidrus:двуликий_янус a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:двуликий_янус_sense ;
 	ontolex:canonicalForm lidrus:двуликий_янус_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "двуликий янус"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00047981n> .
 
@@ -311,9 +311,9 @@ lidrus:двуликий_янус_form a ontolex:form ;
 	ontolex:writtenRep "двуликий янус"@rus .
 
 lidrus:двуликий_янус_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:двуликий_янус_def .
+	ontolex:isLexicalizedSenseOf lidrus:двуликий_янус_concept .
 
-lidrus:двуликий_янус_def a ontolex:LexicalConcept ;
+lidrus:двуликий_янус_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:двуликий_янус_sense ;
 	skos:definition "two-faced (janus)"@en .
 
@@ -322,16 +322,16 @@ lidrus:дело_в_шляпе a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:дело_в_шляпе_sense ;
 	ontolex:canonicalForm lidrus:дело_в_шляпе_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "дело в шляпе"@rus .
 
 lidrus:дело_в_шляпе_form a ontolex:form ;
 	ontolex:writtenRep "дело в шляпе"@rus .
 
 lidrus:дело_в_шляпе_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:дело_в_шляпе_def .
+	ontolex:isLexicalizedSenseOf lidrus:дело_в_шляпе_concept .
 
-lidrus:дело_в_шляпе_def a ontolex:LexicalConcept ;
+lidrus:дело_в_шляпе_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:дело_в_шляпе_sense ;
 	skos:definition "it's in the bag, it's a sure thing"@en .
 
@@ -340,7 +340,7 @@ lidrus:деньги_не_пахнут a ontolex:LexicalEntry , ontolex:Multiword
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:деньги_не_пахнут_sense ;
 	ontolex:canonicalForm lidrus:деньги_не_пахнут_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "деньги не пахнут"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s01828190n> .
 
@@ -348,9 +348,9 @@ lidrus:деньги_не_пахнут_form a ontolex:form ;
 	ontolex:writtenRep "деньги не пахнут"@rus .
 
 lidrus:деньги_не_пахнут_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:деньги_не_пахнут_def .
+	ontolex:isLexicalizedSenseOf lidrus:деньги_не_пахнут_concept .
 
-lidrus:деньги_не_пахнут_def a ontolex:LexicalConcept ;
+lidrus:деньги_не_пахнут_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:деньги_не_пахнут_sense ;
 	skos:definition "the source of money doesn't matter (it could be dirty money, but it doesn't smell)"@en .
 
@@ -359,16 +359,16 @@ lidrus:довести_до_белого_каления a ontolex:LexicalEntry , 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:довести_до_белого_каления_sense ;
 	ontolex:canonicalForm lidrus:довести_до_белого_каления_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "довести до белого каления"@rus .
 
 lidrus:довести_до_белого_каления_form a ontolex:form ;
 	ontolex:writtenRep "довести до белого каления"@rus .
 
 lidrus:довести_до_белого_каления_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:довести_до_белого_каления_def .
+	ontolex:isLexicalizedSenseOf lidrus:довести_до_белого_каления_concept .
 
-lidrus:довести_до_белого_каления_def a ontolex:LexicalConcept ;
+lidrus:довести_до_белого_каления_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:довести_до_белого_каления_sense ;
 	skos:definition "to make somebody get very angry"@en .
 
@@ -377,16 +377,16 @@ lidrus:египетские_казни a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:египетские_казни_sense ;
 	ontolex:canonicalForm lidrus:египетские_казни_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "египетские казни"@rus .
 
 lidrus:египетские_казни_form a ontolex:form ;
 	ontolex:writtenRep "египетские казни"@rus .
 
 lidrus:египетские_казни_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:египетские_казни_def .
+	ontolex:isLexicalizedSenseOf lidrus:египетские_казни_concept .
 
-lidrus:египетские_казни_def a ontolex:LexicalConcept ;
+lidrus:египетские_казни_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:египетские_казни_sense ;
 	skos:definition "very severe punishment (cruel and unusual)"@en .
 
@@ -395,16 +395,16 @@ lidrus:зарубить_на_носу a ontolex:LexicalEntry , ontolex:Multiword
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:зарубить_на_носу_sense ;
 	ontolex:canonicalForm lidrus:зарубить_на_носу_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "зарубить на носу"@rus .
 
 lidrus:зарубить_на_носу_form a ontolex:form ;
 	ontolex:writtenRep "зарубить на носу"@rus .
 
 lidrus:зарубить_на_носу_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:зарубить_на_носу_def .
+	ontolex:isLexicalizedSenseOf lidrus:зарубить_на_носу_concept .
 
-lidrus:зарубить_на_носу_def a ontolex:LexicalConcept ;
+lidrus:зарубить_на_носу_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:зарубить_на_носу_sense ;
 	skos:definition "take that information and give it some thought, get it in your head"@en .
 
@@ -413,16 +413,16 @@ lidrus:как_кур_во_щи_попасть a ontolex:LexicalEntry , ontolex:M
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:как_кур_во_щи_попасть_sense ;
 	ontolex:canonicalForm lidrus:как_кур_во_щи_попасть_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "как кур во щи (попасть)"@rus .
 
 lidrus:как_кур_во_щи_попасть_form a ontolex:form ;
 	ontolex:writtenRep "как кур во щи (попасть)"@rus .
 
 lidrus:как_кур_во_щи_попасть_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:как_кур_во_щи_попасть_def .
+	ontolex:isLexicalizedSenseOf lidrus:как_кур_во_щи_попасть_concept .
 
-lidrus:как_кур_во_щи_попасть_def a ontolex:LexicalConcept ;
+lidrus:как_кур_во_щи_попасть_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:как_кур_во_щи_попасть_sense ;
 	skos:definition "to be the person (as in drawing lots) to whom an unwelcome task or fate falls"@en .
 
@@ -431,7 +431,7 @@ lidrus:калиф_на_час a ontolex:LexicalEntry , ontolex:MultiwordExpressi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:калиф_на_час_sense ;
 	ontolex:canonicalForm lidrus:калиф_на_час_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "калиф на час"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00745606n> .
 
@@ -439,9 +439,9 @@ lidrus:калиф_на_час_form a ontolex:form ;
 	ontolex:writtenRep "калиф на час"@rus .
 
 lidrus:калиф_на_час_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:калиф_на_час_def .
+	ontolex:isLexicalizedSenseOf lidrus:калиф_на_час_concept .
 
-lidrus:калиф_на_час_def a ontolex:LexicalConcept ;
+lidrus:калиф_на_час_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:калиф_на_час_sense ;
 	skos:definition "king for a day"@en .
 
@@ -450,7 +450,7 @@ lidrus:козел_отпущения a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:козел_отпущения_sense ;
 	ontolex:canonicalForm lidrus:козел_отпущения_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "козел отпущения"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00018991n> .
 
@@ -458,9 +458,9 @@ lidrus:козел_отпущения_form a ontolex:form ;
 	ontolex:writtenRep "козел отпущения"@rus .
 
 lidrus:козел_отпущения_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:козел_отпущения_def .
+	ontolex:isLexicalizedSenseOf lidrus:козел_отпущения_concept .
 
-lidrus:козел_отпущения_def a ontolex:LexicalConcept ;
+lidrus:козел_отпущения_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:козел_отпущения_sense ;
 	skos:definition "to make someone take the blame for something"@en .
 
@@ -469,16 +469,16 @@ lidrus:отложить_в_долгий_ящик a ontolex:LexicalEntry , ontole
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:отложить_в_долгий_ящик_sense ;
 	ontolex:canonicalForm lidrus:отложить_в_долгий_ящик_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "отложить в долгий ящик"@rus .
 
 lidrus:отложить_в_долгий_ящик_form a ontolex:form ;
 	ontolex:writtenRep "отложить в долгий ящик"@rus .
 
 lidrus:отложить_в_долгий_ящик_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:отложить_в_долгий_ящик_def .
+	ontolex:isLexicalizedSenseOf lidrus:отложить_в_долгий_ящик_concept .
 
-lidrus:отложить_в_долгий_ящик_def a ontolex:LexicalConcept ;
+lidrus:отложить_в_долгий_ящик_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:отложить_в_долгий_ящик_sense ;
 	skos:definition "to shelve, put off for another time"@en .
 
@@ -487,16 +487,16 @@ lidrus:разводить_антимонии a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:разводить_антимонии_sense ;
 	ontolex:canonicalForm lidrus:разводить_антимонии_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "разводить антимонии"@rus .
 
 lidrus:разводить_антимонии_form a ontolex:form ;
 	ontolex:writtenRep "разводить антимонии"@rus .
 
 lidrus:разводить_антимонии_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:разводить_антимонии_def .
+	ontolex:isLexicalizedSenseOf lidrus:разводить_антимонии_concept .
 
-lidrus:разводить_антимонии_def a ontolex:LexicalConcept ;
+lidrus:разводить_антимонии_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:разводить_антимонии_sense ;
 	skos:definition "to chat casually and without purpose."@en .
 
@@ -505,16 +505,16 @@ lidrus:сбоку_припека a ontolex:LexicalEntry , ontolex:MultiwordExpre
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:сбоку_припека_sense ;
 	ontolex:canonicalForm lidrus:сбоку_припека_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "сбоку припека"@rus .
 
 lidrus:сбоку_припека_form a ontolex:form ;
 	ontolex:writtenRep "сбоку припека"@rus .
 
 lidrus:сбоку_припека_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:сбоку_припека_def .
+	ontolex:isLexicalizedSenseOf lidrus:сбоку_припека_concept .
 
-lidrus:сбоку_припека_def a ontolex:LexicalConcept ;
+lidrus:сбоку_припека_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:сбоку_припека_sense ;
 	skos:definition "redundant"@en .
 
@@ -523,16 +523,16 @@ lidrus:тертый_калач a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:тертый_калач_sense ;
 	ontolex:canonicalForm lidrus:тертый_калач_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "тертый калач"@rus .
 
 lidrus:тертый_калач_form a ontolex:form ;
 	ontolex:writtenRep "тертый калач"@rus .
 
 lidrus:тертый_калач_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:тертый_калач_def .
+	ontolex:isLexicalizedSenseOf lidrus:тертый_калач_concept .
 
-lidrus:тертый_калач_def a ontolex:LexicalConcept ;
+lidrus:тертый_калач_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:тертый_калач_sense ;
 	skos:definition "someone who is experienced at doing something"@en .
 
@@ -541,16 +541,16 @@ lidrus:точить_лясы a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:точить_лясы_sense ;
 	ontolex:canonicalForm lidrus:точить_лясы_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "точить лясы"@rus .
 
 lidrus:точить_лясы_form a ontolex:form ;
 	ontolex:writtenRep "точить лясы"@rus .
 
 lidrus:точить_лясы_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:точить_лясы_def .
+	ontolex:isLexicalizedSenseOf lidrus:точить_лясы_concept .
 
-lidrus:точить_лясы_def a ontolex:LexicalConcept ;
+lidrus:точить_лясы_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:точить_лясы_sense ;
 	skos:definition "casual or unconstrained conversation or reports about other people, typically involving details which are not confirmed as true."@en .
 
@@ -559,7 +559,7 @@ lidrus:филькина_грамота a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:филькина_грамота_sense ;
 	ontolex:canonicalForm lidrus:филькина_грамота_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "филькина грамота"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s05922083n> .
 
@@ -567,9 +567,9 @@ lidrus:филькина_грамота_form a ontolex:form ;
 	ontolex:writtenRep "филькина грамота"@rus .
 
 lidrus:филькина_грамота_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:филькина_грамота_def .
+	ontolex:isLexicalizedSenseOf lidrus:филькина_грамота_concept .
 
-lidrus:филькина_грамота_def a ontolex:LexicalConcept ;
+lidrus:филькина_грамота_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:филькина_грамота_sense ;
 	skos:definition "useless scrap of paper (of promise, certificate)"@en .
 
@@ -578,7 +578,7 @@ lidrus:яблоко_раздора a ontolex:LexicalEntry , ontolex:MultiwordExp
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:яблоко_раздора_sense ;
 	ontolex:canonicalForm lidrus:яблоко_раздора_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "яблоко раздора"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00012012n> .
 
@@ -586,9 +586,9 @@ lidrus:яблоко_раздора_form a ontolex:form ;
 	ontolex:writtenRep "яблоко раздора"@rus .
 
 lidrus:яблоко_раздора_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:яблоко_раздора_def .
+	ontolex:isLexicalizedSenseOf lidrus:яблоко_раздора_concept .
 
-lidrus:яблоко_раздора_def a ontolex:LexicalConcept ;
+lidrus:яблоко_раздора_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:яблоко_раздора_sense ;
 	skos:definition "the subject or point of an argument; an unsettled point of disagreement."@en .
 
@@ -597,16 +597,16 @@ lidrus:ящик_пандоры a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:ящик_пандоры_sense ;
 	ontolex:canonicalForm lidrus:ящик_пандоры_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "ящик пандоры"@rus .
 
 lidrus:ящик_пандоры_form a ontolex:form ;
 	ontolex:writtenRep "ящик пандоры"@rus .
 
 lidrus:ящик_пандоры_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:ящик_пандоры_def .
+	ontolex:isLexicalizedSenseOf lidrus:ящик_пандоры_concept .
 
-lidrus:ящик_пандоры_def a ontolex:LexicalConcept ;
+lidrus:ящик_пандоры_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:ящик_пандоры_sense ;
 	skos:definition "a source of unforeseen trouble"@en .
 
@@ -615,16 +615,16 @@ lidrus:в_ногах_правды_нет a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:в_ногах_правды_нет_sense ;
 	ontolex:canonicalForm lidrus:в_ногах_правды_нет_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "в ногах правды нет"@rus .
 
 lidrus:в_ногах_правды_нет_form a ontolex:form ;
 	ontolex:writtenRep "в ногах правды нет"@rus .
 
 lidrus:в_ногах_правды_нет_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:в_ногах_правды_нет_def .
+	ontolex:isLexicalizedSenseOf lidrus:в_ногах_правды_нет_concept .
 
-lidrus:в_ногах_правды_нет_def a ontolex:LexicalConcept ;
+lidrus:в_ногах_правды_нет_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:в_ногах_правды_нет_sense ;
 	skos:definition "there's no point in stadning, have a seat"@en .
 
@@ -633,16 +633,16 @@ lidrus:кто_рано_встает_тому_бог_подает a ontolex:Lexic
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:кто_рано_встает_тому_бог_подает_sense ;
 	ontolex:canonicalForm lidrus:кто_рано_встает_тому_бог_подает_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "кто рано встает тому бог подает"@rus .
 
 lidrus:кто_рано_встает_тому_бог_подает_form a ontolex:form ;
 	ontolex:writtenRep "кто рано встает тому бог подает"@rus .
 
 lidrus:кто_рано_встает_тому_бог_подает_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:кто_рано_встает_тому_бог_подает_def .
+	ontolex:isLexicalizedSenseOf lidrus:кто_рано_встает_тому_бог_подает_concept .
 
-lidrus:кто_рано_встает_тому_бог_подает_def a ontolex:LexicalConcept ;
+lidrus:кто_рано_встает_тому_бог_подает_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:кто_рано_встает_тому_бог_подает_sense ;
 	skos:definition "something that you say in order to tell someone that if they want to be successful they should do something immediately"@en .
 
@@ -651,16 +651,16 @@ lidrus:в_гостях_хорошо_а_дома_лучше a ontolex:LexicalEntr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:в_гостях_хорошо_а_дома_лучше_sense ;
 	ontolex:canonicalForm lidrus:в_гостях_хорошо_а_дома_лучше_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "в гостях хорошо а дома лучше"@rus .
 
 lidrus:в_гостях_хорошо_а_дома_лучше_form a ontolex:form ;
 	ontolex:writtenRep "в гостях хорошо а дома лучше"@rus .
 
 lidrus:в_гостях_хорошо_а_дома_лучше_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:в_гостях_хорошо_а_дома_лучше_def .
+	ontolex:isLexicalizedSenseOf lidrus:в_гостях_хорошо_а_дома_лучше_concept .
 
-lidrus:в_гостях_хорошо_а_дома_лучше_def a ontolex:LexicalConcept ;
+lidrus:в_гостях_хорошо_а_дома_лучше_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:в_гостях_хорошо_а_дома_лучше_sense ;
 	skos:definition "home is the best place to be no matter where it is."@en .
 
@@ -669,7 +669,7 @@ lidrus:цель_оправдывает_средства a ontolex:LexicalEntry ,
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:цель_оправдывает_средства_sense ;
 	ontolex:canonicalForm lidrus:цель_оправдывает_средства_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "цель оправдывает средства"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s05955397n> .
 
@@ -677,9 +677,9 @@ lidrus:цель_оправдывает_средства_form a ontolex:form ;
 	ontolex:writtenRep "цель оправдывает средства"@rus .
 
 lidrus:цель_оправдывает_средства_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:цель_оправдывает_средства_def .
+	ontolex:isLexicalizedSenseOf lidrus:цель_оправдывает_средства_concept .
 
-lidrus:цель_оправдывает_средства_def a ontolex:LexicalConcept ;
+lidrus:цель_оправдывает_средства_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:цель_оправдывает_средства_sense ;
 	skos:definition "if a goal is morally important enough, any method of achieving it is acceptable."@en .
 
@@ -688,16 +688,16 @@ lidrus:на_вкус_и_цвет_товарищей_нет a ontolex:LexicalEntr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:на_вкус_и_цвет_товарищей_нет_sense ;
 	ontolex:canonicalForm lidrus:на_вкус_и_цвет_товарищей_нет_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "на вкус и цвет товарищей нет"@rus .
 
 lidrus:на_вкус_и_цвет_товарищей_нет_form a ontolex:form ;
 	ontolex:writtenRep "на вкус и цвет товарищей нет"@rus .
 
 lidrus:на_вкус_и_цвет_товарищей_нет_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:на_вкус_и_цвет_товарищей_нет_def .
+	ontolex:isLexicalizedSenseOf lidrus:на_вкус_и_цвет_товарищей_нет_concept .
 
-lidrus:на_вкус_и_цвет_товарищей_нет_def a ontolex:LexicalConcept ;
+lidrus:на_вкус_и_цвет_товарищей_нет_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:на_вкус_и_цвет_товарищей_нет_sense ;
 	skos:definition "each person has the right to make choices."@en .
 
@@ -706,16 +706,16 @@ lidrus:исключение_подтверждает_правило a ontolex:Le
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:исключение_подтверждает_правило_sense ;
 	ontolex:canonicalForm lidrus:исключение_подтверждает_правило_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "исключение подтверждает правило"@rus .
 
 lidrus:исключение_подтверждает_правило_form a ontolex:form ;
 	ontolex:writtenRep "исключение подтверждает правило"@rus .
 
 lidrus:исключение_подтверждает_правило_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:исключение_подтверждает_правило_def .
+	ontolex:isLexicalizedSenseOf lidrus:исключение_подтверждает_правило_concept .
 
-lidrus:исключение_подтверждает_правило_def a ontolex:LexicalConcept ;
+lidrus:исключение_подтверждает_правило_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:исключение_подтверждает_правило_sense ;
 	skos:definition "to prove"@en .
 
@@ -724,16 +724,16 @@ lidrus:все_хорошо_в_свое_время a ontolex:LexicalEntry , ontol
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:все_хорошо_в_свое_время_sense ;
 	ontolex:canonicalForm lidrus:все_хорошо_в_свое_время_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "все хорошо в свое время"@rus .
 
 lidrus:все_хорошо_в_свое_время_form a ontolex:form ;
 	ontolex:writtenRep "все хорошо в свое время"@rus .
 
 lidrus:все_хорошо_в_свое_время_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:все_хорошо_в_свое_время_def .
+	ontolex:isLexicalizedSenseOf lidrus:все_хорошо_в_свое_время_concept .
 
-lidrus:все_хорошо_в_свое_время_def a ontolex:LexicalConcept ;
+lidrus:все_хорошо_в_свое_время_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:все_хорошо_в_свое_время_sense ;
 	skos:definition "everything is good when it's in season"@en .
 
@@ -742,16 +742,16 @@ lidrus:запретный_плод_сладок a ontolex:LexicalEntry , ontolex
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:запретный_плод_сладок_sense ;
 	ontolex:canonicalForm lidrus:запретный_плод_сладок_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "запретный плод сладок"@rus .
 
 lidrus:запретный_плод_сладок_form a ontolex:form ;
 	ontolex:writtenRep "запретный плод сладок"@rus .
 
 lidrus:запретный_плод_сладок_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:запретный_плод_сладок_def .
+	ontolex:isLexicalizedSenseOf lidrus:запретный_плод_сладок_concept .
 
-lidrus:запретный_плод_сладок_def a ontolex:LexicalConcept ;
+lidrus:запретный_плод_сладок_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:запретный_плод_сладок_sense ;
 	skos:definition "forbidden things have more worthwhile short-term consequences."@en .
 
@@ -760,16 +760,16 @@ lidrus:яблоко_от_яблони_недалеко_падает a ontolex:Le
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:яблоко_от_яблони_недалеко_падает_sense ;
 	ontolex:canonicalForm lidrus:яблоко_от_яблони_недалеко_падает_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "яблоко от яблони недалеко падает"@rus .
 
 lidrus:яблоко_от_яблони_недалеко_падает_form a ontolex:form ;
 	ontolex:writtenRep "яблоко от яблони недалеко падает"@rus .
 
 lidrus:яблоко_от_яблони_недалеко_падает_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:яблоко_от_яблони_недалеко_падает_def .
+	ontolex:isLexicalizedSenseOf lidrus:яблоко_от_яблони_недалеко_падает_concept .
 
-lidrus:яблоко_от_яблони_недалеко_падает_def a ontolex:LexicalConcept ;
+lidrus:яблоко_от_яблони_недалеко_падает_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:яблоко_от_яблони_недалеко_падает_sense ;
 	skos:definition "kids are like their parents"@en .
 
@@ -778,16 +778,16 @@ lidrus:нет_дыма_без_огня a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:нет_дыма_без_огня_sense ;
 	ontolex:canonicalForm lidrus:нет_дыма_без_огня_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "нет дыма без огня"@rus .
 
 lidrus:нет_дыма_без_огня_form a ontolex:form ;
 	ontolex:writtenRep "нет дыма без огня"@rus .
 
 lidrus:нет_дыма_без_огня_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:нет_дыма_без_огня_def .
+	ontolex:isLexicalizedSenseOf lidrus:нет_дыма_без_огня_concept .
 
-lidrus:нет_дыма_без_огня_def a ontolex:LexicalConcept ;
+lidrus:нет_дыма_без_огня_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:нет_дыма_без_огня_sense ;
 	skos:definition "something that you say which means that if people are saying that someone has done something bad but no one knows whether it is true, it probably is true"@en .
 
@@ -796,16 +796,16 @@ lidrus:клин_клином_вышибается a ontolex:LexicalEntry , ontol
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:клин_клином_вышибается_sense ;
 	ontolex:canonicalForm lidrus:клин_клином_вышибается_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "клин клином вышибается"@rus .
 
 lidrus:клин_клином_вышибается_form a ontolex:form ;
 	ontolex:writtenRep "клин клином вышибается"@rus .
 
 lidrus:клин_клином_вышибается_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:клин_клином_вышибается_def .
+	ontolex:isLexicalizedSenseOf lidrus:клин_клином_вышибается_concept .
 
-lidrus:клин_клином_вышибается_def a ontolex:LexicalConcept ;
+lidrus:клин_клином_вышибается_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:клин_клином_вышибается_sense ;
 	skos:definition "use against your opponent the same methods he or she is using against you."@en .
 
@@ -814,16 +814,16 @@ lidrus:от_судьбы_не_уйти a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:от_судьбы_не_уйти_sense ;
 	ontolex:canonicalForm lidrus:от_судьбы_не_уйти_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "от судьбы не уйти"@rus .
 
 lidrus:от_судьбы_не_уйти_form a ontolex:form ;
 	ontolex:writtenRep "от судьбы не уйти"@rus .
 
 lidrus:от_судьбы_не_уйти_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:от_судьбы_не_уйти_def .
+	ontolex:isLexicalizedSenseOf lidrus:от_судьбы_не_уйти_concept .
 
-lidrus:от_судьбы_не_уйти_def a ontolex:LexicalConcept ;
+lidrus:от_судьбы_не_уйти_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:от_судьбы_не_уйти_sense ;
 	skos:definition "you set your mind on something and devote all your strength to do it, thou just may succeed."@en .
 
@@ -832,16 +832,16 @@ lidrus:не_все_то_золото_что_блестит a ontolex:LexicalEntr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:не_все_то_золото_что_блестит_sense ;
 	ontolex:canonicalForm lidrus:не_все_то_золото_что_блестит_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "не все то золото, что блестит"@rus .
 
 lidrus:не_все_то_золото_что_блестит_form a ontolex:form ;
 	ontolex:writtenRep "не все то золото, что блестит"@rus .
 
 lidrus:не_все_то_золото_что_блестит_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:не_все_то_золото_что_блестит_def .
+	ontolex:isLexicalizedSenseOf lidrus:не_все_то_золото_что_блестит_concept .
 
-lidrus:не_все_то_золото_что_блестит_def a ontolex:LexicalConcept ;
+lidrus:не_все_то_золото_что_блестит_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:не_все_то_золото_что_блестит_sense ;
 	skos:definition "just because something looks attractive does not mean it is genuine or valuable."@en .
 
@@ -850,16 +850,16 @@ lidrus:внешность_обманчива a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:внешность_обманчива_sense ;
 	ontolex:canonicalForm lidrus:внешность_обманчива_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "внешность обманчива"@rus .
 
 lidrus:внешность_обманчива_form a ontolex:form ;
 	ontolex:writtenRep "внешность обманчива"@rus .
 
 lidrus:внешность_обманчива_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:внешность_обманчива_def .
+	ontolex:isLexicalizedSenseOf lidrus:внешность_обманчива_concept .
 
-lidrus:внешность_обманчива_def a ontolex:LexicalConcept ;
+lidrus:внешность_обманчива_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:внешность_обманчива_sense ;
 	skos:definition "apperances can be deceiving"@en .
 
@@ -868,16 +868,16 @@ lidrus:каждый_сам_строитель_своего_счастья a onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:каждый_сам_строитель_своего_счастья_sense ;
 	ontolex:canonicalForm lidrus:каждый_сам_строитель_своего_счастья_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "каждый сам строитель своего счастья"@rus .
 
 lidrus:каждый_сам_строитель_своего_счастья_form a ontolex:form ;
 	ontolex:writtenRep "каждый сам строитель своего счастья"@rus .
 
 lidrus:каждый_сам_строитель_своего_счастья_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:каждый_сам_строитель_своего_счастья_def .
+	ontolex:isLexicalizedSenseOf lidrus:каждый_сам_строитель_своего_счастья_concept .
 
-lidrus:каждый_сам_строитель_своего_счастья_def a ontolex:LexicalConcept ;
+lidrus:каждый_сам_строитель_своего_счастья_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:каждый_сам_строитель_своего_счастья_sense ;
 	skos:definition "every man is the forger of his own luck"@en .
 
@@ -886,16 +886,16 @@ lidrus:лучше_синица_в_руках_чем_журавль_в_небе a
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:лучше_синица_в_руках_чем_журавль_в_небе_sense ;
 	ontolex:canonicalForm lidrus:лучше_синица_в_руках_чем_журавль_в_небе_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "лучше синица в руках чем журавль в небе"@rus .
 
 lidrus:лучше_синица_в_руках_чем_журавль_в_небе_form a ontolex:form ;
 	ontolex:writtenRep "лучше синица в руках чем журавль в небе"@rus .
 
 lidrus:лучше_синица_в_руках_чем_журавль_в_небе_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:лучше_синица_в_руках_чем_журавль_в_небе_def .
+	ontolex:isLexicalizedSenseOf lidrus:лучше_синица_в_руках_чем_журавль_в_небе_concept .
 
-lidrus:лучше_синица_в_руках_чем_журавль_в_небе_def a ontolex:LexicalConcept ;
+lidrus:лучше_синица_в_руках_чем_журавль_в_небе_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:лучше_синица_в_руках_чем_журавль_в_небе_sense ;
 	skos:definition "having something for certain is better than the possibility of getting something better."@en .
 
@@ -904,16 +904,16 @@ lidrus:дареному_коню_в_зубы_не_смотрят a ontolex:Lexic
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:дареному_коню_в_зубы_не_смотрят_sense ;
 	ontolex:canonicalForm lidrus:дареному_коню_в_зубы_не_смотрят_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "дареному коню в зубы не смотрят"@rus .
 
 lidrus:дареному_коню_в_зубы_не_смотрят_form a ontolex:form ;
 	ontolex:writtenRep "дареному коню в зубы не смотрят"@rus .
 
 lidrus:дареному_коню_в_зубы_не_смотрят_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:дареному_коню_в_зубы_не_смотрят_def .
+	ontolex:isLexicalizedSenseOf lidrus:дареному_коню_в_зубы_не_смотрят_concept .
 
-lidrus:дареному_коню_в_зубы_не_смотрят_def a ontolex:LexicalConcept ;
+lidrus:дареному_коню_в_зубы_не_смотрят_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:дареному_коню_в_зубы_не_смотрят_sense ;
 	skos:definition "to be ungrateful to someone who gives you something"@en .
 
@@ -922,16 +922,16 @@ lidrus:водой_не_разольёшь a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:водой_не_разольёшь_sense ;
 	ontolex:canonicalForm lidrus:водой_не_разольёшь_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "водой не разольёшь"@rus .
 
 lidrus:водой_не_разольёшь_form a ontolex:form ;
 	ontolex:writtenRep "водой не разольёшь"@rus .
 
 lidrus:водой_не_разольёшь_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:водой_не_разольёшь_def .
+	ontolex:isLexicalizedSenseOf lidrus:водой_не_разольёшь_concept .
 
-lidrus:водой_не_разольёшь_def a ontolex:LexicalConcept ;
+lidrus:водой_не_разольёшь_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:водой_не_разольёшь_sense ;
 	skos:definition "to have very good friends, to be always together"@en .
 
@@ -940,7 +940,7 @@ lidrus:лить_как_из_ведра a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:лить_как_из_ведра_sense ;
 	ontolex:canonicalForm lidrus:лить_как_из_ведра_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "лить как из ведра"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00091526v> .
 
@@ -948,9 +948,9 @@ lidrus:лить_как_из_ведра_form a ontolex:form ;
 	ontolex:writtenRep "лить как из ведра"@rus .
 
 lidrus:лить_как_из_ведра_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:лить_как_из_ведра_def .
+	ontolex:isLexicalizedSenseOf lidrus:лить_как_из_ведра_concept .
 
-lidrus:лить_как_из_ведра_def a ontolex:LexicalConcept ;
+lidrus:лить_как_из_ведра_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:лить_как_из_ведра_sense ;
 	skos:definition "to rain a lot"@en .
 
@@ -959,16 +959,16 @@ lidrus:как_об_стенку_горох a ontolex:LexicalEntry , ontolex:Mult
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:как_об_стенку_горох_sense ;
 	ontolex:canonicalForm lidrus:как_об_стенку_горох_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "как об стенку горох"@rus .
 
 lidrus:как_об_стенку_горох_form a ontolex:form ;
 	ontolex:writtenRep "как об стенку горох"@rus .
 
 lidrus:как_об_стенку_горох_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:как_об_стенку_горох_def .
+	ontolex:isLexicalizedSenseOf lidrus:как_об_стенку_горох_concept .
 
-lidrus:как_об_стенку_горох_def a ontolex:LexicalConcept ;
+lidrus:как_об_стенку_горох_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:как_об_стенку_горох_sense ;
 	skos:definition "the person you are speaking to does not listen"@en .
 
@@ -977,16 +977,16 @@ lidrus:красный_как_рак a ontolex:LexicalEntry , ontolex:MultiwordEx
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:красный_как_рак_sense ;
 	ontolex:canonicalForm lidrus:красный_как_рак_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "красный как рак"@rus .
 
 lidrus:красный_как_рак_form a ontolex:form ;
 	ontolex:writtenRep "красный как рак"@rus .
 
 lidrus:красный_как_рак_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:красный_как_рак_def .
+	ontolex:isLexicalizedSenseOf lidrus:красный_как_рак_concept .
 
-lidrus:красный_как_рак_def a ontolex:LexicalConcept ;
+lidrus:красный_как_рак_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:красный_как_рак_sense ;
 	skos:definition "suffer embarrassment or shame"@en .
 
@@ -995,16 +995,16 @@ lidrus:набрать_в_рот_воды a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:набрать_в_рот_воды_sense ;
 	ontolex:canonicalForm lidrus:набрать_в_рот_воды_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "набрать в рот воды"@rus .
 
 lidrus:набрать_в_рот_воды_form a ontolex:form ;
 	ontolex:writtenRep "набрать в рот воды"@rus .
 
 lidrus:набрать_в_рот_воды_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:набрать_в_рот_воды_def .
+	ontolex:isLexicalizedSenseOf lidrus:набрать_в_рот_воды_concept .
 
-lidrus:набрать_в_рот_воды_def a ontolex:LexicalConcept ;
+lidrus:набрать_в_рот_воды_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:набрать_в_рот_воды_sense ;
 	skos:definition "say nothing about this, it's a secret"@en .
 
@@ -1013,16 +1013,16 @@ lidrus:знать_как_свои_пять_пальцев a ontolex:LexicalEntry
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:знать_как_свои_пять_пальцев_sense ;
 	ontolex:canonicalForm lidrus:знать_как_свои_пять_пальцев_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "знать как свои пять пальцев"@rus .
 
 lidrus:знать_как_свои_пять_пальцев_form a ontolex:form ;
 	ontolex:writtenRep "знать как свои пять пальцев"@rus .
 
 lidrus:знать_как_свои_пять_пальцев_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:знать_как_свои_пять_пальцев_def .
+	ontolex:isLexicalizedSenseOf lidrus:знать_как_свои_пять_пальцев_concept .
 
-lidrus:знать_как_свои_пять_пальцев_def a ontolex:LexicalConcept ;
+lidrus:знать_как_свои_пять_пальцев_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:знать_как_свои_пять_пальцев_sense ;
 	skos:definition "a display of rejection, disdain, or contempt (for a person or thing)"@en .
 
@@ -1031,7 +1031,7 @@ lidrus:белая_ворона a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:белая_ворона_sense ;
 	ontolex:canonicalForm lidrus:белая_ворона_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "белая ворона"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s00010984n> .
 
@@ -1039,9 +1039,9 @@ lidrus:белая_ворона_form a ontolex:form ;
 	ontolex:writtenRep "белая ворона"@rus .
 
 lidrus:белая_ворона_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:белая_ворона_def .
+	ontolex:isLexicalizedSenseOf lidrus:белая_ворона_concept .
 
-lidrus:белая_ворона_def a ontolex:LexicalConcept ;
+lidrus:белая_ворона_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:белая_ворона_sense ;
 	skos:definition "someone or something that is different from the other people or things in a group"@en .
 
@@ -1050,16 +1050,16 @@ lidrus:друг_познаётся_в_беде a ontolex:LexicalEntry , ontolex:
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:друг_познаётся_в_беде_sense ;
 	ontolex:canonicalForm lidrus:друг_познаётся_в_беде_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "друг познаётся в беде"@rus .
 
 lidrus:друг_познаётся_в_беде_form a ontolex:form ;
 	ontolex:writtenRep "друг познаётся в беде"@rus .
 
 lidrus:друг_познаётся_в_беде_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:друг_познаётся_в_беде_def .
+	ontolex:isLexicalizedSenseOf lidrus:друг_познаётся_в_беде_concept .
 
-lidrus:друг_познаётся_в_беде_def a ontolex:LexicalConcept ;
+lidrus:друг_познаётся_в_беде_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:друг_познаётся_в_беде_sense ;
 	skos:definition "something that you say which means that someone who gives you help when you need it is a really good friend"@en .
 
@@ -1068,16 +1068,16 @@ lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда a o
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_sense ;
 	ontolex:canonicalForm lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "без труда не вытащишь и рыбку из пруда"@rus .
 
 lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_form a ontolex:form ;
 	ontolex:writtenRep "без труда не вытащишь и рыбку из пруда"@rus .
 
 lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_def .
+	ontolex:isLexicalizedSenseOf lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_concept .
 
-lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_def a ontolex:LexicalConcept ;
+lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:без_труда_не_вытащишь_и_рыбку_из_пруда_sense ;
 	skos:definition "no exist sucess without hard work"@en .
 
@@ -1086,16 +1086,16 @@ lidrus:век_живи_век_учись a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:век_живи_век_учись_sense ;
 	ontolex:canonicalForm lidrus:век_живи_век_учись_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "век живи век учись"@rus .
 
 lidrus:век_живи_век_учись_form a ontolex:form ;
 	ontolex:writtenRep "век живи век учись"@rus .
 
 lidrus:век_живи_век_учись_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:век_живи_век_учись_def .
+	ontolex:isLexicalizedSenseOf lidrus:век_живи_век_учись_concept .
 
-lidrus:век_живи_век_учись_def a ontolex:LexicalConcept ;
+lidrus:век_живи_век_учись_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:век_живи_век_учись_sense ;
 	skos:definition "to increase one's knowledge by experience."@en .
 
@@ -1104,16 +1104,16 @@ lidrus:будет_и_на_нашей_улице_праздник a ontolex:Lexic
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:будет_и_на_нашей_улице_праздник_sense ;
 	ontolex:canonicalForm lidrus:будет_и_на_нашей_улице_праздник_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "будет и на нашей улице праздник"@rus .
 
 lidrus:будет_и_на_нашей_улице_праздник_form a ontolex:form ;
 	ontolex:writtenRep "будет и на нашей улице праздник"@rus .
 
 lidrus:будет_и_на_нашей_улице_праздник_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:будет_и_на_нашей_улице_праздник_def .
+	ontolex:isLexicalizedSenseOf lidrus:будет_и_на_нашей_улице_праздник_concept .
 
-lidrus:будет_и_на_нашей_улице_праздник_def a ontolex:LexicalConcept ;
+lidrus:будет_и_на_нашей_улице_праздник_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:будет_и_на_нашей_улице_праздник_sense ;
 	skos:definition "everyone gets a chance eventually."@en .
 
@@ -1122,16 +1122,16 @@ lidrus:любовь_зла_полюбишь_и_козла a ontolex:LexicalEntry
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:любовь_зла_полюбишь_и_козла_sense ;
 	ontolex:canonicalForm lidrus:любовь_зла_полюбишь_и_козла_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "любовь зла, полюбишь и козла"@rus .
 
 lidrus:любовь_зла_полюбишь_и_козла_form a ontolex:form ;
 	ontolex:writtenRep "любовь зла, полюбишь и козла"@rus .
 
 lidrus:любовь_зла_полюбишь_и_козла_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:любовь_зла_полюбишь_и_козла_def .
+	ontolex:isLexicalizedSenseOf lidrus:любовь_зла_полюбишь_и_козла_concept .
 
-lidrus:любовь_зла_полюбишь_и_козла_def a ontolex:LexicalConcept ;
+lidrus:любовь_зла_полюбишь_и_козла_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:любовь_зла_полюбишь_и_козла_sense ;
 	skos:definition "when you love someone, you don't see any faults in the person"@en .
 
@@ -1140,16 +1140,16 @@ lidrus:за_спрос_не_бьют_в_нос a ontolex:LexicalEntry , ontolex:
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:за_спрос_не_бьют_в_нос_sense ;
 	ontolex:canonicalForm lidrus:за_спрос_не_бьют_в_нос_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "за спрос не бьют в нос"@rus .
 
 lidrus:за_спрос_не_бьют_в_нос_form a ontolex:form ;
 	ontolex:writtenRep "за спрос не бьют в нос"@rus .
 
 lidrus:за_спрос_не_бьют_в_нос_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:за_спрос_не_бьют_в_нос_def .
+	ontolex:isLexicalizedSenseOf lidrus:за_спрос_не_бьют_в_нос_concept .
 
-lidrus:за_спрос_не_бьют_в_нос_def a ontolex:LexicalConcept ;
+lidrus:за_спрос_не_бьют_в_нос_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:за_спрос_не_бьют_в_нос_sense ;
 	skos:definition "when one asks a question, even when the answer is known to be no"@en .
 
@@ -1158,16 +1158,16 @@ lidrus:пьяному_море_по_колено a ontolex:LexicalEntry , ontole
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:пьяному_море_по_колено_sense ;
 	ontolex:canonicalForm lidrus:пьяному_море_по_колено_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "пьяному море по колено"@rus .
 
 lidrus:пьяному_море_по_колено_form a ontolex:form ;
 	ontolex:writtenRep "пьяному море по колено"@rus .
 
 lidrus:пьяному_море_по_колено_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:пьяному_море_по_колено_def .
+	ontolex:isLexicalizedSenseOf lidrus:пьяному_море_по_колено_concept .
 
-lidrus:пьяному_море_по_колено_def a ontolex:LexicalConcept ;
+lidrus:пьяному_море_по_колено_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:пьяному_море_по_колено_sense ;
 	skos:definition "when a man is drunk, he does not fear anything"@en .
 
@@ -1176,16 +1176,16 @@ lidrus:до_свадьбы_заживёт a ontolex:LexicalEntry , ontolex:Multi
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:до_свадьбы_заживёт_sense ;
 	ontolex:canonicalForm lidrus:до_свадьбы_заживёт_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "до свадьбы заживёт"@rus .
 
 lidrus:до_свадьбы_заживёт_form a ontolex:form ;
 	ontolex:writtenRep "до свадьбы заживёт"@rus .
 
 lidrus:до_свадьбы_заживёт_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:до_свадьбы_заживёт_def .
+	ontolex:isLexicalizedSenseOf lidrus:до_свадьбы_заживёт_concept .
 
-lidrus:до_свадьбы_заживёт_def a ontolex:LexicalConcept ;
+lidrus:до_свадьбы_заживёт_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:до_свадьбы_заживёт_sense ;
 	skos:definition "a person will survive after some problem"@en .
 
@@ -1194,7 +1194,7 @@ lidrus:когда_рак_на_горе_свистнет a ontolex:LexicalEntry ,
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:когда_рак_на_горе_свистнет_sense ;
 	ontolex:canonicalForm lidrus:когда_рак_на_горе_свистнет_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "когда рак на горе свистнет"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13688827r> .
 
@@ -1202,9 +1202,9 @@ lidrus:когда_рак_на_горе_свистнет_form a ontolex:form ;
 	ontolex:writtenRep "когда рак на горе свистнет"@rus .
 
 lidrus:когда_рак_на_горе_свистнет_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:когда_рак_на_горе_свистнет_def .
+	ontolex:isLexicalizedSenseOf lidrus:когда_рак_на_горе_свистнет_concept .
 
-lidrus:когда_рак_на_горе_свистнет_def a ontolex:LexicalConcept ;
+lidrus:когда_рак_на_горе_свистнет_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:когда_рак_на_горе_свистнет_sense ;
 	skos:definition "something that will not happen"@en .
 
@@ -1213,16 +1213,16 @@ lidrus:как_гром_среди_ясного_неба a ontolex:LexicalEntry ,
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:как_гром_среди_ясного_неба_sense ;
 	ontolex:canonicalForm lidrus:как_гром_среди_ясного_неба_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "как гром среди ясного неба"@rus .
 
 lidrus:как_гром_среди_ясного_неба_form a ontolex:form ;
 	ontolex:writtenRep "как гром среди ясного неба"@rus .
 
 lidrus:как_гром_среди_ясного_неба_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:как_гром_среди_ясного_неба_def .
+	ontolex:isLexicalizedSenseOf lidrus:как_гром_среди_ясного_неба_concept .
 
-lidrus:как_гром_среди_ясного_неба_def a ontolex:LexicalConcept ;
+lidrus:как_гром_среди_ясного_неба_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:как_гром_среди_ясного_неба_sense ;
 	skos:definition "it happens suddenly and you are not expecting it"@en .
 
@@ -1231,16 +1231,16 @@ lidrus:на_воре_и_шапка_горит a ontolex:LexicalEntry , ontolex:M
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:на_воре_и_шапка_горит_sense ;
 	ontolex:canonicalForm lidrus:на_воре_и_шапка_горит_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "на воре и шапка горит"@rus .
 
 lidrus:на_воре_и_шапка_горит_form a ontolex:form ;
 	ontolex:writtenRep "на воре и шапка горит"@rus .
 
 lidrus:на_воре_и_шапка_горит_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:на_воре_и_шапка_горит_def .
+	ontolex:isLexicalizedSenseOf lidrus:на_воре_и_шапка_горит_concept .
 
-lidrus:на_воре_и_шапка_горит_def a ontolex:LexicalConcept ;
+lidrus:на_воре_и_шапка_горит_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:на_воре_и_шапка_горит_sense ;
 	skos:definition "to say something so often that people doubt you are sincere"@en .
 
@@ -1249,16 +1249,16 @@ lidrus:кот_наплакал a ontolex:LexicalEntry , ontolex:MultiwordExpress
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:кот_наплакал_sense ;
 	ontolex:canonicalForm lidrus:кот_наплакал_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "кот наплакал"@rus .
 
 lidrus:кот_наплакал_form a ontolex:form ;
 	ontolex:writtenRep "кот наплакал"@rus .
 
 lidrus:кот_наплакал_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:кот_наплакал_def .
+	ontolex:isLexicalizedSenseOf lidrus:кот_наплакал_concept .
 
-lidrus:кот_наплакал_def a ontolex:LexicalConcept ;
+lidrus:кот_наплакал_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:кот_наплакал_sense ;
 	skos:definition "very little"@en .
 
@@ -1267,16 +1267,16 @@ lidrus:по_коням a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:по_коням_sense ;
 	ontolex:canonicalForm lidrus:по_коням_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "по коням!"@rus .
 
 lidrus:по_коням_form a ontolex:form ;
 	ontolex:writtenRep "по коням!"@rus .
 
 lidrus:по_коням_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:по_коням_def .
+	ontolex:isLexicalizedSenseOf lidrus:по_коням_concept .
 
-lidrus:по_коням_def a ontolex:LexicalConcept ;
+lidrus:по_коням_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:по_коням_sense ;
 	skos:definition "let's go! (let's ride outta here, in the car)"@en .
 
@@ -1285,16 +1285,16 @@ lidrus:хоть_шаром_покати a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:хоть_шаром_покати_sense ;
 	ontolex:canonicalForm lidrus:хоть_шаром_покати_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "хоть шаром покати"@rus .
 
 lidrus:хоть_шаром_покати_form a ontolex:form ;
 	ontolex:writtenRep "хоть шаром покати"@rus .
 
 lidrus:хоть_шаром_покати_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:хоть_шаром_покати_def .
+	ontolex:isLexicalizedSenseOf lidrus:хоть_шаром_покати_concept .
 
-lidrus:хоть_шаром_покати_def a ontolex:LexicalConcept ;
+lidrus:хоть_шаром_покати_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:хоть_шаром_покати_sense ;
 	skos:definition "completely empty, nothing up there"@en .
 
@@ -1303,16 +1303,16 @@ lidrus:мышь_повесилась_в_холодильнике a ontolex:Lexic
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:мышь_повесилась_в_холодильнике_sense ;
 	ontolex:canonicalForm lidrus:мышь_повесилась_в_холодильнике_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "мышь повесилась (в холодильнике)"@rus .
 
 lidrus:мышь_повесилась_в_холодильнике_form a ontolex:form ;
 	ontolex:writtenRep "мышь повесилась (в холодильнике)"@rus .
 
 lidrus:мышь_повесилась_в_холодильнике_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:мышь_повесилась_в_холодильнике_def .
+	ontolex:isLexicalizedSenseOf lidrus:мышь_повесилась_в_холодильнике_concept .
 
-lidrus:мышь_повесилась_в_холодильнике_def a ontolex:LexicalConcept ;
+lidrus:мышь_повесилась_в_холодильнике_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:мышь_повесилась_в_холодильнике_sense ;
 	skos:definition "there's nothing to eat (in the fridge)"@en .
 
@@ -1321,16 +1321,16 @@ lidrus:выбивать_из_колеи a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:выбивать_из_колеи_sense ;
 	ontolex:canonicalForm lidrus:выбивать_из_колеи_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "выбивать из колеи"@rus .
 
 lidrus:выбивать_из_колеи_form a ontolex:form ;
 	ontolex:writtenRep "выбивать из колеи"@rus .
 
 lidrus:выбивать_из_колеи_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:выбивать_из_колеи_def .
+	ontolex:isLexicalizedSenseOf lidrus:выбивать_из_колеи_concept .
 
-lidrus:выбивать_из_колеи_def a ontolex:LexicalConcept ;
+lidrus:выбивать_из_колеи_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:выбивать_из_колеи_sense ;
 	skos:definition "to forget what one was talking or thinking about"@en .
 
@@ -1339,16 +1339,16 @@ lidrus:заговаривать_зубы a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:заговаривать_зубы_sense ;
 	ontolex:canonicalForm lidrus:заговаривать_зубы_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "заговаривать зубы"@rus .
 
 lidrus:заговаривать_зубы_form a ontolex:form ;
 	ontolex:writtenRep "заговаривать зубы"@rus .
 
 lidrus:заговаривать_зубы_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:заговаривать_зубы_def .
+	ontolex:isLexicalizedSenseOf lidrus:заговаривать_зубы_concept .
 
-lidrus:заговаривать_зубы_def a ontolex:LexicalConcept ;
+lidrus:заговаривать_зубы_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:заговаривать_зубы_sense ;
 	skos:definition "change the subject/butter up/charm away a problem"@en .
 
@@ -1357,16 +1357,16 @@ lidrus:заговаривать_зубы_def a ontolex:LexicalConcept ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_sense> ;
 	ontolex:canonicalForm <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_form> ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "э´то eжу´ я´сно (это ежу понятно)"@rus .
 
 <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_form> a ontolex:form ;
 	ontolex:writtenRep "э´то eжу´ я´сно (это ежу понятно)"@rus .
 
 <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_def> .
+	ontolex:isLexicalizedSenseOf <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_concept> .
 
-<http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_def> a ontolex:LexicalConcept ;
+<http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_concept> a ontolex:LexicalConcept ;
 	ontolex:isConceptOf <http://lid.aksw.org/rus/э´то_eжу´_я´сно_это_ежу_понятно_sense> ;
 	skos:definition "anyone could see it"@en .
 
@@ -1375,16 +1375,16 @@ lidrus:глядеть_в_оба a ontolex:LexicalEntry , ontolex:MultiwordExpres
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:глядеть_в_оба_sense ;
 	ontolex:canonicalForm lidrus:глядеть_в_оба_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "глядеть в оба"@rus .
 
 lidrus:глядеть_в_оба_form a ontolex:form ;
 	ontolex:writtenRep "глядеть в оба"@rus .
 
 lidrus:глядеть_в_оба_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:глядеть_в_оба_def .
+	ontolex:isLexicalizedSenseOf lidrus:глядеть_в_оба_concept .
 
-lidrus:глядеть_в_оба_def a ontolex:LexicalConcept ;
+lidrus:глядеть_в_оба_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:глядеть_в_оба_sense ;
 	skos:definition "to be unprepared."@en .
 
@@ -1393,16 +1393,16 @@ lidrus:быть_начеку a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:быть_начеку_sense ;
 	ontolex:canonicalForm lidrus:быть_начеку_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "быть начеку(')"@rus .
 
 lidrus:быть_начеку_form a ontolex:form ;
 	ontolex:writtenRep "быть начеку(')"@rus .
 
 lidrus:быть_начеку_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:быть_начеку_def .
+	ontolex:isLexicalizedSenseOf lidrus:быть_начеку_concept .
 
-lidrus:быть_начеку_def a ontolex:LexicalConcept ;
+lidrus:быть_начеку_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:быть_начеку_sense ;
 	skos:definition "move faster!"@en .
 
@@ -1411,16 +1411,16 @@ lidrus:быть_начеку_def a ontolex:LexicalConcept ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_sense> ;
 	ontolex:canonicalForm <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_form> ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "из ко´жи вон лeзть"@rus .
 
 <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_form> a ontolex:form ;
 	ontolex:writtenRep "из ко´жи вон лeзть"@rus .
 
 <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_def> .
+	ontolex:isLexicalizedSenseOf <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_concept> .
 
-<http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_def> a ontolex:LexicalConcept ;
+<http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_concept> a ontolex:LexicalConcept ;
 	ontolex:isConceptOf <http://lid.aksw.org/rus/из_ко´жи_вон_лeзть_sense> ;
 	skos:definition "to do something as well as you can by making a ​great ​effort:"@en .
 
@@ -1429,16 +1429,16 @@ lidrus:быть_начеку_def a ontolex:LexicalConcept ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_sense> ;
 	ontolex:canonicalForm <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_form> ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "тaнцeвa´ть от пe´чки"@rus .
 
 <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_form> a ontolex:form ;
 	ontolex:writtenRep "тaнцeвa´ть от пe´чки"@rus .
 
 <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_def> .
+	ontolex:isLexicalizedSenseOf <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_concept> .
 
-<http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_def> a ontolex:LexicalConcept ;
+<http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_concept> a ontolex:LexicalConcept ;
 	ontolex:isConceptOf <http://lid.aksw.org/rus/тaнцeвa´ть_от_пe´чки_sense> ;
 	skos:definition "to start something again that was unsucessful"@en .
 
@@ -1447,16 +1447,16 @@ lidrus:быть_начеку_def a ontolex:LexicalConcept ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense <http://lid.aksw.org/rus/вороти´лa_sense> ;
 	ontolex:canonicalForm <http://lid.aksw.org/rus/вороти´лa_form> ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "вороти´лa"@rus .
 
 <http://lid.aksw.org/rus/вороти´лa_form> a ontolex:form ;
 	ontolex:writtenRep "вороти´лa"@rus .
 
 <http://lid.aksw.org/rus/вороти´лa_sense> a ontolex:LexicalSense ;
-	ontolex:reference <http://lid.aksw.org/rus/вороти´лa_def> .
+	ontolex:isLexicalizedSenseOf <http://lid.aksw.org/rus/вороти´лa_concept> .
 
-<http://lid.aksw.org/rus/вороти´лa_def> a ontolex:LexicalConcept ;
+<http://lid.aksw.org/rus/вороти´лa_concept> a ontolex:LexicalConcept ;
 	ontolex:isConceptOf <http://lid.aksw.org/rus/вороти´лa_sense> ;
 	skos:definition "an important person; a self-important person."@en .
 
@@ -1465,7 +1465,7 @@ lidrus:медведь_на_ухо_наступил a ontolex:LexicalEntry , onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:медведь_на_ухо_наступил_sense ;
 	ontolex:canonicalForm lidrus:медведь_на_ухо_наступил_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "медведь на ухо наступил"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13607197v> .
 
@@ -1473,9 +1473,9 @@ lidrus:медведь_на_ухо_наступил_form a ontolex:form ;
 	ontolex:writtenRep "медведь на ухо наступил"@rus .
 
 lidrus:медведь_на_ухо_наступил_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:медведь_на_ухо_наступил_def .
+	ontolex:isLexicalizedSenseOf lidrus:медведь_на_ухо_наступил_concept .
 
-lidrus:медведь_на_ухо_наступил_def a ontolex:LexicalConcept ;
+lidrus:медведь_на_ухо_наступил_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:медведь_на_ухо_наступил_sense ;
 	skos:definition "to be tone deaf"@en .
 
@@ -1484,16 +1484,16 @@ lidrus:остаешься_за_главного a ontolex:LexicalEntry , ontolex
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:остаешься_за_главного_sense ;
 	ontolex:canonicalForm lidrus:остаешься_за_главного_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "остаешься за главного"@rus .
 
 lidrus:остаешься_за_главного_form a ontolex:form ;
 	ontolex:writtenRep "остаешься за главного"@rus .
 
 lidrus:остаешься_за_главного_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:остаешься_за_главного_def .
+	ontolex:isLexicalizedSenseOf lidrus:остаешься_за_главного_concept .
 
-lidrus:остаешься_за_главного_def a ontolex:LexicalConcept ;
+lidrus:остаешься_за_главного_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:остаешься_за_главного_sense ;
 	skos:definition "to remain behind and take care of things"@en .
 
@@ -1502,7 +1502,7 @@ lidrus:обвести_вокруг_пальца a ontolex:LexicalEntry , ontolex
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:обвести_вокруг_пальца_sense ;
 	ontolex:canonicalForm lidrus:обвести_вокруг_пальца_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "обвести вокруг пальца"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13767422v> .
 
@@ -1510,9 +1510,9 @@ lidrus:обвести_вокруг_пальца_form a ontolex:form ;
 	ontolex:writtenRep "обвести вокруг пальца"@rus .
 
 lidrus:обвести_вокруг_пальца_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:обвести_вокруг_пальца_def .
+	ontolex:isLexicalizedSenseOf lidrus:обвести_вокруг_пальца_concept .
 
-lidrus:обвести_вокруг_пальца_def a ontolex:LexicalConcept ;
+lidrus:обвести_вокруг_пальца_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:обвести_вокруг_пальца_sense ;
 	skos:definition "to be able to persuade someone to do anything you want, usually because they like you so much "@en .
 
@@ -1521,7 +1521,7 @@ lidrus:держать_язык_за_зубами a ontolex:LexicalEntry , ontole
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:держать_язык_за_зубами_sense ;
 	ontolex:canonicalForm lidrus:держать_язык_за_зубами_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "держать язык за зубами"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13699748v> .
 
@@ -1529,9 +1529,9 @@ lidrus:держать_язык_за_зубами_form a ontolex:form ;
 	ontolex:writtenRep "держать язык за зубами"@rus .
 
 lidrus:держать_язык_за_зубами_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:держать_язык_за_зубами_def .
+	ontolex:isLexicalizedSenseOf lidrus:держать_язык_за_зубами_concept .
 
-lidrus:держать_язык_за_зубами_def a ontolex:LexicalConcept ;
+lidrus:держать_язык_за_зубами_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:держать_язык_за_зубами_sense ;
 	skos:definition "keep a secret"@en .
 
@@ -1540,16 +1540,16 @@ lidrus:москва_не_сразу_строилась a ontolex:LexicalEntry , 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:москва_не_сразу_строилась_sense ;
 	ontolex:canonicalForm lidrus:москва_не_сразу_строилась_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "москва не сразу строилась"@rus .
 
 lidrus:москва_не_сразу_строилась_form a ontolex:form ;
 	ontolex:writtenRep "москва не сразу строилась"@rus .
 
 lidrus:москва_не_сразу_строилась_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:москва_не_сразу_строилась_def .
+	ontolex:isLexicalizedSenseOf lidrus:москва_не_сразу_строилась_concept .
 
-lidrus:москва_не_сразу_строилась_def a ontolex:LexicalConcept ;
+lidrus:москва_не_сразу_строилась_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:москва_не_сразу_строилась_sense ;
 	skos:definition "important work takes time."@en .
 
@@ -1558,16 +1558,16 @@ lidrus:нужда_заставляет a ontolex:LexicalEntry , ontolex:Multiwor
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:нужда_заставляет_sense ;
 	ontolex:canonicalForm lidrus:нужда_заставляет_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "нужда заставляет"@rus .
 
 lidrus:нужда_заставляет_form a ontolex:form ;
 	ontolex:writtenRep "нужда заставляет"@rus .
 
 lidrus:нужда_заставляет_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:нужда_заставляет_def .
+	ontolex:isLexicalizedSenseOf lidrus:нужда_заставляет_concept .
 
-lidrus:нужда_заставляет_def a ontolex:LexicalConcept ;
+lidrus:нужда_заставляет_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:нужда_заставляет_sense ;
 	skos:definition "something that you say which means that if you want to do something very much you will think of a way to do it"@en .
 
@@ -1576,16 +1576,16 @@ lidrus:плечом_к_плечу a ontolex:LexicalEntry , ontolex:MultiwordExpr
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:плечом_к_плечу_sense ;
 	ontolex:canonicalForm lidrus:плечом_к_плечу_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "плечом к плечу"@rus .
 
 lidrus:плечом_к_плечу_form a ontolex:form ;
 	ontolex:writtenRep "плечом к плечу"@rus .
 
 lidrus:плечом_к_плечу_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:плечом_к_плечу_def .
+	ontolex:isLexicalizedSenseOf lidrus:плечом_к_плечу_concept .
 
-lidrus:плечом_к_плечу_def a ontolex:LexicalConcept ;
+lidrus:плечом_к_плечу_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:плечом_к_плечу_sense ;
 	skos:definition "to be very close or equal with someone"@en .
 
@@ -1594,7 +1594,7 @@ lidrus:цыплят_по_осени_считают a ontolex:LexicalEntry , onto
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:цыплят_по_осени_считают_sense ;
 	ontolex:canonicalForm lidrus:цыплят_по_осени_считают_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "цыплят по осени считают"@rus ;
 	owl:sameAs <http://babelnet.org/rdf/page/s13603750n> .
 
@@ -1602,9 +1602,9 @@ lidrus:цыплят_по_осени_считают_form a ontolex:form ;
 	ontolex:writtenRep "цыплят по осени считают"@rus .
 
 lidrus:цыплят_по_осени_считают_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:цыплят_по_осени_считают_def .
+	ontolex:isLexicalizedSenseOf lidrus:цыплят_по_осени_считают_concept .
 
-lidrus:цыплят_по_осени_считают_def a ontolex:LexicalConcept ;
+lidrus:цыплят_по_осени_считают_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:цыплят_по_осени_считают_sense ;
 	skos:definition "make plans based on events that may or may not happen."@en .
 
@@ -1613,16 +1613,16 @@ lidrus:не_имей_сто_рублей_а_имей_сто_друзей a ontol
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:не_имей_сто_рублей_а_имей_сто_друзей_sense ;
 	ontolex:canonicalForm lidrus:не_имей_сто_рублей_а_имей_сто_друзей_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "не имей сто рублей, а имей сто друзей"@rus .
 
 lidrus:не_имей_сто_рублей_а_имей_сто_друзей_form a ontolex:form ;
 	ontolex:writtenRep "не имей сто рублей, а имей сто друзей"@rus .
 
 lidrus:не_имей_сто_рублей_а_имей_сто_друзей_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:не_имей_сто_рублей_а_имей_сто_друзей_def .
+	ontolex:isLexicalizedSenseOf lidrus:не_имей_сто_рублей_а_имей_сто_друзей_concept .
 
-lidrus:не_имей_сто_рублей_а_имей_сто_друзей_def a ontolex:LexicalConcept ;
+lidrus:не_имей_сто_рублей_а_имей_сто_друзей_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:не_имей_сто_рублей_а_имей_сто_друзей_sense ;
 	skos:definition "better to have friends than money"@en .
 
@@ -1631,16 +1631,16 @@ lidrus:береги_честь_смолоду_а_платье_снову a ontol
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:береги_честь_смолоду_а_платье_снову_sense ;
 	ontolex:canonicalForm lidrus:береги_честь_смолоду_а_платье_снову_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "береги честь смолоду, а платье снову"@rus .
 
 lidrus:береги_честь_смолоду_а_платье_снову_form a ontolex:form ;
 	ontolex:writtenRep "береги честь смолоду, а платье снову"@rus .
 
 lidrus:береги_честь_смолоду_а_платье_снову_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:береги_честь_смолоду_а_платье_снову_def .
+	ontolex:isLexicalizedSenseOf lidrus:береги_честь_смолоду_а_платье_снову_concept .
 
-lidrus:береги_честь_смолоду_а_платье_снову_def a ontolex:LexicalConcept ;
+lidrus:береги_честь_смолоду_а_платье_снову_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:береги_честь_смолоду_а_платье_снову_sense ;
 	skos:definition "those who would be young when they are old must be old when they are young."@en .
 
@@ -1649,16 +1649,16 @@ lidrus:утро_вечера_мудренее a ontolex:LexicalEntry , ontolex:M
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:утро_вечера_мудренее_sense ;
 	ontolex:canonicalForm lidrus:утро_вечера_мудренее_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "утро вечера мудренее"@rus .
 
 lidrus:утро_вечера_мудренее_form a ontolex:form ;
 	ontolex:writtenRep "утро вечера мудренее"@rus .
 
 lidrus:утро_вечера_мудренее_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:утро_вечера_мудренее_def .
+	ontolex:isLexicalizedSenseOf lidrus:утро_вечера_мудренее_concept .
 
-lidrus:утро_вечера_мудренее_def a ontolex:LexicalConcept ;
+lidrus:утро_вечера_мудренее_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:утро_вечера_мудренее_sense ;
 	skos:definition "one may not accomplish everything today but will have another chance."@en .
 
@@ -1667,16 +1667,16 @@ lidrus:тянуть_кота_за_хвост a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:тянуть_кота_за_хвост_sense ;
 	ontolex:canonicalForm lidrus:тянуть_кота_за_хвост_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "тянуть кота за хвост"@rus .
 
 lidrus:тянуть_кота_за_хвост_form a ontolex:form ;
 	ontolex:writtenRep "тянуть кота за хвост"@rus .
 
 lidrus:тянуть_кота_за_хвост_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:тянуть_кота_за_хвост_def .
+	ontolex:isLexicalizedSenseOf lidrus:тянуть_кота_за_хвост_concept .
 
-lidrus:тянуть_кота_за_хвост_def a ontolex:LexicalConcept ;
+lidrus:тянуть_кота_за_хвост_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:тянуть_кота_за_хвост_sense ;
 	skos:definition "to keep delaying something"@en .
 
@@ -1685,16 +1685,16 @@ lidrus:бьется_как_рыба_об_лед a ontolex:LexicalEntry , ontolex
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:бьется_как_рыба_об_лед_sense ;
 	ontolex:canonicalForm lidrus:бьется_как_рыба_об_лед_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "бьется как рыба об лед"@rus .
 
 lidrus:бьется_как_рыба_об_лед_form a ontolex:form ;
 	ontolex:writtenRep "бьется как рыба об лед"@rus .
 
 lidrus:бьется_как_рыба_об_лед_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:бьется_как_рыба_об_лед_def .
+	ontolex:isLexicalizedSenseOf lidrus:бьется_как_рыба_об_лед_concept .
 
-lidrus:бьется_как_рыба_об_лед_def a ontolex:LexicalConcept ;
+lidrus:бьется_как_рыба_об_лед_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:бьется_как_рыба_об_лед_sense ;
 	skos:definition "do something without a result"@en .
 
@@ -1703,16 +1703,16 @@ lidrus:стучаться_в_закрытую_дверь a ontolex:LexicalEntry 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:стучаться_в_закрытую_дверь_sense ;
 	ontolex:canonicalForm lidrus:стучаться_в_закрытую_дверь_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "стучаться в закрытую дверь"@rus .
 
 lidrus:стучаться_в_закрытую_дверь_form a ontolex:form ;
 	ontolex:writtenRep "стучаться в закрытую дверь"@rus .
 
 lidrus:стучаться_в_закрытую_дверь_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:стучаться_в_закрытую_дверь_def .
+	ontolex:isLexicalizedSenseOf lidrus:стучаться_в_закрытую_дверь_concept .
 
-lidrus:стучаться_в_закрытую_дверь_def a ontolex:LexicalConcept ;
+lidrus:стучаться_в_закрытую_дверь_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:стучаться_в_закрытую_дверь_sense ;
 	skos:definition "there's no point to it"@en .
 
@@ -1721,16 +1721,16 @@ lidrus:чесать_репу a ontolex:LexicalEntry , ontolex:MultiwordExpressio
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:чесать_репу_sense ;
 	ontolex:canonicalForm lidrus:чесать_репу_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "чесать репу"@rus .
 
 lidrus:чесать_репу_form a ontolex:form ;
 	ontolex:writtenRep "чесать репу"@rus .
 
 lidrus:чесать_репу_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:чесать_репу_def .
+	ontolex:isLexicalizedSenseOf lidrus:чесать_репу_concept .
 
-lidrus:чесать_репу_def a ontolex:LexicalConcept ;
+lidrus:чесать_репу_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:чесать_репу_sense ;
 	skos:definition "to have difficulty understanding something"@en .
 
@@ -1739,16 +1739,16 @@ lidrus:рыба_тухнет_с_головы a ontolex:LexicalEntry , ontolex:Mu
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:рыба_тухнет_с_головы_sense ;
 	ontolex:canonicalForm lidrus:рыба_тухнет_с_головы_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "рыба тухнет с головы"@rus .
 
 lidrus:рыба_тухнет_с_головы_form a ontolex:form ;
 	ontolex:writtenRep "рыба тухнет с головы"@rus .
 
 lidrus:рыба_тухнет_с_головы_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:рыба_тухнет_с_головы_def .
+	ontolex:isLexicalizedSenseOf lidrus:рыба_тухнет_с_головы_concept .
 
-lidrus:рыба_тухнет_с_головы_def a ontolex:LexicalConcept ;
+lidrus:рыба_тухнет_с_головы_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:рыба_тухнет_с_головы_sense ;
 	skos:definition "when an organization or state fails, it is the leadership that is the root cause."@en .
 
@@ -1757,16 +1757,16 @@ lidrus:грызть_гранит_науки a ontolex:LexicalEntry , ontolex:Mul
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:грызть_гранит_науки_sense ;
 	ontolex:canonicalForm lidrus:грызть_гранит_науки_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "грызть гранит науки"@rus .
 
 lidrus:грызть_гранит_науки_form a ontolex:form ;
 	ontolex:writtenRep "грызть гранит науки"@rus .
 
 lidrus:грызть_гранит_науки_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:грызть_гранит_науки_def .
+	ontolex:isLexicalizedSenseOf lidrus:грызть_гранит_науки_concept .
 
-lidrus:грызть_гранит_науки_def a ontolex:LexicalConcept ;
+lidrus:грызть_гранит_науки_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:грызть_гранит_науки_sense ;
 	skos:definition "to work studiously, especially late into the night."@en .
 
@@ -1775,16 +1775,16 @@ lidrus:менять_шило_на_мыло a ontolex:LexicalEntry , ontolex:Mult
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:менять_шило_на_мыло_sense ;
 	ontolex:canonicalForm lidrus:менять_шило_на_мыло_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "менять шило на мыло"@rus .
 
 lidrus:менять_шило_на_мыло_form a ontolex:form ;
 	ontolex:writtenRep "менять шило на мыло"@rus .
 
 lidrus:менять_шило_на_мыло_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:менять_шило_на_мыло_def .
+	ontolex:isLexicalizedSenseOf lidrus:менять_шило_на_мыло_concept .
 
-lidrus:менять_шило_на_мыло_def a ontolex:LexicalConcept ;
+lidrus:менять_шило_на_мыло_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:менять_шило_на_мыло_sense ;
 	skos:definition "to trade bad for worse"@en .
 
@@ -1793,16 +1793,16 @@ lidrus:и_так_и_сяк a ontolex:LexicalEntry , ontolex:MultiwordExpression 
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:и_так_и_сяк_sense ;
 	ontolex:canonicalForm lidrus:и_так_и_сяк_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "и так и сяк"@rus .
 
 lidrus:и_так_и_сяк_form a ontolex:form ;
 	ontolex:writtenRep "и так и сяк"@rus .
 
 lidrus:и_так_и_сяк_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:и_так_и_сяк_def .
+	ontolex:isLexicalizedSenseOf lidrus:и_так_и_сяк_concept .
 
-lidrus:и_так_и_сяк_def a ontolex:LexicalConcept ;
+lidrus:и_так_и_сяк_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:и_так_и_сяк_sense ;
 	skos:definition "in many different directions"@en .
 
@@ -1811,16 +1811,16 @@ lidrus:затаить_дыхание a ontolex:LexicalEntry , ontolex:MultiwordE
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:затаить_дыхание_sense ;
 	ontolex:canonicalForm lidrus:затаить_дыхание_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "затаить дыхание"@rus .
 
 lidrus:затаить_дыхание_form a ontolex:form ;
 	ontolex:writtenRep "затаить дыхание"@rus .
 
 lidrus:затаить_дыхание_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:затаить_дыхание_def .
+	ontolex:isLexicalizedSenseOf lidrus:затаить_дыхание_concept .
 
-lidrus:затаить_дыхание_def a ontolex:LexicalConcept ;
+lidrus:затаить_дыхание_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:затаить_дыхание_sense ;
 	skos:definition "you feel very excited or anxious while you are waiting"@en .
 
@@ -1829,16 +1829,16 @@ lidrus:для_красного_словца a ontolex:LexicalEntry , ontolex:Mul
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:для_красного_словца_sense ;
 	ontolex:canonicalForm lidrus:для_красного_словца_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "для красного словца"@rus .
 
 lidrus:для_красного_словца_form a ontolex:form ;
 	ontolex:writtenRep "для красного словца"@rus .
 
 lidrus:для_красного_словца_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:для_красного_словца_def .
+	ontolex:isLexicalizedSenseOf lidrus:для_красного_словца_concept .
 
-lidrus:для_красного_словца_def a ontolex:LexicalConcept ;
+lidrus:для_красного_словца_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:для_красного_словца_sense ;
 	skos:definition "to say something for effect"@en .
 
@@ -1847,16 +1847,16 @@ lidrus:дешево_отделаться a ontolex:LexicalEntry , ontolex:Multiw
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:дешево_отделаться_sense ;
 	ontolex:canonicalForm lidrus:дешево_отделаться_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "дешево отделаться"@rus .
 
 lidrus:дешево_отделаться_form a ontolex:form ;
 	ontolex:writtenRep "дешево отделаться"@rus .
 
 lidrus:дешево_отделаться_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:дешево_отделаться_def .
+	ontolex:isLexicalizedSenseOf lidrus:дешево_отделаться_concept .
 
-lidrus:дешево_отделаться_def a ontolex:LexicalConcept ;
+lidrus:дешево_отделаться_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:дешево_отделаться_sense ;
 	skos:definition "a situation in which you were lucky because you just managed to avoid danger or trouble"@en .
 
@@ -1865,16 +1865,16 @@ lidrus:подловили a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:подловили_sense ;
 	ontolex:canonicalForm lidrus:подловили_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "подловили!"@rus .
 
 lidrus:подловили_form a ontolex:form ;
 	ontolex:writtenRep "подловили!"@rus .
 
 lidrus:подловили_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:подловили_def .
+	ontolex:isLexicalizedSenseOf lidrus:подловили_concept .
 
-lidrus:подловили_def a ontolex:LexicalConcept ;
+lidrus:подловили_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:подловили_sense ;
 	skos:definition "when someone is tricking to another and this another person discover that is a joke"@en .
 
@@ -1883,16 +1883,16 @@ lidrus:не_поднимай_кипиш a ontolex:LexicalEntry , ontolex:Multiwo
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:не_поднимай_кипиш_sense ;
 	ontolex:canonicalForm lidrus:не_поднимай_кипиш_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "не поднимай кипиш"@rus .
 
 lidrus:не_поднимай_кипиш_form a ontolex:form ;
 	ontolex:writtenRep "не поднимай кипиш"@rus .
 
 lidrus:не_поднимай_кипиш_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:не_поднимай_кипиш_def .
+	ontolex:isLexicalizedSenseOf lidrus:не_поднимай_кипиш_concept .
 
-lidrus:не_поднимай_кипиш_def a ontolex:LexicalConcept ;
+lidrus:не_поднимай_кипиш_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:не_поднимай_кипиш_sense ;
 	skos:definition "to do or say something that causes problems, especially if you try to change a situation which most people do not want to change"@en .
 
@@ -1901,15 +1901,15 @@ lidrus:семь_раз_отмерь_один_раз_отрежь a ontolex:Lexic
 	dct:language <http://id.loc.gov/vocabulary/iso639-2/rus.html> ;
 	ontolex:sense lidrus:семь_раз_отмерь_один_раз_отрежь_sense ;
 	ontolex:canonicalForm lidrus:семь_раз_отмерь_один_раз_отрежь_form ;
-	dbo:location <http://dbpedia.org/page/Russia> ;
+	lexvo:usedIn <http://dbpedia.org/resource/Russia> ;
 	rdfs:label "семь раз отмерь один раз отрежь"@rus .
 
 lidrus:семь_раз_отмерь_один_раз_отрежь_form a ontolex:form ;
 	ontolex:writtenRep "семь раз отмерь один раз отрежь"@rus .
 
 lidrus:семь_раз_отмерь_один_раз_отрежь_sense a ontolex:LexicalSense ;
-	ontolex:reference lidrus:семь_раз_отмерь_один_раз_отрежь_def .
+	ontolex:isLexicalizedSenseOf lidrus:семь_раз_отмерь_один_раз_отрежь_concept .
 
-lidrus:семь_раз_отмерь_один_раз_отрежь_def a ontolex:LexicalConcept ;
+lidrus:семь_раз_отмерь_один_раз_отрежь_concept a ontolex:LexicalConcept ;
 	ontolex:isConceptOf lidrus:семь_раз_отмерь_один_раз_отрежь_sense ;
 	skos:definition "something that you say in order to advise someone to think about possible problems before doing something"@en .

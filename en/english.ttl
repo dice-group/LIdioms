@@ -1,10 +1,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix liden: <http://lid.aksw.org/en/> .
 @prefix lexinfo: <http://lexinfo.net/ontologies/2.0/lexinfo.owl#> .
-@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix lexvo: <http://lexvo.org/ontology#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 

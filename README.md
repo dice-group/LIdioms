@@ -16,6 +16,8 @@ Linguistic Linked Open Data Community.
 1. http://lid.aksw.org/en/kill_two_birds_with_one_stone
 2. http://lid.aksw.org/lodview/en/when_pigs_fly_sense - Translation examples.
 
+## Further Languages  -  Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish
+
 ## License
 
 licensed under Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)

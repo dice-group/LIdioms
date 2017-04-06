@@ -7,7 +7,7 @@ The underlying data was crawled and integrated from various sources. To ensure t
 evaluated by at least two native speakers. The resulting data set relies on best practices in accordance with
 Linguistic Linked Open Data Community.
 
-## Languages: 
+## Current Languages: 
 American and British English, Brazilian and European Portuguese, Italian, German, Russian.
 
 ## Lidiom Endoint - http://lid.aksw.org/sparql

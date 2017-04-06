@@ -7,7 +7,8 @@ The underlying data was crawled and integrated from various sources. To ensure t
 evaluated by at least two native speakers. The resulting data set relies on best practices in accordance with
 Linguistic Linked Open Data Community.
 
-## Languages: American and British English, Brazilian and European Portuguese, Italian, German, Russian.
+## Languages: 
+American and British English, Brazilian and European Portuguese, Italian, German, Russian.
 
 ## Lidiom Endoint - http://lid.aksw.org/sparql
 
@@ -16,7 +17,8 @@ Linguistic Linked Open Data Community.
 1. http://lid.aksw.org/en/kill_two_birds_with_one_stone
 2. http://lid.aksw.org/lodview/en/when_pigs_fly_sense - Translation examples.
 
-## Further Languages  -  Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish
+## Further Languages:  
+Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish
 
 ## License
 

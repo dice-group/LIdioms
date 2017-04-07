@@ -10,12 +10,12 @@ American and British English, Brazilian and European Portuguese, Italian, German
 
 ## Lidiom Endoint - http://lid.aksw.org/sparql
 
-## Example - 
+## SPARQL examples can be found in our <a href="https://github.com/AKSW/LIdioms/wiki/SPARQL-EXAMPLES">Wiki</a>. 
+
+## Examples - 
 
 1. http://lid.aksw.org/en/kill_two_birds_with_one_stone
 2. http://lid.aksw.org/lodview/en/when_pigs_fly_sense - Translation examples.
-
-## SPARQL examples can be found in our <a href="https://github.com/AKSW/LIdioms/wiki/SPARQL-EXAMPLES">Wiki</a>. 
 
 ## Further Languages (We are looking for natives from these languages!, if you are in one of them join us) :  
 Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish

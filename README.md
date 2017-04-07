@@ -17,7 +17,7 @@ American and British English, Brazilian and European Portuguese, Italian, German
 1. http://lid.aksw.org/en/kill_two_birds_with_one_stone
 2. http://lid.aksw.org/lodview/en/when_pigs_fly_sense - Translation examples.
 
-## Further Languages (We are looking for natives from these languages!, if you are in one of them join us) :  
+## Further Languages (We are looking for natives from these languages!, in case you are, send me a message) :  
 Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish
 
 ## License

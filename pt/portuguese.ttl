@@ -281,7 +281,7 @@ lidpt:amarrar_o_burro_concept a ontolex:LexicalConcept ;
 
 lidpt:amarrar_o_burro a ontolex:LexicalEntry , ontolex:MultiwordExpression ;
 	lexinfo:termType lexinfo:idiom ;
-	dct:language <<http://dbpedia.org/resource/Brazilian_Portuguese> ;
+	dct:language <http://dbpedia.org/resource/Brazilian_Portuguese> ;
 	ontolex:sense lidpt:amarrar_o_burro_sense ;
 	ontolex:canonicalForm lidpt:amarrar_o_burro_form ;
 	lexvo:usedIn <http://dbpedia.org/resource/Brazil> ;

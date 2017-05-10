@@ -31,8 +31,7 @@ lidioms-dataset:main
      void:dataDump <http://lid.aksw.org/dataset/dump-1-0.tar.gz> ;
     dcterms:title "Multilingual Linked Idioms Data Set "@en ;
     dcterms:description "A multilingual RDF representation of idioms containing five languages. The data set is intended to support natural-language processing applications by providing links between idioms across  languages."@en ;
-    dcterms:source [ foaf:homepage <http://dictionary.cambridge.org> ] , [ foaf:homepage <http://www.phrases.org.uk/> ] , [ foaf:homepage < http://idioms.thefreedictionary.com> ] , [ foaf:homepage < http://www.collinsdictionary.com> ] , [ foaf:homepage <http://www.oxforddictionaries.com
-> ] , [ foaf:homepage <https://www.memrise.com/> ] ;
+    dcterms:source [ foaf:homepage <http://dictionary.cambridge.org> ] , [ foaf:homepage <http://www.phrases.org.uk/> ] , [ foaf:homepage <http://idioms.thefreedictionary.com> ] , [ foaf:homepage <http://www.collinsdictionary.com> ] , [ foaf:homepage <http://www.oxforddictionaries.com> ] , [ foaf:homepage <https://www.memrise.com/> ] ;
     dcterms:publisher <http://aksw.org/DiegoMoussallem> ;
     dcterms:created "2016-01-15"^^xsd:date ;
     dcterms:modified "2016-02-23"^^xsd:date ;

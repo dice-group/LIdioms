@@ -8,6 +8,9 @@ Linguistic Linked Open Data Community.
 ## Current Languages: 
 American and British English, Brazilian and European Portuguese, Italian, German, Russian.
 
+## Further Languages (We are looking for natives from these languages!, in case you are, send me a message) :  
+Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish
+
 ### Lidioms Endoint - http://lid.aksw.org/sparql
 
 ### SPARQL examples can be found in our <a href="https://github.com/AKSW/LIdioms/wiki/SPARQL-EXAMPLES">Wiki</a>. 
@@ -36,9 +39,6 @@ American and British English, Brazilian and European Portuguese, Italian, German
   }
 ```
 
-## Further Languages (We are looking for natives from these languages!, in case you are, send me a message) :  
-Bulgarian, Chinese, Korean, Czech, Finnish, French, Japanese, Arabic, Polish, Swedish and Polish
-
-## License
+### License
 
 licensed under Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
